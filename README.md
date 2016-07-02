@@ -1,6 +1,6 @@
 # recipes
 
-This is a repository and (soon coming) website to store our family's favorite recipes instead of simply having a chrome folder of 100+ old bookmarks. As with most things, this was inspired by a repo from [Hadley](https://github.com/hadley/recipes), but I wanted to write it by hand for sport instead of forking.
+This is a repository and (soon coming) website to store our family's favorite recipes instead of simply having a chrome folder of 100+ old bookmarks. As with most things, this was inspired by a [repo from Hadley](https://github.com/hadley/recipes), but I wanted to write it by hand for sport instead of forking.
 
 Because github pages only supports static content and I'm too cheap to pay for hosting and enable the use of a database, I will be deviating slightly from Hadley's setup with the following plan.
 
