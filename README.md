@@ -1,6 +1,6 @@
-# recipes
+# Werner Family Recipes
 
-This is a repository and (soon coming) website to store our family's favorite recipes instead of simply having a chrome folder of 100+ old bookmarks. As with most things, this was inspired by a [repo from Hadley](https://github.com/hadley/recipes), but I wanted to write it by hand for sport instead of forking.
+This is a repo and (soon coming) website for storing and hosting my favorite recipes.
 
 Shoutout to my wife for the data entry.
 
