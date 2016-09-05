@@ -8,10 +8,10 @@ ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
                            paste0("ingredient_name_", 1:numberOfIngredients))
 
 # which fields get saved 
-fieldsAll = c("recipeName", "recipeCategory", "directions", ingredient_field_names)
+fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "directions", ingredient_field_names)
 
 # which fields are mandatory
-fieldsMandatory = c("recipeName", "recipeCategory", "directions")
+fieldsMandatory = c("recipeName", "recipeCategory", "recipeSource", "directions")
 
 # add an asterisk to an input label
 labelMandatory = function(label) {
@@ -56,6 +56,7 @@ saveData = function(data) {
     output = list(
         "recipeName" = data$recipeName,
         "recipeCategory" = data$recipeCategory,
+        "recipeSource" = data$recipeSource,
         "directions" = data$directions,
         "timestamp" = data$timestamp,
         "ingredients" = toJSON(ingredientsList)
@@ -101,167 +102,84 @@ shinyApp(
     title = "Recipe Input App",
 
 
-    # fluidRow(
-    #   column(6,
-    #     div(
-    #       id = "form",
+    titlePanel("Recipe Input App"),
 
+    hr(),
 
-
-          
-          # textInput("name", labelMandatory("Name"), ""),
-          # textInput("favourite_pkg", labelMandatory("Favourite R package")),
-          # checkboxInput("used_shiny", "I've built a Shiny app in R before", FALSE),
-          # sliderInput("r_num_years", "Number of years using R", 0, 25, 2, ticks = FALSE),
-          # selectInput("os_type", "Operating system used most frequently",
-          #             c("",  "Windows", "Mac", "Linux")),
-
-
-
-titlePanel("Recipe Input App"),
-
-hr(),
-
-wellPanel(
-    fluidRow(
-        textInput("recipeName", label = labelMandatory("Recipe Name"), value = "")
-    )
-),
-
-wellPanel(
-    fluidRow(
-        textInput("recipeCategory", label = labelMandatory("Recipe Category"), value = "")
-    )
-),
-
-
-titlePanel("Ingredients"),
-
-wellPanel(
-    fluidRow(
-        column(1,
-            mainPanel("#")
-        ),
-        column(2,
-            mainPanel("Units")
-        ),
-        column(3,
-            mainPanel("Ingredient")
+    wellPanel(
+        fluidRow(
+            textInput("recipeName", label = labelMandatory("Recipe Name"), value = "")
         )
     ),
-    lapply(1:numberOfIngredients, function(i) {
+
+    wellPanel(
+        fluidRow(
+            textInput("recipeCategory", label = labelMandatory("Recipe Category"), value = "")
+        )
+    ),
+
+    wellPanel(
+        fluidRow(
+            textInput("recipeSource", label = labelMandatory("Recipe Source (url)"), value = "")
+        )
+    ),
+
+
+    titlePanel("Ingredients"),
+
+    wellPanel(
         fluidRow(
             column(1,
-                textInput(paste0("ingredient_number_", i), label = NA, value = "")
+                mainPanel("#")
             ),
             column(2,
-                selectInput(paste0("ingredient_units_", i), label = NA, 
-                    choices = unitsOptions, 
-                    selected = "")
+                mainPanel("Units")
             ),
             column(3,
-                textInput(paste0("ingredient_name_", i), label = NA, value = "")
+                mainPanel("Ingredient")
             )
-        )
-    })
-),
-
-titlePanel("Directions"),
-
-wellPanel(
-    tags$textarea(id="directions", rows=15, cols=100, "")
-
-),
-
-        actionButton("submit", "Submit", class = "btn-primary"),
-          
-        shinyjs::hidden(
-          span(id = "submit_msg", "Submitting..."),
-            div(id = "error",
-                div(br(), tags$b("Error: "), span(id = "error_msg"))
+        ),
+        lapply(1:numberOfIngredients, function(i) {
+            fluidRow(
+                column(1,
+                    textInput(paste0("ingredient_number_", i), label = NA, value = "")
+                ),
+                column(2,
+                    selectInput(paste0("ingredient_units_", i), label = NA, 
+                        choices = unitsOptions, 
+                        selected = "")
+                ),
+                column(3,
+                    textInput(paste0("ingredient_name_", i), label = NA, value = "")
+                )
             )
-          ),
+        })
+    ),
 
-        shinyjs::hidden(
-          div(
-            id = "thankyou_msg",
-            h3("Thanks, your response was submitted successfully!"),
-            actionLink("submit_another", "Submit another response")
-          )
-        )
+    titlePanel("Directions"),
 
-
+    wellPanel(
+        tags$textarea(id="directions", rows=15, cols=100, "")
 
     ),
 
+      actionButton("submit", "Submit", class = "btn-primary"),
+        
+      shinyjs::hidden(
+        span(id = "submit_msg", "Submitting..."),
+          div(id = "error",
+              div(br(), tags$b("Error: "), span(id = "error_msg"))
+          )
+        ),
 
-
-
-
-
-    # titlePanel("Recipe Input App"),
-
-    # hr(),
-
-    # titlePanel("Recipe Name"),
-
-    # wellPanel(
-    #     fluidRow(
-    #         textInput("recipeName", label = NA, value = "")
-    #     )
-    # ),
-
-    # titlePanel("Recipe Category"),
-
-    # wellPanel(
-    #     fluidRow(
-    #         textInput("recipeCategory", label = NA, value = "")
-    #     )
-    # ),
-
-
-    # titlePanel("Ingredients"),
-    
-    # wellPanel(
-    #     fluidRow(
-    #         column(1,
-    #             titlePanel("#")
-    #         ),
-    #         column(2,
-    #             titlePanel("Units")
-    #         ),
-    #         column(3,
-    #             titlePanel("Ingredient")
-    #         )
-    #     ),
-    #     lapply(1:numberOfIngredients, function(i) {
-    #         fluidRow(
-    #             column(1,
-    #                 textInput(paste0("ingredient_number_", i), label = NA, value = "")
-    #             ),
-    #             column(2,
-    #                 selectInput(paste0("ingredient_units_", i), label = NA, 
-    #                     choices = unitsOptions, 
-    #                     selected = " ")
-    #             ),
-    #             column(3,
-    #                 textInput(paste0("ingredient_name_", i), label = NA, value = "")
-    #             )
-    #         )
-    #     })
-    # ),
-
-    # titlePanel("Directions"),
-
-    # wellPanel(
-    #     tags$textarea(id="instructions", rows=15, cols=100, "")
-
-    # )
-
-
-
-
-
+      shinyjs::hidden(
+        div(
+          id = "thankyou_msg",
+          h3("Thanks, your response was submitted successfully!"),
+          actionLink("submit_another", "Submit another response")
+        )
+      )
+  ),
 
   server = function(input, output, session) {
     
