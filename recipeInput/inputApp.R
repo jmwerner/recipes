@@ -8,7 +8,7 @@ ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
                            paste0("ingredient_name_", 1:numberOfIngredients))
 
 # which fields get saved 
-fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "directions", ingredient_field_names)
+fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "directions", "notes", ingredient_field_names)
 
 # which fields are mandatory
 fieldsMandatory = c("recipeName", "recipeCategory", "recipeSource", "directions")
@@ -20,11 +20,15 @@ labelMandatory = function(label) {
 
 # get current Epoch time
 epochTime = function() {
-  return(as.integer(Sys.time()))
+    return(as.integer(Sys.time()))
 }
 
 humanTime = function() {
-  format(Sys.time(), "%Y%m%d-%H%M%OS")
+    format(Sys.time(), "%Y%m%d-%H%M%OS")
+}
+
+removeSpaces = function(input) {
+    gsub("[[:blank:]]", "", input)
 }
 
 # save the results to a json file
@@ -34,7 +38,7 @@ saveData = function(data) {
 
     data = data.frame(data)
 
-    system(paste0("mkdir -p ../allRecipes/", data$recipeCategory))
+    system(paste0("mkdir -p ../allRecipes/", removeSpaces(data$recipeCategory)))
 
     fileName = paste0(data$recipeName, ".json")
     filePath = file.path(paste0("../allRecipes/", data$recipeCategory), fileName) 
@@ -59,6 +63,7 @@ saveData = function(data) {
         "recipeSource" = data$recipeSource,
         "directions" = data$directions,
         "timestamp" = data$timestamp,
+        "notes" = data$notes,
         "ingredients" = toJSON(ingredientsList)
     )
 
@@ -83,16 +88,14 @@ appCSS =
 
 
 unitsOptions = list(" " = "",
-                    "Cup" = "Cup", 
-                    "Tablespoon" = "Tablespoon",
-                    "Teaspoon" = "Teaspoon",
-                    "Pounds" = "Pounds", 
+                    "Cup(s)" = "Cup(s)", 
+                    "Tablespoon(s)" = "Tablespoon(s)",
+                    "Teaspoon(s)" = "Teaspoon(s)",
+                    "Pound(s)" = "Pound(s)", 
                     "Whole" = "Whole",
-                    "Can" = "Can",
-                    "Ounces" = "Ounces",
-                    "Clove" = "Clove")
-
-
+                    "Can(s)" = "Can(s)",
+                    "Ounces(s)" = "Ounces(s)",
+                    "Clove(s)" = "Clove(s)")
 
 
 shinyApp(
@@ -129,7 +132,7 @@ shinyApp(
 
     wellPanel(
         fluidRow(
-            column(1,
+            column(2,
                 mainPanel("#")
             ),
             column(2,
@@ -141,7 +144,7 @@ shinyApp(
         ),
         lapply(1:numberOfIngredients, function(i) {
             fluidRow(
-                column(1,
+                column(2,
                     textInput(paste0("ingredient_number_", i), label = NA, value = "")
                 ),
                 column(2,
@@ -163,22 +166,29 @@ shinyApp(
 
     ),
 
-      actionButton("submit", "Submit", class = "btn-primary"),
-        
-      shinyjs::hidden(
-        span(id = "submit_msg", "Submitting..."),
-          div(id = "error",
-              div(br(), tags$b("Error: "), span(id = "error_msg"))
-          )
-        ),
+    titlePanel("Notes"),
 
-      shinyjs::hidden(
-        div(
-          id = "thankyou_msg",
-          h3("Thanks, your response was submitted successfully!"),
-          actionLink("submit_another", "Submit another response")
+    wellPanel(
+        tags$textarea(id="notes", rows=10, cols=100, "")
+
+    ),
+
+    actionButton("submit", "Submit", class = "btn-primary"),
+        
+    shinyjs::hidden(
+      span(id = "submit_msg", "Submitting..."),
+        div(id = "error",
+            div(br(), tags$b("Error: "), span(id = "error_msg"))
         )
+      ),
+
+    shinyjs::hidden(
+      div(
+        id = "thankyou_msg",
+        h3("Thanks, your response was submitted successfully!"),
+        actionLink("submit_another", "Submit another response")
       )
+    )
   ),
 
   server = function(input, output, session) {
