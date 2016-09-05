@@ -1,4 +1,5 @@
 library(shiny)
+library(jsonlite)
 
 numberOfIngredients = 15
 
@@ -14,10 +15,7 @@ fieldsMandatory = c("recipeName", "recipeCategory", "directions")
 
 # add an asterisk to an input label
 labelMandatory = function(label) {
-  tagList(
-    label,
-    span("*", class = "mandatory_star")
-  )
+    tagList(label, span("*", class = "mandatory_star"))
 }
 
 # get current Epoch time
@@ -25,20 +23,48 @@ epochTime = function() {
   return(as.integer(Sys.time()))
 }
 
-# get a formatted string of the timestamp (exclude colons as they are invalid
-# characters in Windows filenames)
 humanTime = function() {
   format(Sys.time(), "%Y%m%d-%H%M%OS")
 }
 
-# save the results to a file
+# save the results to a json file
+# This code is very dependent on id names, be careful when
+#  changing structure of the app! 
 saveData = function(data) {
-  fileName = sprintf("%s_%s.csv",
-                      humanTime(),
-                      digest::digest(data))
-  
-  write.csv(x = data, file = file.path(responsesDir, fileName),
-            row.names = FALSE, quote = TRUE)
+
+    data = data.frame(data)
+
+    system(paste0("mkdir -p ../allRecipes/", data$recipeCategory))
+
+    fileName = paste0(data$recipeName, ".json")
+    filePath = file.path(paste0("../allRecipes/", data$recipeCategory), fileName) 
+
+    ingredientsSubset = data[,grepl("ingredient", names(data))]
+
+    nameFrame = do.call(rbind, strsplit(names(ingredientsSubset), "_"))
+    maxIngredientNumber = max(as.numeric(nameFrame[,3]))
+    
+    ingredientsList = list()
+    for(i in 1:maxIngredientNumber) {
+        ingredientsList[[i]] = list(
+            "number" = ingredientsSubset[[paste0("ingredient_number_", i)]],
+            "units" = ingredientsSubset[[paste0("ingredient_units_", i)]],
+            "name" = ingredientsSubset[[paste0("ingredient_name_", i)]]
+        )        
+    }
+
+    output = list(
+        "recipeName" = data$recipeName,
+        "recipeCategory" = data$recipeCategory,
+        "directions" = data$directions,
+        "timestamp" = data$timestamp,
+        "ingredients" = toJSON(ingredientsList)
+    )
+
+    outputJSON = toJSON(output, pretty = 4)
+
+    write(outputJSON, file = filePath)
+
 }
 
 # directory where responses get stored
@@ -131,7 +157,7 @@ wellPanel(
             column(2,
                 selectInput(paste0("ingredient_units_", i), label = NA, 
                     choices = unitsOptions, 
-                    selected = " ")
+                    selected = "")
             ),
             column(3,
                 textInput(paste0("ingredient_name_", i), label = NA, value = "")
