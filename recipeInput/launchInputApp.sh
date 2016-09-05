@@ -1,3 +1,3 @@
 #!/bin/bash
 
-Rscript runInputApp.R
+R -e 'library(shiny); shiny::runApp("inputApp.R", launch.browser = TRUE)'
