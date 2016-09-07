@@ -6,7 +6,7 @@ def create_ingredients_html(ingredients):
     output_html_string = '<ul>' + '\n'
     ingredients_list = ast.literal_eval(ingredients[0])
     for i in range(0, len(ingredients_list)):
-        if(ingredients_list[i]['name'] != ''):
+        if(ingredients_list[i]['name'][0] != ''):
             output_html_string = output_html_string + \
                 '<li>' + ingredients_list[i]['number'][0] + ' ' + \
                          ingredients_list[i]['units'][0] + ' ' + \
