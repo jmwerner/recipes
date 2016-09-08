@@ -31,7 +31,7 @@ def create_ingredients_html(ingredients):
 def create_category_link_html(categories):
     output_html_string = ''
     for i in range(0, len(categories)):
-        output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/' + \
+        output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
             categories[i] + '.html\"><h3>' + categories[i] + '</h3></a>\n'
     return output_html_string
 
