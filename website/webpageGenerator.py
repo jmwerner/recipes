@@ -38,8 +38,9 @@ def create_category_link_html(categories):
 def create_recipes_in_category_link_html(category, recipes_in_category):
     output_html_string = ''
     for i in range(0, len(recipes_in_category)):
+        recipe_name = recipes_in_category[i].split('.')[0]
         output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
-            category + '/' + recipes_in_category[i] + '.html\"><h3>' + recipes_in_category[i] + '</h3></a>\n'
+            category + '/' + recipe_name + '.html\"><h3>' + recipe_name + '</h3></a>\n'
     return output_html_string
 
 def remove_spaces(string):
@@ -90,7 +91,9 @@ for recipe_category in all_categories:
         recipe = import_json(recipePath)
         recipe_html = import_html(recipe_html_template_path)
 
-        output_recipe_html_path = 'allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + '/' + remove_spaces(recipe['recipeName'][0]) + '.html'
+        recipe_name = recipe['recipeName'][0].split('.')[0]
+
+        output_recipe_html_path = 'allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + '/' + remove_spaces(recipe_name) + '.html'
 
 
         ingredients_html = create_ingredients_html(recipe['ingredients'])
