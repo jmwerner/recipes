@@ -3,38 +3,51 @@ library(jsonlite)
 
 numberOfIngredients = 15
 
+numberOfDirections = 10
+
 ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
                            paste0("ingredient_units_", 1:numberOfIngredients),
                            paste0("ingredient_name_", 1:numberOfIngredients))
 
+directions_field_names = c(paste0("directions_"), 1:numberOfDirections)
+
 # which fields get saved 
-fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "directions", "notes", ingredient_field_names)
+fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "notes", 
+              ingredient_field_names, directions_field_names)
 
 # which fields are mandatory
-fieldsMandatory = c("recipeName", "recipeCategory", "recipeSource", "directions")
+fieldsMandatory = c("recipeName", "recipeCategory", "recipeSource", "directions_1")
 
 # add an asterisk to an input label
-labelMandatory = function(label) {
+labelMandatory = function(label){
     tagList(label, span("*", class = "mandatory_star"))
 }
 
 # get current Epoch time
-epochTime = function() {
+epochTime = function(){
     return(as.integer(Sys.time()))
 }
 
-humanTime = function() {
+humanTime = function(){
     format(Sys.time(), "%Y%m%d-%H%M%OS")
 }
 
-removeSpaces = function(input) {
+removeSpaces = function(input){
     gsub("[[:blank:]]", "", input)
+}
+
+textareaInput = function(inputId, label, value = "", placeholder = "", rows = 2){
+    tagList(
+        div(strong(label), style = "margin-top: 5px;"),
+        tags$style(type = "text/css", "textarea {width:100%; margin-top: 5px;}"),
+        tags$textarea(id = inputId, placeholder = placeholder, rows = rows, value)
+    )
 }
 
 # save the results to a json file
 # This code is very dependent on id names, be careful when
 #  changing structure of the app! 
-saveData = function(data) {
+saveData = function(data){
 
     data = data.frame(data)
 
@@ -49,7 +62,7 @@ saveData = function(data) {
     maxIngredientNumber = max(as.numeric(nameFrame[,3]))
     
     ingredientsList = list()
-    for(i in 1:maxIngredientNumber) {
+    for(i in 1:maxIngredientNumber){
         ingredientsList[[i]] = list(
             "number" = ingredientsSubset[[paste0("ingredient_number_", i)]],
             "units" = ingredientsSubset[[paste0("ingredient_units_", i)]],
@@ -57,11 +70,23 @@ saveData = function(data) {
         )        
     }
 
+    directionsList = list()
+    for(i in 1:numberOfDirections){
+        possible_error = tryCatch({
+            single_direction = eval(parse(text = paste0("data$directions_", i)))
+        },
+            error = function(x) x
+        )
+        if(!inherits(possible_error, "error")){
+            directionsList[[i]] = single_direction
+        }
+    }
+
     output = list(
         "recipeName" = data$recipeName,
         "recipeCategory" = data$recipeCategory,
         "recipeSource" = data$recipeSource,
-        "directions" = data$directions,
+        "directions" = toJSON(directionsList),
         "timestamp" = data$timestamp,
         "notes" = data$notes,
         "ingredients" = toJSON(ingredientsList)
@@ -142,7 +167,7 @@ shinyApp(
                 mainPanel("Ingredient")
             )
         ),
-        lapply(1:numberOfIngredients, function(i) {
+        lapply(1:numberOfIngredients, function(i){
             fluidRow(
                 column(2,
                     textInput(paste0("ingredient_number_", i), label = NA, value = "")
@@ -162,8 +187,9 @@ shinyApp(
     titlePanel("Directions"),
 
     wellPanel(
-        tags$textarea(id="directions", rows=15, cols=100, "")
-
+        lapply(1:numberOfDirections, function(i){
+            textareaInput(paste0("directions_", i), label = i)
+        })
     ),
 
     titlePanel("Notes"),
@@ -191,13 +217,13 @@ shinyApp(
     )
   ),
 
-  server = function(input, output, session) {
+  server = function(input, output, session){
     
     # Enable the Submit button when all mandatory fields are filled out
     observe({
       mandatoryFilled =
         vapply(fieldsMandatory,
-               function(x) {
+               function(x){
                  !is.null(input[[x]]) && input[[x]] != ""
                },
                logical(1))
@@ -229,7 +255,7 @@ shinyApp(
         shinyjs::hide("form")
         shinyjs::show("thankyou_msg")
       },
-      error = function(err) {
+      error = function(err){
         shinyjs::html("error_msg", err$message)
         shinyjs::show(id = "error", anim = TRUE, animType = "fade")
       },
