@@ -28,6 +28,15 @@ def create_ingredients_html(ingredients):
     output_html_string += '</ul>' + '\n'
     return output_html_string
 
+def create_directions_html(directions):
+    output_html_string = '<ol>' + '\n'
+    directions_list = ast.literal_eval(directions[0])
+    for i in range(0, len(directions_list)):
+        if directions_list[i][0] != '':
+            output_html_string += '<li>' + directions_list[i][0] + '</li>' + '\n'
+    output_html_string += '</ol>' + '\n'
+    return output_html_string
+
 def create_category_link_html(categories):
     output_html_string = ''
     for i in range(0, len(categories)):
@@ -98,10 +107,12 @@ for recipe_category in all_categories:
 
         ingredients_html = create_ingredients_html(recipe['ingredients'])
 
+        directions_html = create_directions_html(recipe['directions'])
+
         recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
         recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
         recipe_html = recipe_html.replace(notes_tag, 'Notes: ' + recipe['notes'][0])
-        recipe_html = recipe_html.replace(directions_tag, recipe['directions'][0])
+        recipe_html = recipe_html.replace(directions_tag, directions_html)
         recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
 
         subprocess.call(["mkdir", "-p", "allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])

@@ -9,7 +9,7 @@ ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
                            paste0("ingredient_units_", 1:numberOfIngredients),
                            paste0("ingredient_name_", 1:numberOfIngredients))
 
-directions_field_names = c(paste0("directions_"), 1:numberOfDirections)
+directions_field_names = paste0("directions_", 1:numberOfDirections)
 
 # which fields get saved 
 fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "notes", 
@@ -72,23 +72,19 @@ saveData = function(data){
 
     directionsList = list()
     for(i in 1:numberOfDirections){
-        possible_error = tryCatch({
-            single_direction = eval(parse(text = paste0("data$directions_", i)))
-        },
-            error = function(x) x
-        )
-        if(!inherits(possible_error, "error")){
+        single_direction = eval(parse(text = paste0("data$directions_", i)))
+        if(!is.null(single_direction)){
             directionsList[[i]] = single_direction
         }
     }
 
     output = list(
-        "recipeName" = data$recipeName,
-        "recipeCategory" = data$recipeCategory,
-        "recipeSource" = data$recipeSource,
+        "recipeName" = data$recipeName[[1]],
+        "recipeCategory" = data$recipeCategory[[1]],
+        "recipeSource" = data$recipeSource[[1]],
         "directions" = toJSON(directionsList),
-        "timestamp" = data$timestamp,
-        "notes" = data$notes,
+        "timestamp" = data$timestamp[[1]],
+        "notes" = data$notes[[1]],
         "ingredients" = toJSON(ingredientsList)
     )
 
