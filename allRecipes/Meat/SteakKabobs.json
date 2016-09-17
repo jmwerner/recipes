@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Steak Kabobs"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        "http://www.food.com/recipe/spicy-grilled-beef-kabobs-126902"
+    ],
+    "directions": [
+        "[[\"Cut the beef into 1.5 inch cubes and place into a mixing bowl or large plastic sealable bag.\"],[\"Place the garlic, spices, and wine vinegar into a food processor. Blend and while still blending, drizzle in olive oil, mix well.\"],[\"Pour marinade mixture over beef and mix well, marinate in fridge for 2 - 4 hours.\"],[\"Preheat the grill to medium-high heat. Thread the meat onto the skewers leaving about .5 inch in between the pieces of meat. Place on the grill and cook, with lid lowered, 2 to 3 minutes per side, 8 to 12 minutes in all (8 minutes for rare and 12 for medium).\"],[\"Remove from the heat to aluminum foil, wrap and allow to rest for 2 to 3 minutes prior to serving.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20160917-162656"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Sirloin steak\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Smoked paprika\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground turmeric\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cumin\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Kosher salt\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Black pepper\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red wine vinegar\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Olive oil\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]}]"
+    ]
+}
+
