@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Bestest Waffles"
+    ],
+    "recipeCategory": [
+        "Breakfast"
+    ],
+    "recipeSource": [
+        "http://www.food.com/recipe/belgian-waffles-28501"
+    ],
+    "directions": [
+        "[[\"Combine the flour, baking powder, confectioners sugar, oil, milk and egg yolks.\"],[\"Beat the egg whites and salt until they stand in soft peaks, mix in the vanilla at this time and fold into the batter (do not over mix).\"],[\"Pour 1/8 of the mixture into a hot waffle iron and bake for about 2 minutes.\"],[\"Repeat with the remaining batter.\"],[\"Top with your favorite fruit and whipped cream and serve hot.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20160918-110918"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"All-purpose flour\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Confectioners' sugar\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Vegetable oil\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"Eggs, separated\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vanilla\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Pinch of salt\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]}]"
+    ]
+}
+
