@@ -1,7 +1,7 @@
-
 import json
 import ast
 import subprocess
+import re
 
 category_tag = '<RECIPE_CATEGORY_GOES_HERE>'
 name_tag = '<RECIPE_NAME_GOES_HERE>'
@@ -41,7 +41,7 @@ def create_category_link_html(categories):
     output_html_string = ''
     for i in range(0, len(categories)):
         output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
-            categories[i] + '.html\"><h3>' + categories[i] + '</h3></a>\n'
+            categories[i] + '.html\"><h3>' + add_spaces_to_proper(categories[i]) + '</h3></a>\n'
     return output_html_string
 
 def create_recipes_in_category_link_html(category, recipes_in_category):
@@ -49,7 +49,7 @@ def create_recipes_in_category_link_html(category, recipes_in_category):
     for i in range(0, len(recipes_in_category)):
         recipe_name = recipes_in_category[i].split('.')[0]
         output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
-            category + '/' + recipe_name + '.html\"><h3>' + recipe_name + '</h3></a>\n'
+            category + '/' + recipe_name + '.html\"><h3>' + add_spaces_to_proper(recipe_name) + '</h3></a>\n'
     return output_html_string
 
 def remove_spaces(string):
@@ -72,7 +72,9 @@ def export_html(path, html_input):
         html_output_file.write(html_input)
     html_output_file.close()
 
-
+def add_spaces_to_proper(name):
+    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
+    return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1)
 
 ################################################################################
 # Create recipes pages & category pages
@@ -129,6 +131,4 @@ categories_html = create_category_link_html(all_categories)
 index_html = index_html.replace(category_links_tag, categories_html)
 
 export_html('index.html', index_html)
-
-
 
