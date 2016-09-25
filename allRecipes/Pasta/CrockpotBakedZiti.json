@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Crockpot Baked Ziti"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        "http://buildyourbite.com/easy-crockpot-baked-ziti/"
+    ],
+    "directions": [
+        "[[\"Combine ricotta, eggs, and basil in a bowl and stir well. In a separate large bowl, combine pasta sauce and tomato sauce.\"],[\"Grease inside of a large slow cooker.\"],[\"Add a few cups of the pasta sauce to the bottom of the slow cooker and add approximately half a cup of uncooked pasta. Dot on half of the ricotta mixture and spread out evenly. Add half of the parmesan cheese.\"],[\"Repeat step 3 until a total of 3 layers have been made. Reserve approximately 2 cups of sauce to put on top and cover all of the pasta.\"],[\"Cover and cook on high 2-3 hours. \"],[\"During the last few minutes, add asiago cheese (or mozzarella) to the top and melt. Serve with red pepper flakes and garlic bread.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20160925-134739"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Jars of pasta sauce (25 oz each)\"]},{\"number\":[\"15\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Tomato sauce\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Penne pasta, uncooked\"]},{\"number\":[\"15\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Ricotta cheese\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chopped basil\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Freshly grated parmesan cheese\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Grated asiago cheese (or shredded mozzarella)\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]}]"
+    ]
+}
+
