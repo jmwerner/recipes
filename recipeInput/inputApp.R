@@ -116,7 +116,8 @@ unitsOptions = list(" " = "",
                     "Whole" = "Whole",
                     "Can(s)" = "Can(s)",
                     "Ounces(s)" = "Ounces(s)",
-                    "Clove(s)" = "Clove(s)")
+                    "Clove(s)" = "Clove(s)",
+                    "Pinch" = "Pinch")
 
 
 shinyApp(
