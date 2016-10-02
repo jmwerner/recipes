@@ -1,6 +1,6 @@
 # Werner Family Recipes
 
-This is a repo and (soon coming) website for storing and hosting my favorite recipes.
+This is a repo for dynamically creating a website for storing and hosting Werner family recipes. This code is not unit tested, so use at your own risk! 
 
 Shoutout to my wife for the data entry.
 
