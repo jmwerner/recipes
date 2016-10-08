@@ -18,7 +18,7 @@ category_html_template_path = 'templates/categoryTemplate.html'
 
 
 def create_ingredients_html(ingredients):
-    output_html_string = '<ul>' + '\n'
+    output_html_string = '<ul class="recipes_checklist">' + '\n'
     ingredients_list = ast.literal_eval(ingredients[0])
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
