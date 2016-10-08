@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -309,7 +310,7 @@
                 </div> -->
 
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <ul>
+                  <ul class="recipes_checklist">
 <li>2 Pound(s) Sirloin steak</li>
 <li>3 Clove(s) Garlic</li>
 <li>2 Teaspoon(s) Smoked paprika</li>
@@ -619,6 +620,17 @@
 
         // Your custom JavaScript goes here
       })();
+
+      // Clicking ingredients list to fade and cross out
+      $('ul.recipes_checklist li').click(function(){
+        if ($(this).css('opacity') == .2) {
+          $(this).css('opacity', 1);
+          $(this).css('text-decoration', '');
+        } else {
+          $(this).css('opacity', .2);
+          $(this).css('text-decoration', 'line-through');
+        }
+      })
     </script>
     <!-- endbuild -->
   </body>
