@@ -7,7 +7,8 @@ numberOfDirections = 10
 
 ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
                            paste0("ingredient_units_", 1:numberOfIngredients),
-                           paste0("ingredient_name_", 1:numberOfIngredients))
+                           paste0("ingredient_name_", 1:numberOfIngredients),
+                           paste0("ingredient_category_", 1:numberOfIngredients))
 
 directions_field_names = paste0("directions_", 1:numberOfDirections)
 
@@ -66,7 +67,8 @@ saveData = function(data){
         ingredientsList[[i]] = list(
             "number" = ingredientsSubset[[paste0("ingredient_number_", i)]],
             "units" = ingredientsSubset[[paste0("ingredient_units_", i)]],
-            "name" = ingredientsSubset[[paste0("ingredient_name_", i)]]
+            "name" = ingredientsSubset[[paste0("ingredient_name_", i)]],
+            "category" = ingredientsSubset[[paste0("ingredient_category_", i)]]
         )        
     }
 
@@ -157,11 +159,14 @@ shinyApp(
             column(2,
                 mainPanel("#")
             ),
-            column(2,
+            column(3,
                 mainPanel("Units")
             ),
             column(3,
                 mainPanel("Ingredient")
+            ),
+            column(3,
+                mainPanel("IngredientCategory")
             )
         ),
         lapply(1:numberOfIngredients, function(i){
@@ -176,6 +181,9 @@ shinyApp(
                 ),
                 column(3,
                     textInput(paste0("ingredient_name_", i), label = NA, value = "")
+                ),
+                column(3,
+                    textInput(paste0("ingredient_category_", i), label = NA, value = "")
                 )
             )
         })
