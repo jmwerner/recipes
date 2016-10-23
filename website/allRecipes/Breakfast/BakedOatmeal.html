@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="">
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -268,7 +269,8 @@
         z-index: 99;
       }
       li {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        margin: 6px 0;
       }
     </style>    
   </head>
@@ -280,10 +282,10 @@
         <div class="mdl-layout__header-row">
           <h3 style="font-family: 'Pacifico', cursive;" class="font-effect-outline"><a href="https://jmwerner.github.io/recipes/website/index.html">Werner Family Recipes</a></h3>
         </div>
-        <!-- <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+<!--         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="../index.html" class="mdl-layout__tab" target="_blank">Home</a>
+          <a href="jmwerner.github.io/recipes/website/index.html" class="mdl-layout__tab">Home</a>
 <a href="#features" class="mdl-layout__tab is-active">Breakfast</a> -->
 <!-- <a href="#features" class="mdl-layout__tab">Details</a>
 <a href="#features" class="mdl-layout__tab">Technology</a>
@@ -292,31 +294,92 @@
       </header>
       <main class="mdl-layout__content">
         <div class="mdl-layout__tab-panel is-active" id="overview" style="padding-bottom:50px">
-          <!-- <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
               <i class="material-icons">play_circle_filled</i>
             </header>
             <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
-                <h4><RECIPE_NAME_GOES_HERE></h4>
+                <h4>Baked Oatmeal</h4>
                 <RECIPE_NOTES_GO_HERE>
               </div>
             </div>
-          </section> -->
+          </section>
+
 
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
 
-                <!-- <h4 class="mdl-cell mdl-cell--12-col">Recipe Categories</h4> -->
+                <h4 class="mdl-cell mdl-cell--12-col">Ingredients</h4>
                 
                 <!-- <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
                   <div class="section__circle-container__circle mdl-color--primary"></div>
                 </div> -->
 
                 <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <a href="http://jmwerner.github.io/recipes/website/allRecipes/Breakfast/BakedOatmeal.html"><h3>Baked Oatmeal</h3></a>
-<a href="http://jmwerner.github.io/recipes/website/allRecipes/Breakfast/FluffyPancakes.html"><h3>Fluffy Pancakes</h3></a>
+                  <ul class="recipes_checklist">
+<li>2 Cup(s) Oats</li>
+<li>1 Teaspoon(s) Baking powder</li>
+<li>1 Teaspoon(s) Cinnamon</li>
+<li>1/4 Teaspoon(s) Salt</li>
+<li>1/3 Cup(s) Brown sugar</li>
+<li>2 Cup(s) Milk</li>
+<li>2 Whole Eggs</li>
+<li>1/2 Tablespoon(s) Vanilla</li>
+<li>3 Tablespoon(s) Honey</li>
+<li>1.5 Tablespoon(s) Melted butter</li>
+<li>2 Cup(s) Frozen mixed berries</li>
+</ul>
+
+                </div>
+
+                <!-- <h4 class="mdl-cell mdl-cell--12-col">Directions</h4> -->
+
+                <!-- <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div> -->
+
+                <!-- <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                </div> -->
+
+               <!--  <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div> -->
+
+                <!-- <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h5>Lorem ipsum dolor sit amet</h5>
+                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+                </div> -->
+              </div>
+<!--               <div class="mdl-card__actions">
+                <a href="#" class="mdl-button">Read our features</a>
+              </div> -->
+            </div>
+
+          </section>
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+
+                <h4 class="mdl-cell mdl-cell--12-col">Directions</h4>
+                
+                <!-- <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle mdl-color--primary"></div>
+                </div> -->
+
+                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <ol>
+<li>Preheat oven to 375.</li>
+<li>In a medium sized bowl, mix together oats, baking powder, cinnamon, salt, and brown sugar. Set aside.</li>
+<li>In a separate bowl mix together milk, eggs, vanilla, honey, and butter.</li>
+<li>Layer half the berries in a baking dish and top evenly with dry oat mixture.</li>
+<li>Pour in the wet mixture and add the rest of the berries on top.</li>
+<li>Bake for 15-20 minutes, or until oats have absorbed the liquid. If using non-quick oats, increase baking time to 35-40 minutes.</li>
+</ol>
 
                 </div>
 
@@ -568,6 +631,17 @@
 
         // Your custom JavaScript goes here
       })();
+
+      // Clicking ingredients list to fade and cross out
+      $('ul.recipes_checklist li').click(function(){
+        if ($(this).css('opacity') == .2) {
+          $(this).css('opacity', 1);
+          $(this).css('text-decoration', '');
+        } else {
+          $(this).css('opacity', .2);
+          $(this).css('text-decoration', 'line-through');
+        }
+      })
     </script>
     <!-- endbuild -->
   </body>
