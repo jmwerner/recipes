@@ -121,14 +121,4 @@ for recipe_category in all_categories:
 
         export_html(output_recipe_html_path, recipe_html)
 
-################################################################################
-# Create home page
-################################################################################
-
-index_html = import_html(index_html_template_path)
-
-categories_html = create_category_link_html(all_categories)
-index_html = index_html.replace(category_links_tag, categories_html)
-
-export_html('index.html', index_html)
 
