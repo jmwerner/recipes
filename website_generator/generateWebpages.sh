@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -rf allRecipes
+rm -rf ../website/allRecipes
 
-mkdir allRecipes
+mkdir ../website/allRecipes
 
 python webpageGenerator.py

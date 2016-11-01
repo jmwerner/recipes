@@ -94,7 +94,7 @@ for recipe_category in all_categories:
     category_html = category_html.replace(category_tag, recipe_category)
     category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
 
-    export_html('allRecipes/' + recipe_category + '.html', category_html)
+    export_html('../website/allRecipes/' + recipe_category + '.html', category_html)
 
     for recipe_in_category in all_recipes_in_category:      
         recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
@@ -104,7 +104,7 @@ for recipe_category in all_categories:
 
         recipe_name = recipe['recipeName'][0].split('.')[0]
 
-        output_recipe_html_path = 'allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + '/' + remove_spaces(recipe_name) + '.html'
+        output_recipe_html_path = '../website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + '/' + remove_spaces(recipe_name) + '.html'
 
 
         ingredients_html = create_ingredients_html(recipe['ingredients'])
@@ -117,7 +117,7 @@ for recipe_category in all_categories:
         recipe_html = recipe_html.replace(directions_tag, directions_html)
         recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
 
-        subprocess.call(["mkdir", "-p", "allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
+        subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 
         export_html(output_recipe_html_path, recipe_html)
 
