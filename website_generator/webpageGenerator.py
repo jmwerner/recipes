@@ -5,7 +5,7 @@ import re
 
 category_tag = '<RECIPE_CATEGORY_GOES_HERE>'
 name_tag = '<RECIPE_NAME_GOES_HERE>'
-notes_tag = '<RECIPE_NOTES_GOES_HERE>'
+notes_tag = '<RECIPE_NOTES_GO_HERE>'
 directions_tag = '<RECIPE_DIRECTIONS_GO_HERE>'
 ingredients_tag = '<RECIPE_INGREDIENTS_GO_HERE>'
 category_links_tag = '<RECIPE_CATEGORY_LINKS_GO_HERE>'
@@ -50,6 +50,13 @@ def create_recipes_in_category_link_html(category, recipes_in_category):
         recipe_name = recipes_in_category[i].split('.')[0]
         output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
             category + '/' + recipe_name + '.html\"><h3>' + add_spaces_to_proper(recipe_name) + '</h3></a>\n'
+    return output_html_string
+
+def create_notes_html(raw_notes):
+    if len(raw_notes) == 0:
+        output_html_string = ''
+    else:
+        output_html_string = '<h5>Notes</h5>\n<p>' + raw_notes + '</p>'
     return output_html_string
 
 def remove_spaces(string):
@@ -111,9 +118,11 @@ for recipe_category in all_categories:
 
         directions_html = create_directions_html(recipe['directions'])
 
+        notes_html = create_notes_html(recipe['notes'][0])
+
         recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
         recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
-        recipe_html = recipe_html.replace(notes_tag, 'Notes: ' + recipe['notes'][0])
+        recipe_html = recipe_html.replace(notes_tag, notes_html)
         recipe_html = recipe_html.replace(directions_tag, directions_html)
         recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
 
