@@ -13,7 +13,6 @@ recipe_links_tag = '<RECIPE_LINKS_GO_HERE>'
 
 
 recipe_html_template_path = 'templates/recipeTemplate.html'
-index_html_template_path = 'templates/indexTemplate.html'
 category_html_template_path = 'templates/categoryTemplate.html'
 
 
