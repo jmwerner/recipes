@@ -44,11 +44,16 @@ def create_category_link_html(categories):
     return output_html_string
 
 def create_recipes_in_category_link_html(category, recipes_in_category):
-    output_html_string = ''
+    output_html_string = '<ul class = "actions vertical">\n'
     for i in range(0, len(recipes_in_category)):
         recipe_name = recipes_in_category[i].split('.')[0]
-        output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
-            category + '/' + recipe_name + '.html\"><h3>' + add_spaces_to_proper(recipe_name) + '</h3></a>\n'
+        if i % 2 == 0:
+            class_name = 'button special fit'
+        else:
+            class_name = 'button fit'
+        output_html_string += '<li><a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
+            category + '/' + recipe_name + '.html\" class=' + class_name + '>' + add_spaces_to_proper(recipe_name) + '</a></li>\n'
+    output_html_string += '</ul>'
     return output_html_string
 
 def create_notes_html(raw_notes):
