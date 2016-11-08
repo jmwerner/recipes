@@ -10,6 +10,7 @@ directions_tag = '<RECIPE_DIRECTIONS_GO_HERE>'
 ingredients_tag = '<RECIPE_INGREDIENTS_GO_HERE>'
 category_links_tag = '<RECIPE_CATEGORY_LINKS_GO_HERE>'
 recipe_links_tag = '<RECIPE_LINKS_GO_HERE>'
+menu_links_tag = '<MENU_LINKS_GO_HERE>'
 
 
 recipe_html_template_path = 'templates/recipeTemplate.html'
@@ -41,6 +42,20 @@ def create_category_link_html(categories):
     for i in range(0, len(categories)):
         output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
             categories[i] + '.html\"><h3>' + add_spaces_to_proper(categories[i]) + '</h3></a>\n'
+    return output_html_string
+
+def create_category_menu_links(categories, is_recipe = False):
+    if is_recipe:
+        extra_path = '../'
+    else:
+        extra_path = ''
+
+    output_html_string = '<ul>\n'
+    output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
+
+    for i in range(0, len(categories)):
+        output_html_string += '<li><a href=\"' + extra_path + categories[i] + '.html\">' + add_spaces_to_proper(categories[i]) + '</a></li>\n'
+    output_html_string += '</ul>'
     return output_html_string
 
 def create_recipes_in_category_link_html(category, recipes_in_category):
@@ -102,8 +117,12 @@ for recipe_category in all_categories:
 
     recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
 
+    category_menu_links_html = create_category_menu_links(all_categories, is_recipe = False)
+
+
     category_html = category_html.replace(category_tag, recipe_category)
     category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
+    category_html = category_html.replace(menu_links_tag, category_menu_links_html)
 
     export_html('../website/allRecipes/' + recipe_category + '.html', category_html)
 
@@ -124,14 +143,16 @@ for recipe_category in all_categories:
 
         notes_html = create_notes_html(recipe['notes'][0])
 
+        recipe_menu_links_html = create_category_menu_links(all_categories, is_recipe = True)
+
         recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
         recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
         recipe_html = recipe_html.replace(notes_tag, notes_html)
         recipe_html = recipe_html.replace(directions_tag, directions_html)
         recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
+        recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
 
         subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 
         export_html(output_recipe_html_path, recipe_html)
-
 
