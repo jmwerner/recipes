@@ -37,13 +37,6 @@ def create_directions_html(directions):
     output_html_string += '</ol>' + '\n'
     return output_html_string
 
-def create_category_link_html(categories):
-    output_html_string = ''
-    for i in range(0, len(categories)):
-        output_html_string += '<a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
-            categories[i] + '.html\"><h3>' + add_spaces_to_proper(categories[i]) + '</h3></a>\n'
-    return output_html_string
-
 def create_category_menu_links(categories, is_recipe = False):
     if is_recipe:
         extra_path = '../'
@@ -66,8 +59,8 @@ def create_recipes_in_category_link_html(category, recipes_in_category):
             class_name = 'button special fit'
         else:
             class_name = 'button fit'
-        output_html_string += '<li><a href=\"http://jmwerner.github.io/recipes/website/allRecipes/' + \
-            category + '/' + recipe_name + '.html\" class=' + class_name + '>' + add_spaces_to_proper(recipe_name) + '</a></li>\n'
+        output_html_string += '<li><a href=\"' + category + '/' + recipe_name + \
+            '.html\" class=' + class_name + '>' + add_spaces_to_proper(recipe_name) + '</a></li>\n'
     output_html_string += '</ul>'
     return output_html_string
 
