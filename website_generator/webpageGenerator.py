@@ -56,11 +56,11 @@ def create_recipes_in_category_link_html(category, recipes_in_category):
     for i in range(0, len(recipes_in_category)):
         recipe_name = recipes_in_category[i].split('.')[0]
         if i % 2 == 0:
-            class_name = 'button special fit'
+            class_name = 'button'
         else:
-            class_name = 'button fit'
+            class_name = 'button special'
         output_html_string += '<li><a href=\"' + category + '/' + recipe_name + \
-            '.html\" class=' + class_name + '>' + add_spaces_to_proper(recipe_name) + '</a></li>\n'
+            '.html\" class=\"' + class_name + '\"">' + add_spaces_to_proper(recipe_name) + '</a></li>\n'
     output_html_string += '</ul>'
     return output_html_string
 
