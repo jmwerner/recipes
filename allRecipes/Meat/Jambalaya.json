@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Jambalaya"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        "http://www.foodnetwork.com/recipes/jambalaya-recipe2.html"
+    ],
+    "directions": [
+        "[[\"Melt the butter in a medium pot over medium heat.\\n\\n\"],[\"Add the sausage, onions, bell peppers, celery, and garlic, and saute until the sausage begins to brown, 5 to 8 minutes.\\n\"],[\"Add the chicken and allow to brown on all sides.\\n\\n\"],[\"Add the herbs and rice, followed by the tomato sauce, stock, hot sauce, and salt and pepper, to taste.\\n\\n\"],[\"Bring to a boil, then reduce to a simmer and cook uncovered until the rice is tender, 20 to 25 minutes, stirring occasionally. \\n\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161111-150846"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"butter\"],\"category\":[\"\"]},{\"number\":[\"1 1/2 \"],\"units\":[\"Cup(s)\"],\"name\":[\"andouille sausage\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"onion, chopped\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"bell pepper, diced\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"celery, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic\"],\"category\":[\"\"]},{\"number\":[\"1 1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"diced chicken\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"parsley\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"basil\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"long grain white rice\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken stock\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"hot sauce\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

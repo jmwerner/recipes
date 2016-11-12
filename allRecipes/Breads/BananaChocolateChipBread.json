@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Banana Chocolate Chip Bread"
+    ],
+    "recipeCategory": [
+        "Breads"
+    ],
+    "recipeSource": [
+        "http://allrecipes.com/recipe/230482/banana-chocolate-chip-bread/"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 325 degrees F (165 degrees C). Grease a 9x5-inch loaf pan, preferably glass.\"],[\"Mix flour, baking powder, baking soda, and salt in a bowl.\"],[\"Stir bananas, milk, and cinnamon in another bowl.\"],[\"Beat butter and sugar in a third bowl until light and fluffy.\"],[\"Add eggs to butter mixture, one at a time, beating well after each addition.\"],[\"Stir banana mixture into butter mixture.\"],[\"Stir in dry mixture until blended. Fold in chocolate chips until just combined.\"],[\"Pour batter into prepared loaf pan. Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 70 minutes. Cool in the pan for 10 minutes before removing to cool completely on a wire rack before slicing.\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161111-163239"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking soda\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"ripe bananas, mashed\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cinnamon\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"butter, softened\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"white sugar\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"chocolate chips\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

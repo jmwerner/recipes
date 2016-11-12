@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Parmesan Risotto"
+    ],
+    "recipeCategory": [
+        "Sides"
+    ],
+    "recipeSource": [
+        "http://www.skinnytaste.com/seared-scallops-over-wilted-spinach-and/"
+    ],
+    "directions": [
+        "[[\"Heat chicken stock in a small pot.\\n\"],[\"In a medium size heavy sauce pan, add butter on medium-low heat.\\n\"],[\"Add shallots, sauté about 1 minute.\"],[\"Add rice mixing well until well coated and transluscent, about 2 minutes.\\n\"],[\"Add wine, salt and pepper and mix well until it is absorbed into the rice.\\n\"],[\"Ladle 1 cup stock into rice and mix until all stock is absorbed, add another ladle, and continue adding and stirring until all broth is absorbed, about 20-25 minutes.\\n\"],[\"Add parmesan cheese and parsley, mix well and serve.\\n\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161111-160541"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"arborio rice\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"butter\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"shallot, minced\"],\"category\":[\"\"]},{\"number\":[\"1/2 \"],\"units\":[\"Cup(s)\"],\"name\":[\"white wine\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken stock\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt and pepper\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"grated parmesan cheese\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"parsley\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

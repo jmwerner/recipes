@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chicken Blt"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        "http://www.weber.com/recipes/poultry/spiced-chicken-blt-sandwiches"
+    ],
+    "directions": [
+        "[[\"In a small bowl combine the spice ingredients.\"],[\"In a large skillet over medium heat, cook the bacon until crisp, 10 to 12 minutes, turning occasionally. Drain the bacon on paper towels.\"],[\"Prepare the grill for direct cooking over medium heat (350° to 450°F)\"],[\"Cut each chicken breast lengthwise in half, creating two long strips. One at a time, place each strip, smooth side down, between two sheets of plastic wrap and, using a meat mallet or a rolling pin, pound to an even ¼-inch thickness. Brush the chicken strips on both sides with oil and season evenly with about 2 teaspoons of the spices.\"],[\"Add the mayonnaise, lemon juice, and hot chili-garlic sauce to the bowl with the remaining 1 teaspoon spice mixture and stir to combine.\"],[\"Brush the cooking grates clean. Grill the chicken strips over direct medium heat, with the lid closed, until the meat is firm to the touch and opaque all the way to the center, 4 to 5 minutes, turning once. During the last minute of grilling time, toast the bread over direct heat, turning once.\"],[\"Spread the bread slices evenly with the spiced mayonnaise. Assemble each sandwich with two lettuce leaves, two tomato slices, two bacon strips, and two chicken strips. Serve right away.\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161111-154146"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"paprika\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"black pepper\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"kosher salt\"],\"category\":[\"\"]},{\"number\":[\"1/2 \"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"garlic powder\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"onion powder\"],\"category\":[\"\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cayenne pepper\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Whole\"],\"name\":[\"slices of bacon\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"chicken breast halves\"],\"category\":[\"\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"mayonnaise\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"lemon juice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"hot chili garlic sauce, sirracha\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"loaf of sourdough bread\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"lettuce\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"tomatoes\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

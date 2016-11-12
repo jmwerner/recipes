@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Lobster Pasta"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        "http://www.food.com/recipe/garlicky-shrimp-lobster-pasta-83504"
+    ],
+    "directions": [
+        "[[\"In large skillet slowly melt the butter over medium-high heat.\"],[\"While it's melting add the olive oil (this should keep it from burning). Butter/oil should be bubbly but not browned.\"],[\"Brown the garlic in the butter/olive oil, tossing to keep color even. \"],[\"Lower heat slightly and add the heavy cream& nutmeg.Stir, scraping bottom of the pan. Simmer for 3 minutes, stirring OFTEN.\"],[\"Once the cream has been incorporated thoroughly, add the cheese a little bit at a time. Before adding more cheese, make sure the last bit has melted into the cream mixture.\"],[\"Add the shrimp& lobster. Add salt& pepper to taste. \"],[\"Toss with cooked pasta& chopped basil.\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161111-210228"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\".25\"],\"units\":[\"Pound(s)\"],\"name\":[\"salted butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"chopped garlic\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"heavy cream\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounces(s)\"],\"name\":[\"freshly grated parmesan cheese\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Pound(s)\"],\"name\":[\"shrimp, cleaned and deveined\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Pound(s)\"],\"name\":[\"lobster, cut into bite sized pieces\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"lemon juice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt and pepper\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"nutmeg\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"chopped basil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"cooked pasta(of your choice)\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

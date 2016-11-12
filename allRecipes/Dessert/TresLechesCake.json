@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Tres Leches Cake"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        "http://www.bettycrocker.com/recipes/premium-tres-leches-cake/dee59db0-b964-4002-a5c9-fca08e2ed830"
+    ],
+    "directions": [
+        "[[\"Heat oven to 350°F (325°F for dark or nonstick pan). Grease and flour or spray bottom and sides of 13x9-inch pan.\"],[\"In large bowl, beat cake mix, water, oil, vanilla and eggs with electric mixer on low speed 30 seconds, then on medium speed 2 minutes, scraping bowl occasionally. Pour into pan.\\n\"],[\"Bake as directed on box for 13x9-inch pan. Let stand 5 minutes. Poke top of hot cake every 1/2 inch with long-tined fork, wiping fork occasionally to reduce sticking.\"],[\"In large bowl, stir together sweetened condensed milk, whole milk and whipping cream. Carefully pour evenly over top of cake. Cover; refrigerate about 1 hour or until mixture is absorbed into cake. Frost with frosting. Store covered in refrigerator.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161111-204900"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"box yellow cake mix\"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"water\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"vegetable oil\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"sweetened condensed milk \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"whole milk or evaporated milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"whipping cream \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\" container whipped fluffy white frosting\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
