@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Apple Crisp Baked Brie"
+    ],
+    "recipeCategory": [
+        "Appetizers"
+    ],
+    "recipeSource": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350 degrees.\"],[\"Grease 10-12 inch round baking dish.\"],[\"Place brie in center of baking dish. In a medium bowl mix oats, brown sugar, salt, cinnamon, and pecans. \"],[\"Add butter and meld together mixture until everything is moist. Mix in chopped apples and spread over the brie in dish.\"],[\"Bake 20-25 minutes until crisp topping is browned. Serve with bread or crackers. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161112-142024"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"16\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Brie\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Old fashioned oats\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Brown sugar\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cinnamon\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Raw pecans\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Softened butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Red apples\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

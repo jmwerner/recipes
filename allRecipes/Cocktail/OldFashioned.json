@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Old Fashioned"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Dash bitters into chilling glass.\"],[\"Squeeze orange slice into chilling glass, add simple syrup and whiskey. \"],[\"Place ice into chilling glass and stir. Allow to chill for 1-2 minutes.\"],[\"Strain into ball glass with ice. Garnish with orange or lemon twist. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161112-141544"
+    ],
+    "notes": [
+        "Pure maple syrup can be substituted for simple syrup if you like to party or are Canadian."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"5\"],\"units\":[\"Dash(es)\"],\"name\":[\"Angostura aromatic bitters\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Dash(es)\"],\"name\":[\"Angostura orange bitters\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Simple syrup\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Bourbon or rye whiskey\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Orange slice\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
