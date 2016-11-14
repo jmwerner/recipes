@@ -198,3 +198,12 @@
 	});
 
 })(jQuery);
+
+
+// Function for crossing out list elements
+
+$(document).ready(function(){
+    $("li").on("click", function(){
+    $(this).toggleClass("checked");
+  });
+});
