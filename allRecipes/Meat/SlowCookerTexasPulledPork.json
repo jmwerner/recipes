@@ -9,7 +9,7 @@
         "http://allrecipes.com/recipe/92462/slow-cooker-texas-pulled-pork/"
     ],
     "directions": [
-        "[[\"Pour the vegetable oil into the bottom of a slow cooker. Place the pork roast into the slow cooker; pour in the barbecue sauce, apple cider vinegar, and chicken broth. Stir in the brown sugar, yellow mustard, Worcestershire sauce, chili powder, onion, garlic, and thyme. Cover and cook on High until the roast shreds easily with a fork, 5 to 6 hours.\"],[\"Remove the roast from the slow cooker, and shred the meat using two forks. Return the shredded pork to the slow cooker, and stir the meat into the juices.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+        "[[\"Pour the vegetable oil into the bottom of a slow cooker. Add the onions and place the pork roast on top.\"],[\"Mix all other ingredients and pour over pork shoulder.\"],[\"Cover and cook on high until the roast shreds easily with a target internal temparature of 190-195 degrees.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
     ],
     "timestamp": [
         "20160917-140958"
@@ -18,7 +18,7 @@
         ""
     ],
     "ingredients": [
-        "[{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vegetable oil\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Pork shoulder roast (4 pounds)\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Barbecue sauce\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Apple cider vinegar\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Prepared yellow mustard\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Worcestershire sauce\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chili powder\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Garlic cloves\"]},{\"number\":[\"1.5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried thyme\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]}]"
+        "[{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vegetable oil\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Pork shoulder roast (4 pounds)\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Barbecue sauce\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Apple cider vinegar\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Prepared yellow mustard\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Worcestershire sauce\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chili powder\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Garlic cloves\"]},{\"number\":[\"1.5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried thyme\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Brown sugar\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"]}]"
     ]
 }
 
