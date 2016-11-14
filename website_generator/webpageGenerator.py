@@ -18,8 +18,18 @@ category_html_template_path = 'templates/categoryTemplate.html'
 
 
 def create_ingredients_html(ingredients):
-    output_html_string = '<ul class="recipes_checklist">' + '\n'
     ingredients_list = ast.literal_eval(ingredients[0])
+    
+    if recipe_categories_exist(ingredients_list):
+        categories = find_recipe_categories(ingredients_list)
+        # START HERE - loop over categories and create html lists for each category header
+        # Also fix the key error for recipes generated prior to new version of input app that don't have category key
+    else:
+        output_html_string = create_html_list_from_ingredients(ingredients_list)
+    return output_html_string
+
+def create_html_list_from_ingredients(ingredients_list):
+    output_html_string = '<ul>' + '\n'
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
             output_html_string += '<li>' + ingredients_list[i]['number'][0] + \
@@ -27,6 +37,20 @@ def create_ingredients_html(ingredients):
                 ingredients_list[i]['name'][0] +  '</li>' + '\n'
     output_html_string += '</ul>' + '\n'
     return output_html_string
+
+def recipe_categories_exist(ingredients_list):
+    category_exists = True
+    for i in range(0, len(ingredients_list)):
+        if ingredients_list[i]['category'] ==  ['']:
+            category_exists = False
+    return category_exists
+
+def find_recipe_categories(ingredients_list):
+    all_categories = []
+    for i in range(0, len(ingredients_list)):
+        all_categories.append(ingredients_list[i]['category'][0])
+    unique_categories = list(set(all_categories))
+    return unique_categories
 
 def create_directions_html(directions):
     output_html_string = '<ol>' + '\n'
