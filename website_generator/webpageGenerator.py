@@ -2,6 +2,7 @@ import json
 import ast
 import subprocess
 import re
+from bs4 import BeautifulSoup
 
 category_tag = '<RECIPE_CATEGORY_GOES_HERE>'
 name_tag = '<RECIPE_NAME_GOES_HERE>'
@@ -124,9 +125,15 @@ def import_html(path):
     return html
 
 def export_html(path, html_input):
+    output_html = prettify_html_string(html_input)
     with open(path, 'w') as html_output_file:
-        html_output_file.write(html_input)
+        html_output_file.write(output_html)
     html_output_file.close()
+
+def prettify_html_string(html_string):
+    parsed_html = BeautifulSoup(html_string, "lxml")
+    html_string = parsed_html.prettify()
+    return html_string
 
 def add_spaces_to_proper(name):
     s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
@@ -148,7 +155,6 @@ for recipe_category in all_categories:
     recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
 
     category_menu_links_html = create_category_menu_links(all_categories, is_recipe = False)
-
 
     category_html = category_html.replace(category_tag, recipe_category)
     category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
