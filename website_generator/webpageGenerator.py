@@ -19,14 +19,23 @@ category_html_template_path = 'templates/categoryTemplate.html'
 
 def create_ingredients_html(ingredients):
     ingredients_list = ast.literal_eval(ingredients[0])
-    
     if recipe_categories_exist(ingredients_list):
-        categories = find_recipe_categories(ingredients_list)
-        # START HERE - loop over categories and create html lists for each category header
-        # Also fix the key error for recipes generated prior to new version of input app that don't have category key
+        output_html_string = ''
+        ingredient_categories = find_recipe_categories(ingredients_list)
+        for ingredient_category in ingredient_categories:
+            output_html_string += '<h6>' + ingredient_category + '</h6>'
+            category_ingredients = get_ingredients_in_category(ingredients_list, ingredient_category)
+            output_html_string += create_html_list_from_ingredients(category_ingredients)
     else:
         output_html_string = create_html_list_from_ingredients(ingredients_list)
     return output_html_string
+
+def get_ingredients_in_category(ingredients_list, ingredient_category):
+    output_list = list()
+    for i in range(0, len(ingredients_list)):
+        if ingredients_list[i]['category'][0] == ingredient_category:
+            output_list.append(ingredients_list[i])
+    return output_list
 
 def create_html_list_from_ingredients(ingredients_list):
     output_html_string = '<ul>' + '\n'
@@ -40,9 +49,12 @@ def create_html_list_from_ingredients(ingredients_list):
 
 def recipe_categories_exist(ingredients_list):
     category_exists = True
-    for i in range(0, len(ingredients_list)):
-        if ingredients_list[i]['category'] ==  ['']:
-            category_exists = False
+    if 'category' not in list(ingredients_list[0].keys()):
+        category_exists = False
+    else:
+        for i in range(0, len(ingredients_list)):
+            if ingredients_list[i]['category'] == ['']:
+                category_exists = False
     return category_exists
 
 def find_recipe_categories(ingredients_list):
@@ -71,7 +83,8 @@ def create_category_menu_links(categories, is_recipe = False):
     output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
 
     for i in range(0, len(categories)):
-        output_html_string += '<li><a href=\"' + extra_path + categories[i] + '.html\">' + add_spaces_to_proper(categories[i]) + '</a></li>\n'
+        output_html_string += '<li><a href=\"' + extra_path + categories[i] + '.html\">' + \
+            add_spaces_to_proper(categories[i]) + '</a></li>\n'
     output_html_string += '</ul>'
     return output_html_string
 
@@ -151,7 +164,8 @@ for recipe_category in all_categories:
 
         recipe_name = recipe['recipeName'][0].split('.')[0]
 
-        output_recipe_html_path = '../website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + '/' + remove_spaces(recipe_name) + '.html'
+        output_recipe_html_path = '../website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
+            '/' + remove_spaces(recipe_name) + '.html'
 
 
         ingredients_html = create_ingredients_html(recipe['ingredients'])
