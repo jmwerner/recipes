@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.90">
+  <url>
+    <loc>https://jmwerner.github.io/recipes/website/allRecipes/Appetizer.html</loc>
+    <lastmod>2016-11-19T23:55:42+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jmwerner.github.io/recipes/website/allRecipes/Appetizer/AppleCrispBakedBrie.html</loc>
+    <lastmod>2016-11-18T17:24:27+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jmwerner.github.io/recipes/website/allRecipes/Appetizer/BaconJalapenoDeviledEggs.html</loc>
+    <lastmod>2016-11-17T15:35:07+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
