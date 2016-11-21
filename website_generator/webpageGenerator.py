@@ -109,6 +109,16 @@ def create_notes_html(raw_notes):
         output_html_string = '<h5>Notes</h5>\n<p>' + raw_notes + '</p>'
     return output_html_string
 
+def create_sitemap(all_urls):
+    output_string = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    output_string += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for url in all_urls: 
+        output_string += '<url>\n<loc>'
+        output_string += url
+        output_string += '</loc>\n</url>'
+    output_string += '</urlset>'
+    return output_string
+
 def remove_spaces(string):
     return string.replace(' ', '')
 
@@ -124,14 +134,14 @@ def import_html(path):
     html_file.close()
     return html
 
-def export_html(path, html_input):
-    output_html = prettify_html_string(html_input)
-    with open(path, 'w') as html_output_file:
-        html_output_file.write(output_html)
-    html_output_file.close()
+def export_string_to_file(path, html_input, string_format = "lxml"):
+    output_string = prettify_string(html_input, string_format)
+    with open(path, 'w') as output_file:
+        output_file.write(output_string)
+    output_file.close()
 
-def prettify_html_string(html_string):
-    parsed_html = BeautifulSoup(html_string, "lxml")
+def prettify_string(html_string, string_format):
+    parsed_html = BeautifulSoup(html_string, string_format)
     html_string = parsed_html.prettify()
     return html_string
 
@@ -145,6 +155,8 @@ def add_spaces_to_proper(name):
 
 all_categories = subprocess.check_output(['ls', '../allRecipes']).decode("utf-8").split('\n')
 all_categories = [x for x in all_categories if x]
+
+all_urls = []
 
 for recipe_category in all_categories:
     all_recipes_in_category = subprocess.check_output(['ls', '../allRecipes/' + recipe_category]).decode("utf-8").split('\n')
@@ -160,7 +172,9 @@ for recipe_category in all_categories:
     category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
     category_html = category_html.replace(menu_links_tag, category_menu_links_html)
 
-    export_html('../website/allRecipes/' + recipe_category + '.html', category_html)
+    category_page_name = '/website/allRecipes/' + recipe_category + '.html'
+    all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
+    export_string_to_file('..' + category_page_name, category_html)
 
     for recipe_in_category in all_recipes_in_category:      
         recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
@@ -170,9 +184,10 @@ for recipe_category in all_categories:
 
         recipe_name = recipe['recipeName'][0].split('.')[0]
 
-        output_recipe_html_path = '../website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
+        output_recipe_html_path = '/website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
             '/' + remove_spaces(recipe_name) + '.html'
 
+        all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
 
         ingredients_html = create_ingredients_html(recipe['ingredients'])
 
@@ -191,5 +206,10 @@ for recipe_category in all_categories:
 
         subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 
-        export_html(output_recipe_html_path, recipe_html)
+        export_string_to_file('..' + output_recipe_html_path, recipe_html)
+
+
+sitemap_string = create_sitemap(all_urls)
+export_string_to_file('../sitemap.xml', sitemap_string, "xml")
+
 
