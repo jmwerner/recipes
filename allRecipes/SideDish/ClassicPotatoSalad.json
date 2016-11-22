@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Classic Potato Salad "
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        "http://www.food.com/recipe/classic-potato-salad-22747"
+    ],
+    "directions": [
+        "[[\"Boil peeled potatoes in salted water until done. Cool to room temperature.\"],[\"Place diced potatoes in large bowl.\"],[\"Mix mayonnaise, cider vinegar, sugar, mustard, salt, garlic powder, and pepper in another bowl. Add to potatoes. \"],[\"Add celery and onions and mix well.\"],[\"Stir in eggs.  Sprinkle a little paprika on top.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-151829"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"8\"],\"units\":[\"Whole\"],\"name\":[\"medium potatoes, cooked and diced  \"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"mayonnaise \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"cider vinegar \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"sugar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"yellow mustard\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"garlic powder\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"pepper\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"celery ribs, sliced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"onion, diced\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Whole\"],\"name\":[\"hard-boiled eggs\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"paprika \"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

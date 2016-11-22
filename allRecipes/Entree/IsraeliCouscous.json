@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Israeli Couscous "
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.afamilyfeast.com/israeli-couscous-with-chicken-and-peas/"
+    ],
+    "directions": [
+        "[[\"In a large saucepan, heat the olive oil over medium high heat. Pour in the couscous and stirring frequently, cook until lightly toasted (about 2-3 minutes).\"],[\"Add the chicken broth, lemon zest, lemon juice, salt and pepper and stir to combine. Bring the mixture to a boil. Reduce the heat to medium-low and simmer about 8 minutes – until the couscous is al dente.\"],[\"Stir in the Parmesan cheese, scallions, peas and chicken and mix until well combined. Serve immediately with additional Parmesan cheese grated on top if desired.\"],[\" \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-123524"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"\"]},{\"number\":[\"1.33\"],\"units\":[\"Cup(s)\"],\"name\":[\"Israeli couscous\"],\"category\":[\"\"]},{\"number\":[\"2.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken broth\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"lemons, zested and juiced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"kosher salt\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"black pepper\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"freshly grated parmesan cheese\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"scallions\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"frozen peas, thawed\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded and chopped cooked chicken\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

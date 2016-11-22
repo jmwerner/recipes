@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Copenhagen Meat Balls"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        "Mavis"
+    ],
+    "directions": [
+        "[[\"Mix all meat ball ingredients well and shape into small meat balls, about 1.5 inches in diameter. Brown in butter or shortening in a heavy and large skillet about 8-10 minutes until done.\"],[\"Remove meat balls and prepare sauce in skillet.\"],[\"Return meat balls to sauce. Cover and simmer 30 minutes, stirring occasionally. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-205250"
+    ],
+    "notes": [
+        "Serves 6-8."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Lean ground beef\"],\"category\":[\"Meatballs\"]},{\"number\":[\".5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground pork sausage\"],\"category\":[\"Meatballs\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"Bread crumbs\"],\"category\":[\"Meatballs\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Meatballs\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg, beaten\"],\"category\":[\"Meatballs\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cold water\"],\"category\":[\"Meatballs\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Nutmeg\"],\"category\":[\"Meatballs\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Meatballs\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Drippings from meat balls\"],\"category\":[\"Sauce\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Flour\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Envelope dehydrated onion soup\"],\"category\":[\"Sauce\"]},{\"number\":[\"8/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Sauce\"]},{\"number\":[\"2/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Evaporated milk\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Worcestershire sauce\"],\"category\":[\"Sauce\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Sauce\"]}]"
+    ]
+}
+

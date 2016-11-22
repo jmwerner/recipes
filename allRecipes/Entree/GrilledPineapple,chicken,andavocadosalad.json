@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Grilled Pineapple, chicken, and avocado salad"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.gimmesomeoven.com/grilled-pineapple-chicken-and-avocado-salad/"
+    ],
+    "directions": [
+        "[[\"Brush the chicken on both sides with olive oil, then season generously with salt and pepper.\"],[\"Preheat your outdoor grill to medium-high, or heat a grill pan over med-high heat. Place pineapple slices and chicken breasts on the grill. Cook for about 5 minutes per side or until the chicken is cooked through, and no longer pink on the inside. \"],[\"Remove pineapple and chicken and let cool for at least 10 minutes. Then slice chicken into strips, and cut pineapple into chunks.\"],[\"In a large bowl, toss together spinach, blueberries, feta, red onion, pineapple and chicken until combined. Drizzle or toss with salad dressing, and serve immediately.\"],[\"TO MAKE THE VINAIGRETTE: Whisk all ingredients together until blended. Let sit for at least 10 minutes for flavors to meld. Whisk again until blended, then drizzle over salad.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-124709"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"chicken breasts\"],\"category\":[\"salad\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"salad\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt and pepper\"],\"category\":[\"salad\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"fresh pineapple, cut into 1- inch thick rings\"],\"category\":[\"salad\"]},{\"number\":[\"8\"],\"units\":[\"Cup(s)\"],\"name\":[\"baby spinach\"],\"category\":[\"salad\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"fresh blueberries\"],\"category\":[\"salad\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"avocado, diced\"],\"category\":[\"salad\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"crumbled feta cheese\"],\"category\":[\"salad\"]},{\"number\":[\".25\"],\"units\":[\"Whole\"],\"name\":[\"red onion, thinly sliced\"],\"category\":[\"salad\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded and chopped cooked chicken\"],\"category\":[\"salad\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"honey vinaigrette \"],\"category\":[\"salad\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"vegetabe oil\"],\"category\":[\"vinaigrette\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"cider vinegar \"],\"category\":[\"vinaigrette\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"honey\"],\"category\":[\"vinaigrette\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"garlic cloves, minced \"],\"category\":[\"vinaigrette \"]}]"
+    ]
+}
+

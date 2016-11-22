@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chicken Fajitas "
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.simplyrecipes.com/recipes/chicken_fajitas/"
+    ],
+    "directions": [
+        "[[\"Cut thick chicken breasts in half, horizontally: Chicken breasts come in different sizes. If you have chicken breasts that are around a half pound each or more, you will want to slice them in half horizontally, so that the center thickness is around 1/2-inch to 3/4-inch thick. \"],[\"Marinate chicken: Mix all the marinade ingredients together in a glass or plastic container. Add the chicken, mix well, cover and let marinate at room temperature for 1 hour or up to 8 hours in the fridge.\"],[\"Wipe off most marinade, sprinkle chicken with salt: Remove the chicken from the marinade. Wipe off most of the marinade and sprinkle the chicken pieces with salt.\"],[\"Sear chicken on high heat: Heat a large cast iron frying pan on high heat for 1 to 2 minutes. Add a tablespoon of canola oil (or other high smoke point oil) to the pan. As soon as the oil begins to smoke, lay the chicken breast pieces in the pan. \"],[\"Let the chicken cook undisturbed for 2-3 minutes, until you have a good sear. Once seared well on one side, turn the pieces over and cook for another 2-3 minutes until well seared on the second side.\"],[\"Stack seared breasts, cover with foil and let rest: Once seared on the second side, remove to a cutting board and cover with aluminum foil to rest for 5 minutes.\"],[\"Sauté peppers and onions: While the chicken is resting, cook the onions and peppers. Add another tablespoon of oil to the frying pan. Heat on high. As soon as the oil is hot, add the onions and peppers to the pan.\"],[\"Spread the onions and peppers in an even layer in the pan. Let them cook undisturbed for 2 minutes. You want them to sear with some blackening. Stir the vegetables and continue to cook for another 2 minutes.\"],[\"Slice the chicken and serve: Slice the chicken across the grain into strips. Serve at once with the peppers and onions, some warm tortillas, and sides of shredded cheese, salsa, guacamole, and/or thinly sliced iceberg lettuce dressed with vinegar and salt.\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-154127"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"chicken breasts\"],\"category\":[\"chicken \"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt\"],\"category\":[\"chicken\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"canola oil\"],\"category\":[\"chicken\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"large onion, sliced lengthwise into strips  \"],\"category\":[\"chicken\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"bell peppers, sliced into strips \"],\"category\":[\"chicken\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"lime juice\"],\"category\":[\"marinade \"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"marinade \"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"marinade \"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt \"],\"category\":[\"marinade \"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cumin\"],\"category\":[\"marinade\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"chili powder\"],\"category\":[\"marinade \"]},{\"number\":[\".5\"],\"units\":[\"Whole\"],\"name\":[\"jalepeno, seeded and minced \"],\"category\":[\"marinade \"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"chopped cilantro \"],\"category\":[\"marinade \"]},{\"number\":[\"8\"],\"units\":[\"Whole\"],\"name\":[\"tortillas \"],\"category\":[\"extras\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

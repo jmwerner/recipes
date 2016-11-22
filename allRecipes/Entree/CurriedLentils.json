@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Curried Lentils "
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.budgetbytes.com/2015/01/curried-lentils/"
+    ],
+    "directions": [
+        "[[\"Bring 3 cups of water to a boil in a sauce pot, then add the lentils. Allow the pot to come back up to a boil, then turn the heat to low, place a lid on top, and simmer for 20 minutes, or until the lentils are tender. Drain the cooked lentils in a colander.\"],[\"Meanwhile, mince the garlic and finely dice the onion and carrots. Sauté the onion, garlic, and carrots in a large skillet with olive oil over medium heat until the onions are transparent (about 5 minutes). Add the curry powder and sauté for one minute more.\"],[\"Add the cooked and drained lentils to the skillet, along with the tomato sauce. Stir and heat through (about 5 minutes). Turn the heat off, taste the lentils, and add salt if needed (I added about ½ tsp).\"],[\"Top with fresh cilantro and serve over a bed of rice, with naan, or crusty bread. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-203442"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"medium onion \"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"medium carrots \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"uncooked, brown lentils \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"curry powder \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"tomato sauce \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"chopped cilantro, optional\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

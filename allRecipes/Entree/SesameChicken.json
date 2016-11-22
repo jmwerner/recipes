@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Sesame Chicken "
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.williams-sonoma.com/recipe/sesame-chicken-with-sugar-snap-peas.html"
+    ],
+    "directions": [
+        "[[\"Season the chicken with salt and pepper, then sprinkle with the sesame seeds, coating the meat evenly and patting firmly so they adhere.\\n\"],[\"In a wok or large fry pan over high heat, warm the peanut oil. Add the chicken and cook, stirring often, until golden and nearly cooked through, 3 to 4 minutes. Using a slotted spoon, transfer the chicken to a plate. \"],[\"Add the bell pepper, sugar snap peas and garlic to the pan and stir-fry until the vegetables are barely tender-crisp, 1 to 2 minutes.\"],[\"Return the chicken to the pan and add the broth, soy sauce, vinegar and sesame oil. Reduce the heat to medium and simmer until the chicken is opaque throughout and the sauce is slightly reduced, about 2 minutes. \"],[\"Divide the chicken and vegetables among shallow bowls, sprinkle with the cilantro and serve immediately. Serves 4.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161121-155431"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"chicken breasts cut into thin strips \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt and pepper\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"sesame seeds\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"peanut oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"bell peppers, sliced into strips \"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Pound(s)\"],\"name\":[\"sugar snap peas\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\".66\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken broth\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"soy sauce \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"rice vinegar \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"sesame oil\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"chopped cilantro \"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
