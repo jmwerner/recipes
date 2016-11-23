@@ -38,6 +38,7 @@ def preprocess_ingredients(ingredients_list):
         if output_list[i]['number'][0] != '':
             plural = string_to_float(output_list[i]['number'][0]) > 1.0
             output_list[i]['units'][0] = set_plural_suffix(output_list[i]['units'][0], plural)
+            output_list[i]['name'][0] = output_list[i]['name'][0].lower().title()
     return output_list
 
 def set_plural_suffix(string, plural):
