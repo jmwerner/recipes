@@ -98,13 +98,22 @@ def find_recipe_categories(ingredients_list):
     return unique_categories
 
 def create_directions_html(directions):
-    output_html_string = '<ol>' + '\n'
     directions_list = ast.literal_eval(directions[0])
+    directions_list = preprocess_directions(directions_list)
+    output_html_string = '<ol>' + '\n'
     for i in range(0, len(directions_list)):
         if directions_list[i][0] != '':
             output_html_string += '<li>' + directions_list[i][0] + '</li>' + '\n'
     output_html_string += '</ol>' + '\n'
     return output_html_string
+
+def preprocess_directions(directions):
+    output = directions
+    # Add period to end of direction sentence if not there.
+    for i in range(0, len(directions)):
+        if output[i][0] != '':
+            output[i][0] = output[i][0].rstrip().rstrip('.') + '.'
+    return output
 
 def create_category_menu_links(categories, is_recipe = False):
     if is_recipe:
