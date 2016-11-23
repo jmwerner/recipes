@@ -1,1 +1,0 @@
-Sitemap: https://jmwerner.github.io/recipes/sitemap.xml
