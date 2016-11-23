@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Caramelized Onion Lentils "
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.foodandwine.com/recipes/brown-lentils-and-rice-with-caramelized-onions"
+    ],
+    "directions": [
+        "[[\"Heat 3 tablespoons of the olive oil in a large skillet. Add the onions, cover and cook over low heat, stirring occasionally, until softened, about 10 minutes. Uncover and cook, stirring from time to time, until the onions are golden brown, about 10 minutes longer.\"],[\"In a medium saucepan, combine the lentils and water. Bring to a boil, then simmer over low heat until the lentils are partially cooked, about 15 minutes. Stir in half the onions, the rice and 1 tablespoon of olive oil and season with salt and pepper. Cover and cook over low heat until the rice and lentils are tender, about 20 minutes. Add more water if needed to prevent sticking.\"],[\"Meanwhile, cook the remaining onions over high heat until dark brown and caramelized, about 5 minutes. Stir the onions frequently so they don't stick to the bottom of the skillet and burn.\"],[\"In a small bowl, combine the yogurt with the garlic, lemon juice and cumin. Transfer the lentils and rice to a shallow bowl and drizzle the remaining 1 tablespoon of olive oil over them. Sprinkle with the caramelized onions and serve. Pass the yogurt separately.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-090713"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"large onions, halved and thinly sliced \"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown or green lentils\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Cup(s)\"],\"name\":[\"water\"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"long-grain rice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt and pepper\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"plain yogurt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, finely chopped\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"fresh lemon juice\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cumin\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

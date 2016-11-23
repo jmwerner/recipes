@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Beef Stroganoff"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        "http://www.bettycrocker.com/recipes/classic-beef-stroganoff/c17a904f-a8f6-48ae-bedb-5b301a8ea317"
+    ],
+    "directions": [
+        "[[\"Cut beef across grain into about 1 1/2x1/2-inch strips.\"],[\"Cook mushrooms, onions and garlic in butter in 10-inch skillet over medium heat, stirring occasionally, until onions are tender; remove from skillet.\"],[\"Cook beef in same skillet until brown. Stir in 1 cup of the broth, the salt and Worcestershire sauce. Heat to boiling; reduce heat. Cover and simmer 15 minutes.\"],[\"Stir remaining 1/2 cup broth into flour; stir into beef mixture. Add onion mixture; heat to boiling, stirring constantly. Boil and stir 1 minute. Stir in sour cream; heat until hot (do not boil). Serve over noodles.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-162514"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"beef sirloin steak\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounces(s)\"],\"name\":[\"fresh mushrooms, sliced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"onions, thinly sliced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, finely chopped\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"butter\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"beef broth\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"sour cream\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"cooked egg noodles\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

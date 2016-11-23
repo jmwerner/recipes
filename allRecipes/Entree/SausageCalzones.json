@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Sausage Calzones"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.myrecipes.com/recipe/grilled-pepper-onion-sausage-calzones"
+    ],
+    "directions": [
+        "[[\"Remove Homemade Pizza Dough from refrigerator; let stand at room temperature 1 hour.\"],[\"Prepare grill to medium-high heat.\"],[\"Coat onion slices and bell pepper pieces with cooking spray. Place vegetables and sausages on a grill rack coated with cooking spray. Grill vegetables 4 minutes on each side or until browned; grill sausages 8 minutes or until done, turning occasionally to brown on all sides.\"],[\"Remove vegetables and sausages from grill; cool slightly. Cut onion slices in half; cut bell pepper pieces into 1/2-inch strips. Cut sausages diagonally into thin slices.\"],[\"Preheat oven to 500°\"],[\"Place dough on a lightly floured surface; divide dough into 4 equal portions. Roll each portion into a 9 x 5-inch rectangle. Spread 1/4 cup New York-Style Pizza Sauce evenly over each rectangle, leaving a 1/4-inch border. \"],[\"Arrange sausage evenly over half of each rectangle; top evenly with onion and bell peppers. Sprinkle each calzone with 1/3 cup cheese. Fold other half of dough over filling; press edges together with a fork to seal.\"],[\"Place calzones on a baking sheet coated with cooking spray. Coat calzones with cooking spray. Bake at 500° for 15 minutes or until golden brown. Remove from oven; let stand 5 minutes. Cut each calzone in half; serve with remaining New York-Style Pizza Sauce.\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-095739"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"portion homemade pizza dough\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"sweet onion, cut into slices\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"red bell pepper, quartered\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"yellow bell pepper, quartered\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"turkey sausage links\"],\"category\":[\"\"]},{\"number\":[\"1.75\"],\"units\":[\"Cup(s)\"],\"name\":[\"pizza sauce, divided\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Ounces(s)\"],\"name\":[\"shredded mozzarella cheese\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

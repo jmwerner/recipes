@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Quinoa Burger"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "wordpress.com"
+    ],
+    "directions": [
+        "[[\"In a large bowl combine all ingredients. \"],[\"Heat a frying pan and a couple teaspoon olive oil over medium-low heat. Mixture will be slightly stick, so using a measuring cup, drop mixture into pan ad lightly flatten to .5 in thick.\"],[\"Fry until golden-brown, about 4 minutes on each side.\"],[\" \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-132139"
+    ],
+    "notes": [
+        "These burgers can be baked in the oven versus frying. \nTo cook quinoa use 1 cup uncooked quinoa, 2 cups water, .5 teaspoon salt. In a medium saucepan bring the 2 cups water and .5 teaspoon salt to a boil over high heat. Add quinoa and reduce heat to low. Cover and cook for 18-20 minutes, or until all water is absorbed and the seeds are tender. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"cooked quinoa \"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded cheddar cheese\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"low-fat cottage cheese\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"medium carrot, finely grated\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"green onions\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"sugar\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"pepper\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"garlic powder\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil for frying\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

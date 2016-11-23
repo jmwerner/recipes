@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chipotle Chicken Chili"
+    ],
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeSource": [
+        "http://thepioneerwoman.com/cooking/chipotle-chicken-chili/"
+    ],
+    "directions": [
+        "[[\"Heat olive oil in a large pot over medium heat then add the onions and garlic. Cook for a few minutes until onions soften. Add the chicken and cook until lightly browned.\"],[\"Add 3/4 of the beer, reserving the rest, then cook for a couple of minutes to reduce. \"],[\"Add the tomatoes, chipotles, beans, chili powder, cumin and salt. Stir to combine, then cover the pot and cook for 1 hour. \"],[\"Combine the masa harina with the rest of the beer and stir to make a paste. Add this into the chili, along with the lime juice. Stir and cook for 10 more minutes or until thick. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-091623"
+    ],
+    "notes": [
+        "Serve with sour cream, cheese, cilantro, and another squeeze of lime!"
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"onion, diced \"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"chicken breasts\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"beer\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"diced tomatoes\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"chipotle peppers in adobo sauce, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"pinto beans\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"black beans\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"kidney beans\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"chili powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"masa harina\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"lime, juiced\"],\"category\":[\"\"]}]"
+    ]
+}
+

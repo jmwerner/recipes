@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chicken Alfredo Spaghetti Squash"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://ifoodreal.com/spaghetti-squash-boats/"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 400 F degrees F. Cut spaghetti squash in half lengthwise and scoop the seeds out. Place cut side down on a baking sheet lined with parchment paper and bake for 30 minutes. Remove from the oven and let cool until safe to the touch, about 15 minutes.\"],[\"In the meanwhile, preheat large skillet on medium heat and add olive oil. Add garlic and saute for a minute or two or until fragrant, stirring frequently. Add chicken stock, cornstarch, salt, pepper and whisk until smooth. Bring to a boil, reduce heat to low and simmer for a few minutes until sauce has thickened a bit.\"],[\"Remove from heat, add Parmesan cheese and stir until smooth and cheese has melted. Add Greek yogurt and stir again until smooth. Add chicken and stir to combine. Set aside.\"],[\"Reduce oven temperature to 375 degrees F. Using a fork, separate spaghetti squash into strands leaving them inside the shells. Scoop Chicken Alfredo sauce on top of each shell and gently move around with a fork to make the sauce settle deeper into the spaghetti squash.\"],[\"Top each shell with 2 tbsp Mozzarella, place in a baking dish and bake for 10 - 12 minutes and then broil on High for 5 more minutes. Stir the squash with a sauce a bit before serving and serve hot.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-160247"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"spaghetti squash\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken stock\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cornstarch\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"pepper\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"grated parmesan cheese\"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"plain greek yogurt \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"cooked chicken breast, shredded\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded mozzarella cheese\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

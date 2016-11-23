@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Coconut Rice"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        "www.myrecipes.com/recipe/coconut-rice-1"
+    ],
+    "directions": [
+        "[[\"Heat oil in a medium saucepan over medium heat. Add onion; cook 3 minutes, stirring frequently. \"],[\"Add ginger and garlic, cook 30 seconds, stirring constantly. \"],[\"Add rice; cook 1 minute, stirring constantly. Stir in coconut milk, broth, cinnamon stick, and salt; bring to a boil.\"],[\"Cover and simmer 18 minutes or until liquid is absorbed and rice is tender. Remove from heat; let stand 5 minutes. \"],[\"Drizzle with lime juice and fluff with a fork. Sprinkle with green onions. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-133944"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"finely chopped onion\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"ginger\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"jasmine or basmati rice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"light coconut milk\"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"cinnamon stick\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"fresh lime juice\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"green onions, chopped\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

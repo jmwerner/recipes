@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Slow Cooker Coconut Curry Lentils"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.budgetbytes.com/2016/07/slow-cooker-coconut-curry-lentils/"
+    ],
+    "directions": [
+        "[[\"Dice the onion and mince the garlic. Peel the sweet potato and carrots. Dice the sweet potato (1/4-1/2 inch cubes) and slice the carrots.\"],[\"Add the onion, garlic, sweet potato, carrots, lentils, curry powder, cloves, diced tomatoes, tomato sauce, and vegetable broth to the slow cooker. Stir to combine. \"],[\"Place the lid on the slow cooker and cook on high for four hours or low for 7-8 hours. Once cooked, the lentils should be tender and most of the liquid should be absorbed.\"],[\"Stir the can of coconut milk into the lentils. Taste and adjust the salt or other spices as needed (the amount of salt needed will depend on the type of broth used and the salt content of the canned tomatoes).\"],[\"To serve, add 1 cup cooked rice to a bowl followed by 1 cup of the lentil mixture. Top with finely diced red onion and fresh cilantro.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-103041"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"yellow onion\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown lentils\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"sweet potato\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"carrots\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"curry powder\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cloves\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"petite diced tomatoes\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"vegetable or chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"coconut milk\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Cup(s)\"],\"name\":[\"cooked rice\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Whole\"],\"name\":[\"red onion\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Whole\"],\"name\":[\"bunch cilantro or green onions\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

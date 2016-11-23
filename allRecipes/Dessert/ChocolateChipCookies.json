@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chocolate Chip Cookies"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        "nestletollhouse.com"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 375. \"],[\"Combine flour, baking soda, salt in small bowl. \"],[\"Beat butter, granulated sugar, brown sugar, and vanilla in large mixer bowl until creamy. \"],[\"Add eggs, one at a time, beating well after each addition. Gradually beat in flour mixture.\"],[\"Stir in chocolate chips. Drop by rounded tablespoons onto ungreased baking sheets. \"],[\"Bake for 9 to 11 minutes or until golden brown.  Cool on baking sheets for 2 minutes. \"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-151454"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking soda\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"butter, softened\"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"granulated sugar\"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown sugar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla extract\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"semi-sweet chocolate chips\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Stuffed Mushrooms"
+    ],
+    "recipeCategory": [
+        "Appetizer"
+    ],
+    "recipeSource": [
+        "http://www.jimmydean.com/recipes/appetizers/stuffed-mushrooms"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350°F. Finely chop enough mushroom stems to measure 1 cup; discard any remaining stems. Place mushroom caps, rounded-sides down, in lightly greased shallow baking pans.\"],[\"Cook sausage, chopped stems and garlic in large skillet over MEDIUM-HIGH heat 8-10 minutes or until sausage is thoroughly cooked, stirring frequently; drain. Return to skillet.\"],[\"Add cream cheese, ½ cup breadcrumbs, ¼ cup Parmesan cheese and parsley; mix well. Spoon into mushroom caps.\"],[\"Combine remaining breadcrumbs, remaining Parmesan cheese and oil; sprinkle over mushrooms.\"],[\"Bake 20 minutes or until mushrooms are tender and stuffing is lightly browned.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-092415"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"large mushrooms, stems removed and reserved\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"package pork sausage\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounces(s)\"],\"name\":[\"cream cheese\"],\"category\":[\"\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"Italian bread crumbs, divided\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"grated Parmesan cheese, divided\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"fresh parsley\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil \"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

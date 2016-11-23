@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Spaghetti Squash Chow Mein"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://littlebitsof.com/2014/10/spaghetti-squash-chow-mein/"
+    ],
+    "directions": [
+        "[[\"Cut a spaghetti squash in half length wise and scoop out seeds. Lay skin side up in a 13 x 9 pyrex and pour 1/2 inch of water in the bottom of the pan. Bake at 400 degrees for 30-40 minutes, until flesh is very tender. \"],[\"Once done, scoop out flesh with a fork so it breaks apart into strings, set aside.\"],[\"In a small bowl, whisk together tamari, garlic, sugar, ginger and white pepper; set aside.\"],[\"Heat olive oil in a large skillet over medium high heat. Add onion and celery, and cook, stirring often, until tender, about 3-4 minutes. Stir in cabbage until heated through, about 1 minute.\"],[\"Stir in spaghetti squash and sauce mixture until well combined, about 2 minutes.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-155435"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"spaghetti squash, halved lengthwise and seeds removed\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"tamari or soy sauce\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"sugar\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"ginger\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"white pepper\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"onion diced\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"celery stalks, sliced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"cole slaw mix\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

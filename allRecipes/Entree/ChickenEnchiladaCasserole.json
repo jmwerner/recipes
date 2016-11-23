@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chicken Enchilada Casserole"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "http://www.myrecipes.com/recipe/chicken-enchilada-casserole-1"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350°. Sauté first 2 ingredients in hot oil in a large skillet over medium-high heat 5 minutes or until tender. Add garlic, and sauté 1 minute. Stir in soup and next 4 ingredients; remove from heat.\"],[\"Spread 1 cup soup mixture in a lightly greased 13- x 9-inch baking dish. Arrange 24 tortilla quarters, slightly overlapping, over soup mixture; top with 3 cups chicken, 3/4 cup each Cheddar and pepper Jack cheeses, and 1 1/2 cups soup mixture. Repeat layers once. Top with remaining 24 tortilla quarters, soup mixture, and cheeses.\"],[\"Bake at 350° for 45 to 50 minutes or until bubbly and golden. Remove from oven to a wire rack, and let stand 15 minutes before serving.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161122-093700"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"diced sweet onion\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"poblano peppers, seeded and diced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"canola oil\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Can(s)\"],\"name\":[\"cream of chicken soup\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounces(s)\"],\"name\":[\"sour cream\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Can(s)\"],\"name\":[\"diced green chilis\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounces(s)\"],\"name\":[\"envelope taco seasoning\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded cooked chicken\"],\"category\":[\"\"]},{\"number\":[\"18\"],\"units\":[\"Whole\"],\"name\":[\"corn tortillas\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded cheddar cheese\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"shredded pepper jack cheese\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
