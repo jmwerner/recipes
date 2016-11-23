@@ -20,6 +20,7 @@ category_html_template_path = 'templates/categoryTemplate.html'
 
 def create_ingredients_html(ingredients):
     ingredients_list = ast.literal_eval(ingredients[0])
+    ingredients_list = preprocess_ingredients(ingredients_list)
     if recipe_categories_exist(ingredients_list):
         output_html_string = ''
         ingredient_categories = find_recipe_categories(ingredients_list)
@@ -30,6 +31,36 @@ def create_ingredients_html(ingredients):
     else:
         output_html_string = create_html_list_from_ingredients(ingredients_list)
     return output_html_string
+
+def preprocess_ingredients(ingredients_list):
+    output_list = ingredients_list
+    for i in range(0, len(output_list)):
+        if output_list[i]['number'][0] != '':
+            plural = string_to_float(output_list[i]['number'][0]) > 1.0
+            output_list[i]['units'][0] = set_plural_suffix(output_list[i]['units'][0], plural)
+    return output_list
+
+def set_plural_suffix(string, plural):
+    # Also removing trailing s from mistake in early version of input app
+    base_string = string.replace('s(s)', '')
+    base_string = base_string.replace('(s)', '')
+    base_string = base_string.replace('(es)', '')
+    if plural and base_string != 'Whole' and base_string != 'Pinch':
+        if base_string == 'Dash':
+            output = base_string + 'es'
+        else:
+            output = base_string + 's'
+    else:
+        output = base_string
+    return output
+
+def string_to_float(string):
+    splits = string.split('/')
+    if len(splits) == 1:
+        output = float(string)
+    else: 
+        output = float(splits[0]) / float(splits[1])
+    return output
 
 def get_ingredients_in_category(ingredients_list, ingredient_category):
     output_list = list()
@@ -155,7 +186,6 @@ def add_spaces_to_proper(name):
 
 all_categories = subprocess.check_output(['ls', '../allRecipes']).decode("utf-8").split('\n')
 all_categories = [x for x in all_categories if x]
-
 all_urls = []
 
 for recipe_category in all_categories:
@@ -176,7 +206,7 @@ for recipe_category in all_categories:
     all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
     export_string_to_file('..' + category_page_name, category_html)
 
-    for recipe_in_category in all_recipes_in_category:      
+    for recipe_in_category in all_recipes_in_category:     
         recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
 
         recipe = import_json(recipePath)

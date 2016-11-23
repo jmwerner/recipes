@@ -117,7 +117,7 @@ unitsOptions = list(" " = "",
                     "Pound(s)" = "Pound(s)", 
                     "Whole" = "Whole",
                     "Can(s)" = "Can(s)",
-                    "Ounces(s)" = "Ounces(s)",
+                    "Ounce(s)" = "Ounce(s)",
                     "Clove(s)" = "Clove(s)",
                     "Pinch" = "Pinch",
                     "Dash(es)" = "Dash(es)")
