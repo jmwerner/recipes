@@ -1,0 +1,23 @@
+{
+    "recipeName": [
+        "Tortellini Chicken Broccoli Bake"
+    ],
+    "recipeCategory": [
+        "Hotdish"
+    ],
+    "recipeSource": [
+        "http://www.myrecipes.com/recipe/pasta-chicken-broccoli-bake"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350°. Melt approximately 2/3 of the butter in a Dutch oven over medium-high heat; add onion, bell pepper, and garlic. Saute 5 to 6 minutes or until tender.\"],[\"Add flour, stirring until smooth. Cook, stirring constantly, for 1 minute. Whisk in broth, half-and-half, and white wine. Reduce heat to medium, and cook, stirring constantly, for 6 to 8 minutes or until thickened and bubbly.\"],[\"Remove from heat; add 1 cup cheese, salt, and red pepper flakes, stirring until cheese melts. Stir in tortellini, broccoli, and chicken. Spoon into a lightly greased 13- x 9-inch baking dish.\"],[\"Stir together grated cheese, crushed crackers, pecans, and melted remaining butter. Sprinkle over casserole. Bake at 350° for 40 to 45 minutes or until bubbly.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161123-172439"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Butter\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chopped sweet onion\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red bell pepper, chopped\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Half and half\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dry white wine\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Freshly shredded parmesan\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Red pepper flakes\"],\"category\":[\"\"]},{\"number\":[\"20\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cheese tortellini \"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cooked chicken, chopped\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Grated parmesan cheese\"],\"category\":[\"\"]},{\"number\":[\"15\"],\"units\":[\"Whole\"],\"name\":[\"Buttery crackers, crushed\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Pecans, chopped\"],\"category\":[\"\"]}]"
+    ]
+}
