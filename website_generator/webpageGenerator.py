@@ -190,6 +190,15 @@ def add_spaces_to_proper(name):
     s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
     return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1)
 
+# def create_cross_recipe_link_html(category, recipe):
+#     html = '<a href=\"' + create_relative_link(category, recipe) + '\">' + \
+#         add_spaces_to_proper(recipe) + '</a>'
+#     return html 
+
+# def create_relative_link(category, recipe):
+#     return '../../' + category + '/' + recipe + '.html'
+
+
 ################################################################################
 # Create recipes pages & category pages
 ################################################################################
