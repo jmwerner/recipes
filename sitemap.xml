@@ -157,11 +157,6 @@
  </url>
  <url>
   <loc>
-   https://jmwerner.github.io/recipes/website/allRecipes/Entree/ChickenEnchiladaCasserole.html
-  </loc>
- </url>
- <url>
-  <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Entree/ChickenFajitas.html
   </loc>
  </url>
@@ -243,6 +238,16 @@
  <url>
   <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Hotdish.html
+  </loc>
+ </url>
+ <url>
+  <loc>
+   https://jmwerner.github.io/recipes/website/allRecipes/Hotdish/ChickenEnchiladaHotdish.html
+  </loc>
+ </url>
+ <url>
+  <loc>
+   https://jmwerner.github.io/recipes/website/allRecipes/Hotdish/CornBake.html
   </loc>
  </url>
  <url>
@@ -337,11 +342,6 @@
  </url>
  <url>
   <loc>
-   https://jmwerner.github.io/recipes/website/allRecipes/Meat/TwiceBakedSpaghettiSquashandCheese.html
-  </loc>
- </url>
- <url>
-  <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Pasta.html
   </loc>
  </url>
@@ -392,11 +392,6 @@
  </url>
  <url>
   <loc>
-   https://jmwerner.github.io/recipes/website/allRecipes/SideDish/CornCasserole.html
-  </loc>
- </url>
- <url>
-  <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/SideDish/CornandChickpeaSalad.html
   </loc>
  </url>
@@ -408,6 +403,11 @@
  <url>
   <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/SideDish/ParmesanRisotto.html
+  </loc>
+ </url>
+ <url>
+  <loc>
+   https://jmwerner.github.io/recipes/website/allRecipes/SideDish/TwiceBakedSpaghettiSquashandCheese.html
   </loc>
  </url>
  <url>
