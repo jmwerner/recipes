@@ -18,10 +18,10 @@ recipe_html_template_path = 'templates/recipeTemplate.html'
 category_html_template_path = 'templates/categoryTemplate.html'
 
 
-def create_ingredients_html(ingredients):
+def create_ingredients_html(ingredients, recipe_name):
     ingredients_list = ast.literal_eval(ingredients[0])
     ingredients_list = preprocess_ingredients(ingredients_list)
-    if recipe_categories_exist(ingredients_list):
+    if recipe_categories_exist(ingredients_list, recipe_name):
         output_html_string = ''
         ingredient_categories = find_recipe_categories(ingredients_list)
         for ingredient_category in ingredient_categories:
@@ -80,15 +80,25 @@ def create_html_list_from_ingredients(ingredients_list):
     output_html_string += '</ul>' + '\n'
     return output_html_string
 
-def recipe_categories_exist(ingredients_list):
-    category_exists = True
+def recipe_categories_exist(ingredients_list, recipe_name):
     if 'category' not in list(ingredients_list[0].keys()):
-        category_exists = False
+        # Accomodation for older versions of the recipe input app
+        categories_exist = False
     else:
+        all_categories = []
         for i in range(0, len(ingredients_list)):
-            if ingredients_list[i]['category'] == ['']:
-                category_exists = False
-    return category_exists
+            if ingredients_list[i]['number'] != ['']:
+                all_categories.append(ingredients_list[i]['category'][0])
+        unique_categories = list(set(all_categories))
+        if '' in unique_categories:
+            if len(unique_categories) > 1:
+                raise ValueError('Not all categories were filled in for ' + \
+                    recipe_name)
+            else:
+                categories_exist = False
+        else:
+            categories_exist = True
+    return categories_exist
 
 def find_recipe_categories(ingredients_list):
     all_categories = []
@@ -240,7 +250,7 @@ if __name__ == '__main__':
 
             all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
 
-            ingredients_html = create_ingredients_html(recipe['ingredients'])
+            ingredients_html = create_ingredients_html(recipe['ingredients'], recipe_in_category)
 
             directions_html = create_directions_html(recipe['directions'])
 
