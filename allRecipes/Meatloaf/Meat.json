@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Meat"
+    ],
+    "recipeCategory": [
+        "Meatloaf"
+    ],
+    "recipeSource": [
+        "http://allrecipes.com/recipe/16354/easy-meatloaf/"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350 degrees.\"],[\"In a large bowl, combine the beef, egg, onion, milk and bread crumbs. Season with salt and pepper to taste and place in a lightly greased 9x13 inch baking dish.\"],[\"In a separate small bowl, combine the brown sugar, mustard and ketchup. Mix well and pour over the meatloaf.\"],[\"Cover and bake at 350 for approximately 1 hour. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161123-163327"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground beef\"],\"category\":[\"Meatloaf\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg\"],\"category\":[\"Meatloaf\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, chopped\"],\"category\":[\"Meatloaf\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"Meatloaf\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dried bread crumbs\"],\"category\":[\"Meatloaf\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"Salt and pepper\"],\"category\":[\"Meatloaf\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Brown sugar\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Prepared mustard\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Ketchup\"],\"category\":[\"Sauce\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
