@@ -203,62 +203,64 @@ def add_spaces_to_proper(name):
 # Create recipes pages & category pages
 ################################################################################
 
-all_categories = subprocess.check_output(['ls', '../allRecipes']).decode("utf-8").split('\n')
-all_categories = [x for x in all_categories if x]
-all_urls = []
+if __name__ == '__main__':
 
-for recipe_category in all_categories:
-    all_recipes_in_category = subprocess.check_output(['ls', '../allRecipes/' + recipe_category]).decode("utf-8").split('\n')
-    all_recipes_in_category = [x for x in all_recipes_in_category if x]
+    all_categories = subprocess.check_output(['ls', '../allRecipes']).decode("utf-8").split('\n')
+    all_categories = [x for x in all_categories if x]
+    all_urls = []
 
-    category_html = import_html(category_html_template_path)
+    for recipe_category in all_categories:
+        all_recipes_in_category = subprocess.check_output(['ls', '../allRecipes/' + recipe_category]).decode("utf-8").split('\n')
+        all_recipes_in_category = [x for x in all_recipes_in_category if x]
 
-    recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
+        category_html = import_html(category_html_template_path)
 
-    category_menu_links_html = create_category_menu_links(all_categories, is_recipe = False)
+        recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
 
-    category_html = category_html.replace(category_tag, recipe_category)
-    category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
-    category_html = category_html.replace(menu_links_tag, category_menu_links_html)
+        category_menu_links_html = create_category_menu_links(all_categories, is_recipe = False)
 
-    category_page_name = '/website/allRecipes/' + recipe_category + '.html'
-    all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
-    export_string_to_file('..' + category_page_name, category_html)
+        category_html = category_html.replace(category_tag, recipe_category)
+        category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
+        category_html = category_html.replace(menu_links_tag, category_menu_links_html)
 
-    for recipe_in_category in all_recipes_in_category:     
-        recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
+        category_page_name = '/website/allRecipes/' + recipe_category + '.html'
+        all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
+        export_string_to_file('..' + category_page_name, category_html)
 
-        recipe = import_json(recipePath)
-        recipe_html = import_html(recipe_html_template_path)
+        for recipe_in_category in all_recipes_in_category:     
+            recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
 
-        recipe_name = recipe['recipeName'][0].split('.')[0]
+            recipe = import_json(recipePath)
+            recipe_html = import_html(recipe_html_template_path)
 
-        output_recipe_html_path = '/website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
-            '/' + remove_spaces(recipe_name) + '.html'
+            recipe_name = recipe['recipeName'][0].split('.')[0]
 
-        all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
+            output_recipe_html_path = '/website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
+                '/' + remove_spaces(recipe_name) + '.html'
 
-        ingredients_html = create_ingredients_html(recipe['ingredients'])
+            all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
 
-        directions_html = create_directions_html(recipe['directions'])
+            ingredients_html = create_ingredients_html(recipe['ingredients'])
 
-        notes_html = create_notes_html(recipe['notes'][0])
+            directions_html = create_directions_html(recipe['directions'])
 
-        recipe_menu_links_html = create_category_menu_links(all_categories, is_recipe = True)
+            notes_html = create_notes_html(recipe['notes'][0])
 
-        recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
-        recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
-        recipe_html = recipe_html.replace(notes_tag, notes_html)
-        recipe_html = recipe_html.replace(directions_tag, directions_html)
-        recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
-        recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
+            recipe_menu_links_html = create_category_menu_links(all_categories, is_recipe = True)
 
-        subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
+            recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
+            recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
+            recipe_html = recipe_html.replace(notes_tag, notes_html)
+            recipe_html = recipe_html.replace(directions_tag, directions_html)
+            recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
+            recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
 
-        export_string_to_file('..' + output_recipe_html_path, recipe_html)
+            subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
+
+            export_string_to_file('..' + output_recipe_html_path, recipe_html)
 
 
-sitemap_string = create_sitemap(all_urls)
-export_string_to_file('../sitemap.xml', sitemap_string, "xml")
+    sitemap_string = create_sitemap(all_urls)
+    export_string_to_file('../sitemap.xml', sitemap_string, "xml")
 
 
