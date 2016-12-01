@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Ham Balls"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Acquire all meats and grind them together. Mix meat with other ham ball ingredients.\"],[\"Make ham balls of desired size and place them in a pan.\"],[\"Mix together ingredients for sauce and pour over ham balls.\"],[\"Bake for 1 hour at 350 degrees, rotating at 30 minutes. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161130-221910"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Smoked ham\"],\"category\":[\"Ham balls\"]},{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Lean pork\"],\"category\":[\"Ham balls\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Lean beef\"],\"category\":[\"Ham balls\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"Ham balls\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"Ham balls\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Graham crackers\"],\"category\":[\"Ham balls\"]},{\"number\":[\"2\"],\"units\":[\"Can(s)\"],\"name\":[\"Tomato soup\"],\"category\":[\"Sauce\"]},{\"number\":[\"2.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Brown sugar\"],\"category\":[\"Sauce\"]},{\"number\":[\".75\"],\"units\":[\"Cup(s)\"],\"name\":[\"White vinegar\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dry mustard\"],\"category\":[\"Sauce\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
