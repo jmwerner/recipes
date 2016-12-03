@@ -39,7 +39,16 @@ def preprocess_ingredients(ingredients_list):
             plural = string_to_float(output_list[i]['number'][0]) > 1.0
             output_list[i]['units'][0] = set_plural_suffix(output_list[i]['units'][0], plural)
             output_list[i]['name'][0] = output_list[i]['name'][0].lower().title()
+            output_list[i]['name'][0] = lower_conjunctions_in_ingredients(output_list[i]['name'][0])
     return output_list
+
+def lower_conjunctions_in_ingredients(ingredient):
+    conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So']
+    splits = ingredient.strip().split()
+    for i in range(0, len(splits)):
+        if splits[i] in conjunctions:
+            splits[i] = splits[i].lower()
+    return ' '.join(splits)
 
 def set_plural_suffix(string, plural):
     # Also removing trailing s from mistake in early version of input app
