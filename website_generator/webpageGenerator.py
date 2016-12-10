@@ -238,7 +238,7 @@ if __name__ == '__main__':
 
         category_menu_links_html = create_category_menu_links(all_categories, is_recipe = False)
 
-        category_html = category_html.replace(category_tag, recipe_category)
+        category_html = category_html.replace(category_tag, add_spaces_to_proper(recipe_category))
         category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
         category_html = category_html.replace(menu_links_tag, category_menu_links_html)
 
