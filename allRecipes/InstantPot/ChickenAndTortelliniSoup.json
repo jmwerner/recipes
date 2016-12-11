@@ -1,0 +1,24 @@
+{
+    "recipeName": [
+        "Chicken And Tortellini Soup"
+    ],
+    "recipeCategory": [
+        "InstantPot"
+    ],
+    "recipeSource": [
+        "http://wattscookin.com/kwatt/pressure-cooker-chicken-and-gnocchi-or-tortellini-soup/"
+    ],
+    "directions": [
+        "[[\"Place chicken, broth, tomatoes, spices, and garlic in pressure cooker.\"],[\"Cover and bring to high pressure, cook for 15 minutes.\"],[\"Remove from heat and quick release pressure.\"],[\"Remove chicken to cool and chop.\"],[\"Return chicken to pot.\"],[\"Add vegetables and tortellini, bring pot back to high pressure and cook for 5 minutes.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161211-142527"
+    ],
+    "notes": [
+        "Gnocchi can be substituted for tortellini. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Chicken breasts\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth or stock\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"13\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Italian style diced tomatoes in juice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Bay leaf\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Thyme\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Celery, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Carrots, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Frozen tortellini\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
