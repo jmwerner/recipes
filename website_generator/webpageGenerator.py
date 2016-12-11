@@ -110,10 +110,10 @@ def recipe_categories_exist(ingredients_list, recipe_name):
     return categories_exist
 
 def find_recipe_categories(ingredients_list):
-    all_categories = []
+    unique_categories = []
     for i in range(0, len(ingredients_list)):
-        all_categories.append(ingredients_list[i]['category'][0])
-    unique_categories = list(set(all_categories))
+        if ingredients_list[i]['category'][0] not in unique_categories:
+            unique_categories.append(ingredients_list[i]['category'][0])
     return unique_categories
 
 def create_directions_html(directions):
