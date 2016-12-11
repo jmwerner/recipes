@@ -55,7 +55,7 @@ saveData = function(data){
     system(paste0("mkdir -p ../allRecipes/", removeSpaces(data$recipeCategory)))
 
     fileName = paste0(removeSpaces(data$recipeName), ".json")
-    filePath = file.path(paste0("../allRecipes/", data$recipeCategory), fileName) 
+    filePath = file.path(paste0("../allRecipes/", removeSpaces(data$recipeCategory)), fileName) 
 
     ingredientsSubset = data[,grepl("ingredient", names(data))]
 
