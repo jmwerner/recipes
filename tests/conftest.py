@@ -27,7 +27,7 @@ def raw_sitemap(sitemap_name):
 
 @pytest.fixture(scope="session")
 def processed_links(raw_sitemap, xml_tag):
-    soup = bs.BeautifulSoup(raw_sitemap, 'xml')
+    soup = bs.BeautifulSoup(raw_sitemap, 'lxml')
     sitemap_links = soup.findAll(xml_tag)
     all_links = []
     for i in range(0, len(sitemap_links)):
