@@ -2,6 +2,6 @@ language: python
 python:
   - "3.5"
 # command to install dependencies
-install: "pip install bs4 pandas"
+install: "pip install bs4 pandas pytest"
 # command to run tests
 script: pytest
