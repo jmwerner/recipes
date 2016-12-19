@@ -5,5 +5,4 @@ install: "pip install bs4 pandas pytest requests html5lib"
 script: "py.test"
 branches:
   only:
-  - master
   - gh-pages
