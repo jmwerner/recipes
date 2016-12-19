@@ -1,5 +1,7 @@
 # Werner Family Recipes
 
+[![Build Status](https://travis-ci.org/jmwerner/recipes.svg?branch=master)](https://travis-ci.org/jmwerner/recipes)
+
 This is a repo for dynamically creating a website for storing and hosting Werner family recipes. This code is not unit tested, so use at your own risk! 
 
 Shoutout to my wife for the data entry.
