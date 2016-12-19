@@ -1,9 +1,7 @@
 import pytest
-import pandas as pd 
+import requests
 
-def test_links():
-    assert 1 == 1
-    assert 2 == 2
+def test_links(processed_links):
+    for link in processed_links:
+        assert requests.get(link).ok
 
-
-    
