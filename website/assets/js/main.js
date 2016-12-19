@@ -207,3 +207,19 @@ $(document).ready(function(){
     $(this).toggleClass("checked");
   });
 });
+
+// Function and variables for capturing search input (courtesy of stackoverflow)
+
+//creates a listener for when you press a key
+window.onkeyup = keyup;
+//creates a global Javascript variable
+var inputTextValue;
+
+function keyup(e) {
+	//setting your input text to the global Javascript Variable for every key press
+	inputTextValue = e.target.value;
+	//listens for you to press the ENTER key, at which point your web address will change to the one you have input in the search box
+	if (e.keyCode == 13) {
+	    window.location = "https://cse.google.com/cse/publicurl?cx=009416170567840886498:vfkolqafpew&q=" + inputTextValue;
+	}
+}

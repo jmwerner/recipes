@@ -135,12 +135,16 @@ def preprocess_directions(directions):
     return output
 
 def create_category_menu_links(categories, is_recipe = False):
+    output_html_string = ''
+
     if is_recipe:
         extra_path = '../'
     else:
         extra_path = ''
 
-    output_html_string = '<ul>\n'
+    output_html_string += '<input name=\"searchTxt\" type=\"text\" maxlength=\"512\" id=\"searchTxt\" placeholder=\"Search Here...\" class=\"searchField\"/>'
+    output_html_string += '<br>'
+    output_html_string += '<ul>\n'
     output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
 
     for i in range(0, len(categories)):
