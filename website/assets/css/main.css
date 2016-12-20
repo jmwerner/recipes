@@ -2594,6 +2594,17 @@
 			opacity: 0.25;
 		}
 
+	#searchButton{
+		box-shadow: inset 0 0 0 2px #ffffff;
+		color: #ffffff !important;
+		opacity: 0.75;
+	}
+
+	#searchButton:hover {
+		color: #f2849e !important;
+		box-shadow: inset 0 0 0 2px #f2849e;
+	}
+
 /* Tiles */
 
 	.tiles {

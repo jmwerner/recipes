@@ -142,8 +142,11 @@ def create_category_menu_links(categories, is_recipe = False):
     else:
         extra_path = ''
 
-    output_html_string += '<input name=\"searchTxt\" type=\"text\" maxlength=\"512\" id=\"searchTxt\" placeholder=\"Search Here...\" class=\"searchField\"/>'
-    output_html_string += '<br>'
+    output_html_string += '<button onclick=\"enterKeyRedirect()\" id=\"searchButton\" style=\"float:right\">Search</button>'
+    output_html_string += '<div style=\"overflow:hidden; padding-right: .5em;\">'
+    output_html_string += '<input class=\"searchField\" id=\"searchTxt\" maxlength=\"512\" name=\"searchTxt\" placeholder=\"Search Here...\" type=\"text\" style=\"width: 100%\"/>'
+    output_html_string += '</div>'
+    output_html_string += '<br><br>'
     output_html_string += '<ul>\n'
     output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
 

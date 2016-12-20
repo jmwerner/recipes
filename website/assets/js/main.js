@@ -223,3 +223,9 @@ function keyup(e) {
 	    window.location = "https://cse.google.com/cse/publicurl?cx=009416170567840886498:vfkolqafpew&q=" + inputTextValue;
 	}
 }
+
+// Search button for redirect
+function enterKeyRedirect() {
+	inputTextValue = $("#searchTxt")[0].value;
+	window.location = "https://cse.google.com/cse/publicurl?cx=009416170567840886498:vfkolqafpew&q=" + inputTextValue;
+}
