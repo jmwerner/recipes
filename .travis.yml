@@ -5,5 +5,4 @@ install: "pip install lxml html5lib bs4 pandas pytest requests"
 script: "py.test"
 branches:
   only:
-  - master
   - gh-pages
