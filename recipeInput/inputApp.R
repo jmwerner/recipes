@@ -13,11 +13,11 @@ ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
 directions_field_names = paste0("directions_", 1:numberOfDirections)
 
 # which fields get saved 
-fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "notes", 
+fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "recipeLink", "notes", 
               ingredient_field_names, directions_field_names)
 
 # which fields are mandatory
-fieldsMandatory = c("recipeName", "recipeCategory", "recipeSource", "directions_1")
+fieldsMandatory = c("recipeName", "recipeCategory", "directions_1")
 
 # add an asterisk to an input label
 labelMandatory = function(label){
@@ -84,6 +84,7 @@ saveData = function(data){
         "recipeName" = data$recipeName[[1]],
         "recipeCategory" = data$recipeCategory[[1]],
         "recipeSource" = data$recipeSource[[1]],
+        "recipeLink" = data$recipeLink[[1]],
         "directions" = toJSON(directionsList),
         "timestamp" = data$timestamp[[1]],
         "notes" = data$notes[[1]],
@@ -149,7 +150,13 @@ shinyApp(
 
     wellPanel(
         fluidRow(
-            textInput("recipeSource", label = labelMandatory("Recipe Source (url)"), value = "")
+            textInput("recipeSource", label = "Recipe Source (person)", value = "")
+        )
+    ),
+
+    wellPanel(
+        fluidRow(
+            textInput("recipeLink", label = "Recipe Link (url)", value = "")
         )
     ),
 
