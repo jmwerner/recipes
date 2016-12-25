@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Zucchini Bread"
+    ],
+    "recipeCategory": [
+        "Bread"
+    ],
+    "recipeSource": [
+        "Lori Giedt"
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Cream eggs, oil, and sugar. \"],[\"Sift flour, salt, soda, cinnamon, and baking powder and add to creamed mixture. \"],[\"Peel and grate zucchini. Add zucchini, vanilla, and nuts to creamed mixture.   \"],[\"Grease loaf pans. Bake 1 hour at 325.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161225-110110"
+    ],
+    "notes": [
+        "Makes 2 loaves.  "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"oil\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"sugar\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"soda\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cinnamon\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking powder\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"zucchini\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"nuts\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

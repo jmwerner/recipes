@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Red Velvet Cake"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        "Grandma Schuelke"
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Cream shortening, eggs, and sugar. Make paste of cocoa and part of food coloring.\"],[\"Add this and the rest of the food coloring to creamed mixture. \"],[\"Sift flour and salt. Add flour mixture and buttermilk to creamed mixture, alternating the two.  \"],[\"Add vinegar. Stir soda and vanilla together and add to batter. Mix well.\"],[\"Bake 2 8 in pans for 30 minutes at 350 degrees.\"],[\"Cream butter and sugar until fluffy. \"],[\"Cook milk and flour until thick. Cool milk mixture. \"],[\"Add vanilla to sugar and butter, then add milk gradually, beating constantly. \"],[\"Split cake into layers. Frost between layers and on top but not the sides. \"],[\"Store cake in refrigerator.\"]]"
+    ],
+    "timestamp": [
+        "20161225-111400"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"shortening\"],\"category\":[\"cake\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"sugar\"],\"category\":[\"cake\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"cake\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"cocoa\"],\"category\":[\"cake\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"red food coloring\"],\"category\":[\"cake\"]},{\"number\":[\"2.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"cake flour \"],\"category\":[\"cake\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"cake\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"buttermilk\"],\"category\":[\"cake\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vinegar\"],\"category\":[\"cake\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla\"],\"category\":[\"cake\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking soda\"],\"category\":[\"cake\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"butter\"],\"category\":[\"frosting\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"milk\"],\"category\":[\"frosting\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"vanilla\"],\"category\":[\"frosting\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"sugar \"],\"category\":[\"frosting\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Flour\"],\"category\":[\"frosting\"]}]"
+    ]
+}
+
