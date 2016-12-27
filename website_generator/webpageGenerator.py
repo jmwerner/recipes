@@ -12,6 +12,7 @@ ingredients_tag = '<RECIPE_INGREDIENTS_GO_HERE>'
 category_links_tag = '<RECIPE_CATEGORY_LINKS_GO_HERE>'
 recipe_links_tag = '<RECIPE_LINKS_GO_HERE>'
 menu_links_tag = '<MENU_LINKS_GO_HERE>'
+recipe_origin_tag = '<RECIPE_ORIGIN_GOES_HERE>'
 
 
 recipe_html_template_path = 'templates/recipeTemplate.html'
@@ -125,6 +126,15 @@ def create_directions_html(directions):
             output_html_string += '<li>' + directions_list[i][0] + '</li>' + '\n'
     output_html_string += '</ol>' + '\n'
     return output_html_string
+
+def create_recipe_origin_html(recipe_source):
+    if recipe_source not in ['NA', '']:
+        recipe_origin_html = '<p><i> Recipe from '
+        recipe_origin_html += recipe_source
+        recipe_origin_html += '</i></p>'
+    else:
+        recipe_origin_html = ''
+    return recipe_origin_html
 
 def preprocess_directions(directions):
     output = directions
@@ -258,12 +268,10 @@ if __name__ == '__main__':
             all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
 
             ingredients_html = create_ingredients_html(recipe['ingredients'], recipe_in_category)
-
             directions_html = create_directions_html(recipe['directions'])
-
             notes_html = create_notes_html(recipe['notes'][0])
-
             recipe_menu_links_html = create_category_menu_links(all_categories, is_recipe = True)
+            recipe_origin_html = create_recipe_origin_html(recipe['recipeSource'][0])
 
             recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
             recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
@@ -271,6 +279,7 @@ if __name__ == '__main__':
             recipe_html = recipe_html.replace(directions_tag, directions_html)
             recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
             recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
+            recipe_html = recipe_html.replace(recipe_origin_tag, recipe_origin_html)
 
             subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 
