@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Popovers"
+    ],
+    "recipeCategory": [
+        "Bread"
+    ],
+    "recipeSource": [
+        "Colleen Wallien"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 425 and generously grease popover pan.\"],[\"Pour milk into medium size mixing bowl. Add flour and salt. With rotary beater or wire whisk, beat until well blended. Do not over-beat.\"],[\"Add the eggs one at a time, beating until completely blended. \"],[\"Pour batter into popover cups, filling three-fourths full. Do not scrape bowl.\"],[\"Bake at 425 for 20 minutes, reduce oven temperature to 325 and continue baking 15 to 20 minutes or until golden brown. Serve immediately. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161227-113349"
+    ],
+    "notes": [
+        "One serving makes enough for a popover pan of 6. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Flour\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
