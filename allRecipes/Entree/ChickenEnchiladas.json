@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chicken Enchiladas"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "Colleen Wallien"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Cook onion and margarine until tender. Stir in flour, water, and bouillon. Boil for 1 minute. Remove from heat. Stir in sour cream.\"],[\"In a bowl, mix approximately two thirds of the sauce, chicken, half of the cheese, chilis, and cumin. \"],[\"Put chicken mixture into tortillas and roll. Place filled tortillas into greased 9x13 baking pan.\"],[\"Top full pan with sauce and cheese, bake at 350 for 25 minutes.\"],[\"Garnish with lettuce, black olives, and a healthy dollop of sour cream. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161227-114933"
+    ],
+    "notes": [
+        "Can be made ahead of time and stored in the refrigerator. Additional baking time might be required. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Onion, chopped\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Margarine\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Flour\"],\"category\":[\"\"]},{\"number\":[\"2.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Hot water\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Instant chicken bouillon\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Sour cream\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cooked chicken, chopped\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shredded cheddar cheese\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Chopped green chilis\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cumin\"],\"category\":[\"\"]},{\"number\":[\"10\"],\"units\":[\"Whole\"],\"name\":[\"Tortillas, 8-inch\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
