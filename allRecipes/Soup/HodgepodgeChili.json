@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Hodgepodge Chili"
+    ],
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeSource": [
+        "Paul Wallien"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Heat oil in Dutch oven over medium heat. Remove sausage from casing, add sausage and beef. Cook until browned. \"],[\"Stir in onion, bell pepper, garlic, jalapenos, chili powder, cumin, and salt. Cook, stirring often, until onion softens, about 4 minutes. \"],[\"Add beans, tomatoes, broth, tomato paste, cilantro and parsley. Stir to combine.\"],[\"Cook, partly covered, until flavors have blended, about 3 hours. \"],[\"Adjust seasonings as necessary, serve with desired toppings. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161226-204813"
+    ],
+    "notes": [
+        "Don't use crushed tomatoes. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Vegetable oil\"],\"category\":[\"Meat\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Italian sausage \"],\"category\":[\"Meat\"]},{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Steak, chopped\"],\"category\":[\"Meat\"]},{\"number\":[\"1 \"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground beef\"],\"category\":[\"Meat\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, chopped\"],\"category\":[\"Vegetables\"]},{\"number\":[\"4\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Vegetables\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Jalapeno peppers, chopped\"],\"category\":[\"Vegetables\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chili powder\"],\"category\":[\"Seasonings\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Cumin\"],\"category\":[\"Seasonings\"]},{\"number\":[\".75\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Seasonings\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Kidney beans\"],\"category\":[\"Canned Items\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Great northern beans, or your favorite beans, undrained\"],\"category\":[\"Canned Items\"]},{\"number\":[\"28\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Diced tomatoes, undrained\"],\"category\":[\"Canned Items\"]},{\"number\":[\"16\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"Canned Items\"]},{\"number\":[\"6\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato paste\"],\"category\":[\"Canned Items\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Parsley, chopped\"],\"category\":[\"Seasonings\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cilantro, chopped\"],\"category\":[\"Seasonings\"]}]"
+    ]
+}
+
