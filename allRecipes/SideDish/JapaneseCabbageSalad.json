@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Japanese Cabbage Salad"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        "Colleen Wallien"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Smash ramen into pieces (while in package), add ramen with seasoning and remaining browning ingredients in frying pan. Brown slightly while stirring. Cool on paper towel and set aside.\"],[\"Mix all dressing ingredients in separate 'shaker' container and shake well before using. \"],[\"Mix all 3 parts of the recipe together one hour prior to serving. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161226-182221"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Package cole slaw mix\"],\"category\":[\"Salad\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Green long stemmed onions, chopped\"],\"category\":[\"Salad\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Oriental chicken ramen package\"],\"category\":[\"Browning mixture\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Margarine\"],\"category\":[\"Browning mixture\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Sesame seeds\"],\"category\":[\"Browning mixture\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Slivered almonds\"],\"category\":[\"Browning mixture\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Soy sauce\"],\"category\":[\"Dressing\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Light oil\"],\"category\":[\"Dressing\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"White vinegar\"],\"category\":[\"Dressing\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"White and brown sugar mixture\"],\"category\":[\"Dressing\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

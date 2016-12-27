@@ -1,5 +1,6 @@
 import pytest
 import bs4 as bs
+import os
 
 @pytest.fixture(scope="session")
 def sitemap_name():
@@ -34,3 +35,18 @@ def processed_links(raw_sitemap, xml_tag):
         stripped_link = strip_link(sitemap_links[i], xml_tag)
         all_links.append(stripped_link)
     return all_links
+
+@pytest.fixture(scope="session")
+def recipe_raw_folder_name():
+    return 'allRecipes'
+
+@pytest.fixture(scope="session")
+def recipe_category_names(recipe_raw_folder_name):
+    categories = []
+    for folder in os.listdir(recipe_raw_folder_name):
+        if not folder.startswith('.'):
+            categories.append(folder)
+    return categories
+
+
+
