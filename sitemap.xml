@@ -147,6 +147,11 @@
  </url>
  <url>
   <loc>
+   https://jmwerner.github.io/recipes/website/allRecipes/Dessert/AlmondBars.html
+  </loc>
+ </url>
+ <url>
+  <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Dessert/BakedCarmelCorn.html
   </loc>
  </url>
@@ -213,6 +218,11 @@
  <url>
   <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Entree/ChickenAlfredoSpaghettiSquash.html
+  </loc>
+ </url>
+ <url>
+  <loc>
+   https://jmwerner.github.io/recipes/website/allRecipes/Entree/ChickenEnchiladas.html
   </loc>
  </url>
  <url>
@@ -298,11 +308,6 @@
  <url>
   <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Hotdish.html
-  </loc>
- </url>
- <url>
-  <loc>
-   https://jmwerner.github.io/recipes/website/allRecipes/Hotdish/ChickenEnchiladaHotdish.html
   </loc>
  </url>
  <url>
@@ -513,6 +518,11 @@
  <url>
   <loc>
    https://jmwerner.github.io/recipes/website/allRecipes/Soup/HodgepodgeChili.html
+  </loc>
+ </url>
+ <url>
+  <loc>
+   https://jmwerner.github.io/recipes/website/allRecipes/Soup/TortillaSoup.html
   </loc>
  </url>
 </urlset>
