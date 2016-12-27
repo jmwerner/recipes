@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Almond Bars"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        "Colleen Wallien"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350.\"],[\"Mix all crust ingredients and pat into a greased 9x13 pan. Bake for 20 minutes.\"],[\"Beat filling ingredients with mixer. Pour over hot crust. Bake 15-20 minutes.\"],[\"Mix all frosting ingredients, frost when cool.\"],[\"Sprinkle almond slices on top.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161227-120258"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Flour\"],\"category\":[\"Crust\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Butter\"],\"category\":[\"Crust\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Powdered sugar\"],\"category\":[\"Crust\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cream cheese\"],\"category\":[\"Filling\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"Filling\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sugar\"],\"category\":[\"Filling\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Almond extract\"],\"category\":[\"Filling\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Powdered sugar\"],\"category\":[\"Frosting\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Butter\"],\"category\":[\"Frosting\"]},{\"number\":[\"1.5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Milk\"],\"category\":[\"Frosting\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Almond extract\"],\"category\":[\"Frosting\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
