@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Taco Soup"
+    ],
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeSource": [
+        "Heidi Jordan"
+    ],
+    "recipeLink": [
+        "http://www.food.com/recipe/weight-watchers-low-fat-taco-soup-157732"
+    ],
+    "directions": [
+        "[[\"Brown the meat and onions and drain.\"],[\"Mix ranch dressing mix and taco seasoning mix into the meat.\"],[\"Without draining, add all other ingredients.\"],[\"Simmer 1 hour.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161228-184022"
+    ],
+    "notes": [
+        "Top with sour cream, cheese, corn chips as desired."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground Turkey\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Package Hidden Valley ranch\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Package Taco seasoning\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"Black Beans\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sweet Corn\"],\"category\":[\"\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Stewed tomatoes (Mexican Flavored)\"],\"category\":[\"\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Stewed tomatoes\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
