@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Potato Soup"
+    ],
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeSource": [
+        "Anita Werner"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Combine Base ingredients in pot and simmer for 10-15 minutes.\"],[\"Add Base Addition ingredients to the soup base and mix. \"],[\"Add Sauce ingredients to separate sauce pan, mix and cook until thick. Add to base ingredients in pot.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20161229-174600"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Potatoes, diced\"],\"category\":[\"Base\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Celery\"],\"category\":[\"Base\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Onion\"],\"category\":[\"Base\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cooked ham\"],\"category\":[\"Base\"]},{\"number\":[\"3.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chicken boullion\"],\"category\":[\"Base Addition\"]},{\"number\":[\"1\"],\"units\":[\"Dash(es)\"],\"name\":[\"Pepper\"],\"category\":[\"Base Addition\"]},{\"number\":[\"5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Butter\"],\"category\":[\"Sauce\"]},{\"number\":[\"5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Flour\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"Sauce\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
