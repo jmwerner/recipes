@@ -2,7 +2,11 @@
 
 [![Build Status](https://travis-ci.org/jmwerner/recipes.svg?branch=gh-pages)](https://travis-ci.org/jmwerner/recipes)
 
-This is a repo for dynamically creating a website for storing and hosting Werner family recipes. This code is not unit tested, so use at your own risk! 
+![Recipe Cards](website/images/recipe_card.png)
+
+This is a repo for dynamically creating a website for storing and hosting Werner family recipes. 
+
+This code is not unit tested, so use at your own risk! The website itself is tested with travis to make sure there are no dead links, but the other code (and input app in particular) is dangerous. 
 
 Shoutout to my wife for the data entry.
 
