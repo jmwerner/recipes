@@ -7,6 +7,10 @@ def sitemap_name():
     return 'sitemap.xml'
 
 @pytest.fixture(scope="session")
+def base_url():
+    return 'https://jmwerner.github.io/recipes/website/index.html'
+
+@pytest.fixture(scope="session")
 def xml_tag():
     return 'loc'
 
@@ -27,7 +31,7 @@ def raw_sitemap(sitemap_name):
     return sitemap
 
 @pytest.fixture(scope="session")
-def processed_links(raw_sitemap, xml_tag):
+def processed_links_from_sitemap(raw_sitemap, xml_tag):
     soup = bs.BeautifulSoup(raw_sitemap, 'lxml')
     sitemap_links = soup.findAll(xml_tag)
     all_links = []
@@ -47,6 +51,4 @@ def recipe_category_names(recipe_raw_folder_name):
         if not folder.startswith('.'):
             categories.append(folder)
     return categories
-
-
 
