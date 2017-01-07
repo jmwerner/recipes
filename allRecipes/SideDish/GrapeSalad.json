@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Grape Salad"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Mix cream cheese, sour cream, cool whip, and brown sugar. \"],[\"Toss in washed red seedless grapes. \"],[\"Add slivered almonds. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-160251"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"cream cheese, softened\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"sour cream\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"cool whip\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown sugar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"bunch red seedless grapes\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"slivered almonds\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

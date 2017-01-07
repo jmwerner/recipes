@@ -254,7 +254,7 @@ if __name__ == '__main__':
         all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
         export_string_to_file('..' + category_page_name, category_html)
 
-        for recipe_in_category in all_recipes_in_category:     
+        for recipe_in_category in all_recipes_in_category: 
             recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
 
             recipe = import_json(recipePath)

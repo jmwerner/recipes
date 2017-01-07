@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Oven Fried Chicken"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Dip chicken pieces in butter. \"],[\"Combine parmesan cheese, bread crumbs, sesame seeds, paprika, and thyme.  \"],[\"Dip chicken into crumb mixture. \"],[\"Place on a greased 15x10x1 inch baking pan. Drizzle any remaining butter over chicken. \"],[\"Bake at 375 for 45-55 minutes or until juices run clear. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-144420"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3\"],\"units\":[\"Pound(s)\"],\"name\":[\"broiler-fryer chicken, cut up\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"butter, melted\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"grated parmesan cheese\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"dry bread crumbs \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"sesame seeds\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"paprika\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"dried thyme \"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

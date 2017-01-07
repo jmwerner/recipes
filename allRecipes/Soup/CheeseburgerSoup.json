@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cheeseburger Soup"
+    ],
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"In a 3-quart saucepan, brown beef, drain and set aside. \"],[\"In the same saucepan, saute onions, carrots, celery, basil, and parsley in 1 tablespoon butter until vegetables are tender, about 10 minutes. \"],[\"Add broth, potatoes, and beef, bring to a boil. \"],[\" Reduce heat, cover and simmer 10-12 minutes until potatoes are tender. \"],[\"Meanwhile, in a small skillet melt remaining butter. Add flour, cook and stir 3-5 minutes or until bubbly. Add to soup and bring to a boil. Cook and stir 2 minutes. Reduce heat to low. \"],[\"Add cheese, milk, salt and pepper. Cook and stir until cheese melts.\"],[\"Remove from heat, blend in sour cream. \"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-141855"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\".5\"],\"units\":[\"Pound(s)\"],\"name\":[\"hamburger \"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"onion, chopeed\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"carrots, shredded\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"celery, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"dried basil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"parsley flakes\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"butter, divided\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken broth\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"potatoes, peeled and diced\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"all-purpose flour\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"processed American cheese, cubed\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"milk\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"pepper\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"sour cream \"],\"category\":[\"\"]}]"
+    ]
+}
+

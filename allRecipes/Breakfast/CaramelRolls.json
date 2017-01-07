@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Caramel Rolls"
+    ],
+    "recipeCategory": [
+        "Breakfast"
+    ],
+    "recipeSource": [
+        "Grandma Schuelke"
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Thaw bread dough in the evening. Before bedtime, pick off pieces of bread dough. Mix in sack with cinnamon and sugar. Place in a 9x13 inch pan. \"],[\"Place caramel ingredients in a pan and bring to a boil. Pour over bread dough.\"],[\"Let raise overnight and bake in the morning at 325 for 30 minutes. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-150532"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"loaf frozen bread dough\"],\"category\":[\"rolls\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"sugar\"],\"category\":[\"rolls\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cinnamon\"],\"category\":[\"rolls\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown sugar\"],\"category\":[\"caramel\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"vanilla ice cream\"],\"category\":[\"caramel\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"margarine\"],\"category\":[\"caramel\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cheese Ball"
+    ],
+    "recipeCategory": [
+        "Appetizer"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Soften the cream cheese. Finely chop the dried beef and green onions. Drain and chop the mushrooms and black olives.\"],[\"Mixed chopped ingredients with softened cream cheese and accent. \"],[\"Form into 1 or 2 balls. \"],[\"Flavor is better if made 1-2 days ahead. \"],[\"Serve with crackers. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-135141"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"packages cream cheese \"],\"category\":[\"\"]},{\"number\":[\"2.5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"dried beef\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"bunch green onions\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"can mushrooms\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"pitted black olives\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"accent\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

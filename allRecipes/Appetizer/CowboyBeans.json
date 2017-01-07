@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cowboy Beans"
+    ],
+    "recipeCategory": [
+        "Appetizer"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Put pork and beans, lima beans, and red beans in slow cooker. \"],[\"Stir in brown sugar, ketchup, and vinegar. \"],[\"Brown bacon, cut into small pieces and put into slow cooker. \"],[\"Brown hamburger and onion. When brown, add to slow cooker. \"],[\"Cook on high for 1 hour. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-143743"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"pork and beans\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"lima beans, drained\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"red beans\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown sugar\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"ketchup\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vinegar\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"bacon\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"small onion\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"hamburger\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

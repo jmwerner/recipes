@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Hamburger Cheese Dip"
+    ],
+    "recipeCategory": [
+        "Appetizer"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Brown hamburger.\"],[\"Put cheese, cheese soup, salsa, and can of milk into a crockpot. Heat until melted. Add hamburger. \"],[\" Serve with tortilla chips. \"],[\" \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-140627"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"hamburger \"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Velveeta cheese\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"fiesta nacho cheese soup\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"chunky style salsa \"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"milk\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chocolate Sundae Dessert"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        "Grandma Schuelke"
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Crush cookies, add butter, and blend well. \"],[\"Reserve 1/2 cup for topping and press remaining crumbs into a 9x13 pan. Freeze\"],[\"Combine sugar, milk, and chocolate. Bring to a boil and then cool.\"],[\"Layer softened ice cream over frozen crumbs. \"],[\"Poor cooked chocolate mixture over ice cream and refreeze.\"],[\"Spread whipped cream over dessert. Sprinkle reserved crumbs and nuts over top. \"],[\"Keep frozen until 15 minutes before serving.\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-134348"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"20\"],\"units\":[\"Whole\"],\"name\":[\"chocolate oreos\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"butter, melted\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"sugar\"],\"category\":[\"\"]},{\"number\":[\"16/3\"],\"units\":[\"Ounce(s)\"],\"name\":[\"evaporated milk\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"unsweetened chocolate squares\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"vanilla ice cream\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"whipping cream, whipped\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"chopped nuts\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

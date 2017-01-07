@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Tuna Fish Pinwheels"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "Grandma Giedt"
+    ],
+    "recipeLink": [
+        "n/a"
+    ],
+    "directions": [
+        "[[\"Place butter, onion, and celery in skillet. Cook until vegetables are soft. \"],[\"Add flour, blend. Stir in tuna and mushroom soup. Cool.\"],[\"Mix flour, baking powder, and salt. Cut in shortening. Add milk. Knead gently for 30 seconds. \"],[\"Roll out. Add filling and then roll up like a jelly roll. Seal then slice in 1 inch slices. \"],[\"Bake until dough is done. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170106-151722"
+    ],
+    "notes": [
+        "Can be served with mushroom soup and milk mixed together on top. \nIf you let the pinwheels sit before baking the dough will get a bit firmer. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"butter\"],\"category\":[\"filling\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"small onion, chopped\"],\"category\":[\"filling\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"celery, chopped\"],\"category\":[\"filling\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"flour\"],\"category\":[\"filling\"]},{\"number\":[\"7\"],\"units\":[\"Ounce(s)\"],\"name\":[\"can of tuna\"],\"category\":[\"filling\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"mushroom soup\"],\"category\":[\"filling\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"dough \"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking powder\"],\"category\":[\"dough\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"dough\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"shortening\"],\"category\":[\"dough\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"milk\"],\"category\":[\"dough\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
