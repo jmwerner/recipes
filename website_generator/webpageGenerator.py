@@ -84,11 +84,29 @@ def create_html_list_from_ingredients(ingredients_list):
     output_html_string = '<ul>' + '\n'
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
-            output_html_string += '<li>' + ingredients_list[i]['number'][0] + \
+            ingredient_number = convert_to_mixed_number(ingredients_list[i]['number'][0])
+            output_html_string += '<li>' + ingredient_number + \
                 ' ' + ingredients_list[i]['units'][0] + ' ' + \
                 ingredients_list[i]['name'][0] +  '</li>' + '\n'
     output_html_string += '</ul>' + '\n'
     return output_html_string
+
+def convert_to_mixed_number(input_string):
+    splits = input_string.split('/')
+    if len(splits) == 1:
+        fraction_parts = float(input_string).as_integer_ratio()
+    else: 
+        fraction_parts = (int(splits[0]), int(splits[1]))
+    leading_integer = fraction_parts[0] // fraction_parts[1]
+    fraction_numerator = fraction_parts[0] % fraction_parts[1]
+    output_string = ''
+    if leading_integer > 0:
+        output_string += str(leading_integer)
+        if fraction_numerator > 0:
+            output_string += ' '
+    if fraction_numerator > 0:
+        output_string += str(fraction_numerator) + '/' + str(fraction_parts[1])
+    return output_string
 
 def recipe_categories_exist(ingredients_list, recipe_name):
     if 'category' not in list(ingredients_list[0].keys()):
