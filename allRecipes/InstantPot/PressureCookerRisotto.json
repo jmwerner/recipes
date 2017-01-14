@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Pressure Cooker Risotto"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://www.hippressurecooking.com/pressure-cooker-risotto-in-7-minutes/"
+    ],
+    "directions": [
+        "[[\"In a pre-heated pressure cooker heat the oil and saute the onion until it becomes translucent. \"],[\"Add the rice and lightly toast it to release the starch. When you add the Arborio rice to the onions, the rice will turn from solid white to translucent as it absorbs the oil and onion juice, then in about a minute back to white. Wait until just a couple of grains look golden and your rice is toasted!\"],[\"Add a swig of white wine and un-stick any grains from the bottom of the cooker. Stir until wine has fully evaporated. \"],[\"Add broth, mix and lock top immediately.\"],[\"Cook 5-6 minutes at high pressure.\"],[\"Mix in any desired additions and enjoy. \"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170113-180959"
+    ],
+    "notes": [
+        "Some potential ingredients to add pre-cooking are mushrooms and veggies. Some potential ingredients to add post-cooking are shredded parmesan cheese and butter."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Arborio rice\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken stock or broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, chopped\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"White wine\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
