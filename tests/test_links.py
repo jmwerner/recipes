@@ -36,7 +36,8 @@ def check_all_links_on_page(url):
     for page_name in links:
         url_check = url_is_valid(root_url + '/' + page_name)
         if not url_check:
-            print('ERROR: ' + root_url + '/' + page_name + ' is broken!')
+            print('ERROR: ' + root_url + '/' + page_name + '\n on page ' + \
+                  url + ' is broken!')
         assert url_check
 
 #########
