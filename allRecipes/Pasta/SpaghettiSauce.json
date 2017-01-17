@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Spaghetti Sauce"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        "Dez and Jer"
+    ],
+    "recipeLink": [
+        "NA"
+    ],
+    "directions": [
+        "[[\"Fry sausage and beef until brown, drain and remove from pan.\"],[\"Fry onions, garlic, and mushrooms in olive oil until onions are transparent. \"],[\"Add meat, tomato sauce, wine, diced tomatoes, herbs, and spices.\"],[\"Simmer for approximately 30 minutes. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170116-192018"
+    ],
+    "notes": [
+        "Italian seasonings are simply a mixture of oregano, basil, marjoram, sage, etc. Pre-made mixtures can be purchased at the store. \n\nCrushed red pepper flakes are another recommended addition. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground beef\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground hot Italian sausage\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Large onion, chopped\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"mushrooms, washed and chopped\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Fresh garlic cloves, minced\"],\"category\":[\"\"]},{\"number\":[\"30\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"30\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Diced tomatoes, drained\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dry merlot\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fresh chopped basil\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Dash(es)\"],\"name\":[\"Salt and pepper\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Italian seasonings\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
