@@ -228,5 +228,12 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
+  <script>
+   function rescaleRecipe(){
+      var button = document.getElementById("scalingButton");
+      button.innerText = buttonValues[recipeIterator] + "X";
+      recipeIterator = (recipeIterator + 1) % buttonValues.length;
+    }
+  </script>
  </body>
 </html>

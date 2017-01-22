@@ -13,6 +13,7 @@ category_links_tag = '<RECIPE_CATEGORY_LINKS_GO_HERE>'
 recipe_links_tag = '<RECIPE_LINKS_GO_HERE>'
 menu_links_tag = '<MENU_LINKS_GO_HERE>'
 recipe_origin_tag = '<RECIPE_ORIGIN_GOES_HERE>'
+recipe_scaling_tag = '<RECIPE_SCALING_GOES_HERE>'
 
 
 recipe_html_template_path = 'templates/recipeTemplate.html'
@@ -248,6 +249,14 @@ def add_spaces_to_proper(name):
     s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
     return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1)
 
+def create_recipe_scaling_js(ingredients, recipe_name):
+    output_string = 'function rescaleRecipe(){\n\
+      var button = document.getElementById(\"scalingButton\");\n\
+      button.innerText = buttonValues[recipeIterator] + \"X\";\n\
+      recipeIterator = (recipeIterator + 1) % buttonValues.length;\n\
+    }\n'
+    return output_string
+
 ################################################################################
 # Create recipes pages & category pages
 ################################################################################
@@ -294,6 +303,7 @@ if __name__ == '__main__':
             notes_html = create_notes_html(recipe['notes'][0])
             recipe_menu_links_html = create_category_menu_links(all_categories, is_recipe = True)
             recipe_origin_html = create_recipe_origin_html(recipe['recipeSource'][0])
+            recipe_scaling_js = create_recipe_scaling_js(recipe['ingredients'], recipe_in_category)
 
             recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
             recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
@@ -302,6 +312,7 @@ if __name__ == '__main__':
             recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
             recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
             recipe_html = recipe_html.replace(recipe_origin_tag, recipe_origin_html)
+            recipe_html = recipe_html.replace(recipe_scaling_tag, recipe_scaling_js)
 
             subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 
