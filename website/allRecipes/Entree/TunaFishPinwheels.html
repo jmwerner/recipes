@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -131,37 +136,37 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-filling-0">
+         <span class="recipeNumber" value="4">
           4
          </span>
          Tablespoons Butter
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-filling-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Small Onion, Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-filling-2">
+         <span class="recipeNumber" value="1/3">
           1/3
          </span>
          Cup Celery, Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-filling-3">
+         <span class="recipeNumber" value="4">
           4
          </span>
          Tablespoons Flour
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-filling-4">
+         <span class="recipeNumber" value="7">
           7
          </span>
          Ounces Can Of Tuna
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-filling-5">
+         <span class="recipeNumber" value="1/3">
           1/3
          </span>
          Cup Mushroom Soup
@@ -172,7 +177,7 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dough -0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cups Flour
@@ -183,25 +188,25 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dough-0">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Teaspoons Baking Powder
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dough-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dough-2">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Shortening
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dough-3">
+         <span class="recipeNumber" value="3/4">
           3/4
          </span>
          Cup Milk
@@ -243,6 +248,8 @@
 If you let the pinwheels sit before baking the dough will get a bit firmer.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -270,12 +277,7 @@ If you let the pinwheels sit before baking the dough will get a bit firmer.
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

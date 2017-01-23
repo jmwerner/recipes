@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -128,67 +133,67 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Cup Onion, Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Margarine
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Flour
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="2 1/2">
           2 1/2
          </span>
          Cups Hot Water
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Tablespoon Instant Chicken Bouillon
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Ounces Sour Cream
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="4">
           4
          </span>
          Cups Cooked Chicken, Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cups Shredded Cheddar Cheese
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-8">
+         <span class="recipeNumber" value="4">
           4
          </span>
          Ounces Chopped Green Chilis
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-9">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Cumin
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-10">
+         <span class="recipeNumber" value="10">
           10
          </span>
          Whole Tortillas, 8-Inch
@@ -225,6 +230,8 @@
       Can be made ahead of time and stored in the refrigerator. Additional baking time might be required.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -252,12 +259,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -131,37 +136,37 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Ham balls-0">
+         <span class="recipeNumber" value="2 1/2">
           2 1/2
          </span>
          Pounds Smoked Ham
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Ham balls-1">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Pounds Lean Pork
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Ham balls-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pound Lean Beef
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Ham balls-3">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Whole Eggs
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Ham balls-4">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cups Milk
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Ham balls-5">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Cups Graham Crackers
@@ -172,25 +177,25 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Sauce-0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cans Tomato Soup
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Sauce-1">
+         <span class="recipeNumber" value="2 1/4">
           2 1/4
          </span>
          Cups Brown Sugar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Sauce-2">
+         <span class="recipeNumber" value="3/4">
           3/4
          </span>
          Cup White Vinegar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Sauce-3">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Teaspoons Dry Mustard
@@ -222,6 +227,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -249,12 +256,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

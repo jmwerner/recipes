@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -126,37 +131,37 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-batter-0">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pound Chicken, Cubed
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-batter-1">
+         <span class="recipeNumber" value="5">
           5
          </span>
          Whole Dried Chili Peppers
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-batter-2">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Whole Green Onions, Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-batter-3">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Whole Eggs, Beaten
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-batter-4">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Cornstarch
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-batter-5">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Oil for Frying
@@ -167,31 +172,31 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-sauce-0">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Tablespoons Rice Vinegar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-sauce-1">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Rice Wine
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-sauce-2">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Tablespoons Sugar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-sauce-3">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Tablespoons Soy Sauce
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-sauce-4">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Teaspoons Cornstarch
@@ -226,6 +231,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -253,12 +260,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

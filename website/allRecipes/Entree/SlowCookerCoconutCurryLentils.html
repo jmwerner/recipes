@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -123,85 +128,85 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Yellow Onion
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cloves Garlic, Minced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cups Brown Lentils
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Sweet Potato
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Whole Carrots
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Tablespoons Curry Powder
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Teaspoon Cloves
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Petite Diced Tomatoes
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-8">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Tomato Sauce
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-9">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Cups Vegetable or Chicken Broth
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-10">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Coconut Milk
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-11">
+         <span class="recipeNumber" value="5">
           5
          </span>
          Cups Cooked Rice
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-12">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Whole Red Onion
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-13">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Whole Bunch Cilantro or Green Onions
@@ -232,6 +237,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -259,12 +266,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

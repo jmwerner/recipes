@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -123,61 +128,61 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Whole Medium Spaghetti Squash
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Tablespoon Olive Oil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Sweet Onion, Sliced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Ounces Mushrooms, Sliced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Fresh Rosemary
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="3/4">
           3/4
          </span>
          Teaspoon Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Pepper
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Chicken Broth
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-8">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Tablespoon Garlic Puree
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-9">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Chopped Basil or Parsley
@@ -211,6 +216,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -238,12 +245,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -128,49 +133,49 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pound Ground Turkey
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Onion
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Package Hidden Valley Ranch
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Package Taco Seasoning
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Black Beans
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Cup Sweet Corn
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="15">
           15
          </span>
          Ounces Stewed Tomatoes (Mexican Flavored)
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="15">
           15
          </span>
          Ounces Stewed Tomatoes
@@ -204,6 +209,8 @@
       Top with sour cream, cheese, corn chips as desired.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -231,12 +238,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

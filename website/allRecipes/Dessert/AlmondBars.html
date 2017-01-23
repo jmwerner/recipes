@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -131,19 +136,19 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Crust-0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cups Flour
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Crust-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Cup Butter
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Crust-2">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Powdered Sugar
@@ -154,25 +159,25 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Filling-0">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Ounces Cream Cheese
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Filling-1">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Whole Eggs
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Filling-2">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Sugar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Filling-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Almond Extract
@@ -183,25 +188,25 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Frosting-0">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Cups Powdered Sugar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Frosting-1">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Butter
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Frosting-2">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Tablespoons Milk
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Frosting-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Almond Extract
@@ -236,6 +241,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -263,12 +270,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

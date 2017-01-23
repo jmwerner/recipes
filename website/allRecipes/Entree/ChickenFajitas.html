@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -126,7 +131,7 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-chicken -0">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Pounds Chicken Breasts
@@ -137,25 +142,25 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-chicken-0">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-chicken-1">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Canola Oil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-chicken-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Large Onion, Sliced Lengthwise Into Strips
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-chicken-3">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Whole Bell Peppers, Sliced Into Strips
@@ -166,43 +171,43 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Lime Juice
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -1">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Tablespoons Olive Oil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Clove Garlic, Minced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -3">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -4">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Chili Powder
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -5">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Whole Jalepeno, Seeded and Minced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade -6">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Chopped Cilantro
@@ -213,7 +218,7 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-marinade-0">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Cumin
@@ -224,7 +229,7 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-extras-0">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Whole Tortillas
@@ -271,6 +276,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -298,12 +305,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

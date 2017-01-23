@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -126,43 +131,43 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-0">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Pounds Cherry Tomatoes
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-1">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Cloves Garlic, Unpeeled
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-2">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Olive Oil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-3">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Warm Water
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-4">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Fresh Lemon Juice
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-5">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-dressing-6">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Teaspoon Pepper
@@ -173,43 +178,43 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-0">
+         <span class="recipeNumber" value="2 3/4">
           2 3/4
          </span>
          Cups Chicken Broth
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-1">
+         <span class="recipeNumber" value="2 1/4">
           2 1/4
          </span>
          Cups Pearl Couscous
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Tablespoon Olive Oil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-3">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Kalamata Olives, Pitted and Diced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-4">
+         <span class="recipeNumber" value="1/3">
           1/3
          </span>
          Cup Fresh Parsley
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-5">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Mint
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-couscous-6">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Chopped Fresh Thyme
@@ -253,6 +258,8 @@
       Excluded the mint and parsley and it still tastes great.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -280,12 +287,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

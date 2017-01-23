@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -128,37 +133,37 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Tomato Soup
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Nacho Cheese Soup
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Cheddar Cheese Soup
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="4">
           4
          </span>
          Ounces Diced Green Chilis
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cans Chicken Broth
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Whole Chicken Breasts, Cooked and Shredded
@@ -186,6 +191,8 @@
       Diced chipotle chilis can be added to taste.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -213,12 +220,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

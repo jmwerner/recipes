@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -123,55 +128,55 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Whole Chicken Breasts
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Mexican Stewed Tomatoes
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Black Beans
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Corn
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Can Green Chilis
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Ounces Cream Cheese
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Smoked Paprika
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Chipotle Peppers and Adobo Sauce
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-8">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Whole Tortillas
@@ -217,6 +222,8 @@
       The original recipe recommends using 3 cups chicken broth but it is too watery.  Use liquid from stewed tomatoes instead of chicken broth.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -244,12 +251,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

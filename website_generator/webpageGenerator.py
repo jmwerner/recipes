@@ -13,8 +13,6 @@ category_links_tag = '<RECIPE_CATEGORY_LINKS_GO_HERE>'
 recipe_links_tag = '<RECIPE_LINKS_GO_HERE>'
 menu_links_tag = '<MENU_LINKS_GO_HERE>'
 recipe_origin_tag = '<RECIPE_ORIGIN_GOES_HERE>'
-recipe_scaling_tag = '<RECIPE_SCALING_GOES_HERE>'
-
 
 recipe_html_template_path = 'templates/recipeTemplate.html'
 category_html_template_path = 'templates/categoryTemplate.html'
@@ -83,16 +81,13 @@ def get_ingredients_in_category(ingredients_list, ingredient_category):
 
 def create_html_list_from_ingredients(ingredients_list, ingredient_category):
     output_html_string = '<ul>' + '\n'
-    index = 0
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
             ingredient_number = convert_to_mixed_number(ingredients_list[i]['number'][0])
-            output_html_string += '<li><span class=\"recipeNumber\" id=\"recipeNumber-' + \
-                ingredient_category + '-' + str(index) + '\">' + \
-                ingredient_number + '</span>' + \
+            output_html_string += '<li><span class=\"recipeNumber\" value=\"' + \
+                ingredient_number + '\">' + ingredient_number + '</span>' + \
                 ' ' + ingredients_list[i]['units'][0] + ' ' + \
                 ingredients_list[i]['name'][0] +  '</li>' + '\n'
-            index += 1
     output_html_string += '</ul>' + '\n'
     return output_html_string
 
@@ -167,7 +162,7 @@ def preprocess_directions(directions):
             output[i][0] = output[i][0].rstrip().rstrip('.') + '.'
     return output
 
-def create_category_menu_links(categories, is_recipe = False):
+def create_menu_links(categories, is_recipe = False):
     output_html_string = ''
 
     if is_recipe:
@@ -179,6 +174,8 @@ def create_category_menu_links(categories, is_recipe = False):
     output_html_string += '<div style=\"overflow:hidden; padding-right: .5em;\">'
     output_html_string += '<input class=\"searchField\" id=\"searchTxt\" maxlength=\"512\" name=\"searchTxt\" placeholder=\"Search Here...\" type=\"text\" style=\"width: 100%\"/>'
     output_html_string += '</div>'
+    output_html_string += '<br><br>'
+    output_html_string += '<button id=\"scalingButton\" onClick=\"rescaleRecipe()\">1X</button>'     
     output_html_string += '<br><br>'
     output_html_string += '<ul>\n'
     output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
@@ -249,14 +246,6 @@ def add_spaces_to_proper(name):
     s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
     return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1)
 
-def create_recipe_scaling_js(ingredients, recipe_name):
-    output_string = 'function rescaleRecipe(){\n\
-      var button = document.getElementById(\"scalingButton\");\n\
-      button.innerText = buttonValues[recipeIterator] + \"X\";\n\
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;\n\
-    }\n'
-    return output_string
-
 ################################################################################
 # Create recipes pages & category pages
 ################################################################################
@@ -275,7 +264,7 @@ if __name__ == '__main__':
 
         recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
 
-        category_menu_links_html = create_category_menu_links(all_categories, is_recipe = False)
+        category_menu_links_html = create_menu_links(all_categories, is_recipe = False)
 
         category_html = category_html.replace(category_tag, add_spaces_to_proper(recipe_category))
         category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
@@ -295,15 +284,13 @@ if __name__ == '__main__':
 
             output_recipe_html_path = '/website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
                 '/' + remove_spaces(recipe_name) + '.html'
-
             all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
 
             ingredients_html = create_ingredients_html(recipe['ingredients'], recipe_in_category)
             directions_html = create_directions_html(recipe['directions'])
             notes_html = create_notes_html(recipe['notes'][0])
-            recipe_menu_links_html = create_category_menu_links(all_categories, is_recipe = True)
+            recipe_menu_links_html = create_menu_links(all_categories, is_recipe = True)
             recipe_origin_html = create_recipe_origin_html(recipe['recipeSource'][0])
-            recipe_scaling_js = create_recipe_scaling_js(recipe['ingredients'], recipe_in_category)
 
             recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
             recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
@@ -312,7 +299,6 @@ if __name__ == '__main__':
             recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
             recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
             recipe_html = recipe_html.replace(recipe_origin_tag, recipe_origin_html)
-            recipe_html = recipe_html.replace(recipe_scaling_tag, recipe_scaling_js)
 
             subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 

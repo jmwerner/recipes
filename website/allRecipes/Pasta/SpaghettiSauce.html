@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -128,73 +133,73 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Pounds Ground Beef
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pound Ground Hot Italian Sausage
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Large Onion, Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="12">
           12
          </span>
          Ounces Mushrooms, Washed and Chopped
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="4">
           4
          </span>
          Whole Fresh Garlic Cloves, Minced
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="30">
           30
          </span>
          Ounces Tomato Sauce
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="30">
           30
          </span>
          Ounces Diced Tomatoes, Drained
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Cup Dry Merlot
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-8">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Fresh Chopped Basil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-9">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Olive Oil
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-10">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Dash Salt and Pepper
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-11">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Tablespoon Italian Seasonings
@@ -230,6 +235,8 @@
 Crushed red pepper flakes are another recommended addition.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -257,12 +264,7 @@ Crushed red pepper flakes are another recommended addition.
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

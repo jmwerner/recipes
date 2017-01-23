@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -123,79 +128,79 @@
        </h4>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Cups Cooked Quinoa
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-1">
+         <span class="recipeNumber" value="3/4">
           3/4
          </span>
          Cup Shredded Cheddar Cheese
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-2">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Cup Low-Fat Cottage Cheese
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Medium Carrot, Finely Grated
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-4">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Whole Eggs
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-5">
+         <span class="recipeNumber" value="3">
           3
          </span>
          Tablespoons Flour
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-6">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Whole Green Onions
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-7">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Sugar
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-8">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Teaspoon Pepper
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-9">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Teaspoon Cumin
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-10">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-11">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Garlic Powder
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-noCategory-12">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Olive Oil for Frying
@@ -230,6 +235,8 @@
 To cook quinoa use 1 cup uncooked quinoa, 2 cups water, .5 teaspoon salt. In a medium saucepan bring the 2 cups water and .5 teaspoon salt to a boil over high heat. Add quinoa and reduce heat to low. Cover and cook for 18-20 minutes, or until all water is absorbed and the seeds are tender.
      </p>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -257,12 +264,7 @@ To cook quinoa use 1 cup uncooked quinoa, 2 cups water, .5 teaspoon salt. In a m
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>

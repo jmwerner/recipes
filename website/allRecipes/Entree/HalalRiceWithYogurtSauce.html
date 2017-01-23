@@ -42,6 +42,11 @@
     </div>
     <br/>
     <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
     <ul>
      <li>
       <a href="../../index.html">
@@ -126,37 +131,37 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Rice-0">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Tablespoons Unsalted Butter
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Rice-1">
+         <span class="recipeNumber" value="1/2">
           1/2
          </span>
          Teaspoon Turmeric
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Rice-2">
+         <span class="recipeNumber" value="1/4">
           1/4
          </span>
          Teaspoon Cumin
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Rice-3">
+         <span class="recipeNumber" value="1 1/2">
           1 1/2
          </span>
          Cups Basmati or Long Grain Rice
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Rice-4">
+         <span class="recipeNumber" value="2 1/2">
           2 1/2
          </span>
          Cups Chicken Broth
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Rice-5">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Kosher Salt and Black Pepper
@@ -167,55 +172,55 @@
        </h6>
        <ul>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-0">
+         <span class="recipeNumber" value="8">
           8
          </span>
          Ounces Plain Greek Yogurt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-1">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Teaspoons Fresh Cilantro
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-2">
+         <span class="recipeNumber" value="2">
           2
          </span>
          Teaspoons Fresh Mint
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-3">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Teaspoon Cumin
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-4">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Clove Garlic
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-5">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Whole Lemon, Zested
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-6">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Cayenne Pepper
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-7">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Kosher Salt
         </li>
         <li>
-         <span class="recipeNumber" id="recipeNumber-Yogurt Sauce-8">
+         <span class="recipeNumber" value="1">
           1
          </span>
          Pinch Black Pepper
@@ -259,6 +264,8 @@
       </div>
      </div>
     </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
    </div>
    <!-- Footer -->
    <footer id="footer">
@@ -286,12 +293,7 @@
   <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
   <script src="../../assets/js/main.js">
   </script>
-  <script>
-   function rescaleRecipe(){
-      var button = document.getElementById("scalingButton");
-      button.innerText = buttonValues[recipeIterator] + "X";
-      recipeIterator = (recipeIterator + 1) % buttonValues.length;
-    }
+  <script src="../../assets/js/recipeScaling.js">
   </script>
  </body>
 </html>
