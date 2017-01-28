@@ -70,9 +70,10 @@ def test_base_recipe_creation(processed_links_from_sitemap):
 
 
 
+#TODO: repeat ingredients in different categories
 
 
-
+#TODO: Value attribute is also equal to text
 
 
 
