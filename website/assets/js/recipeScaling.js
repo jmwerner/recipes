@@ -59,6 +59,15 @@ function processInputNumber(string){
     }
 }
 
+// This function was adapted from a hero on Stack Overflow
+function reduce_fraction(numerator,denominator){
+    var find_greatest_common_divisor = function find_greatest_common_divisor(a,b){
+        return b ? find_greatest_common_divisor(b, a%b) : a;
+    };
+    greatest_common_divisor = find_greatest_common_divisor(numerator,denominator);
+    return [numerator/greatest_common_divisor, denominator/greatest_common_divisor];
+}
+
 // Takes [numerator, denominator] and returns string of mixed number
 function processOutputNumber(input_array){
     var leading_integer = parseInt(input_array[0] / input_array[1])
@@ -71,7 +80,9 @@ function processOutputNumber(input_array){
         }
     }
     if(fraction_numerator > 0){
-        output_string += String(fraction_numerator) + "/" + String(input_array[1])
+        fraction_denominator = input_array[1]
+        reduced_fraction = reduce_fraction(fraction_numerator, fraction_denominator)
+        output_string += String(reduced_fraction[0]) + "/" + String(reduced_fraction[1])
     }
     return output_string
 }
