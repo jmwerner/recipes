@@ -14,13 +14,6 @@ def base_url():
 def xml_tag():
     return 'loc'
 
-def strip_link(link_input, tag):
-    link = str(link_input)
-    link = link.replace('<' + tag + '>', '')
-    link = link.replace('</' + tag + '>', '')
-    link = link.strip()
-    return link
-
 @pytest.fixture(scope="session")
 def raw_sitemap(sitemap_name):
     try:
@@ -51,4 +44,12 @@ def recipe_category_names(recipe_raw_folder_name):
         if not folder.startswith('.'):
             categories.append(folder)
     return categories
+
+
+def strip_link(link_input, tag):
+    link = str(link_input)
+    link = link.replace('<' + tag + '>', '')
+    link = link.replace('</' + tag + '>', '')
+    link = link.strip()
+    return link
 

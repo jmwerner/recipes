@@ -87,7 +87,8 @@ def create_html_list_from_ingredients(ingredients_list, ingredient_category):
             output_html_string += '<li><span class=\"recipeNumber\" value=\"' + \
                 ingredient_number + '\">' + ingredient_number + '</span>' + \
                 ' ' + ingredients_list[i]['units'][0] + ' ' + \
-                ingredients_list[i]['name'][0] +  '</li>' + '\n'
+                '<span class=\"recipeIngredient\">' + \
+                ingredients_list[i]['name'][0] +  '</span></li>' + '\n'
     output_html_string += '</ul>' + '\n'
     return output_html_string
 
