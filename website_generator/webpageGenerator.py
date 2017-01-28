@@ -84,7 +84,7 @@ def create_html_list_from_ingredients(ingredients_list, ingredient_category):
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
             ingredient_number = convert_to_mixed_number(ingredients_list[i]['number'][0])
-            output_html_string += '<li><span id=\"recipeNumber-' + \
+            output_html_string += '<li><span class=\"recipeNumber\" id=\"recipeNumber-' + \
                 str(ingredient_category) + '-' + str(i) + '\" value=\"' + \
                 ingredient_number + '\">' + ingredient_number + '</span>' + \
                 ' ' + '<span id=\"recipeUnit-' + str(ingredient_category) + \
