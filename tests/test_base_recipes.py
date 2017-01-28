@@ -38,7 +38,7 @@ def make_ingredient_dict_from_link(link):
     if len(ingredient_names_from_html) > 0:
         for i in range(0, len(ingredient_names_from_html)):
             ingredient_id = ingredient_names_from_html[i].get('id').replace('recipeIngredient-', '')
-            ingredient_dict[ingredient_id] = {'name': ingredient_names_from_html[i].text.strip(' \n'), 'number': ingredient_numbers_from_html[i].text.strip(' \n'), 'units': ingredient_units_from_html[i].text.strip(' \n')}
+            ingredient_dict[ingredient_id] = {'name': ingredient_names_from_html[i].text.strip(' \n'), 'number': ingredient_numbers_from_html[i].text.strip(' \n'), 'units': ingredient_units_from_html[i].text.strip(' \n'), 'value_tag':ingredient_numbers_from_html[i].get('value')}
     return ingredient_dict
 
 def lower_conjunctions_in_ingredients(ingredient):
@@ -87,7 +87,6 @@ def process_json_number(input_number):
 
 def test_base_recipe_creation(processed_links_from_sitemap):
     for link in processed_links_from_sitemap:
-        print(link)
         ingredient_dict_from_html = make_ingredient_dict_from_link(link)
         if len(ingredient_dict_from_html) > 0:
         
@@ -102,7 +101,10 @@ def test_base_recipe_creation(processed_links_from_sitemap):
                 id = category + '-' + str(category_iterator[category])
                 category_iterator[category] += 1
 
-                ingredient_dict_from_html[id]
+                processed_json_number = process_json_number(ingredients_from_json[i]['number'][0])
 
-                assert process_json_number(ingredients_from_json[i]['number'][0]) == ingredient_dict_from_html[id]['number']
+                assert processed_json_number == ingredient_dict_from_html[id]['number']
                 assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
+                assert processed_json_number ==  ingredient_dict_from_html[id]['value_tag']
+
+
