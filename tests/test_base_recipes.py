@@ -31,13 +31,14 @@ def get_html_from_url(url):
 def make_ingredient_dict_from_link(link):
     html = get_html_from_url(link)
     soup = bs.BeautifulSoup(html, 'lxml')
+    ingredient_names_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeIngredient')})
+    ingredient_numbers_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeNumber')})
+    ingredient_units_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeUnit')})
     ingredient_dict = {}
-    ingredient_names_from_html = soup.find_all('span', {'class':'recipeIngredient'})
-    ingredient_numbers_from_html = soup.find_all('span', {'class':'recipeNumber'})    
     if len(ingredient_names_from_html) > 0:
         for i in range(0, len(ingredient_names_from_html)):
-            name = ingredient_names_from_html[i].text.strip(' \n')
-            ingredient_dict[name] = ingredient_numbers_from_html[i].text.strip(' \n')
+            ingredient_id = ingredient_names_from_html[i].get('id').replace('recipeIngredient-', '')
+            ingredient_dict[ingredient_id] = {'name': ingredient_names_from_html[i].text.strip(' \n'), 'number': ingredient_numbers_from_html[i].text.strip(' \n'), 'units': ingredient_units_from_html[i].text.strip(' \n')}
     return ingredient_dict
 
 def lower_conjunctions_in_ingredients(ingredient):
@@ -48,38 +49,60 @@ def lower_conjunctions_in_ingredients(ingredient):
             splits[i] = splits[i].lower()
     return ' '.join(splits)
 
+def create_category_iterator(ingredients_dict):
+    unique_categories = ['']
+    for i in range(0, len(ingredients_dict)):
+        if 'category' in ingredients_dict[i]:
+            if ingredients_dict[i]['category'][0] not in unique_categories:
+                unique_categories.append(ingredients_dict[i]['category'][0])
+    if(len(unique_categories) == 1 and unique_categories[0] == ''):
+        unique_categories = ['noCategory']
+    output_dict = {}
+    for key in unique_categories:
+        output_dict[key] = 0
+    return output_dict
+
+def find_ingredient_category(input):
+    if 'category' not in input:
+        return 'noCategory'
+    else:
+        if input['category'][0] == '':
+            return 'noCategory'
+        else:
+            return input['category'][0]
+
+def process_json_name(input_string):
+    output_string = input_string.strip(' \n').lower().title()
+    output_string = lower_conjunctions_in_ingredients(output_string)
+    return output_string
+
+def process_json_number(input_number):
+    return convert_to_mixed_number(input_number)
+
+
+
 #########
 # Tests #
 #########
 
 def test_base_recipe_creation(processed_links_from_sitemap):
     for link in processed_links_from_sitemap:
-        ingredient_dict_from_html = make_ingredient_dict_from_link(link)
         print(link)
+        ingredient_dict_from_html = make_ingredient_dict_from_link(link)
         if len(ingredient_dict_from_html) > 0:
         
             json_link = link.replace('.html', '.json').replace('website/', '')
             json_string = get_html_from_url(json_link)
             ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
 
+            category_iterator = create_category_iterator(ingredients_from_json)
+
             for i in range(0, len(ingredient_dict_from_html)):
-                ingredient_name = ingredients_from_json[i]['name'][0].strip(' \n').lower().title()
-                ingredient_name = lower_conjunctions_in_ingredients(ingredient_name)
-                ingredient_number = convert_to_mixed_number(ingredients_from_json[i]['number'][0])
-                assert ingredient_dict_from_html[ingredient_name] == ingredient_number
+                category = find_ingredient_category(ingredients_from_json[i])
+                id = category + '-' + str(category_iterator[category])
+                category_iterator[category] += 1
 
+                ingredient_dict_from_html[id]
 
-
-#TODO: repeat ingredients in different categories
-
-
-#TODO: Value attribute is also equal to text
-
-
-
-
-
-
-
-
-
+                assert process_json_number(ingredients_from_json[i]['number'][0]) == ingredient_dict_from_html[id]['number']
+                assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
