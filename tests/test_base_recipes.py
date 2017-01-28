@@ -28,24 +28,53 @@ def get_html_from_url(url):
     url_open.close()
     return page
 
+def make_ingredient_dict_from_link(link):
+    html = get_html_from_url(link)
+    soup = bs.BeautifulSoup(html, 'lxml')
+    ingredient_dict = {}
+    ingredient_names_from_html = soup.find_all('span', {'class':'recipeIngredient'})
+    ingredient_numbers_from_html = soup.find_all('span', {'class':'recipeNumber'})    
+    if len(ingredient_names_from_html) > 0:
+        for i in range(0, len(ingredient_names_from_html)):
+            name = ingredient_names_from_html[i].text.strip(' \n')
+            ingredient_dict[name] = ingredient_numbers_from_html[i].text.strip(' \n')
+    return ingredient_dict
+
+def lower_conjunctions_in_ingredients(ingredient):
+    conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So']
+    splits = ingredient.strip().split()
+    for i in range(0, len(splits)):
+        if splits[i] in conjunctions:
+            splits[i] = splits[i].lower()
+    return ' '.join(splits)
+
 #########
 # Tests #
 #########
 
 def test_base_recipe_creation(processed_links_from_sitemap):
     for link in processed_links_from_sitemap:
-        html = get_html_from_url(link)
-        soup = bs.BeautifulSoup(html, 'lxml')
-        ingredients_from_html = soup.find_all('span', {'class':'recipeNumber'})
-
-        if len(ingredients_from_html) > 0:
+        ingredient_dict_from_html = make_ingredient_dict_from_link(link)
+        print(link)
+        if len(ingredient_dict_from_html) > 0:
         
             json_link = link.replace('.html', '.json').replace('website/', '')
             json_string = get_html_from_url(json_link)
             ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
 
-            for i in range(0, len(ingredients_from_html)):
-                assert ingredients_from_html[i].text.strip(' \n') == convert_to_mixed_number(ingredients_from_json[i]['number'][0])
+            for i in range(0, len(ingredient_dict_from_html)):
+                ingredient_name = ingredients_from_json[i]['name'][0].strip(' \n').lower().title()
+                ingredient_name = lower_conjunctions_in_ingredients(ingredient_name)
+                ingredient_number = convert_to_mixed_number(ingredients_from_json[i]['number'][0])
+                assert ingredient_dict_from_html[ingredient_name] == ingredient_number
+
+
+
+
+
+
+
+
 
 
 
