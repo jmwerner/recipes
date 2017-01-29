@@ -12,7 +12,7 @@
         "NA"
     ],
     "directions": [
-        "[[\"Sour milk with 1 tablespoon vinegar. \"],[\"Combine first 7 ingredients; mix well. \"],[\"Place in a glass 9 x 13 pan. \"],[\"Mix cinnamon and white sugar and sprinkle over top of batter.\"],[\"Bake 50 minutes at 350 degrees.\"],[\"\"],[\"\"],[\"\"],[\" \"],[\"\"]]"
+        "[[\"Sour milk by mixing in 1 tablespoon vinegar per cup and letting it rest for 5 minutes. \"],[\"Mix all cake ingredients.\"],[\"Place in a glass 9 x 13 pan.\"],[\"Mix topping ingredients and sprinkle over top of batter.\"],[\"Bake 50 minutes at 350 degrees.\"],[\"\"],[\"\"],[\"\"],[\" \"],[\"\"]]"
     ],
     "timestamp": [
         "20161225-112413"
@@ -21,7 +21,7 @@
         ""
     ],
     "ingredients": [
-        "[{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown sugar\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"shortening\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"sour milk\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"soda\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"egg\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"rhubarb, chopped \"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cinnamon\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"white sugar\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+        "[{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"brown sugar\"],\"category\":[\"Cake\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"shortening\"],\"category\":[\"Cake\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"sour milk\"],\"category\":[\"Cake\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"Cake\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"soda\"],\"category\":[\"Cake\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"egg\"],\"category\":[\"Cake\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"rhubarb, chopped \"],\"category\":[\"Cake\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cinnamon\"],\"category\":[\"Topping\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"white sugar\"],\"category\":[\"Topping\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]
 }
 
