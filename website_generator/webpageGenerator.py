@@ -179,8 +179,10 @@ def create_menu_links(categories, is_recipe = False):
     output_html_string += '<input class=\"searchField\" id=\"searchTxt\" maxlength=\"512\" name=\"searchTxt\" placeholder=\"Search Here...\" type=\"text\" style=\"width: 100%\"/>'
     output_html_string += '</div>'
     output_html_string += '<br><br>'
-    output_html_string += '<button id=\"scalingButton\" onClick=\"rescaleRecipe()\">1X</button>'     
-    output_html_string += '<br><br>'
+    if is_recipe:
+        output_html_string += '<button id=\"scalingButton\" onClick=\"rescaleRecipe()\">1X</button>'     
+        output_html_string += '<br><br>'
+        
     output_html_string += '<ul>\n'
     output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
 
