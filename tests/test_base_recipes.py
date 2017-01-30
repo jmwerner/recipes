@@ -4,6 +4,10 @@ import urllib.request
 import bs4 as bs
 import json
 
+import sys
+sys.path.insert(0, 'website_generator')
+import webpageGenerator as gen
+
 def convert_to_mixed_number(input_string):
     splits = input_string.split('/')
     if len(splits) == 1:
@@ -79,6 +83,11 @@ def process_json_name(input_string):
 def process_json_number(input_number):
     return convert_to_mixed_number(input_number)
 
+def process_json_units(input_list):
+    plural = gen.string_to_float(input_list['number'][0]) > 1.0
+    processed_units = gen.set_plural_suffix(input_list['units'][0], plural)
+    return processed_units
+
 
 
 #########
@@ -102,9 +111,10 @@ def test_base_recipe_creation(processed_links_from_sitemap):
                 category_iterator[category] += 1
 
                 processed_json_number = process_json_number(ingredients_from_json[i]['number'][0])
+                processed_units = process_json_units(ingredients_from_json[i])
 
                 assert processed_json_number == ingredient_dict_from_html[id]['number']
                 assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
                 assert processed_json_number ==  ingredient_dict_from_html[id]['value_tag']
-
+                assert processed_units == ingredient_dict_from_html[id]['units']
 
