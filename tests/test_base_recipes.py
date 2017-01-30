@@ -8,23 +8,6 @@ import sys
 sys.path.insert(0, 'website_generator')
 import webpageGenerator as gen
 
-def convert_to_mixed_number(input_string):
-    splits = input_string.split('/')
-    if len(splits) == 1:
-        fraction_parts = float(input_string).as_integer_ratio()
-    else: 
-        fraction_parts = (int(splits[0]), int(splits[1]))
-    leading_integer = fraction_parts[0] // fraction_parts[1]
-    fraction_numerator = fraction_parts[0] % fraction_parts[1]
-    output_string = ''
-    if leading_integer > 0:
-        output_string += str(leading_integer)
-        if fraction_numerator > 0:
-            output_string += ' '
-    if fraction_numerator > 0:
-        output_string += str(fraction_numerator) + '/' + str(fraction_parts[1])
-    return output_string
-
 def get_html_from_url(url):
     url_open = urllib.request.urlopen(url)
     raw_page = url_open.read()
@@ -44,14 +27,6 @@ def make_ingredient_dict_from_link(link):
             ingredient_id = ingredient_names_from_html[i].get('id').replace('recipeIngredient-', '')
             ingredient_dict[ingredient_id] = {'name': ingredient_names_from_html[i].text.strip(' \n'), 'number': ingredient_numbers_from_html[i].text.strip(' \n'), 'units': ingredient_units_from_html[i].text.strip(' \n'), 'value_tag':ingredient_numbers_from_html[i].get('value')}
     return ingredient_dict
-
-def lower_conjunctions_in_ingredients(ingredient):
-    conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So']
-    splits = ingredient.strip().split()
-    for i in range(0, len(splits)):
-        if splits[i] in conjunctions:
-            splits[i] = splits[i].lower()
-    return ' '.join(splits)
 
 def create_category_iterator(ingredients_dict):
     unique_categories = ['']
@@ -77,11 +52,11 @@ def find_ingredient_category(input):
 
 def process_json_name(input_string):
     output_string = input_string.strip(' \n').lower().title()
-    output_string = lower_conjunctions_in_ingredients(output_string)
+    output_string = gen.lower_conjunctions_in_ingredients(output_string)
     return output_string
 
 def process_json_number(input_number):
-    return convert_to_mixed_number(input_number)
+    return gen.convert_to_mixed_number(input_number)
 
 def process_json_units(input_list):
     plural = gen.string_to_float(input_list['number'][0]) > 1.0
