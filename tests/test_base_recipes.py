@@ -63,8 +63,6 @@ def process_json_units(input_list):
     processed_units = gen.set_plural_suffix(input_list['units'][0], plural)
     return processed_units
 
-
-
 #########
 # Tests #
 #########
