@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cheddar Broccoli Soup"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://www.centercutcook.com/instant-pot-cheddar-broccoli-potato-soup/"
+    ],
+    "directions": [
+        "[[\"Saute the butter and garlic in the pot for 1 minute.\"],[\"Add broccoli, potatoes, and broth. Season with salt and pepper.\"],[\"Secure lid and cook at high pressure for 10 minutes. Turn off pot and let pressure naturally release for 10 minutes. Quick-release the remaining pressure.\"],[\"Add cooked bacon if desired.\"],[\"Add the half and half, cheddar cheese, and blend with immersion blender until smooth. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170203-223017"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Broccoli head\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Yukon gold potatoes, peeled and diced\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Vegetable or chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"Salt and pepper, to taste\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Half and half\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shredded cheddar cheese\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Whole\"],\"name\":[\"Slices of bacon (optional)\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
