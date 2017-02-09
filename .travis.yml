@@ -1,7 +1,7 @@
 language: python
 python:
   - "3.5"
-install: "pip install lxml html5lib bs4 pandas pytest requests"
+install: "pip install lxml html5lib bs4 pandas pytest requests selenium"
 script: "py.test"
 branches:
   only:
