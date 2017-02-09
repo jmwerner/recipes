@@ -18,11 +18,6 @@ def get_html_from_url(url):
     url_open.close()
     return page
 
-# def make_ingredient_dict_from_link(link):
-#     html = get_html_from_url(link)
-#     ingredient_dict = make_ingredient_dict_from_html(html)
-#     return ingredient_dict
-
 def make_ingredient_dict_from_html(html):
     soup = bs.BeautifulSoup(html, 'lxml')
     ingredient_names_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeIngredient')})
@@ -95,7 +90,6 @@ def convert_mixed_number_to_fraction(input_string):
         return (output_numerator, processed_touple[1])
 
 def simplify_fraction(numer, denom):
-    # Remove greatest common divisor:
     common_divisor = gcd(numer, denom)
     (reduced_num, reduced_den) = (numer / common_divisor, denom / common_divisor)
     if reduced_den == 1:
@@ -106,11 +100,6 @@ def simplify_fraction(numer, denom):
         return (int(reduced_num), int(reduced_den))
 
 def gcd(a, b):
-    """Calculate the Greatest Common Divisor of a and b.
-
-        Unless b==0, the result will have the same sign as b (so that when
-        b is divided by it, the result comes out positive).
-        """
     while b:
         a, b = b, a % b
     return a
@@ -120,18 +109,12 @@ def gcd(a, b):
 # Tests #
 #########
 
-
-
-
-
-
-
 def test_scaling_helper_functions():
     assert convert_mixed_number_to_fraction('1') == (1,1)
     assert convert_mixed_number_to_fraction('1 ') == (1,1)
     assert convert_mixed_number_to_fraction(' 1') == (1,1)
     assert convert_mixed_number_to_fraction('2/3') == (2,3)
-    assert convert_mixed_number_to_fraction('2/ 3') == (2,3)
+    assert convert_mixed_number_to_fraction(' 2/3') == (2,3)
     assert convert_mixed_number_to_fraction(' 2/3 ') == (2,3)
     assert convert_mixed_number_to_fraction('4 2/3') == (14,3)
     assert convert_mixed_number_to_fraction('5/3') == (5,3)
@@ -141,19 +124,18 @@ def test_scaling_helper_functions():
     assert simplify_fraction(6,3) == (2,1)
 
 def test_recipe_scaling(processed_links_from_sitemap):
-    for link in processed_links_from_sitemap:
-
+    for link in processed_links_from_sitemap[5]:
         browser = webdriver.PhantomJS()
         browser.get(link)
-
-        scaling_vector = browser.execute_script('return scalingValues')
-        assert scaling_vector[0] == '1'
 
         source_html = browser.page_source
         ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
 
         if len(ingredient_dict_from_html) > 0:
         
+            scaling_vector = browser.execute_script('return scalingValues')
+            assert scaling_vector[0] == '1'
+
             json_link = link.replace('.html', '.json').replace('website/', '')
             json_string = get_html_from_url(json_link)
             ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
@@ -174,35 +156,37 @@ def test_recipe_scaling(processed_links_from_sitemap):
                 assert processed_units == ingredient_dict_from_html[id]['units']
 
 
-        for scaling_value in scaling_vector[1:]:
-
+            # Open menu
             menu_button = browser.find_element_by_id("menuButton")
             menu_button.click()
 
-            scaling_button = browser.find_element_by_id("scalingButton")
-            scaling_button.click()
+            for scaling_value in scaling_vector[1:]:
 
-            source_html = browser.page_source
-            ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
+                # Click scaling button
+                scaling_button = browser.find_element_by_id("scalingButton")
+                scaling_button.click()
 
-            if len(ingredient_dict_from_html) > 0:
-            
-                json_link = link.replace('.html', '.json').replace('website/', '')
-                json_string = get_html_from_url(json_link)
-                ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
+                source_html = browser.page_source
+                ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
 
-                category_iterator = create_category_iterator(ingredients_from_json)
+                if len(ingredient_dict_from_html) > 0:
+                
+                    json_link = link.replace('.html', '.json').replace('website/', '')
+                    json_string = get_html_from_url(json_link)
+                    ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
 
-                for i in range(0, len(ingredient_dict_from_html)):
-                    category = find_ingredient_category(ingredients_from_json[i])
-                    id = category + '-' + str(category_iterator[category])
-                    category_iterator[category] += 1
+                    category_iterator = create_category_iterator(ingredients_from_json)
 
-                    processed_json_number = process_and_scale_json_number(ingredients_from_json[i]['number'][0], scaling_value)
-                    processed_units = process_json_units(ingredients_from_json[i])
+                    for i in range(0, len(ingredient_dict_from_html)):
+                        category = find_ingredient_category(ingredients_from_json[i])
+                        id = category + '-' + str(category_iterator[category])
+                        category_iterator[category] += 1
 
-                    assert processed_json_number == ingredient_dict_from_html[id]['number']
-                    assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
-                    assert processed_json_number ==  ingredient_dict_from_html[id]['value_tag']
-                    assert processed_units == ingredient_dict_from_html[id]['units']
+                        processed_json_number = process_and_scale_json_number(ingredients_from_json[i]['number'][0], scaling_value)
+                        processed_units = process_json_units(ingredients_from_json[i])
+
+                        assert processed_json_number == ingredient_dict_from_html[id]['number']
+                        assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
+                        assert processed_json_number ==  ingredient_dict_from_html[id]['value_tag']
+                        assert processed_units == ingredient_dict_from_html[id]['units']
 
