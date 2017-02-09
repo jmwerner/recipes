@@ -156,7 +156,7 @@ def test_recipe_scaling(processed_links_from_sitemap):
                 assert processed_units == ingredient_dict_from_html[id]['units']
 
 
-            # Open menu
+            # Open menu (and leave it open)
             menu_button = browser.find_element_by_id("menuButton")
             menu_button.click()
 
@@ -166,6 +166,7 @@ def test_recipe_scaling(processed_links_from_sitemap):
                 scaling_button = browser.find_element_by_id("scalingButton")
                 scaling_button.click()
 
+                # Get html from page after click
                 source_html = browser.page_source
                 ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
 
