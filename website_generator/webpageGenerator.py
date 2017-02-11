@@ -1,21 +1,22 @@
+'''This script generates the website and all subpages'''
+
 import json
 import ast
 import subprocess
 import re
 from bs4 import BeautifulSoup
 
-category_tag = '<RECIPE_CATEGORY_GOES_HERE>'
-name_tag = '<RECIPE_NAME_GOES_HERE>'
-notes_tag = '<RECIPE_NOTES_GO_HERE>'
-directions_tag = '<RECIPE_DIRECTIONS_GO_HERE>'
-ingredients_tag = '<RECIPE_INGREDIENTS_GO_HERE>'
-category_links_tag = '<RECIPE_CATEGORY_LINKS_GO_HERE>'
-recipe_links_tag = '<RECIPE_LINKS_GO_HERE>'
-menu_links_tag = '<MENU_LINKS_GO_HERE>'
-recipe_origin_tag = '<RECIPE_ORIGIN_GOES_HERE>'
+CATEGORY_TAG = '<RECIPE_CATEGORY_GOES_HERE>'
+NAME_TAG = '<RECIPE_NAME_GOES_HERE>'
+NOTES_TAG = '<RECIPE_NOTES_GO_HERE>'
+DIRECTIONS_TAG = '<RECIPE_DIRECTIONS_GO_HERE>'
+INGREDIENTS_TAG = '<RECIPE_INGREDIENTS_GO_HERE>'
+RECIPE_LINKS_TAG = '<RECIPE_LINKS_GO_HERE>'
+MENU_LINKS_TAG = '<MENU_LINKS_GO_HERE>'
+RECIPE_ORIGIN_TAG = '<RECIPE_ORIGIN_GOES_HERE>'
 
-recipe_html_template_path = 'templates/recipeTemplate.html'
-category_html_template_path = 'templates/categoryTemplate.html'
+RECIPE_HTML_TEMPLATE_PATH = 'templates/recipeTemplate.html'
+CATEGORY_HTML_TEMPLATE_PATH = 'templates/categoryTemplate.html'
 
 
 def create_ingredients_html(ingredients, recipe_name):
@@ -26,10 +27,15 @@ def create_ingredients_html(ingredients, recipe_name):
         ingredient_categories = find_recipe_categories(ingredients_list)
         for ingredient_category in ingredient_categories:
             output_html_string += '<h6>' + ingredient_category + '</h6>'
-            category_ingredients = get_ingredients_in_category(ingredients_list, ingredient_category)
-            output_html_string += create_html_list_from_ingredients(category_ingredients, ingredient_category)
+            category_ingredients = \
+                get_ingredients_in_category(ingredients_list, \
+                                            ingredient_category)
+            output_html_string += \
+                create_html_list_from_ingredients(category_ingredients, \
+                                                  ingredient_category)
     else:
-        output_html_string = create_html_list_from_ingredients(ingredients_list, 'noCategory')
+        output_html_string = \
+            create_html_list_from_ingredients(ingredients_list, 'noCategory')
     return output_html_string
 
 def preprocess_ingredients(ingredients_list):
@@ -37,9 +43,12 @@ def preprocess_ingredients(ingredients_list):
     for i in range(0, len(output_list)):
         if output_list[i]['number'][0] != '':
             plural = string_to_float(output_list[i]['number'][0]) > 1.0
-            output_list[i]['units'][0] = set_plural_suffix(output_list[i]['units'][0], plural)
-            output_list[i]['name'][0] = output_list[i]['name'][0].lower().title()
-            output_list[i]['name'][0] = lower_conjunctions_in_ingredients(output_list[i]['name'][0])
+            output_list[i]['units'][0] = \
+                set_plural_suffix(output_list[i]['units'][0], plural)
+            output_list[i]['name'][0] = \
+                output_list[i]['name'][0].lower().title()
+            output_list[i]['name'][0] = \
+                lower_conjunctions_in_ingredients(output_list[i]['name'][0])
     return output_list
 
 def lower_conjunctions_in_ingredients(ingredient):
@@ -180,7 +189,7 @@ def create_menu_links(categories, is_recipe = False):
     output_html_string += '</div>'
     output_html_string += '<br><br>'
     if is_recipe:
-        output_html_string += '<button id=\"scalingButton\" onClick=\"rescaleRecipe()\">1X</button>'     
+        output_html_string += '<button id=\"scalingButton\" onClick=\"rescaleRecipe()\">1X</button>'
         output_html_string += '<br><br>'
         
     output_html_string += '<ul>\n'
@@ -266,25 +275,25 @@ if __name__ == '__main__':
         all_recipes_in_category = subprocess.check_output(['ls', '../allRecipes/' + recipe_category]).decode("utf-8").split('\n')
         all_recipes_in_category = [x for x in all_recipes_in_category if x]
 
-        category_html = import_html(category_html_template_path)
+        category_html = import_html(CATEGORY_HTML_TEMPLATE_PATH)
 
         recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
 
         category_menu_links_html = create_menu_links(all_categories, is_recipe = False)
 
-        category_html = category_html.replace(category_tag, add_spaces_to_proper(recipe_category))
-        category_html = category_html.replace(recipe_links_tag, recipes_in_category_html)
-        category_html = category_html.replace(menu_links_tag, category_menu_links_html)
+        category_html = category_html.replace(CATEGORY_TAG, add_spaces_to_proper(recipe_category))
+        category_html = category_html.replace(RECIPE_LINKS_TAG, recipes_in_category_html)
+        category_html = category_html.replace(MENU_LINKS_TAG, category_menu_links_html)
 
         category_page_name = '/website/allRecipes/' + recipe_category + '.html'
         all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
         export_string_to_file('..' + category_page_name, category_html)
 
-        for recipe_in_category in all_recipes_in_category: 
-            recipePath = '../allRecipes/' + recipe_category + '/' + recipe_in_category 
+        for recipe_in_category in all_recipes_in_category:
+            current_recipe_path = '../allRecipes/' + recipe_category + '/' + recipe_in_category
 
-            recipe = import_json(recipePath)
-            recipe_html = import_html(recipe_html_template_path)
+            recipe = import_json(current_recipe_path)
+            recipe_html = import_html(RECIPE_HTML_TEMPLATE_PATH)
 
             recipe_name = recipe['recipeName'][0].split('.')[0]
 
@@ -298,20 +307,18 @@ if __name__ == '__main__':
             recipe_menu_links_html = create_menu_links(all_categories, is_recipe = True)
             recipe_origin_html = create_recipe_origin_html(recipe['recipeSource'][0])
 
-            recipe_html = recipe_html.replace(category_tag, recipe['recipeCategory'][0])
-            recipe_html = recipe_html.replace(name_tag, recipe['recipeName'][0])
-            recipe_html = recipe_html.replace(notes_tag, notes_html)
-            recipe_html = recipe_html.replace(directions_tag, directions_html)
-            recipe_html = recipe_html.replace(ingredients_tag, ingredients_html)
-            recipe_html = recipe_html.replace(menu_links_tag, recipe_menu_links_html)
-            recipe_html = recipe_html.replace(recipe_origin_tag, recipe_origin_html)
+            recipe_html = recipe_html.replace(CATEGORY_TAG, recipe['recipeCategory'][0])
+            recipe_html = recipe_html.replace(NAME_TAG, recipe['recipeName'][0])
+            recipe_html = recipe_html.replace(NOTES_TAG, notes_html)
+            recipe_html = recipe_html.replace(DIRECTIONS_TAG, directions_html)
+            recipe_html = recipe_html.replace(INGREDIENTS_TAG, ingredients_html)
+            recipe_html = recipe_html.replace(MENU_LINKS_TAG, recipe_menu_links_html)
+            recipe_html = recipe_html.replace(RECIPE_ORIGIN_TAG, recipe_origin_html)
 
             subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
 
             export_string_to_file('..' + output_recipe_html_path, recipe_html)
 
 
-    sitemap_string = create_sitemap(all_urls)
-    export_string_to_file('../sitemap.xml', sitemap_string, "xml")
-
-
+    SITEMAP_STRING = create_sitemap(all_urls)
+    export_string_to_file('../sitemap.xml', SITEMAP_STRING, "xml")
