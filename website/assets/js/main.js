@@ -201,10 +201,11 @@
 
 
 // Function for crossing out list elements
-
 $(document).ready(function(){
-    $("li").on("click", function(){
-    $(this).toggleClass("checked");
+  $("li").on("click", function(){
+  	if(document.getElementsByTagName("body")[0].className != "is-menu-visible"){
+      $(this).toggleClass("checked");
+  	};
   });
 });
 
