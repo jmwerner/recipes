@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Pulled Pork"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Pour the vegetable oil into the bottom of the instant pot and place onions on top.\"],[\"Cut pork into 2 inch cubes and place on top of onion bed. \"],[\"Whisk other ingredients together and pour over pork.\"],[\"Cook at pressure for 1 hour. Shred and enjoy. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170211-094719"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Pound(s)\"],\"name\":[\"Pork shoulder roast\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vegetable oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, coarsely chopped\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Apple cider vinegar\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Prepared yellow mustard\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Worcestershire sauce\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chili powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Barbecue sauce\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Garlic cloves, minced\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried thyme\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Brown sugar\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
