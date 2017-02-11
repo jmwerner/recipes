@@ -1,4 +1,4 @@
-'''This script generates the website and all subpages'''
+'''This script generates the recipes website and all subpages'''
 
 import json
 import ast
@@ -92,14 +92,16 @@ def create_html_list_from_ingredients(ingredients_list, ingredient_category):
     output_html_string = '<ul>' + '\n'
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
-            ingredient_number = convert_to_mixed_number(ingredients_list[i]['number'][0])
-            output_html_string += '<li><span class=\"recipeNumber\" id=\"recipeNumber-' + \
+            ingredient_number = \
+                convert_to_mixed_number(ingredients_list[i]['number'][0])
+            output_html_string += \
+                '<li><span class=\"recipeNumber\" id=\"recipeNumber-' + \
                 str(ingredient_category) + '-' + str(i) + '\" value=\"' + \
                 ingredient_number + '\">' + ingredient_number + '</span>' + \
                 ' ' + '<span id=\"recipeUnit-' + str(ingredient_category) + \
-                '-' + str(i) + '\">' + ingredients_list[i]['units'][0] + '</span> ' + \
-                '<span id=\"recipeIngredient-' + str(ingredient_category) + \
-                '-' + str(i) + '\">' + \
+                '-' + str(i) + '\">' + ingredients_list[i]['units'][0] + \
+                '</span> ' + '<span id=\"recipeIngredient-' + \
+                str(ingredient_category) + '-' + str(i) + '\">' + \
                 ingredients_list[i]['name'][0] +  '</span></li>' + '\n'
     output_html_string += '</ul>' + '\n'
     return output_html_string
@@ -108,7 +110,7 @@ def convert_to_mixed_number(input_string):
     splits = input_string.split('/')
     if len(splits) == 1:
         fraction_parts = float(input_string).as_integer_ratio()
-    else: 
+    else:
         fraction_parts = (int(splits[0]), int(splits[1]))
     leading_integer = fraction_parts[0] // fraction_parts[1]
     fraction_numerator = fraction_parts[0] % fraction_parts[1]
@@ -154,7 +156,7 @@ def create_directions_html(directions):
     output_html_string = '<ol>' + '\n'
     for i in range(0, len(directions_list)):
         if directions_list[i][0] != '':
-            output_html_string += '<li>' + directions_list[i][0] + '</li>' + '\n'
+            output_html_string += '<li>' + directions_list[i][0] + '</li>\n'
     output_html_string += '</ol>' + '\n'
     return output_html_string
 
@@ -223,8 +225,9 @@ def create_notes_html(raw_notes):
 
 def create_sitemap(all_urls):
     output_string = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    output_string += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for url in all_urls: 
+    output_string += \
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for url in all_urls:
         output_string += '<url>\n<loc>'
         output_string += url
         output_string += '</loc>\n</url>'
@@ -232,15 +235,33 @@ def create_sitemap(all_urls):
     return output_string
 
 def remove_spaces(string):
+    '''Removes spaces from string.
+    Args:
+        string (string): Collection of characters with or without spaces.
+    Returns:
+        string: Same input string but without spaces.
+    '''
     return string.replace(' ', '')
 
 def import_json(path):
+    '''Imports json from file.
+    Args:
+        path (string): Path to json file to be read.
+    Returns:
+        string: json that was read from file.
+    '''
     with open(path, 'r') as recipe_file:
-        recipe = json.load(recipe_file)
+        json_read_recipe = json.load(recipe_file)
     recipe_file.close()
-    return recipe
+    return json_read_recipe
 
 def import_html(path):
+    '''Imports html from file.
+    Args:
+        path (string): Path to html file to be read.
+    Returns:
+        string: HTML that was read from file.
+    '''
     with open(path, 'r') as html_file:
         html = html_file.read()
     html_file.close()
