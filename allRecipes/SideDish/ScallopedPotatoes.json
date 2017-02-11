@@ -6,22 +6,22 @@
         "Side Dish"
     ],
     "recipeSource": [
-        ""
+        "Dan Wallien"
     ],
     "recipeLink": [
-        "n/a"
+        ""
     ],
     "directions": [
-        "[[\"Mix dry ingredients. \"],[\"Put 1/2 of sliced potatoes in baking dish.\"],[\"Sprinkle 1/2 of dry mixture over potatoes. Then add rest of potatoes and top with remaining dry ingredients.\"],[\"Add butter. Pour boiling water over top. \"],[\"Bake at 350 for 1 1/2 hours.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+        "[[\"In a small sauce pan melt butter and mix in flour. Let stand.\"],[\"Add cold milk, stir with whisk.\"],[\"Season with salt and cayenne pepper.\"],[\"Cook sauce on low until smooth.\"],[\"Reduce heat and stir in two thirds of cheese.\"],[\"Place half of potatoes in dish and cover in half of sauce. Repeat.\"],[\"Sprinkle remaining cheese on top of potatoes.\"],[\"Bake uncovered for 1 hour at 350 degrees. \"],[\"\"],[\"\"]]"
     ],
     "timestamp": [
-        "20170106-155256"
+        "20170210-225847"
     ],
     "notes": [
         ""
     ],
     "ingredients": [
-        "[{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"powdered cream\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"flaked or fresh onion\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Dash(es)\"],\"name\":[\"pepper\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Whole\"],\"name\":[\"medium potatoes\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"butter\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"boiling water\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+        "[{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sliced potatoes\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Butter\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Flour\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"Cayenne\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Grated sharp cheddar cheese\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch\"],\"name\":[\"Paprika\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]
 }
 
