@@ -1,17 +1,61 @@
 
 scalingValues = ["1", "2", "3", "1/2"]
 
+// Both plural to plural and non-plural to plural
+plural_mappings = {"Cups": "Cups", 
+                   "Tablespoons": "Tablespoons",
+                   "Teaspoons": "Teaspoons",
+                   "Pounds": "Pounds", 
+                   "Cans": "Cans",
+                   "Ounces": "Ounces",
+                   "Cloves": "Cloves",
+                   "Pinches": "Pinches",
+                   "Dashes": "Dashes",
+                   "Bottles": "Bottles",
+                   "Cup": "Cups", 
+                   "Tablespoon": "Tablespoons",
+                   "Teaspoon": "Teaspoons",
+                   "Pound": "Pounds", 
+                   "Can": "Cans",
+                   "Ounce": "Ounces",
+                   "Clove": "Cloves",
+                   "Pinch": "Pinches",
+                   "Dash": "Dashes",
+                   "Bottle": "Bottles"}
+
+// Both plural to non-plural and non-plural to non-plural
+non_plural_mappings = {"Cups": "Cup", 
+                       "Tablespoons": "Tablespoon",
+                       "Teaspoons": "Teaspoon",
+                       "Pounds": "Pound", 
+                       "Cans": "Can",
+                       "Ounces": "Ounce",
+                       "Cloves": "Clove",
+                       "Pinches": "Pinch",
+                       "Dashes": "Dash",
+                       "Bottles": "Bottle",
+                       "Cup": "Cup", 
+                       "Tablespoon": "Tablespoon",
+                       "Teaspoon": "Teaspoon",
+                       "Pound": "Pound", 
+                       "Can": "Can",
+                       "Ounce": "Ounce",
+                       "Clove": "Clove",
+                       "Pinch": "Pinch",
+                       "Dash": "Dash",
+                       "Bottle": "Bottle"}
+
 recipeIterator = 0
 
 function rescaleRecipe(){
     recipeIterator = (recipeIterator + 1) % scalingValues.length;
     var button = document.getElementById("scalingButton");
     button.innerText = scalingValues[recipeIterator] + "X";
-    updateRecipeNumbers(scalingValues[recipeIterator])
+    updateRecipe(scalingValues[recipeIterator])
  }
 
 
-function updateRecipeNumbers(scaling_factor){
+function updateRecipe(scaling_factor){
     var elements = document.getElementsByClassName("recipeNumber");
     for(i = 0; i < elements.length; i++){
         raw_fraction = processInputNumber(elements[i].attributes.value.value)
@@ -19,8 +63,28 @@ function updateRecipeNumbers(scaling_factor){
         raw_fraction[0] *= scaling_fraction[0]
         raw_fraction[1] *= scaling_fraction[1]
         elements[i].innerText = processOutputNumber(raw_fraction)
+
+        is_plural = raw_fraction[0] > raw_fraction[1]
+        unit_id = elements[i].id.replace('recipeNumber', 'recipeUnit')
+        unit_element = document.getElementById(unit_id)
+        unit_element.innerText = handlePlural(unit_element.innerText, is_plural)
     }   
 }
+
+function handlePlural(input_text, plural_logical){
+    input_text = input_text.trim()
+    if(input_text == "Whole"){
+        return("Whole")
+    }
+    if(plural_logical){
+        return(plural_mappings[input_text])
+    }else{
+        return(non_plural_mappings[input_text])
+    }
+}
+
+
+
 
 // Function for cleaning split arrays
 Array.prototype.clean = function(deleteValue) {
