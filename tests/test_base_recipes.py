@@ -61,7 +61,7 @@ def find_ingredient_category(input):
 
 def process_json_name(input_string):
     output_string = input_string.strip(' \n').lower().title()
-    output_string = gen.lower_conjunctions_in_ingredients(output_string)
+    output_string = gen.lower_conjunctions_in_string(output_string)
     return output_string
 
 def process_json_number(input_number):
