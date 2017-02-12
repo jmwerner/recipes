@@ -67,8 +67,10 @@ def process_json_name(input_string):
 def process_json_number(input_number):
     return gen.convert_to_mixed_number(input_number)
 
-def process_json_units(input_list):
-    plural = gen.string_to_float(input_list['number'][0]) > 1.0
+def process_json_units(input_list, scaling_number = '1'):
+    scaling_number_fraction = convert_mixed_number_to_fraction(scaling_number)
+    plural = (gen.string_to_float(input_list['number'][0]) * \
+              scaling_number_fraction[0] / scaling_number_fraction[1]) > 1.0
     processed_units = gen.set_plural_suffix(input_list['units'][0], plural)
     return processed_units
 
@@ -207,7 +209,8 @@ def test_recipe_scaling(processed_links_from_sitemap):
                             ingredients_from_json[i]['number'][0], \
                             scaling_value)
                         processed_units = \
-                            process_json_units(ingredients_from_json[i])
+                            process_json_units(ingredients_from_json[i], \
+                                               scaling_value)
 
                         assert processed_json_number == \
                             ingredient_dict_from_html[id]['number']
