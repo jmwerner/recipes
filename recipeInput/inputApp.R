@@ -120,7 +120,7 @@ unitsOptions = list(" " = "",
                     "Can(s)" = "Can(s)",
                     "Ounce(s)" = "Ounce(s)",
                     "Clove(s)" = "Clove(s)",
-                    "Pinch" = "Pinch",
+                    "Pinch(es)" = "Pinch(es)",
                     "Dash(es)" = "Dash(es)",
                     "Bottle(s)" = "Bottle(s)")
 
