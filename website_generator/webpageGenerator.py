@@ -19,10 +19,19 @@ RECIPE_HTML_TEMPLATE_PATH = 'templates/recipeTemplate.html'
 CATEGORY_HTML_TEMPLATE_PATH = 'templates/categoryTemplate.html'
 
 
-def create_ingredients_html(ingredients, recipe_name):
+def create_ingredients_html(ingredients, name_of_recipe):
+    '''Creates html of recipe ingredients and category headings for webpage.
+    Args:
+        ingredients (list of dicts): Ingredient name, number, and units dicts
+            that come from the recipe json.
+        name_of_recipe (string): Name of recipe to which the ingredients
+            list corresponds.
+    Returns:
+        string: html string to be added to webpage.
+    '''
     ingredients_list = ast.literal_eval(ingredients[0])
     ingredients_list = preprocess_ingredients(ingredients_list)
-    if recipe_categories_exist(ingredients_list, recipe_name):
+    if recipe_categories_exist(ingredients_list, name_of_recipe):
         output_html_string = ''
         ingredient_categories = find_recipe_categories(ingredients_list)
         for ingredient_category in ingredient_categories:
@@ -31,14 +40,21 @@ def create_ingredients_html(ingredients, recipe_name):
                 get_ingredients_in_category(ingredients_list, \
                                             ingredient_category)
             output_html_string += \
-                create_html_list_from_ingredients(category_ingredients, \
-                                                  ingredient_category)
+                create_cat_ingred_html(category_ingredients, \
+                                       ingredient_category)
     else:
         output_html_string = \
-            create_html_list_from_ingredients(ingredients_list, 'noCategory')
+            create_cat_ingred_html(ingredients_list, 'noCategory')
     return output_html_string
 
 def preprocess_ingredients(ingredients_list):
+    '''Preprocess list of recipe ingredients.
+    Args:
+        ingredients_list (list): List of ingredient dicts coming from raw
+            recipe json.
+    Returns:
+        list: Processed list of ingredient dicts.
+    '''
     output_list = ingredients_list
     for i in range(0, len(output_list)):
         if output_list[i]['number'][0] != '':
@@ -48,10 +64,16 @@ def preprocess_ingredients(ingredients_list):
             output_list[i]['name'][0] = \
                 output_list[i]['name'][0].lower().title()
             output_list[i]['name'][0] = \
-                lower_conjunctions_in_ingredients(output_list[i]['name'][0])
+                lower_conjunctions_in_string(output_list[i]['name'][0])
     return output_list
 
-def lower_conjunctions_in_ingredients(ingredient):
+def lower_conjunctions_in_string(ingredient):
+    '''Converts conjunctions to non-capitalized words in recipe ingredients.
+    Args:
+        ingredient (string): Ingredient name string for processing.
+    Returns:
+        string: Processed ingredient name string with conjunctions lowered.
+    '''
     conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So']
     splits = ingredient.strip().split()
     for i in range(0, len(splits)):
@@ -59,9 +81,16 @@ def lower_conjunctions_in_ingredients(ingredient):
             splits[i] = splits[i].lower()
     return ' '.join(splits)
 
-def set_plural_suffix(string, plural):
+def set_plural_suffix(input_string, plural):
+    '''Changes plural suffix on words where applicable and strips (s) option.
+    Args:
+        input_string (string): Recipe units string.
+        plural (bool): Logical to convert input_string to plural or not.
+    Returns:
+        string: Recipe units with appropriate plural or non-plural ending.
+    '''
     # Also removing trailing s from mistake in early version of input app
-    base_string = string.replace('s(s)', '')
+    base_string = input_string.replace('s(s)', '')
     base_string = base_string.replace('(s)', '')
     base_string = base_string.replace('(es)', '')
     if plural and base_string != 'Whole' and base_string != 'Pinch':
@@ -73,22 +102,42 @@ def set_plural_suffix(string, plural):
         output = base_string
     return output
 
-def string_to_float(string):
-    splits = string.split('/')
+def string_to_float(input_string):
+    '''Converts a string of numbers or a fraction to a float.
+    Args:
+        input_string (string): String of numbers or a fraction for conversion.
+    Returns:
+        float: Number post conversion of input_string.
+    '''
+    splits = input_string.split('/')
     if len(splits) == 1:
-        output = float(string)
-    else: 
+        output = float(input_string)
+    else:
         output = float(splits[0]) / float(splits[1])
     return output
 
 def get_ingredients_in_category(ingredients_list, ingredient_category):
+    '''Finds all recipe ingredients in specified category.
+    Args:
+        ingredients_list (list): List of ingredient dicts.
+        ingredient_category (string): Name of desired ingredient_category.
+    Returns:
+        list: Ingredient dicts that correspond to ingredient_category.
+    '''
     output_list = list()
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['category'][0] == ingredient_category:
             output_list.append(ingredients_list[i])
     return output_list
 
-def create_html_list_from_ingredients(ingredients_list, ingredient_category):
+def create_cat_ingred_html(ingredients_list, ingredient_category):
+    '''Creates html of ingredients from category for webpage.
+    Args:
+        ingredients_list (list): List of ingredient dicts.
+        ingredient_category (string): Name of desired ingredient_category.
+    Returns:
+        string: html of category ingredients for webpage.
+    '''
     output_html_string = '<ul>' + '\n'
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['name'][0] != '':
@@ -102,11 +151,17 @@ def create_html_list_from_ingredients(ingredients_list, ingredient_category):
                 '-' + str(i) + '\">' + ingredients_list[i]['units'][0] + \
                 '</span> ' + '<span id=\"recipeIngredient-' + \
                 str(ingredient_category) + '-' + str(i) + '\">' + \
-                ingredients_list[i]['name'][0] +  '</span></li>' + '\n'
+                ingredients_list[i]['name'][0] + '</span></li>' + '\n'
     output_html_string += '</ul>' + '\n'
     return output_html_string
 
 def convert_to_mixed_number(input_string):
+    '''Converts a string of integers or a fraction to a mixed number.
+    Args:
+        input_string (string): String to be converted to a mixed number.
+    Returns:
+        string: Mixed number output.
+    '''
     splits = input_string.split('/')
     if len(splits) == 1:
         fraction_parts = float(input_string).as_integer_ratio()
@@ -123,7 +178,15 @@ def convert_to_mixed_number(input_string):
         output_string += str(fraction_numerator) + '/' + str(fraction_parts[1])
     return output_string
 
-def recipe_categories_exist(ingredients_list, recipe_name):
+def recipe_categories_exist(ingredients_list, name_of_recipe):
+    '''Checks to see if recipe categories exist and makes sure all categories
+       are either filled in or all are empty.
+    Args:
+        ingredients_list (list): List of ingredients from recipe json.
+        name_of_recipe (string): Name of current recipe.
+    Returns:
+        bool: Indicator of category existence.
+    '''
     if 'category' not in list(ingredients_list[0].keys()):
         # Accomodation for older versions of the recipe input app
         categories_exist = False
@@ -136,7 +199,7 @@ def recipe_categories_exist(ingredients_list, recipe_name):
         if '' in unique_categories:
             if len(unique_categories) > 1:
                 raise ValueError('Not all categories were filled in for ' + \
-                    recipe_name)
+                    name_of_recipe)
             else:
                 categories_exist = False
         else:
@@ -144,6 +207,12 @@ def recipe_categories_exist(ingredients_list, recipe_name):
     return categories_exist
 
 def find_recipe_categories(ingredients_list):
+    '''Find all categories for given recipe.
+    Args:
+        ingredients_list (list): List of ingredients from recipe json.
+    Returns:
+        list: All categories.
+    '''
     unique_categories = []
     for i in range(0, len(ingredients_list)):
         if ingredients_list[i]['category'][0] not in unique_categories:
@@ -151,6 +220,12 @@ def find_recipe_categories(ingredients_list):
     return unique_categories
 
 def create_directions_html(directions):
+    '''Create html of recipe directions.
+    Args:
+        directions (list): All directions from recipe json.
+    Returns:
+        string: html of directions to be included in webpage.
+    '''
     directions_list = ast.literal_eval(directions[0])
     directions_list = preprocess_directions(directions_list)
     output_html_string = '<ol>' + '\n'
@@ -161,15 +236,27 @@ def create_directions_html(directions):
     return output_html_string
 
 def create_recipe_origin_html(recipe_source):
+    '''Create html of recipe origin person.
+    Args:
+        recipe_source (string): Origin of recipe.
+    Returns:
+        string: html of recipe origin to be included in webpage.
+    '''
     if recipe_source not in ['NA', '']:
-        recipe_origin_html = '<p><i> Recipe from '
-        recipe_origin_html += recipe_source
-        recipe_origin_html += '</i></p>'
+        recipe_origin_string = '<p><i> Recipe from '
+        recipe_origin_string += recipe_source
+        recipe_origin_string += '</i></p>'
     else:
-        recipe_origin_html = ''
-    return recipe_origin_html
+        recipe_origin_string = ''
+    return recipe_origin_string
 
 def preprocess_directions(directions):
+    '''Preprocesses directions text.
+    Args:
+        directions (list): All direction strings from the recipe json.
+    Returns:
+        list: Processed directions.
+    '''
     output = directions
     # Add period to end of direction sentence if not there.
     for i in range(0, len(directions)):
@@ -177,7 +264,15 @@ def preprocess_directions(directions):
             output[i][0] = output[i][0].rstrip().rstrip('.') + '.'
     return output
 
-def create_menu_links(categories, is_recipe = False):
+def create_menu_links(categories, is_recipe=False):
+    '''Creates links, scaling button, and search box for menu where applicable.
+    Args:
+        categories (list): All recipe categories.
+        is_recipe (bool): Indication of whether or not the menu is for a
+            recipe webpage or non-recipe webpage (like a category page).
+    Returns:
+        string: html for page menu.
+    '''
     output_html_string = ''
 
     if is_recipe:
@@ -185,49 +280,75 @@ def create_menu_links(categories, is_recipe = False):
     else:
         extra_path = ''
 
-    output_html_string += '<button onclick=\"enterKeyRedirect()\" id=\"searchButton\" style=\"float:right\">Search</button>'
-    output_html_string += '<div style=\"overflow:hidden; padding-right: .5em;\">'
-    output_html_string += '<input class=\"searchField\" id=\"searchTxt\" maxlength=\"512\" name=\"searchTxt\" placeholder=\"Search Here...\" type=\"text\" style=\"width: 100%\"/>'
+    output_html_string += '<button onclick=\"enterKeyRedirect()\" id=\"search'
+    output_html_string += 'Button\" style=\"float:right\">Search</button>'
+    output_html_string += '<div style=\"overflow:hidden; padding-right:'
+    output_html_string += ' .5em;\"><input class=\"searchField\" '
+    output_html_string += 'id=\"searchTxt\" maxlength=\"512\" name=\"search'
+    output_html_string += 'Txt\" placeholder=\"Search Here...\" type=\"text\" '
+    output_html_string += 'style=\"width: 100%\"/>'
     output_html_string += '</div>'
     output_html_string += '<br><br>'
     if is_recipe:
-        output_html_string += '<button id=\"scalingButton\" onClick=\"rescaleRecipe()\">1X</button>'
+        output_html_string += '<button id=\"scalingButton\" onClick=\"rescale'
+        output_html_string += 'Recipe()\">1X</button>'
         output_html_string += '<br><br>'
-        
+
     output_html_string += '<ul>\n'
-    output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">Home</a></li>\n'
+    output_html_string += '<li><a href=\"../' + extra_path + 'index.html\">'
+    output_html_string += 'Home</a></li>\n'
 
     for i in range(0, len(categories)):
-        output_html_string += '<li><a href=\"' + extra_path + categories[i] + '.html\">' + \
-            add_spaces_to_proper(categories[i]) + '</a></li>\n'
+        output_html_string += '<li><a href=\"' + extra_path + categories[i] + \
+            '.html\">' + add_spaces_to_proper(categories[i]) + '</a></li>\n'
     output_html_string += '</ul>'
     return output_html_string
 
-def create_recipes_in_category_link_html(category, recipes_in_category):
+def create_recipes_in_cat_html(category, recipes_in_category):
+    '''Create html category page of all recipes in category.
+    Args:
+        category (string): Name of category.
+        recipes_in_category (list): All recipe names in given category.
+    Returns:
+        string: html of links to recipe pages for category.
+    '''
     output_html_string = '<ul class = "actions vertical">\n'
     for i in range(0, len(recipes_in_category)):
-        recipe_name = recipes_in_category[i].split('.')[0]
+        name_of_recipe = recipes_in_category[i].split('.')[0]
         if i % 2 == 0:
             class_name = 'button'
         else:
             class_name = 'button special'
-        output_html_string += '<li><a href=\"' + category + '/' + recipe_name + \
-            '.html\" class=\"' + class_name + '\"">' + add_spaces_to_proper(recipe_name) + '</a></li>\n'
+        output_html_string += '<li><a href=\"' + category + '/' + \
+            name_of_recipe + '.html\" class=\"' + class_name + '\"">' + \
+            add_spaces_to_proper(name_of_recipe) + '</a></li>\n'
     output_html_string += '</ul>'
     return output_html_string
 
-def create_notes_html(raw_notes):
-    if len(raw_notes) == 0:
+def create_notes_html(notes):
+    '''Creates html of notes from recipe json.
+    Args:
+        notes (string): Notes that were input in the recipe 'notes' section.
+    Returns:
+        string: html of notes to be included in webpage.
+    '''
+    if len(notes) == 0:
         output_html_string = ''
     else:
-        output_html_string = '<h5>Notes</h5>\n<p>' + raw_notes + '</p>'
+        output_html_string = '<h5>Notes</h5>\n<p>' + notes + '</p>'
     return output_html_string
 
-def create_sitemap(all_urls):
+def create_sitemap(sitemap_urls):
+    '''Creates xml sitemap from list of urls.
+    Args:
+        sitemap_urls (list of strings): All recipe urls for sitemap.
+    Returns:
+        string: Sitemap of xml format to be submitted to google custom search.
+    '''
     output_string = '<?xml version="1.0" encoding="UTF-8"?>\n'
     output_string += \
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for url in all_urls:
+    for url in sitemap_urls:
         output_string += '<url>\n<loc>'
         output_string += url
         output_string += '</loc>\n</url>'
@@ -260,27 +381,62 @@ def import_html(path):
     Args:
         path (string): Path to html file to be read.
     Returns:
-        string: HTML that was read from file.
+        string: html that was read from file.
     '''
     with open(path, 'r') as html_file:
         html = html_file.read()
     html_file.close()
     return html
 
-def export_string_to_file(path, html_input, string_format = "lxml"):
+def export_string_to_file(path, html_input, string_format='lxml'):
+    '''Writes xml/html string to provided path.
+    Args:
+        path (string): Path of where to output file, including file name.
+        html_input (string): Raw xml/html string that is to be written.
+        string_format (string): Format of string to be provided to
+            BeautifulSoup parser.
+    Returns:
+        None
+    '''
     output_string = prettify_string(html_input, string_format)
     with open(path, 'w') as output_file:
         output_file.write(output_string)
     output_file.close()
 
 def prettify_string(html_string, string_format):
+    '''Converts html string to string with appropriate indenting and spacing.
+    Args:
+        html_string (string): Raw html string to be converted.
+        string_format (string): Format of the incoming string to be passed to
+            the BeautifulSoup converter.
+    Returns:
+        string: Output html with better spacing and tabs for viewing.
+    '''
     parsed_html = BeautifulSoup(html_string, string_format)
     html_string = parsed_html.prettify()
     return html_string
 
 def add_spaces_to_proper(name):
-    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
-    return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1)
+    '''Converts a ProperCaseString into a string with spaces and no caps.
+    Args:
+        name (string): String to be converted.
+    Returns:
+        string: Converted string.
+    '''
+    temporary_string = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
+    return re.sub('([a-z0-9])([A-Z])', r'\1 \2', temporary_string)
+
+def find_all_recipe_categories():
+    '''Finds all recipe categories from file system structure.
+    Args:
+        None
+    Returns:
+        list: Names of all recipe categories.
+    '''
+    categories = subprocess.check_output(['ls', '../allRecipes'])
+    categories = categories.decode("utf-8").split('\n')
+    categories = [x for x in categories if x]
+    return categories
 
 ################################################################################
 # Create recipes pages & category pages
@@ -288,58 +444,79 @@ def add_spaces_to_proper(name):
 
 if __name__ == '__main__':
 
-    all_categories = subprocess.check_output(['ls', '../allRecipes']).decode("utf-8").split('\n')
-    all_categories = [x for x in all_categories if x]
-    all_urls = []
+    ALL_CATEGORIES = find_all_recipe_categories()
+    ALL_URLS = []
 
-    for recipe_category in all_categories:
-        all_recipes_in_category = subprocess.check_output(['ls', '../allRecipes/' + recipe_category]).decode("utf-8").split('\n')
+    for recipe_category in ALL_CATEGORIES:
+        all_recipes_in_category = subprocess.check_output(\
+            ['ls', '../allRecipes/' + recipe_category])
+        all_recipes_in_category = all_recipes_in_category.decode("utf-8")
+        all_recipes_in_category = all_recipes_in_category.split('\n')
         all_recipes_in_category = [x for x in all_recipes_in_category if x]
 
         category_html = import_html(CATEGORY_HTML_TEMPLATE_PATH)
 
-        recipes_in_category_html = create_recipes_in_category_link_html(recipe_category, all_recipes_in_category)
+        recipes_in_category_html = \
+            create_recipes_in_cat_html(recipe_category, \
+                                       all_recipes_in_category)
 
-        category_menu_links_html = create_menu_links(all_categories, is_recipe = False)
+        category_menu_links_html = create_menu_links(ALL_CATEGORIES, \
+                                                     is_recipe=False)
 
-        category_html = category_html.replace(CATEGORY_TAG, add_spaces_to_proper(recipe_category))
-        category_html = category_html.replace(RECIPE_LINKS_TAG, recipes_in_category_html)
-        category_html = category_html.replace(MENU_LINKS_TAG, category_menu_links_html)
+        category_html = category_html.replace(CATEGORY_TAG, \
+            add_spaces_to_proper(recipe_category))
+        category_html = category_html.replace(RECIPE_LINKS_TAG, \
+                                              recipes_in_category_html)
+        category_html = category_html.replace(MENU_LINKS_TAG, \
+                                              category_menu_links_html)
 
         category_page_name = '/website/allRecipes/' + recipe_category + '.html'
-        all_urls.append('https://jmwerner.github.io/recipes' + category_page_name)
+        ALL_URLS.append('https://jmwerner.github.io/recipes' + \
+                        category_page_name)
         export_string_to_file('..' + category_page_name, category_html)
 
         for recipe_in_category in all_recipes_in_category:
-            current_recipe_path = '../allRecipes/' + recipe_category + '/' + recipe_in_category
+            current_recipe_path = '../allRecipes/' + recipe_category + '/' + \
+                recipe_in_category
 
             recipe = import_json(current_recipe_path)
             recipe_html = import_html(RECIPE_HTML_TEMPLATE_PATH)
 
             recipe_name = recipe['recipeName'][0].split('.')[0]
 
-            output_recipe_html_path = '/website/allRecipes/' + remove_spaces(recipe['recipeCategory'][0]) + \
+            output_recipe_html_path = '/website/allRecipes/' + \
+                remove_spaces(recipe['recipeCategory'][0]) + \
                 '/' + remove_spaces(recipe_name) + '.html'
-            all_urls.append('https://jmwerner.github.io/recipes' + output_recipe_html_path)
+            ALL_URLS.append('https://jmwerner.github.io/recipes' + \
+                            output_recipe_html_path)
 
-            ingredients_html = create_ingredients_html(recipe['ingredients'], recipe_in_category)
+            ingredients_html = create_ingredients_html(recipe['ingredients'], \
+                                                       recipe_in_category)
             directions_html = create_directions_html(recipe['directions'])
             notes_html = create_notes_html(recipe['notes'][0])
-            recipe_menu_links_html = create_menu_links(all_categories, is_recipe = True)
-            recipe_origin_html = create_recipe_origin_html(recipe['recipeSource'][0])
+            recipe_menu_links_html = create_menu_links(ALL_CATEGORIES, \
+                                                       is_recipe=True)
+            recipe_origin_html = \
+                create_recipe_origin_html(recipe['recipeSource'][0])
 
-            recipe_html = recipe_html.replace(CATEGORY_TAG, recipe['recipeCategory'][0])
-            recipe_html = recipe_html.replace(NAME_TAG, recipe['recipeName'][0])
+            recipe_html = recipe_html.replace(CATEGORY_TAG, \
+                                              recipe['recipeCategory'][0])
+            recipe_html = recipe_html.replace(NAME_TAG, \
+                                              recipe['recipeName'][0])
             recipe_html = recipe_html.replace(NOTES_TAG, notes_html)
             recipe_html = recipe_html.replace(DIRECTIONS_TAG, directions_html)
-            recipe_html = recipe_html.replace(INGREDIENTS_TAG, ingredients_html)
-            recipe_html = recipe_html.replace(MENU_LINKS_TAG, recipe_menu_links_html)
-            recipe_html = recipe_html.replace(RECIPE_ORIGIN_TAG, recipe_origin_html)
+            recipe_html = recipe_html.replace(INGREDIENTS_TAG, \
+                                              ingredients_html)
+            recipe_html = recipe_html.replace(MENU_LINKS_TAG, \
+                                              recipe_menu_links_html)
+            recipe_html = recipe_html.replace(RECIPE_ORIGIN_TAG, \
+                                              recipe_origin_html)
 
-            subprocess.call(["mkdir", "-p", "../website/allRecipes/" + remove_spaces(recipe['recipeCategory'][0])])
+            subprocess.call(["mkdir", "-p", "../website/allRecipes/" + \
+                            remove_spaces(recipe['recipeCategory'][0])])
 
             export_string_to_file('..' + output_recipe_html_path, recipe_html)
 
 
-    SITEMAP_STRING = create_sitemap(all_urls)
+    SITEMAP_STRING = create_sitemap(ALL_URLS)
     export_string_to_file('../sitemap.xml', SITEMAP_STRING, "xml")
