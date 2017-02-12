@@ -93,8 +93,8 @@ def set_plural_suffix(input_string, plural):
     base_string = input_string.replace('s(s)', '')
     base_string = base_string.replace('(s)', '')
     base_string = base_string.replace('(es)', '')
-    if plural and base_string != 'Whole' and base_string != 'Pinch':
-        if base_string == 'Dash':
+    if plural and base_string != 'Whole':
+        if base_string == 'Dash' or base_string == 'Pinch':
             output = base_string + 'es'
         else:
             output = base_string + 's'
