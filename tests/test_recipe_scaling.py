@@ -10,7 +10,6 @@ import sys
 sys.path.insert(0, 'website_generator')
 import webpageGenerator as gen
 
-
 def get_html_from_url(url):
     url_open = urllib.request.urlopen(url)
     raw_page = url_open.read()
@@ -20,14 +19,22 @@ def get_html_from_url(url):
 
 def make_ingredient_dict_from_html(html):
     soup = bs.BeautifulSoup(html, 'lxml')
-    ingredient_names_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeIngredient')})
-    ingredient_numbers_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeNumber')})
-    ingredient_units_from_html = soup.find_all('span', {'id': lambda L: L and L.startswith('recipeUnit')})
+    ingredient_names_from_html = soup.find_all('span', \
+        {'id': lambda L: L and L.startswith('recipeIngredient')})
+    ingredient_numbers_from_html = soup.find_all('span', \
+        {'id': lambda L: L and L.startswith('recipeNumber')})
+    ingredient_units_from_html = soup.find_all('span', \
+        {'id': lambda L: L and L.startswith('recipeUnit')})
     ingredient_dict = {}
-    if len(ingredient_names_from_html) > 0:
+    if ingredient_names_from_html:
         for i in range(0, len(ingredient_names_from_html)):
-            ingredient_id = ingredient_names_from_html[i].get('id').replace('recipeIngredient-', '')
-            ingredient_dict[ingredient_id] = {'name': ingredient_names_from_html[i].text.strip(' \n'), 'number': ingredient_numbers_from_html[i].text.strip(' \n'), 'units': ingredient_units_from_html[i].text.strip(' \n'), 'value_tag':ingredient_numbers_from_html[i].get('value')}
+            ingredient_id = ingredient_names_from_html[i].get('id')
+            ingredient_id = ingredient_id.replace('recipeIngredient-', '')
+            ingredient_dict[ingredient_id] = \
+                {'name': ingredient_names_from_html[i].text.strip(' \n'), \
+                'number': ingredient_numbers_from_html[i].text.strip(' \n'), \
+                'units': ingredient_units_from_html[i].text.strip(' \n'), \
+                'value_tag':ingredient_numbers_from_html[i].get('value')}
     return ingredient_dict
 
 def create_category_iterator(ingredients_dict):
@@ -36,7 +43,7 @@ def create_category_iterator(ingredients_dict):
         if 'category' in ingredients_dict[i]:
             if ingredients_dict[i]['category'][0] not in unique_categories:
                 unique_categories.append(ingredients_dict[i]['category'][0])
-    if(len(unique_categories) == 1 and unique_categories[0] == ''):
+    if(len(unique_categories) == 1 and not unique_categories[0]):
         unique_categories = ['noCategory']
     output_dict = {}
     for key in unique_categories:
@@ -47,7 +54,7 @@ def find_ingredient_category(input):
     if 'category' not in input:
         return 'noCategory'
     else:
-        if input['category'][0] == '':
+        if not input['category'][0]:
             return 'noCategory'
         else:
             return input['category'][0]
@@ -86,12 +93,14 @@ def convert_mixed_number_to_fraction(input_string):
             return (int(inner_splits[0]), int(inner_splits[1]))
     else:
         processed_touple = convert_mixed_number_to_fraction(splits[1])
-        output_numerator = processed_touple[0] + int(splits[0]) * processed_touple[1]
+        output_numerator = \
+            processed_touple[0] + int(splits[0]) * processed_touple[1]
         return (output_numerator, processed_touple[1])
 
 def simplify_fraction(numer, denom):
     common_divisor = gcd(numer, denom)
-    (reduced_num, reduced_den) = (numer / common_divisor, denom / common_divisor)
+    (reduced_num, reduced_den) = \
+        (numer / common_divisor, denom / common_divisor)
     if reduced_den == 1:
         return (int(reduced_num), int(reduced_den))
     elif common_divisor == 1:
@@ -131,14 +140,15 @@ def test_recipe_scaling(processed_links_from_sitemap):
         source_html = browser.page_source
         ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
 
-        if len(ingredient_dict_from_html) > 0:
-        
+        if ingredient_dict_from_html:
+
             scaling_vector = browser.execute_script('return scalingValues')
             assert scaling_vector[0] == '1'
 
             json_link = link.replace('.html', '.json').replace('website/', '')
             json_string = get_html_from_url(json_link)
-            ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
+            ingredients_from_json = \
+                json.loads(json.loads(json_string)['ingredients'][0])
 
             category_iterator = create_category_iterator(ingredients_from_json)
 
@@ -147,12 +157,16 @@ def test_recipe_scaling(processed_links_from_sitemap):
                 id = category + '-' + str(category_iterator[category])
                 category_iterator[category] += 1
 
-                processed_json_number = process_json_number(ingredients_from_json[i]['number'][0])
+                processed_json_number = \
+                    process_json_number(ingredients_from_json[i]['number'][0])
                 processed_units = process_json_units(ingredients_from_json[i])
 
-                assert processed_json_number == ingredient_dict_from_html[id]['number']
-                assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
-                assert processed_json_number ==  ingredient_dict_from_html[id]['value_tag']
+                assert processed_json_number == \
+                    ingredient_dict_from_html[id]['number']
+                assert process_json_name(ingredients_from_json[i]['name'][0]) \
+                    == ingredient_dict_from_html[id]['name']
+                assert processed_json_number ==  \
+                    ingredient_dict_from_html[id]['value_tag']
                 assert processed_units == ingredient_dict_from_html[id]['units']
 
 
@@ -168,26 +182,39 @@ def test_recipe_scaling(processed_links_from_sitemap):
 
                 # Get html from page after click
                 source_html = browser.page_source
-                ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
+                ingredient_dict_from_html = \
+                    make_ingredient_dict_from_html(source_html)
 
-                if len(ingredient_dict_from_html) > 0:
-                
-                    json_link = link.replace('.html', '.json').replace('website/', '')
+                if ingredient_dict_from_html:
+
+                    json_link = link.replace('.html', '.json')
+                    json_link = json_link.replace('website/', '')
                     json_string = get_html_from_url(json_link)
-                    ingredients_from_json = json.loads(json.loads(json_string)['ingredients'][0])
+                    ingredients_from_json = \
+                        json.loads(json.loads(json_string)['ingredients'][0])
 
-                    category_iterator = create_category_iterator(ingredients_from_json)
+                    category_iterator = \
+                        create_category_iterator(ingredients_from_json)
 
                     for i in range(0, len(ingredient_dict_from_html)):
-                        category = find_ingredient_category(ingredients_from_json[i])
+                        category = \
+                            find_ingredient_category(ingredients_from_json[i])
                         id = category + '-' + str(category_iterator[category])
                         category_iterator[category] += 1
 
-                        processed_json_number = process_and_scale_json_number(ingredients_from_json[i]['number'][0], scaling_value)
-                        processed_units = process_json_units(ingredients_from_json[i])
+                        processed_json_number = \
+                            process_and_scale_json_number(\
+                            ingredients_from_json[i]['number'][0], \
+                            scaling_value)
+                        processed_units = \
+                            process_json_units(ingredients_from_json[i])
 
-                        assert processed_json_number == ingredient_dict_from_html[id]['number']
-                        assert process_json_name(ingredients_from_json[i]['name'][0]) == ingredient_dict_from_html[id]['name']
-                        assert processed_json_number ==  ingredient_dict_from_html[id]['value_tag']
-                        assert processed_units == ingredient_dict_from_html[id]['units']
-
+                        assert processed_json_number == \
+                            ingredient_dict_from_html[id]['number']
+                        assert process_json_name(\
+                            ingredients_from_json[i]['name'][0]) == \
+                        ingredient_dict_from_html[id]['name']
+                        assert processed_json_number ==  \
+                            ingredient_dict_from_html[id]['value_tag']
+                        assert processed_units == \
+                            ingredient_dict_from_html[id]['units']

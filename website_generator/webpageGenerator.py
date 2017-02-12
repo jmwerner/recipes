@@ -332,7 +332,7 @@ def create_notes_html(notes):
     Returns:
         string: html of notes to be included in webpage.
     '''
-    if len(notes) == 0:
+    if not notes:
         output_html_string = ''
     else:
         output_html_string = '<h5>Notes</h5>\n<p>' + notes + '</p>'

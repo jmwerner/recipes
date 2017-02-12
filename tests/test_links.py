@@ -21,7 +21,8 @@ def get_page_links(html):
     links = []
     soup = bs.BeautifulSoup(html)
     for a in soup.find_all('a', href=True):
-        if not a['href'].startswith('mailto:') and not a['href'].startswith('#'):
+        if not a['href'].startswith('mailto:') and not \
+            a['href'].startswith('#'):
             links.append(a['href'])
     return list(set(links))
 
@@ -46,7 +47,7 @@ def check_all_links_on_page(url):
 
 def test_sitemap_links(processed_links_from_sitemap):
     for link in processed_links_from_sitemap:
-        url_check = url_is_valid(link) 
+        url_check = url_is_valid(link)
         if not url_check:
             print('ERROR: Sitemap link ' + link + ' is broken!')
         assert url_check
@@ -56,7 +57,8 @@ def test_homepage_links(base_url):
 
 def test_category_page_links(base_url, recipe_category_names):
     homepage_root = remove_page_name_from_url(base_url)
-    category_page_links = [str(homepage_root + '/allRecipes/' + '{0}' + '.html').format(i) for i in recipe_category_names]
+    category_page_links = \
+        [str(homepage_root + '/allRecipes/' + '{0}' + '.html').format(i) \
+        for i in recipe_category_names]
     for category_page in category_page_links:
         check_all_links_on_page(category_page)
-

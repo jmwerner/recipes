@@ -1,6 +1,8 @@
+'''Base configurations for tests'''
+
+import os
 import pytest
 import bs4 as bs
-import os
 
 @pytest.fixture(scope="session")
 def sitemap_name():
@@ -17,9 +19,9 @@ def xml_tag():
 @pytest.fixture(scope="session")
 def raw_sitemap(sitemap_name):
     try:
-        with open(sitemap_name) as f:
-            sitemap = f.read().replace('\n', '')
-    except:
+        with open(sitemap_name) as file:
+            sitemap = file.read().replace('\n', '')
+    except ValueError:
         print('Error: Specified sitemap does not exist')
     return sitemap
 
@@ -52,4 +54,3 @@ def strip_link(link_input, tag):
     link = link.replace('</' + tag + '>', '')
     link = link.strip()
     return link
-

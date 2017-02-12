@@ -22,4 +22,3 @@ def test_convert_to_mixed_number():
     assert gen.convert_to_mixed_number('.5') == '1/2'
     assert gen.convert_to_mixed_number('5/1') == '5'
     assert gen.convert_to_mixed_number('11/3') == '3 2/3'
-
