@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chicken Tortilla Hotdish"
+    ],
+    "recipeCategory": [
+        "Hotdish"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://www.wellplated.com/chicken-tortilla-casserole/"
+    ],
+    "directions": [
+        "[[\"Preheat the oven to 375 degrees. Coat a 9×13-inch dish with baking spray.\"],[\"Heat the olive oil in a large, deep skillet over medium high, then add the onion, green bell pepper, red bell pepper, and jalapeno. Saute until the veggies are tender, about 10 minutes. Add the garlic, cumin, oregano, salt, and pepper and cook until fragrant, about 30 seconds. Add the tomato sauce, chicken stock, and Tabasco Jalapeno sauce, then stir to combine. Let the sauce simmer for 12 minutes.\"],[\"Assemble the casserole: Spread a thin layer of the sauce on the bottom of the prepared baking dish. Arrange a layer of tortillas on top so that they cover the sauce, overlapping as needed. Top with 1/3 of the chicken, 1/4 of the cheese, and 1/3 of the remaining sauce. Repeat the process twice more.\"],[\"Cover the pan with foil, then bake for 35 minutes. Remove the foil and sprinkle the remainder of the cheese on top. Return the pan to the oven, bake for 10 additional minutes until the casserole is hot and bubbly and the cheese is melted. Let rest 5 minutes. Serve hot with desired toppings.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170212-200856"
+    ],
+    "notes": [
+        "Topping ideas include salsa, sliced avocados, lime juice, plain Greek yogurt (or sour cream), chopped fresh cilantro."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Cooked, shredded chicken\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Green pepper, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Red pepper, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Jalapeno, diced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried oregano\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Black pepper\"],\"category\":[\"\"]},{\"number\":[\"28\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken stock\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Tabasco jalapeno sauce\"],\"category\":[\"\"]},{\"number\":[\"18\"],\"units\":[\"Whole\"],\"name\":[\"Small corn tortillas\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shredded monterey jack cheese\"],\"category\":[\"\"]}]"
+    ]
+}
+
