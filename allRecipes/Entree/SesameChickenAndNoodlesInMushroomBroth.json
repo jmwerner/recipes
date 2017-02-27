@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Sesame Chicken And Noodles In Mushroom Broth"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "Dan Wallien"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Remove mushroom stems. Thinly slice caps; set caps aside. Add all other Broth ingredients to a saucepan and bring to a boil. Remove pan from heat. \"],[\"In a separate saucepan, add noodles and cook until done. Drain.\"],[\"Sprinkle chicken with black pepper. Press sesame seeds into both sides of chicken. Heat a nonstick skillet over medium-high heat. Add oil; swirl to coat. Add chicken; cook 3 minutes on each side or until done. Remove from pan. Add bok choy, cut sides down; cook 3 minutes or until browned. Add reserved mushroom slices and bell pepper. Strain broth mixture through sieve into pan; cover and cook 2 minutes. Remove vegetables with slotted spoon.\"],[\"Thinly slice chicken. Place a serving of noodles, a serving of vegetables, and a serving of chicken into shallow bowls. Spoon broth mixture into bowl. Garnish each with two lime wedges.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170226-215038"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Shiitake Mushrooms\"],\"category\":[\"Broth\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth, low sodium\"],\"category\":[\"Broth\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Broth\"]},{\"number\":[\"4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Soy sauce, low sodium\"],\"category\":[\"Broth\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Fish sauce\"],\"category\":[\"Broth\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, crushed\"],\"category\":[\"Broth\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Piece fresh ginger, 2 inches, sliced\"],\"category\":[\"Broth\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Serrano chile, thinly sliced\"],\"category\":[\"Broth\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sliced red bell pepper, lengthwise\"],\"category\":[\"Vegetables\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fresh Chinese-style noodles\"],\"category\":[\"Noodles\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken cutlets\"],\"category\":[\"Chicken\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Freshly ground black pepper\"],\"category\":[\"Chicken\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Toasted sesame seeds\"],\"category\":[\"Chicken\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Sesame oil\"],\"category\":[\"Chicken\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Baby bok choy, cut in half lengthwise\"],\"category\":[\"Vegetables\"]}]"
+    ]
+}
+

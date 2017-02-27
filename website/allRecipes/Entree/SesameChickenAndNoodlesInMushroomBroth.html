@@ -1,0 +1,373 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>
+   Werner Family Recipes
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!--[if lte IE 8]><script src="../../../website/assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link href="../../assets/css/main.css" rel="stylesheet"/>
+  <!--[if lte IE 9]><link rel="stylesheet" href="../../../website/assets/css/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="../../../website/assets/css/ie8.css" /><![endif]-->
+ </head>
+ <body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+   <!-- Header -->
+   <header id="header">
+    <div class="inner">
+     <!-- Nav -->
+     <nav>
+      <ul>
+       <li>
+        <a href="#menu" id="menuButton">
+         Menu
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </header>
+   <!-- Menu -->
+   <nav id="menu">
+    <h2>
+     Menu
+    </h2>
+    <button id="searchButton" onclick="enterKeyRedirect()" style="float:right">
+     Search
+    </button>
+    <div style="overflow:hidden; padding-right: .5em;">
+     <input class="searchField" id="searchTxt" maxlength="512" name="searchTxt" placeholder="Search Here..." style="width: 100%" type="text"/>
+    </div>
+    <br/>
+    <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
+    <ul>
+     <li>
+      <a href="../../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="../Appetizer.html">
+       Appetizer
+      </a>
+     </li>
+     <li>
+      <a href="../Bread.html">
+       Bread
+      </a>
+     </li>
+     <li>
+      <a href="../Breakfast.html">
+       Breakfast
+      </a>
+     </li>
+     <li>
+      <a href="../Cocktail.html">
+       Cocktail
+      </a>
+     </li>
+     <li>
+      <a href="../Dessert.html">
+       Dessert
+      </a>
+     </li>
+     <li>
+      <a href="../Entree.html">
+       Entree
+      </a>
+     </li>
+     <li>
+      <a href="../Hotdish.html">
+       Hotdish
+      </a>
+     </li>
+     <li>
+      <a href="../InstantPot.html">
+       Instant Pot
+      </a>
+     </li>
+     <li>
+      <a href="../Meat.html">
+       Meat
+      </a>
+     </li>
+     <li>
+      <a href="../Pasta.html">
+       Pasta
+      </a>
+     </li>
+     <li>
+      <a href="../SideDish.html">
+       Side Dish
+      </a>
+     </li>
+     <li>
+      <a href="../Soup.html">
+       Soup
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <!-- Main -->
+   <div id="main">
+    <div class="inner">
+     <h2>
+      Sesame Chicken And Noodles In Mushroom Broth
+     </h2>
+     <p>
+      <i>
+       Recipe from Dan Wallien
+      </i>
+     </p>
+     <div class="row">
+      <div class="6u 12u$(medium)">
+       <h4>
+        Ingredients
+       </h4>
+       <h6>
+        Broth
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-0" value="4">
+          4
+         </span>
+         <span id="recipeUnit-Broth-0">
+          Whole
+         </span>
+         <span id="recipeIngredient-Broth-0">
+          Shiitake Mushrooms
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-1" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Broth-1">
+          Cup
+         </span>
+         <span id="recipeIngredient-Broth-1">
+          Chicken Broth, Low Sodium
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-2" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Broth-2">
+          Cup
+         </span>
+         <span id="recipeIngredient-Broth-2">
+          Water
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-3" value="4">
+          4
+         </span>
+         <span id="recipeUnit-Broth-3">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-Broth-3">
+          Soy Sauce, Low Sodium
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-4" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Broth-4">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-Broth-4">
+          Fish Sauce
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-5" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Broth-5">
+          Cloves
+         </span>
+         <span id="recipeIngredient-Broth-5">
+          Garlic, Crushed
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-6" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Broth-6">
+          Whole
+         </span>
+         <span id="recipeIngredient-Broth-6">
+          Piece Fresh Ginger, 2 Inches, Sliced
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Broth-7" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Broth-7">
+          Whole
+         </span>
+         <span id="recipeIngredient-Broth-7">
+          Serrano Chile, Thinly Sliced
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Vegetables
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Vegetables-0" value="1/2">
+          1/2
+         </span>
+         <span id="recipeUnit-Vegetables-0">
+          Cup
+         </span>
+         <span id="recipeIngredient-Vegetables-0">
+          Sliced Red Bell Pepper, Lengthwise
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Vegetables-1" value="4">
+          4
+         </span>
+         <span id="recipeUnit-Vegetables-1">
+          Whole
+         </span>
+         <span id="recipeIngredient-Vegetables-1">
+          Baby Bok Choy, Cut In Half Lengthwise
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Noodles
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Noodles-0" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Noodles-0">
+          Cups
+         </span>
+         <span id="recipeIngredient-Noodles-0">
+          Fresh Chinese-Style Noodles
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Chicken
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Chicken-0" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Chicken-0">
+          Pound
+         </span>
+         <span id="recipeIngredient-Chicken-0">
+          Chicken Cutlets
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Chicken-1" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Chicken-1">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Chicken-1">
+          Freshly Ground Black Pepper
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Chicken-2" value="1/3">
+          1/3
+         </span>
+         <span id="recipeUnit-Chicken-2">
+          Cup
+         </span>
+         <span id="recipeIngredient-Chicken-2">
+          Toasted Sesame Seeds
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Chicken-3" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Chicken-3">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-Chicken-3">
+          Sesame Oil
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="6u 12u$(medium)">
+       <h4>
+        Directions
+       </h4>
+       <ol>
+        <li>
+         Remove mushroom stems. Thinly slice caps; set caps aside. Add all other Broth ingredients to a saucepan and bring to a boil. Remove pan from heat.
+        </li>
+        <li>
+         In a separate saucepan, add noodles and cook until done. Drain.
+        </li>
+        <li>
+         Sprinkle chicken with black pepper. Press sesame seeds into both sides of chicken. Heat a nonstick skillet over medium-high heat. Add oil; swirl to coat. Add chicken; cook 3 minutes on each side or until done. Remove from pan. Add bok choy, cut sides down; cook 3 minutes or until browned. Add reserved mushroom slices and bell pepper. Strain broth mixture through sieve into pan; cover and cook 2 minutes. Remove vegetables with slotted spoon.
+        </li>
+        <li>
+         Thinly slice chicken. Place a serving of noodles, a serving of vegetables, and a serving of chicken into shallow bowls. Spoon broth mixture into bowl. Garnish each with two lime wedges.
+        </li>
+       </ol>
+      </div>
+     </div>
+    </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
+   </div>
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="inner">
+     <ul class="copyright">
+      <li>
+       All recipes subject to cooking skill
+      </li>
+      <li>
+       <a href="mailto:jeremy@jerwerner.com?subject=Recipes Inquiry">
+        Contact the Administrator
+       </a>
+      </li>
+     </ul>
+    </div>
+   </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="../../assets/js/jquery.min.js">
+  </script>
+  <script src="../../assets/js/skel.min.js">
+  </script>
+  <script src="../../assets/js/util.js">
+  </script>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="../../assets/js/main.js">
+  </script>
+  <script src="../../assets/js/recipeScaling.js">
+  </script>
+ </body>
+</html>
