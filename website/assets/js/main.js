@@ -203,7 +203,7 @@
 // Function for crossing out list elements
 $(document).ready(function(){
   $("li").on("click", function(){
-  	if(document.getElementsByTagName("body")[0].className != "is-menu-visible"){
+  	if(!$(document.getElementsByTagName("body")).hasClass("is-menu-visible")){
       $(this).toggleClass("checked");
   	};
   });
