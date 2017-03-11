@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Banana Bread"
+    ],
+    "recipeCategory": [
+        "Bread"
+    ],
+    "recipeSource": [
+        "Anita Werner"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Cream sugar and shortening. Add eggs and bananas, mix well.\"],[\"Stir in flour, salt, and soda until blended thoroughly.\"],[\"Bake for 1 hour in 9x5 inch greased and floured loaf pan at 350 degrees.\"],[\"Cool in pan 10 minutes, then cool on wire rack.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170311-141732"
+    ],
+    "notes": [
+        "Chocolate chips and/or nuts can be added if desired."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Brown Sugar\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shortening\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Mashed bananas\"],\"category\":[\"\"]},{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Flour\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Soda\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
