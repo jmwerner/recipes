@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Indian Butter Chicken"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://www.jayssweetnsourlife.com/2017/01/pressure-cooker-indian-butter-chicken.html/"
+    ],
+    "directions": [
+        "[[\"Turn instant pot on saute mode.\"],[\"Place stick of butter into the pot and let it melt.\"],[\"Toss in onions, garlic and cook until halfway done, then add the coconut milk, chicken stock, and tomato paste. Mix thoroughly.\"],[\"Add the Curry Powder, Ground Cumin, Ginger, Cayenne Pepper, Garam Masala, and salt to taste.\"],[\"Place chicken in the pot and cover with sauce. Cook on Manual at pressure for 15 minutes.\"],[\"Let the pressure come down naturally for 10 minutes and release remaining pressure.\"],[\"Whisk the cornstarch and water together. Add it to the pot and mix well. Let pot boil until sauce is thickened.\"],[\"Serve over a bed of basmati rice or jasmine rice.\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170414-213440"
+    ],
+    "notes": [
+        "Garnish with cilantro if desired."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Diced chicken breast or tenderloins\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garam masala\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cayenne pepper\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Curry powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"ground cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"ground ginger\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"Coconut Milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken stock\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato paste\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, minced\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Corn starch\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Water\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
