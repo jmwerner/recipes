@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Saag Paneer"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://www.slenderkitchen.com/recipe/sunday-slow-cooker-saag-paneer"
+    ],
+    "directions": [
+        "[[\"Add everything to slow cooker except for the paneer and cook on low for 3 hours.\"],[\"Blend everything with an immersion blender if desired.\"],[\"Add paneer and cook for 1 more hour. \"],[\"Serve over quinoa, rice, or with naan.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170416-215616"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground ginger\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Garam masala\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ground coriander\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ground cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cayenne pepper\"],\"category\":[\"\"]},{\"number\":[\"14\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Coconut milk\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Cup(s)\"],\"name\":[\"Spinach\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, diced\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Paneer, cubed\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
