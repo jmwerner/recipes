@@ -6,22 +6,22 @@
         "Breakfast"
     ],
     "recipeSource": [
-        "NA"
-    ],
-    "recipeLink": [
-        "NA"
-    ],
-    "directions": [
-        "[[\"Preheat oven to 375.\"],[\"In a medium sized bowl, mix together oats, baking powder, cinnamon, salt, and brown sugar. Set aside.\"],[\"In a separate bowl mix together milk, eggs, vanilla, honey, and butter.\"],[\"Layer half the berries in a baking dish and top evenly with dry oat mixture.\"],[\"Pour in the wet mixture and add the rest of the berries on top.\"],[\"Bake for 15-20 minutes, or until oats have absorbed the liquid. If using non-quick oats, increase baking time to 35-40 minutes.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
-    ],
-    "timestamp": [
-        "20161023-114030"
-    ],
-    "notes": [
         ""
     ],
+    "recipeLink": [
+        "http://www.inspiredtaste.net/9928/baked-oatmeal-with-strawberries-banana-and-chocolate-recipe/"
+    ],
+    "directions": [
+        "[[\"Heat oven to 375, generously spray the inside of a 2-quart baking dish (per recipe) with cooking spray and place on a baking sheet.\"],[\"In a large bowl, mix together the oats, sugar, baking powder, cinnamon, salt, half the strawberries, and half the chocolate. Add to prepared baking dish. Scatter the remaining strawberries, walnuts, chocolate, and the banana on top of the oats.\"],[\"In another large bowl, whisk together the milk, egg, butter, and vanilla extract, then pour over the oats and fruit. Gently shimmy and shake the baking dish to help the milk mixture go throughout the oats.\"],[\"Bake oatmeal until the top is golden brown and the milk mixture has set, about 35 minutes.\"],[\"For an extra tasty top, sprinkle a tablespoon or so of brown sugar on top of the oatmeal, and then place back in the oven under the broiler and broil for 20-30 seconds.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170417-184847"
+    ],
+    "notes": [
+        "Chopped walnuts can be added if desired."
+    ],
     "ingredients": [
-        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Oats\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cinnamon\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Brown sugar\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Vanilla\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Honey\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Melted butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Frozen mixed berries\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Old fashioned rolled oats\"],\"category\":[\"\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Light brown sugar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cinnamon\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Strawberries, sliced\"],\"category\":[\"\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Semi-sweet chocolate chips\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Butter, melted\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vanilla extract\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Banana, cut into slices\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]
 }
 
