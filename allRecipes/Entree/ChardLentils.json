@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chard Lentils"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://www.thekitchn.com/weeknight-recipe-braised-lentils-and-chard-with-an-egg-recipes-from-the-kitchn-182716"
+    ],
+    "directions": [
+        "[[\"Cut the center stems from the chard and dice them the same size as the onions and carrots. Cut the chard leaves into strips and set aside.\"],[\"Heat the oil in a large saucepan or Dutch oven over medium-high heat. Add the onion, carrot, and chard stems and cook, stirring occasionally, until softened, about 5 minutes.\"],[\"Add the lentils, garlic, bay leaf, and thyme and cook, stirring, for 1 minute. Add the water and bring to a boil. Reduce to a gentle simmer and cook, uncovered, for about 20 minutes or until the lentils are cooked but slightly al dente.\"],[\"Remove and discard the bay leaf (or leaves). Add the chard leaves, cover the pan, and cook for another 5-10 minutes until the chard leaves are wilted. Season the lentils with vinegar, salt, and pepper.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170502-215508"
+    ],
+    "notes": [
+        "Top with fried or poached eggs if desired."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chard\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Onion, diced\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Carrots, diced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dried lentils, rinsed\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Bay leaf\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried thyme\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Red wine vinegar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt and black pepper\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
