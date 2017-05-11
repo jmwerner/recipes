@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cilantro Lime Rice"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.culinaryhill.com/chipotle-cilantro-lime-rice/"
+    ],
+    "directions": [
+        "[[\"Bring 4 cups of water per cup of rice to a boil in a large pot. Add rice, salt, and the bay leaf. Stir and return to a boil. Boil uncovered for 12 minutes.\"],[\"Remove bay leaf. Using a fine mesh strainer, drain rice and rinse with hot water. Pour into a large bowl.\"],[\"Stir in cilantro, lime juice, and lemon juice. Add a pinch of salt, to taste. Serve hot or at room temperature.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170510-221020"
+    ],
+    "notes": [
+        "If using long-grain rice, I recommend rinsing it before cooking it to remove excess starch. To rinse the rice, place it in a fine-mesh sieve under cool water and rinse until the water runs clear. Drain well before adding the rice to the pot or rice cooker. Alternatively, you could soak the rice in a large bowl of water for up to 30 minutes to help remove starch while conserving water."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Basmati or long-grain white rice, rinsed\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt, divided\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Bay leaf\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Olive oil, optional\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Finely chopped cilantro\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Fresh lime juice\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Fresh lemon juice\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
