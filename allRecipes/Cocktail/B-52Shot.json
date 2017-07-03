@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "B-52 Shot"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a shotglass, float the irish cream on top of the Kahlua.\"],[\"Carefully float the Grand Mariner on top of the mixture.\"],[\"Enjoy!\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170702-193440"
+    ],
+    "notes": [
+        "Triple sec can be substituted for Grand Mariner."
+    ],
+    "ingredients": [
+        "[{\"number\":[\".5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Kahlua\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Irish Cream Liqueur\"],\"category\":[\"\"]},{\"number\":[\".4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Grand Mariner\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
