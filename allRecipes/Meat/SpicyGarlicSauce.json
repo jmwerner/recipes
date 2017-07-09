@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Spicy Garlic Sauce"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a small sauce pan combine all sauce base ingredients. Heat over medium heat until sauce begins to boil. Reduce heat and simmer for 5 minutes. Remove pan from heat and allow to cool for 8 minutes.\"],[\"Whisk all thickening mixture ingredients together. Slowly add mixture to the sauce base mixture, continually whisking to create an emulsion. Heat pan and bring to a boil, stirring constantly. Once it boils, remove from heat.\"],[\"Cover sauce and chill or use immediately.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170709-120734"
+    ],
+    "notes": [
+        "Omit cayenne pepper for a slightly less spicy sauce."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Buffalo Sauce (Frank's red)\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Vegetable oil\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Sugar\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"1.5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garlic Powder\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Black pepper\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cayenne pepper\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Worcestershire sauce\"],\"category\":[\"Sauce Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg yolk\"],\"category\":[\"Thickening Mixture\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Water\"],\"category\":[\"Thickening Mixture\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cornstarch\"],\"category\":[\"Thickening Mixture\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
