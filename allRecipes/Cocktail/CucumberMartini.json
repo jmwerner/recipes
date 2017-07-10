@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cucumber Martini"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://ahealthylifeforme.com/cucumber-martini/"
+    ],
+    "directions": [
+        "[[\"Make the cucumber extract: Shred the cucumber into a bowl. Add vermouth and kosher salt, stir and allow it to rest for 10 minutes. Strain the cucumber through a fine filter or cheesecloth into a container, pressing to extract juice. \"],[\"Add mint leaves and lime juice to shaker, muddle lightly.\"],[\"Add simple syrup, vodka, and cucumber extract. Stir and add ice, shake vigorously. \"],[\"Strain into chilled martini glass. Garnish with a cucumber slice and/or mint leaf. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170709-181551"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Cucumber\"],\"category\":[\"Cucumber Extract\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"Cucumber Extract\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Dry vermouth\"],\"category\":[\"Cucumber Extract\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Large Mint Leaves\"],\"category\":[\"Martini\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lime juice (Half of one Lime per Martini)\"],\"category\":[\"Martini\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Simple Syrup\"],\"category\":[\"Martini\"]},{\"number\":[\"2.5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Quality Vodka\"],\"category\":[\"Martini\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cucumber Extract\"],\"category\":[\"Martini\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
