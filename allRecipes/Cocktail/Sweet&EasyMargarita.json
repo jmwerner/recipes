@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Sweet & Easy Margarita"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "Nate Silver"
+    ],
+    "recipeLink": [
+        "http://fivethirtyeight.com/features/we-got-drunk-on-margaritas-for-science/"
+    ],
+    "directions": [
+        "[[\"Combine ingredients, shake with ice. \"],[\"Strain and serve on the rocks. Enjoy!\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170724-201620"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tequila\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cointreau\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lemon Juice\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lime Juice\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Agave Nectar\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
