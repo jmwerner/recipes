@@ -74,7 +74,7 @@ def lower_conjunctions_in_string(ingredient):
     Returns:
         string: Processed ingredient name string with conjunctions lowered.
     '''
-    conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So']
+    conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So', 'Per', 'Of']
     splits = ingredient.strip().split()
     for i in range(0, len(splits)):
         if splits[i] in conjunctions:
