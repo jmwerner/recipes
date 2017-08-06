@@ -1,0 +1,396 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>
+   Werner Family Recipes
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link href="../../assets/css/main.css" rel="stylesheet"/>
+  <!--[if lte IE 9]><link rel="stylesheet" href="../../assets/css/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="../../assets/css/ie8.css" /><![endif]-->
+  <link href="../../../website_generator/templates/images/touch/chrome-touch-icon-192x192.png" rel="icon" sizes="192x192"/>
+  <link href="../../../website_generator/templates/images/touch/apple-touch-icon.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+   <!-- Header -->
+   <header id="header">
+    <div class="inner">
+     <!-- Nav -->
+     <nav>
+      <ul>
+       <li>
+        <a href="#menu" id="menuButton">
+         Menu
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </header>
+   <!-- Menu -->
+   <nav id="menu">
+    <h2>
+     Menu
+    </h2>
+    <button id="searchButton" onclick="enterKeyRedirect()" style="float:right">
+     Search
+    </button>
+    <div style="overflow:hidden; padding-right: .5em;">
+     <input class="searchField" id="searchTxt" maxlength="512" name="searchTxt" placeholder="Search Here..." style="width: 100%" type="text"/>
+    </div>
+    <br/>
+    <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
+    <ul>
+     <li>
+      <a href="../../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="../Appetizer.html">
+       Appetizer
+      </a>
+     </li>
+     <li>
+      <a href="../Bread.html">
+       Bread
+      </a>
+     </li>
+     <li>
+      <a href="../Breakfast.html">
+       Breakfast
+      </a>
+     </li>
+     <li>
+      <a href="../Cocktail.html">
+       Cocktail
+      </a>
+     </li>
+     <li>
+      <a href="../Dessert.html">
+       Dessert
+      </a>
+     </li>
+     <li>
+      <a href="../Entree.html">
+       Entree
+      </a>
+     </li>
+     <li>
+      <a href="../Hotdish.html">
+       Hotdish
+      </a>
+     </li>
+     <li>
+      <a href="../InstantPot.html">
+       Instant Pot
+      </a>
+     </li>
+     <li>
+      <a href="../Meat.html">
+       Meat
+      </a>
+     </li>
+     <li>
+      <a href="../Pasta.html">
+       Pasta
+      </a>
+     </li>
+     <li>
+      <a href="../SideDish.html">
+       Side Dish
+      </a>
+     </li>
+     <li>
+      <a href="../Soup.html">
+       Soup
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <!-- Main -->
+   <div id="main">
+    <div class="inner">
+     <h2>
+      Deep Dish Pizza
+     </h2>
+     <div class="row">
+      <div class="6u 12u$(medium)">
+       <h4>
+        Ingredients
+       </h4>
+       <h6>
+        Sauce
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-0" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Sauce-0">
+          Tablespoons
+         </span>
+         <span id="recipeIngredient-Sauce-0">
+          Olive Oil
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-1" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Sauce-1">
+          Tablespoon
+         </span>
+         <span id="recipeIngredient-Sauce-1">
+          Chopped Fresh Garlic
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-2" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Sauce-2">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-Sauce-2">
+          Chopped Fresh Basil
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-3" value="1/2">
+          1/2
+         </span>
+         <span id="recipeUnit-Sauce-3">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-3">
+          Oregano
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-4" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Sauce-4">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-4">
+          Fennel Seeds
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-5" value="1/2">
+          1/2
+         </span>
+         <span id="recipeUnit-Sauce-5">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-5">
+          Salt
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-6" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Sauce-6">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-6">
+          Freshly Ground Black Pepper
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-7" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Sauce-7">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-7">
+          Red Pepper Flakes
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-8" value="28">
+          28
+         </span>
+         <span id="recipeUnit-Sauce-8">
+          Ounces
+         </span>
+         <span id="recipeIngredient-Sauce-8">
+          Plum Red Tomatoes, Coarsely Crushed
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-9" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Sauce-9">
+          Tablespoon
+         </span>
+         <span id="recipeIngredient-Sauce-9">
+          Dry Red Wine
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-10" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Sauce-10">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-10">
+          Sugar
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Pizza
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-0" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Pizza-0">
+          Pound
+         </span>
+         <span id="recipeIngredient-Pizza-0">
+          Mozzarella Cheese
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-1" value="8">
+          8
+         </span>
+         <span id="recipeUnit-Pizza-1">
+          Ounces
+         </span>
+         <span id="recipeIngredient-Pizza-1">
+          Pepperoni, Thinly Sliced
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-2" value="8">
+          8
+         </span>
+         <span id="recipeUnit-Pizza-2">
+          Ounces
+         </span>
+         <span id="recipeIngredient-Pizza-2">
+          Mushrooms, Thinly Sliced
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-3" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Pizza-3">
+          Whole
+         </span>
+         <span id="recipeIngredient-Pizza-3">
+          Green Bell Pepper, Cut Into Thin Rings
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-4" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Pizza-4">
+          Whole
+         </span>
+         <span id="recipeIngredient-Pizza-4">
+          Yellow Onion, Cut Into Thin Rings
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-5" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Pizza-5">
+          Pound
+         </span>
+         <span id="recipeIngredient-Pizza-5">
+          Crumbled Hot Italian Sausage
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Pizza-6" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Pizza-6">
+          Cup
+         </span>
+         <span id="recipeIngredient-Pizza-6">
+          Grated Parmesan Cheese
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="6u 12u$(medium)">
+       <h4>
+        Directions
+       </h4>
+       <ol>
+        <li>
+         While the dough is rising, make the tomato sauce. In a medium saucepan, heat the oil over medium-high heat. Add the garlic and cook, stirring, for 30 seconds. Add the herbs, seeds, salt, and black and red peppers, and cook, stirring, for 30 seconds. Add the tomatoes, wine and sugar, and bring to a boil. Lower the heat and simmer, stirring occasionally, until thickened, 20 to 30 minutes. Remove from the heat and let cool completely before using.
+        </li>
+        <li>
+         Preheat oven to 475 degrees.
+        </li>
+        <li>
+         Oil 2 seasoned 12-inch round deep-dish pizza pans with the extra-virgin olive oil. Press 1 piece of dough into each pan, pressing to the edge and stretching about 1 1/2 inches up the sides. Let rest for 5 minutes.
+        </li>
+        <li>
+         Layer the mozzarella cheese all over the bottom of the pies. Top each with half of the pepperoni, mushrooms, bell pepper rings, onions, black olives and sausage. Ladle the sauce evenly over each pizza and top with Parmesan.
+        </li>
+        <li>
+         Bake until the top is golden and the cheese is bubbly and the crust is golden brown, about 30 minutes. Remove from the oven, slice and serve hot.
+        </li>
+       </ol>
+      </div>
+     </div>
+    </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
+   </div>
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="inner">
+     <ul class="copyright">
+      <li>
+       All recipes subject to cooking skill
+      </li>
+      <li>
+       <a href="mailto:jeremy@jerwerner.com?subject=Recipes Inquiry">
+        Contact the Administrator
+       </a>
+      </li>
+     </ul>
+    </div>
+   </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="../../assets/js/jquery.min.js">
+  </script>
+  <script src="../../assets/js/skel.min.js">
+  </script>
+  <script src="../../assets/js/util.js">
+  </script>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="../../assets/js/main.js">
+  </script>
+  <script src="../../assets/js/recipeScaling.js">
+  </script>
+ </body>
+</html>

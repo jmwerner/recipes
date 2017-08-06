@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Deep Dish Pizza"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://emerils.com/126066/chicago-style-deep-dish-pizzas"
+    ],
+    "directions": [
+        "[[\"While the dough is rising, make the tomato sauce. In a medium saucepan, heat the oil over medium-high heat. Add the garlic and cook, stirring, for 30 seconds. Add the herbs, seeds, salt, and black and red peppers, and cook, stirring, for 30 seconds. Add the tomatoes, wine and sugar, and bring to a boil. Lower the heat and simmer, stirring occasionally, until thickened, 20 to 30 minutes. Remove from the heat and let cool completely before using.\"],[\"Preheat oven to 475 degrees.\"],[\"Oil 2 seasoned 12-inch round deep-dish pizza pans with the extra-virgin olive oil. Press 1 piece of dough into each pan, pressing to the edge and stretching about 1 1/2 inches up the sides. Let rest for 5 minutes.\"],[\"Layer the mozzarella cheese all over the bottom of the pies. Top each with half of the pepperoni, mushrooms, bell pepper rings, onions, black olives and sausage. Ladle the sauce evenly over each pizza and top with Parmesan.\"],[\"Bake until the top is golden and the cheese is bubbly and the crust is golden brown, about 30 minutes. Remove from the oven, slice and serve hot.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170805-182648"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chopped fresh garlic\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Chopped fresh basil\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Oregano\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Fennel seeds\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Freshly ground black pepper\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Red pepper flakes\"],\"category\":[\"Sauce\"]},{\"number\":[\"28\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Plum red tomatoes, coarsely crushed\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Dry red wine\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Sugar\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Mozzarella cheese\"],\"category\":[\"Pizza\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Pepperoni, thinly sliced\"],\"category\":[\"Pizza\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Mushrooms, thinly sliced\"],\"category\":[\"Pizza\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Green bell pepper, cut into thin rings\"],\"category\":[\"Pizza\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Yellow onion, cut into thin rings\"],\"category\":[\"Pizza\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Crumbled hot italian sausage\"],\"category\":[\"Pizza\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Grated parmesan cheese\"],\"category\":[\"Pizza\"]}]"
+    ]
+}
+
