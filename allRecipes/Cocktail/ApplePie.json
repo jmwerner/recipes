@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Apple Pie"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "SPD"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine all of the juice base ingredients and boil until the sugar dissolves and the cinnamon sticks have lost their color, approximately 15-20 minutes.\"],[\"Let cool and add drunk juice to taste.\"],[\"Refrigerate and enjoy!\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20170807-180011"
+    ],
+    "notes": [
+        "Advanced: Add caramel and vanilla extract to give it a caramel apple pie flavor."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"64\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Apple juice\"],\"category\":[\"Juice Base\"]},{\"number\":[\"64\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Apple cider\"],\"category\":[\"Juice Base\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sugar\"],\"category\":[\"Juice Base\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Cinnamon Sticks\"],\"category\":[\"Juice Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Bottle(s)\"],\"name\":[\"Everclear (750ml)\"],\"category\":[\"Drunk Juice\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
