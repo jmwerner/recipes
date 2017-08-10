@@ -64,21 +64,22 @@ def preprocess_ingredients(ingredients_list):
             output_list[i]['name'][0] = \
                 output_list[i]['name'][0].lower().title()
             output_list[i]['name'][0] = \
-                lower_conjunctions_in_string(output_list[i]['name'][0])
+                lower_special_cases_in_string(output_list[i]['name'][0])
     return output_list
 
-def lower_conjunctions_in_string(ingredient):
-    '''Converts conjunctions to non-capitalized words in recipe ingredients.
+def lower_special_cases_in_string(ingredient):
+    '''Converts special cases to non-capitalized words in recipe ingredients.
     Args:
         ingredient (string): Ingredient name string for processing.
     Returns:
-        string: Processed ingredient name string with conjunctions lowered.
+        string: Processed ingredient name string with special cases lowered.
     '''
     conjunctions = ['For', 'And', 'Nor', 'But', 'Or', 'Yet', 'So', 'Per', 'Of']
     splits = ingredient.strip().split()
     for i in range(0, len(splits)):
         if splits[i] in conjunctions:
             splits[i] = splits[i].lower()
+        splits[i] = splits[i].replace("'S", "'s")
     return ' '.join(splits)
 
 def set_plural_suffix(input_string, plural):
