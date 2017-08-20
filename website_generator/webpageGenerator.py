@@ -263,6 +263,13 @@ def preprocess_directions(directions):
     for i in range(0, len(directions)):
         if output[i][0] != '':
             output[i][0] = output[i][0].rstrip().rstrip('.') + '.'
+    # Change ' Degrees' or ' degrees' to the degree symbol
+    for i in range(0, len(directions)):
+        if output[i][0] != '':
+            output[i][0] = output[i][0].replace(' Degrees', '&#176')
+            output[i][0] = output[i][0].replace(' degrees', '&#176')
+            output[i][0] = output[i][0].replace(' Degree', '&#176')
+            output[i][0] = output[i][0].replace(' degree', '&#176')
     return output
 
 def create_menu_links(categories, is_recipe=False):
