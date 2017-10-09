@@ -65,6 +65,8 @@ def preprocess_ingredients(ingredients_list):
                 output_list[i]['name'][0].lower().title()
             output_list[i]['name'][0] = \
                 lower_special_cases_in_string(output_list[i]['name'][0])
+            output_list[i]['name'][0] = \
+                replace_degrees_in_string(output_list[i]['name'][0])
     return output_list
 
 def lower_special_cases_in_string(ingredient):
@@ -81,6 +83,19 @@ def lower_special_cases_in_string(ingredient):
             splits[i] = splits[i].lower()
         splits[i] = splits[i].replace("'S", "'s")
     return ' '.join(splits)
+
+def replace_degrees_in_string(ingredient):
+    '''Replaces variants of the word degree with the degrees symbol.
+    Args:
+        ingredient (string): Ingredient name string for processing.
+    Returns:
+        string: Processed ingredient name string with degrees symbols.
+    '''
+    ingredient = ingredient.replace(' Degrees', '&#176')
+    ingredient = ingredient.replace(' degrees', '&#176')
+    ingredient = ingredient.replace(' Degree', '&#176')
+    ingredient = ingredient.replace(' degree', '&#176')
+    return ingredient
 
 def set_plural_suffix(input_string, plural):
     '''Changes plural suffix on words where applicable and strips (s) option.
@@ -266,10 +281,7 @@ def preprocess_directions(directions):
     # Change ' Degrees' or ' degrees' to the degree symbol
     for i in range(0, len(directions)):
         if output[i][0] != '':
-            output[i][0] = output[i][0].replace(' Degrees', '&#176')
-            output[i][0] = output[i][0].replace(' degrees', '&#176')
-            output[i][0] = output[i][0].replace(' Degree', '&#176')
-            output[i][0] = output[i][0].replace(' degree', '&#176')
+            output[i][0] = replace_degrees_in_string(output[i][0])
     return output
 
 def create_menu_links(categories, is_recipe=False):
