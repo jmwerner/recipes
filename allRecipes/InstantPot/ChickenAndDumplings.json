@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chicken And Dumplings"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        "Heidi"
+    ],
+    "recipeLink": [
+        "https://www.southernfamilyfun.com/instant-pot-chicken-dumplings/"
+    ],
+    "directions": [
+        "[[\"Stir together all dumpling ingredients except butter and milk. Cut in butter until crumbly. Stir in milk to make a soft dough.\"],[\"Place a splash of olive oil, chicken, oregano, onion powder, basil, garlic, salt, and pepper into the instant pot and mix to coat.\"],[\"Turn instant pot to saute and cook chicken (with the lid off) until brown on all sides, stirring frequently.\"],[\"Add chicken broth, water, carrots, and peas to instant pot. Mix well.\"],[\"Drop in biscuits by the spoonful.\"],[\"Cook at high pressure for 5 minutes.\"],[\"Quick-release pressure and enjoy!\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20171012-194930"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Base\"]},{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken breast, cubed\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chopped carrots\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Frozen peas\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Oregano\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Onion powder\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Basil\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"],\"category\":[\"Dumplings\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"White sugar\"],\"category\":[\"Dumplings\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Dumplings\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Margarine\"],\"category\":[\"Dumplings\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"Dumplings\"]}]"
+    ]
+}
+
