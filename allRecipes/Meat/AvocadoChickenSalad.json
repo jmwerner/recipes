@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Avocado Chicken Salad"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        "Andrea Dietterle"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine salad ingredients and sauce ingredients in two bowls and mix.\"],[\"Combine sauce and salad, mix lightly.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20171227-113606"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Chicken breasts, cooked and shredded\"],\"category\":[\"Salad\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Avocados, chopped\"],\"category\":[\"Salad\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Corn\"],\"category\":[\"Salad\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Green onions, chopped\"],\"category\":[\"Salad\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Strips of bacon, cooked and chopped\"],\"category\":[\"Salad\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Fresh dill\"],\"category\":[\"Salad\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Lemon, juiced\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Sauce\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

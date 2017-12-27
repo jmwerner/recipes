@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Grilled Hawaiian Bowl"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        "Andrea Dietterle"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Grill veggies and pork tenderloin. Chop and combine with rice in bowl. \"],[\"Mix the sauce ingredients and pour over bowl.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20171227-113154"
+    ],
+    "notes": [
+        "Makes approximately 2 servings of sauce. Vegetable portions are approximate. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cooked brown rice\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Pineapple\"],\"category\":[\"Veggies\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red bell pepper\"],\"category\":[\"Veggies\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red onion\"],\"category\":[\"Veggies\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Zucchini\"],\"category\":[\"Veggies\"]},{\"number\":[\"3\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Pork tenderlion\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Soy sauce\"],\"category\":[\"Sauce\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Rice vinegar\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Honey\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Oil\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Crushed red pepper\"],\"category\":[\"Sauce\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

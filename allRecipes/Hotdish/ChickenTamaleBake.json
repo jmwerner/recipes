@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chicken Tamale Bake"
+    ],
+    "recipeCategory": [
+        "Hotdish"
+    ],
+    "recipeSource": [
+        "Andrea Dietterle"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Preheat oven to 400 degrees. \"],[\"Mix base ingredients in bowl until combined. Place in 13x9 greased baking dish.\"],[\"Bake for approximately 15 minutes until inserted toothpick comes out clean.\"],[\"In a large skillet, combine topping ingredients and bring to boil. Reduce heat and simmer uncovered for 5 minutes.\"],[\"Spread cooked topping over base in baking dish, add cheese on top.\"],[\"Bake approximately 10 minutes until cheese is melted.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20171227-112525"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg, lightly beaten\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"Cream style corn\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Corn bread muffin mix (8.5 oz)\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Can(s)\"],\"name\":[\"Chopped green chilis (4 oz)\"],\"category\":[\"Base\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Two percent milk\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shredded chicken\"],\"category\":[\"Topping\"]},{\"number\":[\"10\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Red enchilada sauce\"],\"category\":[\"Topping\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cumin\"],\"category\":[\"Topping\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Onion powder\"],\"category\":[\"Topping\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shredded mexican cheese\"],\"category\":[\"Cheese\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
