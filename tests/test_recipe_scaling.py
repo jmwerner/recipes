@@ -7,7 +7,7 @@ import json
 from selenium import webdriver
 
 import sys
-sys.path.insert(0, 'website_generator')
+sys.path.insert(0, 'generator')
 import webpageGenerator as gen
 
 def get_html_from_url(url):

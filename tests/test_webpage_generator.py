@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, 'website_generator')
+sys.path.insert(0, 'generator')
 
 import webpageGenerator as gen
 
