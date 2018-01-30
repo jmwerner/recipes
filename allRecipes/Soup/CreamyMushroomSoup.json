@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Creamy Mushroom Soup"
+    ],
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://allrecipes.com/recipe/235589/chef-johns-creamy-mushroom-soup/"
+    ],
+    "directions": [
+        "[[\"Melt butter in a large soup pot over medium-high heat; cook mushrooms in butter with a pinch salt until the mushrooms give off their juices; reduce heat to low. Continue to cook, stirring often, until juices evaporate and the mushrooms are golden brown, about 15 minutes. Mix onion into mushrooms and cook until onion is soft and translucent, about 5 more minutes.\"],[\"Stir flour into mushroom mixture and cook, stirring often, for 2 minutes. Tie thyme sprigs into a small bundle with kitchen twine and add to mushroom mixture; add garlic cloves. Pour chicken stock and water into mushroom mixture. Bring to a simmer and cook for 1 hour. Remove thyme bundle.\"],[\"Blend soup with an immersion blender or food processor.\"],[\"Return soup to pot and stir in cream. Season with salt and black pepper and serve.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20180129-203852"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Unsalted butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Sliced fresh mushrooms\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, diced\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Whole\"],\"name\":[\"Sprigs of fresh thyme\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, peeled\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Heavy cream\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
