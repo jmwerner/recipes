@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Hamburger and Rice Hotdish"
+    ],
+    "recipeCategory": [
+        "Hotdish"
+    ],
+    "recipeSource": [
+        "Mark Werner"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Brown meat, onions, and celery. Drain off fat.\"],[\"Add the remaining ingredients and mix thoroughly. \"],[\"Transfer to baking dish and bake for 90 minutes at 325 degrees.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20180313-213513"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Hamburger\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, chopped\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Celery, chopped\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Uncooked rice\"],\"category\":[\"\"]},{\"number\":[\"10\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cream of chicken soup\"],\"category\":[\"\"]},{\"number\":[\"10\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cream of mushroom soup\"],\"category\":[\"\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Can of mixed vegetables\"],\"category\":[\"\"]},{\"number\":[\"10.5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Water\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Soy sauce\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
