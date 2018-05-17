@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Hashbrown Eggbake"
+    ],
+    "recipeCategory": [
+        "Breakfast"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://pocketchangegourmet.com/hashbrown-casserole-with-ham/"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350 degrees and spray a 13x9 baking dish with non-stick cooking spray\"],[\"In a very large bowl, combine hashbrowns, butter, salt and pepper\"],[\"Add ham and cheese and stir until well combined\"],[\"Spread mixture into baking dish evenly. There pan will be very full, don't worry the eggs will be absorbed into the mixture.\"],[\"In a small bowl, combine the eggs and milk\"],[\"Pour evenly over hashbrown mixture\"],[\"Top with topping cheese\"],[\"Baking at 350 degrees for 45 minutes. Cover dish with foil and continue cooking for about 15 minutes more or until a knife inserted in the center comes out clean\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20180516-214513"
+    ],
+    "notes": [
+        "This can be prepared ahead. Cover in plastic wrap and place in refrigerator over night. Remove 30 minutes before baking. Bake following instructions."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"32\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Shredded hashbrowns, thawed\"],\"category\":[\"Eggbake\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Butter, melted\"],\"category\":[\"Eggbake\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Eggbake\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Eggbake\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Ham, chopped\"],\"category\":[\"Eggbake\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sharp cheddar cheese, grated\"],\"category\":[\"Eggbake\"]},{\"number\":[\".25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sharp cheddar cheese\"],\"category\":[\"Topping\"]},{\"number\":[\"8\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"Eggbake\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"Eggbake\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
