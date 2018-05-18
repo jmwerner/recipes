@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Thai Peanut Chicken"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://dinnerthendessert.com/slow-cooker-thai-peanut-chicken/"
+    ],
+    "directions": [
+        "[[\"Add base ingredients to instant pot. \"],[\"Cook at pressure for 10 minutes.\"],[\"Whisk thickening ingredients together in small bowl and add to instant pot.\"],[\"Stir and saute until thickened.\"],[\"Turn off heat and enjoy.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20180517-215653"
+    ],
+    "notes": [
+        "Top with chopped peanuts, cilantro, and green onions if desired. It's possible that more liquid will be needed to get this to pressure."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Coconut milk\"],\"category\":[\"Base\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Creamy peanut butter\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Low sodium soy sauce\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Honey\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Rice wine vinegar\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ginger, peeled and minced\"],\"category\":[\"Base\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Base\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"Chicken breasts, diced\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Cornstarch\"],\"category\":[\"Thickening\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Lime juice\"],\"category\":[\"Thickening\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
