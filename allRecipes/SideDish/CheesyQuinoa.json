@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Cheesy Quinoa"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://aroundthetableri.blogspot.com/2012/02/cheesy-quinoa-mac-cheese.html"
+    ],
+    "directions": [
+        "[[\"Cook quinoa to package instructions until fully cooked.\"],[\"Preheat oven to 350 degrees. \"],[\"Coat 9x13 pan with cooking spray.\"],[\"Whisk together eggs and milk in large bowl. Fold in all other ingredients except for the panko.\"],[\"Place mixture into pan and top with pank. Bake 30-35 minutes, until top is golden brown.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20180814-215017"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Quinoa, rinsed and drained\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Non-fat milk\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cheddar cheese, shredded\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Panko\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
