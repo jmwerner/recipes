@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Uncle Buck's Rhubarb Hooch"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "Steve Giedt"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Bring sugar and water to a boil in a small saucepan, stirring just until sugar dissolves. Remove from heat and cool.\"],[\"Place coarsely chopped rhubarb in wide-mouth jars.\"],[\"Mix vodka, Grand Mariner, and cooled sugar syrup together.\"],[\"Pour liquid over rhubarb in jars. Screw lid on tightly and let stand at room temperature for 2 to 3 weeks or until all the color leaches out of the rhubarb.\"],[\"Strain mixture, discard solids, and enjoy\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20180903-134631"
+    ],
+    "notes": [
+        "More rhubarb can be used, just make sure all rhubarb is covered in liquid for fermenting. "
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sugar\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Cup(s)\"],\"name\":[\"Vodka\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Grand Mariner\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Rhubarb, coarsely chopped\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
