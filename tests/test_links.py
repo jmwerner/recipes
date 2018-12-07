@@ -19,7 +19,7 @@ def get_html_from_url(url):
 
 def get_page_links(html):
     links = []
-    soup = bs.BeautifulSoup(html)
+    soup = bs.BeautifulSoup(html, 'lxml')
     for a in soup.find_all('a', href=True):
         if not a['href'].startswith('mailto:') and not \
             a['href'].startswith('#'):
