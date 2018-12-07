@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Jambalaya"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.delish.com/cooking/recipe-ideas/a53820/easy-homemade-cajun-jambalaya-recipe/"
+    ],
+    "directions": [
+        "[[\"In a large pot over medium heat, heat oil. Add onion and bell peppers and season with salt and pepper. Cook until soft, about 5 minutes, then stir in chicken and season with salt, pepper, and oregano. Cook until the chicken is golden, about 5 minutes, then stir in andouille sausage, garlic, and tomato paste and cook until fragrant, about 1 minute more.\"],[\"Add chicken broth, crushed tomatoes, rice, and Old Bay. Reduce heat to medium low, cover with a tight fitting lid, and cook until the rice is tender and the liquid is almost absorbed, about 20 minutes.\"],[\"Add the shrimp and cook until pink, 3 to 5 minutes.\"],[\"Stir in green onions just before serving.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20181206-215418"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"olive oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, chopped\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"bell peppers, chopped\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Kosher salt and freshly ground pepper\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Boneless chicken breasts, cut into one inch pieces\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried oregano\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Andouille sausage, sliced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Tomato paste\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Low-sodium chicken stock\"],\"category\":[\"\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Crushed tomatoes\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"long grain rice\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Old bay seasoning\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Medium shrimp, peeled and deveined\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Green onions, thinly sliced\"],\"category\":[\"\"]}]"
+    ]
+}
+
