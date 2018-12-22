@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Peanut Butter Banana Oatmeal"
+    ],
+    "recipeCategory": [
+        "Breakfast"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.fivehearthome.com/quick-peanut-butter-banana-oatmeal/"
+    ],
+    "directions": [
+        "[[\"In a medium saucepan set over medium heat, bring milk to a boil, watching carefully so that it doesn't boil over. Stir in oats, reduce heat to a simmer, and cook for 1 to 2 minutes, stirring occasionally.\"],[\"Remove from heat and cover for a few minutes. Stir in mashed banana, peanut butter, cinnamon, vanilla, and salt. Stir in honey, to taste, if desired.\"],[\"Top with sliced bananas, chopped peanuts, and additional cinnamon before serving.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20181222-155407"
+    ],
+    "notes": [
+        "Honey can also be added if desired."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"7/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"quick oats\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Ripe banana, mashed\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Peanut butter\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cinnamon\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pure vanilla extract\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
