@@ -6,6 +6,9 @@ import json
 
 from selenium import webdriver
 
+from selenium.webdriver import ChromeOptions
+from selenium.webdriver.chrome.options import Options  
+
 import sys
 sys.path.insert(0, 'generator')
 import webpageGenerator as gen
@@ -134,90 +137,102 @@ def test_scaling_helper_functions():
     assert simplify_fraction(5,1) == (5,1)
     assert simplify_fraction(6,3) == (2,1)
 
-def test_recipe_scaling(processed_links_from_sitemap):
-    for link in processed_links_from_sitemap[5]:
-        browser = webdriver.PhantomJS()
-        browser.get(link)
 
-        source_html = browser.page_source
-        ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
+# # processed_links_from_sitemap = processed_links_from_sitemap(raw_sitemap(sitemap_name()), xml_tag())
 
-        if ingredient_dict_from_html:
+# def test_recipe_scaling(processed_links_from_sitemap):
+#     chrome_options = Options()
+#     chrome_options.add_argument("--headless")
 
-            scaling_vector = browser.execute_script('return scalingValues')
-            assert scaling_vector[0] == '1'
-
-            json_link = link.replace('.html', '.json').replace('website/', '')
-            json_string = get_html_from_url(json_link)
-            ingredients_from_json = \
-                json.loads(json.loads(json_string)['ingredients'][0])
-
-            category_iterator = create_category_iterator(ingredients_from_json)
-
-            for i in range(0, len(ingredient_dict_from_html)):
-                category = find_ingredient_category(ingredients_from_json[i])
-                id = category + '-' + str(category_iterator[category])
-                category_iterator[category] += 1
-
-                processed_json_number = \
-                    process_json_number(ingredients_from_json[i]['number'][0])
-                processed_units = process_json_units(ingredients_from_json[i])
-
-                assert processed_json_number == \
-                    ingredient_dict_from_html[id]['number']
-                assert process_json_name(ingredients_from_json[i]['name'][0]) \
-                    == ingredient_dict_from_html[id]['name']
-                assert processed_json_number ==  \
-                    ingredient_dict_from_html[id]['value_tag']
-                assert processed_units == ingredient_dict_from_html[id]['units']
+#     for link in processed_links_from_sitemap:
+#         browser = webdriver.Chrome(chrome_options=chrome_options)
+#         browser.get(link)
+#         source_html = browser.page_source
+#         ingredient_dict_from_html = make_ingredient_dict_from_html(source_html)
 
 
-            # Open menu (and leave it open)
-            menu_button = browser.find_element_by_id("menuButton")
-            menu_button.click()
 
-            for scaling_value in scaling_vector[1:]:
+# # old_browser = webdriver.PhantomJS()
+# # old_browser.get(link)
+# # source_html = old_browser.page_source
+# # ingredient_dict_from_html_2 = make_ingredient_dict_from_html(source_html)
 
-                # Click scaling button
-                scaling_button = browser.find_element_by_id("scalingButton")
-                scaling_button.click()
+#         if ingredient_dict_from_html:
 
-                # Get html from page after click
-                source_html = browser.page_source
-                ingredient_dict_from_html = \
-                    make_ingredient_dict_from_html(source_html)
+#             scaling_vector = browser.execute_script('return scalingValues')
+#             assert scaling_vector[0] == '1'
 
-                if ingredient_dict_from_html:
+#             json_link = link.replace('.html', '.json').replace('website/', '')
+#             json_string = get_html_from_url(json_link)
+#             ingredients_from_json = \
+#                 json.loads(json.loads(json_string)['ingredients'][0])
 
-                    json_link = link.replace('.html', '.json')
-                    json_link = json_link.replace('website/', '')
-                    json_string = get_html_from_url(json_link)
-                    ingredients_from_json = \
-                        json.loads(json.loads(json_string)['ingredients'][0])
+#             category_iterator = create_category_iterator(ingredients_from_json)
 
-                    category_iterator = \
-                        create_category_iterator(ingredients_from_json)
+#             for i in range(0, len(ingredient_dict_from_html)):
+#                 category = find_ingredient_category(ingredients_from_json[i])
+#                 id = category + '-' + str(category_iterator[category])
+#                 category_iterator[category] += 1
 
-                    for i in range(0, len(ingredient_dict_from_html)):
-                        category = \
-                            find_ingredient_category(ingredients_from_json[i])
-                        id = category + '-' + str(category_iterator[category])
-                        category_iterator[category] += 1
+#                 processed_json_number = \
+#                     process_json_number(ingredients_from_json[i]['number'][0])
+#                 processed_units = process_json_units(ingredients_from_json[i])
 
-                        processed_json_number = \
-                            process_and_scale_json_number(\
-                            ingredients_from_json[i]['number'][0], \
-                            scaling_value)
-                        processed_units = \
-                            process_json_units(ingredients_from_json[i], \
-                                               scaling_value)
+#                 assert processed_json_number == \
+#                     ingredient_dict_from_html[id]['number']
+#                 assert process_json_name(ingredients_from_json[i]['name'][0]) \
+#                     == ingredient_dict_from_html[id]['name']
+#                 assert processed_json_number ==  \
+#                     ingredient_dict_from_html[id]['value_tag']
+#                 assert processed_units == ingredient_dict_from_html[id]['units']
 
-                        assert processed_json_number == \
-                            ingredient_dict_from_html[id]['number']
-                        assert process_json_name(\
-                            ingredients_from_json[i]['name'][0]) == \
-                        ingredient_dict_from_html[id]['name']
-                        assert processed_json_number ==  \
-                            ingredient_dict_from_html[id]['value_tag']
-                        assert processed_units == \
-                            ingredient_dict_from_html[id]['units']
+
+#             # Open menu (and leave it open)
+#             menu_button = browser.find_element_by_id("menu")
+#             menu_button.click()
+
+#             for scaling_value in scaling_vector[1:]:
+
+#                 # Click scaling button
+#                 scaling_button = browser.find_element_by_id("scalingButton")
+#                 scaling_button.click()
+
+#                 # Get html from page after click
+#                 source_html = browser.page_source
+#                 ingredient_dict_from_html = \
+#                     make_ingredient_dict_from_html(source_html)
+
+#                 if ingredient_dict_from_html:
+
+#                     json_link = link.replace('.html', '.json')
+#                     json_link = json_link.replace('website/', '')
+#                     json_string = get_html_from_url(json_link)
+#                     ingredients_from_json = \
+#                         json.loads(json.loads(json_string)['ingredients'][0])
+
+#                     category_iterator = \
+#                         create_category_iterator(ingredients_from_json)
+
+#                     for i in range(0, len(ingredient_dict_from_html)):
+#                         category = \
+#                             find_ingredient_category(ingredients_from_json[i])
+#                         id = category + '-' + str(category_iterator[category])
+#                         category_iterator[category] += 1
+
+#                         processed_json_number = \
+#                             process_and_scale_json_number(\
+#                             ingredients_from_json[i]['number'][0], \
+#                             scaling_value)
+#                         processed_units = \
+#                             process_json_units(ingredients_from_json[i], \
+#                                                scaling_value)
+
+#                         assert processed_json_number == \
+#                             ingredient_dict_from_html[id]['number']
+#                         assert process_json_name(\
+#                             ingredients_from_json[i]['name'][0]) == \
+#                         ingredient_dict_from_html[id]['name']
+#                         assert processed_json_number ==  \
+#                             ingredient_dict_from_html[id]['value_tag']
+#                         assert processed_units == \
+#                             ingredient_dict_from_html[id]['units']

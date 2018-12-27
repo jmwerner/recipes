@@ -1,5 +1,7 @@
 language: python
 python:
   - "3.5"
+addons:
+  chrome: stable
 install: "pip install lxml html5lib bs4 pandas pytest requests selenium"
 script: "py.test"
