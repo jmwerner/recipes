@@ -45,6 +45,11 @@ textareaInput = function(inputId, label, value = "", placeholder = "", rows = 2)
     )
 }
 
+titleCase = function(x){
+    s <- strsplit(x, " ")[[1]]
+    paste(toupper(substring(s, 1,1)), substring(s, 2), sep = "", collapse = " ")
+}
+
 # save the results to a json file
 # This code is very dependent on id names, be careful when
 #  changing structure of the app! 
@@ -54,7 +59,7 @@ saveData = function(data){
 
     system(paste0("mkdir -p ../allRecipes/", removeSpaces(data$recipeCategory)))
 
-    fileName = paste0(removeSpaces(data$recipeName), ".json")
+    fileName = paste0(removeSpaces(titleCase(data$recipeName)), ".json")
     filePath = file.path(paste0("../allRecipes/", removeSpaces(data$recipeCategory)), fileName) 
 
     ingredientsSubset = data[,grepl("ingredient", names(data))]
