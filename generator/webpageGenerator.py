@@ -506,7 +506,7 @@ if __name__ == '__main__':
 
             output_recipe_html_path = '/website/allRecipes/' + \
                 remove_spaces(recipe['recipeCategory'][0]) + \
-                '/' + remove_spaces(recipe_name) + '.html'
+                '/' + remove_spaces(recipe_name.title()) + '.html'
             ALL_URLS.append('http://jmwerner.github.io/recipes' + \
                             output_recipe_html_path)
 
