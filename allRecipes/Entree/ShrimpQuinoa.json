@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Shrimp Quinoa"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.wellplated.com/garlic-shrimp-with-quinoa/"
+    ],
+    "directions": [
+        "[[\"In a large nonstick skillet with a tight-fitting lid, heat half of the olive oil over medium high. Add the shrimp, then sprinkle with half of the salt and half of the chili powder. Sauté just until the shrimp are pink and cooked through, about 3 minutes. Immediately remove the shrimp to a plate so they do not overcook.\"],[\"Heat the remaining half of the olive oil in the same skillet, then add the onion. Let cook until the onion begins to soften, about 5 minutes. Add the garlic and cook just until fragrant, about 30 seconds. \"],[\"Add the quinoa, cayenne, and remaining salt and chili powder. Stir to coat the quinoa with the oil and let brown for 2 minutes. Pour in the chicken stock, then increase the heat to high and bring the broth to a boil.\"],[\"Once boiling, cover and reduce the heat to a simmer. Let simmer until the quinoa is tender, 12 to 15 minutes. Uncover and fluff with a fork.\"],[\"Zest the lemon directly into the pan, then juice the lemon and add the lemon juice and parsley to the skillet as well. Toss to combine, then top with the reserved shrimp. \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20190120-115633"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Raw tail-on shrimp\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Chili powder\"],\"category\":[\"\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Yellow onion, chopped\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Uncooked quinoa\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cayenne pepper\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Low-sodium chicken broth\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Lemon\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Fresh parsley\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
