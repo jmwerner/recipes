@@ -3,21 +3,20 @@
 import sys
 import json
 import pytest
-import urllib.request
 import bs4 as bs
 
 sys.path.insert(0, 'generator')
 import webpageGenerator as gen
 
-def get_html_from_url(url):
-    url_open = urllib.request.urlopen(url)
-    raw_page = url_open.read()
-    page = raw_page.decode("utf8")
-    url_open.close()
+def get_html_from_url(root_directory, url):
+    # Replace base website with local path for fast reading
+    local_html = url.replace('http://jmwerner.github.io/recipes', root_directory)
+    with open(local_html, "r") as f:
+        page = f.read()
     return page
 
-def make_ingredient_dict_from_link(link):
-    html = get_html_from_url(link)
+def make_ingredient_dict_from_link(root_directory, link):
+    html = get_html_from_url(root_directory, link)
     soup = bs.BeautifulSoup(html, 'lxml')
     ingredient_names_from_html = soup.find_all('span', \
         {'id': lambda L: L and L.startswith('recipeIngredient')})
@@ -79,13 +78,13 @@ def process_json_units(input_list):
 # Tests #
 #########
 
-def test_base_recipe_creation(processed_links_from_sitemap):
+def test_base_recipe_creation(root_directory, processed_links_from_sitemap):
     for link in processed_links_from_sitemap:
-        ingredient_dict_from_html = make_ingredient_dict_from_link(link)
+        ingredient_dict_from_html = make_ingredient_dict_from_link(root_directory, link)
         if ingredient_dict_from_html:
 
             json_link = link.replace('.html', '.json').replace('website/', '')
-            json_string = get_html_from_url(json_link)
+            json_string = get_html_from_url(root_directory, json_link)
             ingredients_from_json = \
                 json.loads(json.loads(json_string)['ingredients'][0])
 
