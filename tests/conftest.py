@@ -64,7 +64,7 @@ def strip_link(link_input, tag):
 
 class Helpers:
     @staticmethod
-    def get_html_from_local_file(root_directory, file):
+    def get_html_from_local_file(file):
         # Replace base website with local path for fast reading
         with open(file, "r") as f:
             page = f.read()
@@ -165,7 +165,7 @@ class Helpers:
         return a
 
     def make_ingredient_dict_from_link(self, root_directory, link):
-        html = self.get_html_from_local_file(root_directory, self.get_local_file_from_url(link, root_directory))
+        html = self.get_html_from_local_file(self.get_local_file_from_url(link, root_directory))
         soup = bs.BeautifulSoup(html, 'lxml')
         ingredient_names_from_html = soup.find_all('span', \
             {'id': lambda L: L and L.startswith('recipeIngredient')})
