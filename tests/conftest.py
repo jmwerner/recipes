@@ -134,6 +134,8 @@ class Helpers:
     def convert_mixed_number_to_fraction(self, input_string):
         splits = input_string.split(' ')
         splits = [x for x in splits if x]
+        if len(splits) not in [1, 2]:
+            raise ValueError('Mixed number conversion failed due to improper form')
         if len(splits) == 1:
             inner_splits = splits[0].split('/')
             inner_splits = [x for x in inner_splits if x]
@@ -142,9 +144,16 @@ class Helpers:
             else:
                 return (int(inner_splits[0]), int(inner_splits[1]))
         else:
-            processed_touple = self.convert_mixed_number_to_fraction(splits[1])
-            output_numerator = \
-                processed_touple[0] + int(splits[0]) * processed_touple[1]
+            splits_new = splits[1].split(' ')
+            splits_new = [x for x in splits_new if x]
+            if len(splits_new) == 1:
+                inner_splits_new = splits_new[0].split('/')
+                inner_splits_new = [x for x in inner_splits_new if x]
+                if len(inner_splits_new) == 1:
+                    processed_touple = (int(inner_splits_new[0]), 1)
+                else:
+                    processed_touple = (int(inner_splits_new[0]), int(inner_splits_new[1]))
+            output_numerator = processed_touple[0] + int(splits[0]) * processed_touple[1]
             return (output_numerator, processed_touple[1])
 
     def simplify_fraction(self, numer, denom):
