@@ -1,6 +1,6 @@
 # Werner Family Recipes
 
-[![Build Status](https://travis-ci.org/jmwerner/recipes.svg?branch=gh-pages)](https://travis-ci.org/jmwerner/recipes)
+[![Build Status](https://travis-ci.org/jmwerner/recipes.svg?branch=master)](https://travis-ci.org/jmwerner/recipes)
 
 ![Recipe Cards](website/images/recipe_card.png)
 
