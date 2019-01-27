@@ -13,7 +13,8 @@ def test_base_recipe_creation(root_directory, processed_links_from_sitemap, help
         if ingredient_dict_from_html:
 
             json_link = link.replace('.html', '.json').replace('website/', '')
-            json_string = helpers.get_html_from_url(root_directory, json_link)
+            local_json_file = helpers.get_local_file_from_url(json_link, root_directory)
+            json_string = helpers.get_html_from_local_file(root_directory, local_json_file)
             ingredients_from_json = \
                 json.loads(json.loads(json_string)['ingredients'][0])
 
