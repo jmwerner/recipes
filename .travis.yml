@@ -6,3 +6,5 @@ addons:
   chrome: stable
 install: "pip install lxml html5lib bs4 pandas pytest requests selenium"
 script: "py.test"
+before_install:
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
