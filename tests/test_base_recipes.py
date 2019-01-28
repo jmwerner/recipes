@@ -32,7 +32,7 @@ def test_base_recipe_creation(root_directory, processed_links_from_sitemap, help
                 assert processed_json_number == \
                     ingredient_dict_from_html[id]['number']
                 assert helpers.process_json_name(ingredients_from_json[i]['name'][0]) \
-                    == ingredient_dict_from_html[id]['name']
+                    == ingredient_dict_from_html[id]['name'].replace('°', '&#176')
                 assert processed_json_number == \
                     ingredient_dict_from_html[id]['value_tag']
                 assert processed_units == ingredient_dict_from_html[id]['units']
