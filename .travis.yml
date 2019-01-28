@@ -6,9 +6,8 @@ install: "pip install lxml html5lib bs4 pandas pytest requests selenium"
 script: "py.test"
 addons:
   apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
+    - google-chrome-stable
+    - chromium-chromedriver
 before_script:
-  - sh -e /etc/init.d/xvfb start
+  - ln -s /usr/lib/chromium-browser/chromedriver ~/bin/chromedriver
+  - echo $PATH
