@@ -103,8 +103,6 @@ class Helpers:
         output_string = input_string.strip(' \n').lower().title()
         output_string = gen.lower_special_cases_in_string(output_string)
         output_string = gen.replace_degrees_in_string(output_string)
-        # Replace html coded degree symbol with unicode symbol for comparison
-        output_string = output_string.replace('&#176', '°')
         return output_string
 
     @staticmethod
@@ -112,26 +110,33 @@ class Helpers:
         return gen.convert_to_mixed_number(input_number)
 
     @staticmethod
-    def process_json_units(input_list):
-        plural = gen.string_to_float(input_list['number'][0]) > 1.0
-        processed_units = gen.set_plural_suffix(input_list['units'][0], plural)
-        return processed_units
-
-    @staticmethod
     def process_html_ingredient_name(input_string):
         output_string = input_string.replace('°', '&#176')
         return output_string
 
-    def process_and_scale_json_number(self, input_number, scaling_number):
-        mixed_number = gen.convert_to_mixed_number(input_number)
-        input_number_fraction = self.convert_mixed_number_to_fraction(mixed_number)
-        scaling_number_fraction = self.convert_mixed_number_to_fraction(scaling_number)
-        scaled_fraction = (input_number_fraction[0] * scaling_number_fraction[0], \
-                           input_number_fraction[1] * scaling_number_fraction[1])
-        scaled_fraction = self.simplify_fraction(scaled_fraction[0], scaled_fraction[1])
-        return gen.convert_to_mixed_number(scaled_fraction)
+    @staticmethod
+    def make_ingredient_dict_from_html(html):
+        soup = bs.BeautifulSoup(html, 'lxml')
+        ingredient_names_from_html = soup.find_all('span', \
+            {'id': lambda L: L and L.startswith('recipeIngredient')})
+        ingredient_numbers_from_html = soup.find_all('span', \
+            {'id': lambda L: L and L.startswith('recipeNumber')})
+        ingredient_units_from_html = soup.find_all('span', \
+            {'id': lambda L: L and L.startswith('recipeUnit')})
+        ingredient_dict = {}
+        if ingredient_names_from_html:
+            for i in range(0, len(ingredient_names_from_html)):
+                ingredient_id = ingredient_names_from_html[i].get('id')
+                ingredient_id = ingredient_id.replace('recipeIngredient-', '')
+                ingredient_dict[ingredient_id] = \
+                    {'name': ingredient_names_from_html[i].text.strip(' \n'), \
+                    'number': ingredient_numbers_from_html[i].text.strip(' \n'), \
+                    'units': ingredient_units_from_html[i].text.strip(' \n'), \
+                    'value_tag':ingredient_numbers_from_html[i].get('value')}
+        return ingredient_dict
 
-    def convert_mixed_number_to_fraction(self, input_string):
+    @staticmethod
+    def convert_mixed_number_to_fraction(input_string):
         splits = input_string.split(' ')
         splits = [x for x in splits if x]
         if len(splits) not in [1, 2]:
@@ -156,8 +161,15 @@ class Helpers:
             output_numerator = processed_touple[0] + int(splits[0]) * processed_touple[1]
             return (output_numerator, processed_touple[1])
 
-    def simplify_fraction(self, numer, denom):
-        common_divisor = self.gcd(numer, denom)
+    @staticmethod
+    def simplify_fraction(numer, denom):
+        a = numer
+        b = denom
+        while b:
+            a, b = b, a % b
+
+        common_divisor = a
+
         (reduced_num, reduced_den) = \
             (numer / common_divisor, denom / common_divisor)
         if reduced_den == 1:
@@ -167,32 +179,26 @@ class Helpers:
         else:
             return (int(reduced_num), int(reduced_den))
 
-    @staticmethod
-    def gcd(a, b):
-        while b:
-            a, b = b, a % b
-        return a
+    def process_json_units(self, input_list, scaling_number = '1'):
+        scaling_number_fraction = self.convert_mixed_number_to_fraction(scaling_number)
+        plural = (gen.string_to_float(input_list['number'][0]) * \
+                  scaling_number_fraction[0] / scaling_number_fraction[1]) > 1.0
+        processed_units = gen.set_plural_suffix(input_list['units'][0], plural)
+        return processed_units
 
     def make_ingredient_dict_from_link(self, root_directory, link):
         html = self.get_html_from_local_file(self.get_local_file_from_url(link, root_directory))
-        soup = bs.BeautifulSoup(html, 'lxml')
-        ingredient_names_from_html = soup.find_all('span', \
-            {'id': lambda L: L and L.startswith('recipeIngredient')})
-        ingredient_numbers_from_html = soup.find_all('span', \
-            {'id': lambda L: L and L.startswith('recipeNumber')})
-        ingredient_units_from_html = soup.find_all('span', \
-            {'id': lambda L: L and L.startswith('recipeUnit')})
-        ingredient_dict = {}
-        if ingredient_names_from_html:
-            for i in range(0, len(ingredient_names_from_html)):
-                ingredient_id = ingredient_names_from_html[i].get('id')
-                ingredient_id = ingredient_id.replace('recipeIngredient-', '')
-                ingredient_dict[ingredient_id] = \
-                    {'name': ingredient_names_from_html[i].text.strip(' \n'), \
-                    'number': ingredient_numbers_from_html[i].text.strip(' \n'), \
-                    'units': ingredient_units_from_html[i].text.strip(' \n'), \
-                    'value_tag':ingredient_numbers_from_html[i].get('value')}
-        return ingredient_dict
+        return self.make_ingredient_dict_from_html(html)
+
+    def process_and_scale_json_number(self, input_number, scaling_number):
+        mixed_number = gen.convert_to_mixed_number(input_number)
+        input_number_fraction = self.convert_mixed_number_to_fraction(mixed_number)
+        scaling_number_fraction = self.convert_mixed_number_to_fraction(scaling_number)
+        scaled_fraction = (input_number_fraction[0] * scaling_number_fraction[0], \
+                           input_number_fraction[1] * scaling_number_fraction[1])
+        scaled_fraction = self.simplify_fraction(scaled_fraction[0], scaled_fraction[1])
+        scaled_fraction_string = str(scaled_fraction[0]) + '/' + str(scaled_fraction[1])
+        return gen.convert_to_mixed_number(scaled_fraction_string)
 
 
 
