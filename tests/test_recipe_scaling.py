@@ -50,14 +50,13 @@ def test_scaling_helper_functions(helpers):
 def test_recipe_page_creation_and_scaling(processed_links_from_sitemap, helpers, root_directory):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
-    browser = webdriver.Chrome(chrome_options=chrome_options)
+    browser = webdriver.Chrome(options=chrome_options)
 
     for link in processed_links_from_sitemap:
         local_link = helpers.get_local_file_from_url(link, root_directory)
         ingredient_dict_from_html = helpers.make_ingredient_dict_from_link(helpers, root_directory, local_link)
 
         browser.get('file://' + local_link)
-        time.sleep(1)
         source_html = browser.page_source
 
         # If this is an actual recipe page (and not a category page)
@@ -92,7 +91,7 @@ def test_recipe_page_creation_and_scaling(processed_links_from_sitemap, helpers,
             # # Open menu (and leave it open)
             menu_button = browser.find_element_by_id("menuButton")
             menu_button.click()
-            time.sleep(1) # Allow click animation to complete
+            time.sleep(.5) # Allow click animation to complete
 
             for scaling_value in scaling_vector[1:]:
 

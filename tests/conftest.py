@@ -33,7 +33,7 @@ def raw_sitemap(root_directory, sitemap_name):
 
 @pytest.fixture(scope="session")
 def processed_links_from_sitemap(raw_sitemap, xml_tag):
-    soup = bs.BeautifulSoup(raw_sitemap, 'lxml')
+    soup = bs.BeautifulSoup(raw_sitemap, 'html.parser')
     sitemap_links = soup.findAll(xml_tag)
     all_links = []
     for i in range(0, len(sitemap_links)):
@@ -116,7 +116,7 @@ class Helpers:
 
     @staticmethod
     def make_ingredient_dict_from_html(html):
-        soup = bs.BeautifulSoup(html, 'lxml')
+        soup = bs.BeautifulSoup(html, 'html.parser')
         ingredient_names_from_html = soup.find_all('span', \
             {'id': lambda L: L and L.startswith('recipeIngredient')})
         ingredient_numbers_from_html = soup.find_all('span', \
