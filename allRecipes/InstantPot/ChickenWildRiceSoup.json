@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chicken Wild Rice Soup"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://littlespicejar.com/instant-pot-chicken-wild-rice-soup/"
+    ],
+    "directions": [
+        "[[\"Add all soup ingredients to the instant pot. Cover and cook on high pressure for 35 minutes. \"],[\"Quick release the pressure. Remove and shred the chicken. Add back to instant pot.\"],[\"In a saucepan, melt the butter over medium heat and whisk in the flour. Let the flour mixture cook for 2 minutes.\"],[\"Continue whisking while slowly adding the milk. Once the sauce thickens in about 2 or 3 minutes, add a sprinkling of salt.\"],[\"Stir the prepared roux into the instant pot and let sit for 5 to 7 minutes before serving.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20190311-211914"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Onion, chopped\"],\"category\":[\"Soup\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Carrots, chopped\"],\"category\":[\"Soup\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Celery, chopped\"],\"category\":[\"Soup\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Mushrooms, diced\"],\"category\":[\"Soup\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Uncooked wild rice, rinsed\"],\"category\":[\"Soup\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken breasts\"],\"category\":[\"Soup\"]},{\"number\":[\"6\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Soup\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dried thyme\"],\"category\":[\"Soup\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Mrs.Dash's seasoning\"],\"category\":[\"Soup\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Bay leaves\"],\"category\":[\"Soup\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"Soup\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Soup\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Soup\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Soup\"]},{\"number\":[\"5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Butter\"],\"category\":[\"Roux\"]}, {\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"Roux\"]}, {\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk\"],\"category\":[\"Roux\"]}]"
+    ]
+}
+
