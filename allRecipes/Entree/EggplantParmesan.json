@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Eggplant Parmesan"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.myrecipes.com/recipe/eggplant-parmesan"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 375 degrees\"],[\"To make eggplant, combine eggs and water in a shallow dish. Combine panko and Parmigiano-Reggiano in a second shallow dish. Dip eggplant in egg mixture and dredge in panko mixture, pressing gently to adhere and shaking off excess. Place eggplant 1 inch apart on baking sheets coated with cooking spray. Bake for 30 minutes or until golden, turning once and rotating baking sheets after 15 minutes.\"],[\"Combine and mix filling ingredients in a bowl.\"],[\"To assemble, spoon 1/2 cup pasta sauce in bottom of a 13 x 9-inch glass baking dish coated with cooking spray. Layer half of eggplant slices over pasta sauce. Top with about 3/4 cup pasta sauce; spread half of ricotta mixture over sauce, and top with a third of mozzarella and fontina. Repeat layers once, ending with about 1 cup pasta sauce. \"],[\"Cover tightly with aluminum foil coated with cooking spray. Bake for 35 minutes. Remove foil. Top with remaining third of mozzarella and fontina. Bake for 10 minutes or until sauce is bubbly and cheese melts. Cool 10 minutes and enjoy.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20190323-213923"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs, lightly beaten\"],\"category\":[\"Eggplant\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Water\"],\"category\":[\"Eggplant\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Panko\"],\"category\":[\"Eggplant\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Parmigiano reggiano cheese, grated\"],\"category\":[\"Eggplant\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggplants, peeled and cut into 1/2-inch-thick slices\"],\"category\":[\"Eggplant\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fresh basil, torn\"],\"category\":[\"Filling\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Parmigiano reggiano cheese, grated \"],\"category\":[\"Filling\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"crushed red pepper\"],\"category\":[\"Filling\"]},{\"number\":[\"3/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Minced garlic\"],\"category\":[\"Filling\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Filling\"]},{\"number\":[\"16\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Part-skim ricotta cheese\"],\"category\":[\"Filling\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg, lightly beaten\"],\"category\":[\"Filling\"]},{\"number\":[\"24\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Premium pasta sauce\"],\"category\":[\"Remaining Ingredients\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fontina cheese, thinly grated\"],\"category\":[\"Remaining Ingredients\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Mozzarella cheese, thinly sliced\"],\"category\":[\"Remaining Ingredients\"]}]"
+    ]
+}
+
