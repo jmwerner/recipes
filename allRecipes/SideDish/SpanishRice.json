@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Spanish Rice"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://lilluna.com/food-tutorial-spanish-rice/"
+    ],
+    "directions": [
+        "[[\"heat oil in large frying pan on medium heat\"],[\"add rice and cook until golden brown\"],[\"add bouillon cube to water and microwave for 3 minutes\"],[\"when rice is brown, add water, tomato sauce, salt, garlic, cumin, and pepper to pan\"],[\"stir and cover pan. let simmer for 30-40 minutes or until all rice is cooked and no liquid remains. fluff before serving\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20190429-220458"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"long grain rice\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Oil\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Minced garlic\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"water\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"chicken flavored bouillon cube\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Dash(es)\"],\"name\":[\"Cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Dash(es)\"],\"name\":[\"pepper\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
