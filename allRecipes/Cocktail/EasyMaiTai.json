@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Easy Mai Tai"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Mix all base ingredients and pour over crushed ice.\"],[\"Float grenadine on top and enjoy\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20190903-095634"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Dark rum\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Light rum\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Orange juice\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Pineapple juice\"],\"category\":[\"Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Kahlua\"],\"category\":[\"Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Triple sec\"],\"category\":[\"Base\"]},{\"number\":[\"1/8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Grenadine\"],\"category\":[\"Float\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
