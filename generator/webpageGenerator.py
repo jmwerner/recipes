@@ -340,7 +340,8 @@ def create_recipes_in_cat_html(category, recipes_in_category):
         else:
             class_name = 'button special'
         output_html_string += '<li><a href=\"' + category + '/' + \
-            name_of_recipe + '.html\" class=\"' + class_name + '\"">' + \
+            remove_spaces(add_spaces_to_proper(name_of_recipe).title()) + \
+            '.html\" class=\"' + class_name + '\"">' + \
             add_spaces_to_proper(name_of_recipe) + '</a></li>\n'
     output_html_string += '</ul>'
     return output_html_string
