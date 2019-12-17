@@ -50,6 +50,8 @@ def test_scaling_helper_functions(helpers):
 def test_recipe_page_creation_and_scaling(processed_links_from_sitemap, helpers, root_directory):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
     browser = webdriver.Chrome(options=chrome_options)
 
     for link in processed_links_from_sitemap:
