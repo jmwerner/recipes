@@ -45,6 +45,7 @@ def test_all_page_relative_links(root_directory, helpers):
         for category_page_name in category_links:
             category_url_check = os.path.isfile(root_directory + '/website/allRecipes/' + category_page_name)
             print(category_url_check)
+            print(root_directory + '/website/allRecipes/' + category_page_name)
             assert category_url_check
             # Check all links on recipe pages within a category
             category_page_name_splits = category_page_name.split('/')
