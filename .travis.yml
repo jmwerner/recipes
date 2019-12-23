@@ -1,15 +1,8 @@
 language: python
 python:
   - "3.5"
-sudo: required
-install: "pip install lxml html5lib bs4 pandas pytest requests selenium"
-script: "py.test"
-before_script: 
-  - wget -N http://chromedriver.storage.googleapis.com/2.30/chromedriver_linux64.zip -P ~/
-  - unzip ~/chromedriver_linux64.zip -d ~/
-  - rm ~/chromedriver_linux64.zip
-  - sudo mv -f ~/chromedriver /usr/local/share/
-  - sudo chmod +x /usr/local/share/chromedriver
-  - export PATH=/usr/local/share:$PATH
+before_install:
+  - docker build -f recipes/docker/Dockerfile_recipes_tests -t recipes_tests .
 services:
-  - xvfb
+  - docker
+script: "py.test"
