@@ -438,14 +438,13 @@ def prettify_string(html_string, string_format):
     return html_string
 
 def add_spaces_to_proper(name):
-    '''Converts a ProperCaseString into a string with spaces and no caps.
+    '''Converts a ProperCaseString into a string with spaces.
     Args:
         name (string): String to be converted.
     Returns:
         string: Converted string.
     '''
-    temporary_string = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
-    return re.sub('([a-z0-9])([A-Z])', r'\1 \2', temporary_string)
+    return re.sub(r"(?<=\w)([A-Z])", r" \1", name)
 
 def find_all_recipe_categories():
     '''Finds all recipe categories from file system structure.
