@@ -1,7 +1,12 @@
 #!/bin/bash
 
-rm -rf ../website/allRecipes
+git_root=`git rev-parse --show-toplevel`
 
-mkdir ../website/allRecipes
+# Regenerate webpages
+docker run --mount src=$git_root,target=/recipes,type=bind -it generator
 
-python webpageGenerator.py
+if [[ -n "$1" ]]; then
+    if [[ "$1" = "--test" ]]; then
+        docker run --mount src=$git_root,target=/recipes,type=bind -it recipes_tests
+    fi
+fi
