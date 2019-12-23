@@ -2,7 +2,7 @@ language: python
 python:
   - "3.5"
 before_install:
-  - docker build -f recipes/docker/Dockerfile_recipes_tests -t recipes_tests .
+  - docker build -f docker/Dockerfile_recipes_tests -t recipes_tests .
 services:
   - docker
-script: "py.test"
+script: docker run --mount src=$PWD,target=/recipes,type=bind -it recipes_tests
