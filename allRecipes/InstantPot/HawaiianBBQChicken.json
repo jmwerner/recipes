@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Hawaiian B B Q Chicken"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "http://peggyunderpressure.com/2013/02/hawaiian-bbq-chicken/"
+    ],
+    "directions": [
+        "[[\"Combine sauce ingredients in a bowl and mix. \"],[\"Place pineapple on the bottom of the pressure cooker.\"],[\"Dip chicken pieces in sauce mixture to coat and place on top of pineapple.\"],[\"Pour remaining sauce over chicken in pressure cooker.\"],[\"Pressure cook for 10-15 minutes, depending on size of chicken.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20171008-153414"
+    ],
+    "notes": [
+        "If desired, top with fresh lime juice."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken\"],\"category\":[\"Other\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"BBQ Sauce\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Diced pineapple\"],\"category\":[\"Other\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Coconut Milk\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chili Flakes\"],\"category\":[\"Sauce\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
