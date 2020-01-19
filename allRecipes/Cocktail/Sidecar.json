@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Sidecar"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "Reddit"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Shake all ingredients with ice and strain\"],[\"Garnish with expressed orange twist\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20200119-182336"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cognac\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cointreau\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Demerara syrup\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
