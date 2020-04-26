@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "The Hive Mind"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.reddit.com/r/cocktails/comments/g6vsv6/the_hive_mind_a_mezcal_and_aperol_cocktail/"
+    ],
+    "directions": [
+        "[[\"Combine ingredients and shake with ice\"],[\"Strain into rocks glass and garnish with a lemon twist\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20200426-002213"
+    ],
+    "notes": [
+        "Honey syrup is 1:1 honey and water brought to a boil and chilled"
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Mezcal\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Aperol\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Honey syrup\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
