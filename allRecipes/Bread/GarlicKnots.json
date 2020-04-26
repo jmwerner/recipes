@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Garlic Knots"
+    ],
+    "recipeCategory": [
+        "Bread"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://sallysbakingaddiction.com/garlic-knots-recipe/"
+    ],
+    "directions": [
+        "[[\"Whisk the warm water, yeast, and granulated sugar together in the bowl of your stand mixer fitted with a dough hook. Cover and allow to rest for 5 minutes. \"],[\"Add the olive oil, salt, and half of the flour. Beat for 15 seconds, then add the remaining flour. Beat on low speed for 2 minutes. \"],[\"Knead the dough on low speed for 3-4 minutes. After kneading, the dough should still feel a little soft. Poke it with your finger – if it slowly bounces back, your dough is ready to rise. If not, keep kneading.\"],[\"Lightly grease a large bowl with oil or nonstick spray. Place the dough in the bowl, turning it to coat all sides in the oil. Cover the bowl with aluminum foil, plastic wrap, or a clean kitchen towel. Allow the dough to rise at room temperature for 1-2 hours or until double in size.\"],[\"Punch down the dough and shape into a 16x5 inch log. Cut into 16 equally-sized pieces and roll into 8 inch ropes. \"],[\"Tie each into knots and let them rest for at least 30 to 45 minutes.\"],[\"Preheat oven to 400 degrees and mix all topping ingredients in a bowl\"],[\"Brush two thirds of the topping mixture on top of the knots and bake for 18-23 minutes until golden brown\"],[\"Remove knots from oven and brush remaining topping mixture on top\"],[\"Top with optional after baking ingredients and serve with marinara sauce\"]]"
+    ],
+    "timestamp": [
+        "20200426-004622"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Warm water (100-110)\"],\"category\":[\"Dough\"]},{\"number\":[\"9/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Dry yeast\"],\"category\":[\"Dough\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Granulated sugar\"],\"category\":[\"Dough\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Dough\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Dough\"]},{\"number\":[\"7/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Flour\"],\"category\":[\"Dough\"]},{\"number\":[\"5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Unsalted butter, mealted\"],\"category\":[\"Topping\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Topping\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Italian seasoning\"],\"category\":[\"Topping\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"Topping\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Parmesan cheese\"],\"category\":[\"After Baking\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Fresh parsley, chopped\"],\"category\":[\"After Baking\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
