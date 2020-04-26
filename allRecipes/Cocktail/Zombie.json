@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Zombie"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.thespruceeats.com/zombie-cocktail-recipe-761643"
+    ],
+    "directions": [
+        "[[\"Combine ingredients and shake with ice\"],[\"Strain into glass with ice and garnish with mint and fruit\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20200426-212107"
+    ],
+    "notes": [
+        "Float high proof or aged rum on top for an extra kick"
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"light rum\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"dark rum\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cointreau\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"lemon juice\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"lime juice\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Orange juice\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Passion fruit puree or syrup\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Grenadine\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Dash(es)\"],\"name\":[\"angostura bitters\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
