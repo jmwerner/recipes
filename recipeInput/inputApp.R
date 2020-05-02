@@ -186,18 +186,18 @@ shinyApp(
         lapply(1:numberOfIngredients, function(i){
             fluidRow(
                 column(2,
-                    textInput(paste0("ingredient_number_", i), label = NA, value = "")
+                    textInput(paste0("ingredient_number_", i), label = "", value = "")
                 ),
                 column(2,
-                    selectInput(paste0("ingredient_units_", i), label = NA, 
+                    selectInput(paste0("ingredient_units_", i), label = "", 
                         choices = unitsOptions, 
                         selected = "")
                 ),
                 column(3,
-                    textInput(paste0("ingredient_name_", i), label = NA, value = "")
+                    textInput(paste0("ingredient_name_", i), label = "", value = "")
                 ),
                 column(3,
-                    textInput(paste0("ingredient_category_", i), label = NA, value = "")
+                    textInput(paste0("ingredient_category_", i), label = "", value = "")
                 )
             )
         })
