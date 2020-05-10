@@ -282,6 +282,10 @@ def preprocess_directions(directions):
     for i in range(0, len(directions)):
         if output[i][0] != '':
             output[i][0] = replace_degrees_in_string(output[i][0])
+    # Remove extra period if exclamation point is present
+    for i in range(0, len(directions)):
+        if output[i][0] != '':
+            output[i][0] = output[i][0].replace('!.', '!')
     return output
 
 def create_menu_links(categories, is_recipe=False):
