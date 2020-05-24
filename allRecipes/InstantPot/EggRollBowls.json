@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Egg Roll Bowls"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.idonthavetimeforthat.com/instant-pot-egg-roll-bowls/"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 400 and place Instant Pot on saute. Wait until it's hot and then add pork. Add seasonings and soy sauce and brown meat. Drain excess liquid when finished if necessary.\"],[\"Add broth and bag of cole slaw mix on top and do not stir\"],[\"Cook at high pressure for 0 minutes (yes, 0 minutes). Quick release when timer goes off\"],[\"While waiting for the pot pressurize, cut the egg roll wrappers into strips and brush with olive oil\"],[\"Bake in preheated oven for 4-5 minutes until bubbly and brown. Watch carefully because they will brown and burn quickly\"],[\"Let chips cool and enjoy in egg roll bowl\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20200524-161411"
+    ],
+    "notes": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground pork\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Bag pre-shredded cole slaw mix\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Broth\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Soy sauce\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Garlic powder\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ground ginger\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Egg Roll Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Package egg roll wrappers\"],\"category\":[\"Wonton Chips\"]},{\"number\":[\"1\"],\"units\":[\"Dash(es)\"],\"name\":[\"Olive oil\"],\"category\":[\"Wonton Chips\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
