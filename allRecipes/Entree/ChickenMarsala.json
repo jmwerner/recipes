@@ -1,0 +1,27 @@
+{
+    "recipeName": [
+        "Chicken Marsala"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.seriouseats.com/recipes/2016/12/chicken-marsala-mushroom-pan-sauce-recipe.html"
+    ],
+    "directions": [
+        "[[\"Combine Marsala and stock in a mixing bowl or large measuring cup and sprinkle gelatin all over surface. Set aside.\"],[\"Season chicken cutlets all over with salt and pepper. Pour a roughly 1/2-inch layer of flour into a wide, shallow bowl. Dredge each cutlet in flour, tap off excess, and transfer to clean plate.\"],[\"Heat olive oil in a large skillet over medium-high heat until shimmering. Working in batches if necessary, add chicken and cook, turning once, until browned on both sides, about 3 minutes per side. Using a slotted spatula, transfer to paper towels to drain.\"],[\"Add mushrooms to skillet (do not drain remaining oil) and cook, stirring frequently, until mushrooms have released their juices and browned well, about 10 minutes. Add shallots, garlic, and thyme and cook, stirring, until shallots are translucent, about 2 minutes. Add more oil if pan seems too dry at any point.\"],[\"Pour Marsala mixture into pan, making sure to scrape in all the gelatin. Bring to a boil, whisking and scraping up any browned bits from bottom of pan, until liquids are reduced by about three-quarters. Add butter and soy sauce and whisk constantly until emulsified and sauce takes on the consistency of heavy cream. Season with salt and pepper. Taste sauce and adjust with a small amount of vinegar or lemon juice, as needed.\"],[\"Return chicken cutlets to pan, swirling to bathe them in the sauce and warm them through. If the sauce begins to break at any point, swirl in a splash of water to bring it back together. Transfer to a warmed serving plate, spooning sauce all over chicken. Garnish with parsley and serve.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20200610-024511"
+    ],
+    "notes": [
+        "Homemade chicken stock is best. Knox gelatin is the most common brand. Garnish with parsley if desired."
+    ],
+    "ingredients": [
+        "[{\"number\":[\"5/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Marsala wine\"],\"category\":[\"Marsala Mixture\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"chicken stock\"],\"category\":[\"Marsala Mixture\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"unflavored gelatin packet\"],\"category\":[\"Marsala Mixture\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Boneless, skinless chicken cutlets\"],\"category\":[\"Chicken\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Kosher salt and freshly ground pepper\"],\"category\":[\"Chicken\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"Chicken\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Extra-virgin olive oil\"],\"category\":[\"Chicken\"]},{\"number\":[\"10\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Cremini mushrooms, sliced\"],\"category\":[\"Skillet\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Shallots, minced\"],\"category\":[\"Skillet\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Skillet\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Fresh thyme leaves, minced\"],\"category\":[\"Skillet\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Cold unsalted butter, cut into cubes\"],\"category\":[\"Finish\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Soy sauce\"],\"category\":[\"Finish\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Lemon juice, to taste\"],\"category\":[\"Finish\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
