@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 CATEGORY_TAG = '<RECIPE_CATEGORY_GOES_HERE>'
 NAME_TAG = '<RECIPE_NAME_GOES_HERE>'
 NOTES_TAG = '<RECIPE_NOTES_GO_HERE>'
+WINE_PAIRING_TAG = '<RECIPE_WINE_PAIRING_GOES_HERE>'
 DIRECTIONS_TAG = '<RECIPE_DIRECTIONS_GO_HERE>'
 INGREDIENTS_TAG = '<RECIPE_INGREDIENTS_GO_HERE>'
 RECIPE_LINKS_TAG = '<RECIPE_LINKS_GO_HERE>'
@@ -351,7 +352,7 @@ def create_recipes_in_cat_html(category, recipes_in_category):
     return output_html_string
 
 def create_notes_html(notes):
-    '''Creates html of notes from recipe json.
+    '''Creates html of notes from notes component of recipe json.
     Args:
         notes (string): Notes that were input in the recipe 'notes' section.
     Returns:
@@ -361,6 +362,19 @@ def create_notes_html(notes):
         output_html_string = ''
     else:
         output_html_string = '<h5>Notes</h5>\n<p>' + notes + '</p>'
+    return output_html_string
+
+def create_wine_pairing_html(recipe):
+    '''Creates html of wine pairing from recipe json.
+    Args:
+        recipe (dict): reading of recipe json created by input app.
+    Returns:
+        string: html of wine pairing to be included in webpage.
+    '''
+    if 'wine_pairing' in recipe:
+        output_html_string = '<h5>Wine Pairing</h5>\n<p>' + recipe['wine_pairing'][0] + '</p>'
+    else:
+        output_html_string = ''
     return output_html_string
 
 def create_sitemap(sitemap_urls):
@@ -518,6 +532,7 @@ if __name__ == '__main__':
                                                        recipe_in_category)
             directions_html = create_directions_html(recipe['directions'])
             notes_html = create_notes_html(recipe['notes'][0])
+            wine_pairing_html = create_wine_pairing_html(recipe)
             recipe_menu_links_html = create_menu_links(ALL_CATEGORIES, \
                                                        is_recipe=True)
             recipe_origin_html = \
@@ -528,6 +543,7 @@ if __name__ == '__main__':
             recipe_html = recipe_html.replace(NAME_TAG, \
                                               recipe['recipeName'][0])
             recipe_html = recipe_html.replace(NOTES_TAG, notes_html)
+            recipe_html = recipe_html.replace(WINE_PAIRING_TAG, wine_pairing_html)
             recipe_html = recipe_html.replace(DIRECTIONS_TAG, directions_html)
             recipe_html = recipe_html.replace(INGREDIENTS_TAG, \
                                               ingredients_html)
