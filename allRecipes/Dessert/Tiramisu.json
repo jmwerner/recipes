@@ -1,0 +1,30 @@
+{
+    "recipeName": [
+        "Tiramisu"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        "Kevin Fujii"
+    ],
+    "recipeLink": [
+        "https://www.allrecipes.com/recipe/21412/tiramisu-ii/"
+    ],
+    "directions": [
+        "[[\"In a medium saucepan, whisk together egg yolks and sugar until well blended. Whisk in milk and cook over medium heat, stirring constantly, until mixture boils. Boil gently for 1 minute, remove from heat and allow to cool slightly. Cover tightly and chill in refrigerator 1 hour.\"],[\"In a medium bowl, beat cream with vanilla until stiff peaks form. Whisk mascarpone into yolk mixture until smooth.\"],[\"In a small bowl, combine coffee and rum. Split ladyfingers in half lengthwise and drizzle with coffee mixture.\"],[\"Arrange half of soaked ladyfingers in bottom of a 7x11 inch dish. Spread half of mascarpone mixture over ladyfingers, then half of whipped cream over that. Repeat layers and sprinkle with cocoa. Cover and refrigerate 4 to 6 hours, until set.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20200616-024605"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"6\"],\"units\":[\"Whole\"],\"name\":[\"egg yolks\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"white sugar\"],\"category\":[\"\"]},{\"number\":[\"2/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"milk\"],\"category\":[\"\"]},{\"number\":[\"5/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"heavy cream\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla extract\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"mascarpone cheese\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"strong brewed coffee, room temp\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"rum\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Ounce(s)\"],\"name\":[\"ladyfinger cookies\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"unsweetened cocoa powder\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
