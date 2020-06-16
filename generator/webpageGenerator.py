@@ -372,7 +372,10 @@ def create_wine_pairing_html(recipe):
         string: html of wine pairing to be included in webpage.
     '''
     if 'winePairing' in recipe:
-        output_html_string = '<h5>Wine Pairing</h5>\n<p>' + recipe['winePairing'][0] + '</p>'
+        if recipe['winePairing'][0] == '':
+            output_html_string = ''
+        else:
+            output_html_string = '<h5>Wine Pairing</h5>\n<p>' + recipe['winePairing'][0] + '</p>'
     else:
         output_html_string = ''
     return output_html_string
