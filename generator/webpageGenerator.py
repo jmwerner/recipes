@@ -267,6 +267,26 @@ def create_recipe_origin_html(recipe_source):
         recipe_origin_string = ''
     return recipe_origin_string
 
+
+p = re.compile(r'((?<=[\.\?!]\s)(\w+)|(^\w+))')
+
+def cap(match):
+    return(match.group().capitalize())
+
+
+
+def capitalize_sentences(input):
+    '''Capitalize the first word in every sentence of a string.
+    Args:
+        input (string): A string of one or many sentences.
+    Returns:
+        string: Properly capitalized string.
+    '''
+    regex = re.compile(r'((?<=[\.\?!]\s)(\w+)|(^\w+))')
+    def capitalize(match):
+        return(match.group().capitalize())
+    return regex.sub(capitalize, input)
+
 def preprocess_directions(directions):
     '''Preprocesses directions text.
     Args:
@@ -287,6 +307,10 @@ def preprocess_directions(directions):
     for i in range(0, len(directions)):
         if output[i][0] != '':
             output[i][0] = output[i][0].replace('!.', '!')
+    # Capitalize first letter of every sentence
+    for i in range(0, len(directions)):
+        if output[i][0] != '':
+            output[i][0] = capitalize_sentences(output[i][0])
     return output
 
 def create_menu_links(categories, is_recipe=False):
