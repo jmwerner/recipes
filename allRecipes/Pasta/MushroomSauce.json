@@ -1,0 +1,30 @@
+{
+    "recipeName": [
+        "Mushroom Sauce"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.seriouseats.com/recipes/2020/04/mushroom-pasta-creamy.html"
+    ],
+    "directions": [
+        "[[\"Pour stock into small small bowl or liquid measuring cup and evenly sprinkle gelatin over surface of stock. Set aside.\"],[\"In a large 12-inch cast iron or stainless steel skillet, heat oil over medium-high heat until shimmering. Add mushrooms, season with salt and pepper, and cook, stirring frequently with a wooden spoon, until moisture has evaporated and mushrooms are deeply browned, 12 to 15 minutes.\"],[\"Add shallots, garlic, and thyme and cook, stirring constantly, until fragrant and shallots are softened, 30 seconds to 1 minute. Add wine or sherry, and cook, swirling pan and scraping up any stuck-on bits with a wooden spoon, until wine is reduced by half, about 30 seconds.\"],[\"Add chicken stock mixture, season lightly with salt, and bring to a simmer. Reduce heat to medium-low, add fish sauce (if using), and cook, stirring occasionally, until mushroom mixture is thickened to a saucy consistency, about 5 minutes. Turn off heat.\"],[\"Serve with cooked pasta, top with garnish if desired, and enjoy\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20201207-034818"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Low sodium chicken stock\"],\"category\":[\"Chicken Stock Mixture\"]},{\"number\":[\"3/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Powdered gelatin\"],\"category\":[\"Chicken Stock Mixture\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Sauce\"]},{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Mixed mushrooms\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Kosher salt and freshly ground black pepper\"],\"category\":[\"Sauce\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shallots, finely minced\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Garlic cloves, minced\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Chopped fresh thyme\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dry white wine\"],\"category\":[\"Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Fish sauce\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fresh parsley, chopped\"],\"category\":[\"Garnish\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
