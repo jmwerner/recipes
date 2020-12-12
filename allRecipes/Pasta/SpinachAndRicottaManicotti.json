@@ -1,0 +1,30 @@
+{
+    "recipeName": [
+        "Spinach and Ricotta Manicotti"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.seriouseats.com/recipes/2016/10/spinach-and-ricotta-manicotti-recipe.html"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 375 degrees and prepare fresh lasagna noodles by cutting them into 4 by 4 inch squares\"],[\"Line a large plate or a rimmed baking sheet with a triple layer of paper towels or a clean kitchen towel. Spread ricotta on top and cover with more paper towels or another clean kitchen towel. Let drain for 5 minutes, then remove towels and transfer ricotta to a large bowl. (You may need to use a spatula to scrape all of the ricotta off the towels.) Set aside.\"],[\"Add spinach and arugula to boiling water and cook just until wilted, about 20 seconds. Drain greens into the bowl of a salad spinner set in the sink. Run under cold water until thoroughly chilled, then spin in salad spinner to dry.\"],[\"Spread greens over a clean kitchen towel or a double layer of paper towels and roll into a tight tube, pressing to remove excess moisture. Transfer to a cutting board and roughly chop.\"],[\"Add greens to bowl with ricotta. Add half of mozzarella, half of Parmesan, egg, garlic, and nutmeg. Season with a large pinch of salt and a few grinds of black pepper, then fold with a wooden spoon or spatula to combine.\"],[\"Spread half of tomato sauce in an even layer in casserole dish. Working with 1 square of pasta at a time, place a few tablespoons of ricotta mixture in a row along the center of the square, then roll it up. Place roll, seam side down, in casserole dish. Continue until all of pasta and filling are used up.\"],[\"Spoon remaining sauce over manicotti, keeping it tidy along the center of each row of rolls. Sprinkle remaining mozzarella cheese over sauce. Sprinkle all over with remaining Parmesan. Cover tightly with foil.\"],[\"Place in oven and bake for 30 minutes. Remove foil and continue baking until cheese is well browned and bubbly, about 15 minutes longer. Remove from oven and let rest for 10 minutes. Sprinkle with parsley or basil and serve.\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20201212-164757"
+    ],
+    "notes": [
+        "Manicotti can be prepared through step 7 and refrigerated for up to 3 days before baking."
+    ],
+    "winePairing": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ricotta cheese\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Kosher salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Fresh-made lasagna noodles\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Fresh spinach, washed\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Fresh arugula, washed\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Mozzarella cheese\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Parmigiano-reggiano cheese, grated\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Large egg\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Freshly grated nutmeg\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Freshly ground black pepper\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fresh parsley or basil leaves, minced\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
