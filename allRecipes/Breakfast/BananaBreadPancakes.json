@@ -1,0 +1,30 @@
+{
+    "recipeName": [
+        "Banana Bread Pancakes"
+    ],
+    "recipeCategory": [
+        "Breakfast"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.ambitiouskitchen.com/whole-wheat-banana-bread-pancakes/"
+    ],
+    "directions": [
+        "[[\"In a large bowl, whisk together flour, baking powder, cinnamon, nutmeg and salt.\"],[\"In a separate large bowl, combine mashed banana, egg, vanilla and almond milk until smooth and well combined.\"],[\"Add dry ingredients to wet ingredients and mix until just combined. If the batter looks too thick add just a splash more milk.\"],[\"Lightly coat a large nonstick skillet or griddle with coconut oil or butter and place over medium heat. Drop batter by 1/4 cup onto skillet and spread out a bit with a spoon.\"],[\"Cook until bubbles appear on top, about 2 minutes. Flip cakes and cook until golden brown on underside, 2 minutes.\"],[\"Wipe skillet clean and repeat with more coconut oil (or butter) and remaining batter. You may need to reduce the heat after the second batch to prevent burning.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20201223-235540"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Whole wheat flour\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cinnamon\"],\"category\":[\"\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Nutmeg\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Ripe bananas, mashed\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg, slightly beaten\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla extract\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Unsweetened almond milk\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
