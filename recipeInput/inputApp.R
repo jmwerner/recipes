@@ -13,7 +13,8 @@ ingredient_field_names = c(paste0("ingredient_number_", 1:numberOfIngredients),
 directions_field_names = paste0("directions_", 1:numberOfDirections)
 
 # which fields get saved 
-fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "recipeLink", "notes", "winePairing",
+fieldsAll = c("recipeName", "recipeCategory", "recipeSource", "recipeLink", 
+              "notes", "winePairing", "glassType",
               ingredient_field_names, directions_field_names)
 
 # which fields are mandatory
@@ -94,6 +95,7 @@ saveData = function(data){
         "timestamp" = data$timestamp[[1]],
         "notes" = data$notes[[1]],
         "winePairing" = data$winePairing[[1]],
+        "glassType" = data$glassType[[1]],
         "ingredients" = toJSON(ingredientsList)
     )
 
@@ -217,6 +219,12 @@ shinyApp(
     wellPanel(
         tags$textarea(id="winePairing", rows=1, cols=100, "")
 
+    ),
+
+    titlePanel("Glass Type (cocktails only)"),
+
+    wellPanel(
+        tags$textarea(id="glassType", rows=1, cols=100, "")
     ),
 
     titlePanel("Notes"),
