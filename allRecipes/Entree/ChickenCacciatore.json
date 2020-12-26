@@ -1,0 +1,30 @@
+{
+    "recipeName": [
+        "Chicken Cacciatore"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.seriouseats.com/recipes/2016/10/chicken-cacciatore-mushrooms-recipe.html"
+    ],
+    "directions": [
+        "[[\"Preheat oven to 350 degrees\"],[\"Season chicken all over with salt and pepper. Pour a roughly 1/2-inch layer of flour into a wide, shallow bowl. Dredge each chicken piece in flour and tap off excess.\"],[\"In a Dutch oven or large straight-sided sauté pan, heat oil over medium-high heat until shimmering. Working in batches, add chicken and cook, turning occasionally, until browned all over, about 4 minutes per side. Transfer chicken to a platter as it finishes cooking and set aside.\"],[\"Add mushrooms to pan and cook, scraping up browned bits with a wooden spoon and stirring occasionally, until browned all over, about 8 minutes. Add onion and garlic and cook, stirring and scraping up any browned bits, until softened, about 6 minutes.\"],[\"Add wine and bring to a simmer. Add tomatoes and reserved juices, along with herb sprigs and bay leaf. Return to a simmer. Season with salt and pepper. Nestle chicken and any accumulated juices into liquid and vegetables.\"],[\"Transfer to oven and cook, uncovered, until chicken is fully cooked through and tender and sauce is slightly reduced and thickened, about 30 minutes. Discard herb sprigs and bay leaf. Serve right away, garnishing with minced parsley if desired.\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20201226-175736"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken thighs and legs, bone-in and skin-on\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Kosher salt and freshly ground pepper\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Cremini mushrooms, washed, trimmed, and quartered\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Yellow onion, thinly sliced\"],\"category\":[\"\"]},{\"number\":[\"5\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, thinly sliced\"],\"category\":[\"\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dry white wine\"],\"category\":[\"\"]},{\"number\":[\"28\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Diced tomatoes and juices\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Springs of fresh rosemary, sage, or thyme\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Bay leaf\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
