@@ -15,6 +15,7 @@ INGREDIENTS_TAG = '<RECIPE_INGREDIENTS_GO_HERE>'
 RECIPE_LINKS_TAG = '<RECIPE_LINKS_GO_HERE>'
 MENU_LINKS_TAG = '<MENU_LINKS_GO_HERE>'
 RECIPE_ORIGIN_TAG = '<RECIPE_ORIGIN_GOES_HERE>'
+RECIPE_GLASS_TYPE_TAG = '<RECIPE_GLASS_TYPE_GOES_HERE>'
 
 RECIPE_HTML_TEMPLATE_PATH = 'templates/recipeTemplate.html'
 CATEGORY_HTML_TEMPLATE_PATH = 'templates/categoryTemplate.html'
@@ -250,6 +251,22 @@ def create_directions_html(directions):
         if directions_list[i][0] != '':
             output_html_string += '<li>' + directions_list[i][0] + '</li>\n'
     output_html_string += '</ol>' + '\n'
+    return output_html_string
+
+def create_glass_type_html(recipe):
+    '''Create html of glass type for cocktails.
+    Args:
+        recipe (list): Entire recipe json.
+    Returns:
+        string: html of glass type to be included in webpage, if applicable.
+    '''
+    if 'glassType' in recipe:
+        if recipe['glassType'][0] == '':
+            output_html_string = ''
+        else:
+            output_html_string = 'output string goes here'
+    else:
+        output_html_string = ''
     return output_html_string
 
 def create_recipe_origin_html(recipe_source):
@@ -558,6 +575,7 @@ if __name__ == '__main__':
             ingredients_html = create_ingredients_html(recipe['ingredients'], \
                                                        recipe_in_category)
             directions_html = create_directions_html(recipe['directions'])
+            glass_type_html = create_glass_type_html(recipe)
             notes_html = create_notes_html(recipe['notes'][0])
             wine_pairing_html = create_wine_pairing_html(recipe)
             recipe_menu_links_html = create_menu_links(ALL_CATEGORIES, \
@@ -570,8 +588,11 @@ if __name__ == '__main__':
             recipe_html = recipe_html.replace(NAME_TAG, \
                                               recipe['recipeName'][0])
             recipe_html = recipe_html.replace(NOTES_TAG, notes_html)
-            recipe_html = recipe_html.replace(WINE_PAIRING_TAG, wine_pairing_html)
+            recipe_html = recipe_html.replace(WINE_PAIRING_TAG, \
+                                              wine_pairing_html)
             recipe_html = recipe_html.replace(DIRECTIONS_TAG, directions_html)
+            recipe_html = recipe_html.replace(RECIPE_GLASS_TYPE_TAG, \
+                                              glass_type_html)
             recipe_html = recipe_html.replace(INGREDIENTS_TAG, \
                                               ingredients_html)
             recipe_html = recipe_html.replace(MENU_LINKS_TAG, \
