@@ -264,7 +264,10 @@ def create_glass_type_html(recipe):
         if recipe['glassType'][0] == '':
             output_html_string = ''
         else:
-            output_html_string = 'output string goes here'
+            output_html_string = '<h4>Glass</h4><span class="image">' + \
+                                 '<img src="../../images/glasses/' + \
+                                 recipe['glassType'][0] + \
+                                 '.png" alt="" width=150rem /></span>'
     else:
         output_html_string = ''
     return output_html_string
