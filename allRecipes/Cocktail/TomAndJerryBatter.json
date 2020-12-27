@@ -20,6 +20,9 @@
     "notes": [
         "This recipe makes an inordinate amount of batter, a quarter or half batch is recommended. "
     ],
+    "glassType": [
+        "coffee-irish"
+    ],
     "ingredients": [
         "[{\"number\":[\"12\"],\"units\":[\"Whole\"],\"name\":[\"Eggs, separated\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Butter\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Pound(s)\"],\"name\":[\"Powdered sugar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vanilla extract\"],\"category\":[\"\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Nutmeg\"],\"category\":[\"\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cloves\"],\"category\":[\"\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Allspice\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]

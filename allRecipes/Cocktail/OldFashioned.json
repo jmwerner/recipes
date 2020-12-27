@@ -20,6 +20,9 @@
     "notes": [
         "Pure maple syrup can be substituted for simple syrup if you like to party or are Canadian."
     ],
+    "glassType": [
+        "rocks"
+    ],
     "ingredients": [
         "[{\"number\":[\"5\"],\"units\":[\"Dash(es)\"],\"name\":[\"Angostura aromatic bitters\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Dash(es)\"],\"name\":[\"Angostura orange bitters\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Simple syrup\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Ounces(s)\"],\"name\":[\"Bourbon or rye whiskey\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Orange slice\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]

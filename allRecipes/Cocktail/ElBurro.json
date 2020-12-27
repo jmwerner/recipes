@@ -20,6 +20,9 @@
     "notes": [
         ""
     ],
+    "glassType": [
+        "mug"
+    ],
     "ingredients": [
         "[{\"number\":[\"1.5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Reposado tequila\"],\"category\":[\"Shaking Ingredients\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Ginger beer\"],\"category\":[\"Float\"]},{\"number\":[\"3/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lime juice\"],\"category\":[\"Shaking Ingredients\"]},{\"number\":[\"3/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Pineapple juice\"],\"category\":[\"Shaking Ingredients\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Simple syrup\"],\"category\":[\"Shaking Ingredients\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Absinthe\"],\"category\":[\"Shaking Ingredients\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]

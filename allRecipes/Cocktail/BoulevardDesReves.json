@@ -12,13 +12,16 @@
         "https://kindredcocktails.com/cocktail/boulevard-des-reves"
     ],
     "directions": [
-        "[[\"Combine base ingredients with ice, stir and strain into a chilled coupe\"],[\"Float rum on top and garnish with a lemon twist\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+        "[[\"Combine base ingredients with ice, stir and strain into a chilled glass\"],[\"Float rum on top and garnish with a lemon twist\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
     ],
     "timestamp": [
         "20200530-161644"
     ],
     "notes": [
         ""
+    ],
+    "glassType": [
+        "coupe"
     ],
     "ingredients": [
         "[{\"number\":[\"3/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Bourbon, George T Stagg\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Sweet vermouth, Carpano Antica\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Campari\"],\"category\":[\"Base\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Rum, Smith & Cross\"],\"category\":[\"Float\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"

@@ -12,13 +12,16 @@
         ""
     ],
     "directions": [
-        "[[\"Add mint and ice to shaker, shake lightly to muddle the mint\"],[\"Add the remaining shaker ingredients and shake\"],[\"Strain into an old-fashioned glass over fresh ice and top with club soda\"],[\"Garnish with fresh mint if desired \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+        "[[\"Add mint and ice to shaker, shake lightly to muddle the mint\"],[\"Add the remaining shaker ingredients and shake\"],[\"Strain into a chilled glass over fresh ice and top with club soda\"],[\"Garnish with fresh mint if desired \"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
     ],
     "timestamp": [
         "20200509-161133"
     ],
     "notes": [
         "Sliced ginger root can also be added during the first shaking."
+    ],
+    "glassType": [
+        "rocks"
     ],
     "ingredients": [
         "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"sprig of mint\"],\"category\":[\"Shaker\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Simple syrup\"],\"category\":[\"Shaker\"]},{\"number\":[\"3/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Gin\"],\"category\":[\"Shaker\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Elderflower liqueur\"],\"category\":[\"Shaker\"]},{\"number\":[\"1/2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"Shaker\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"club soda\"],\"category\":[\"Splash\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"

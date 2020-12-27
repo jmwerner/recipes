@@ -20,6 +20,9 @@
     "notes": [
         "Triple sec can be substituted for Grand Mariner."
     ],
+    "glassType": [
+        "shot"
+    ],
     "ingredients": [
         "[{\"number\":[\".5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Kahlua\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Irish Cream Liqueur\"],\"category\":[\"\"]},{\"number\":[\"2/5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Grand Mariner\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]

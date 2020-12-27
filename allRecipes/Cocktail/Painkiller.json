@@ -20,6 +20,9 @@
     "notes": [
         ""
     ],
+    "glassType": [
+        "tiki"
+    ],
     "ingredients": [
         "[{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Navy or dark rum\"],\"category\":[\"Cocktail\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"pineapple juice\"],\"category\":[\"Cocktail\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"cream of coconut\"],\"category\":[\"Cocktail\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"orange juice\"],\"category\":[\"Cocktail\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Nutmeg, ground\"],\"category\":[\"Garnish\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]

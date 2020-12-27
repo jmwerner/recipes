@@ -20,6 +20,9 @@
     "notes": [
         "More rhubarb can be used, just make sure all rhubarb is covered in liquid for fermenting. "
     ],
+    "glassType": [
+        "shot"
+    ],
     "ingredients": [
         "[{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sugar\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Cup(s)\"],\"name\":[\"Vodka\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Grand Mariner\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Rhubarb, coarsely chopped\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
     ]
