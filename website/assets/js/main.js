@@ -211,9 +211,10 @@ $(document).ready(function(){
 
 // Function and variables for capturing search input (courtesy of stackoverflow)
 
-//creates a listener for when you press a key
+// Creates a listener for when you press a key
 window.onkeyup = keyup;
-//creates a global Javascript variable
+
+// Creates a global Javascript variable
 var inputTextValue;
 
 function keyup(e) {
@@ -230,3 +231,9 @@ function enterKeyRedirect() {
 	inputTextValue = $("#searchTxt")[0].value;
 	window.location = "https://cse.google.com/cse/publicurl?cx=009416170567840886498:vfkolqafpew&q=" + inputTextValue;
 }
+
+// Pick a random tiki glass 1-17
+var tikiNumber = Math.floor(Math.random() * 17) + 1;
+$('img[src^="../../images/glasses/tiki/tiki-1.png"]').each(function() {
+   $(this).attr('src', $(this).attr('src').replace("tiki/tiki-1", "tiki/tiki-" + tikiNumber));
+}); 
