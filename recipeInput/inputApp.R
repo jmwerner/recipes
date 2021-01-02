@@ -132,6 +132,24 @@ unitsOptions = list(" " = "",
                     "Dash(es)" = "Dash(es)",
                     "Bottle(s)" = "Bottle(s)")
 
+glassesOptions = list(" " = "",
+                      "coffee-cup" = "coffee-cup",
+                      "coffee-irish" = "coffee-irish",
+                      "coupe" = "coupe",
+                      "flute" = "flute",
+                      "hurricane" = "hurricane",
+                      "margarita" = "margarita",
+                      "martini" = "martini",
+                      "mug" = "mug",
+                      "pint" = "pint",
+                      "port" = "port",
+                      "rocks" = "rocks",
+                      "shot" = "shot",
+                      "snifter" = "snifter",
+                      "tiki" = "tiki",
+                      "weiss" = "weiss",
+                      "wine" = "wine")
+
 
 shinyApp(
   ui = fluidPage(
@@ -224,7 +242,9 @@ shinyApp(
     titlePanel("Glass Type (cocktails only)"),
 
     wellPanel(
-        tags$textarea(id="glassType", rows=1, cols=100, "")
+        selectInput("glassType", label = "", 
+                        choices = glassesOptions, 
+                        selected = "")
     ),
 
     titlePanel("Notes"),
