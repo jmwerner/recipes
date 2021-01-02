@@ -236,6 +236,9 @@ shinyApp(
 
     actionButton("submit", "Submit", class = "btn-primary"),
         
+    br(),
+    br(),
+
     shinyjs::hidden(
       span(id = "submit_msg", "Submitting..."),
         div(id = "error",
