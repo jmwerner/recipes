@@ -264,9 +264,13 @@ def create_glass_type_html(recipe):
         if recipe['glassType'][0] == '':
             output_html_string = ''
         else:
+            if recipe['glassType'][0] == 'tiki':
+                glass_image_base = 'tiki/tiki-1'
+            else:
+                glass_image_base = recipe['glassType'][0]
             output_html_string = '<h4>Glass</h4><span class="image">' + \
                                  '<img src="../../images/glasses/' + \
-                                 recipe['glassType'][0] + \
+                                 glass_image_base + \
                                  '.png" alt="" width=150rem /></span>'
     else:
         output_html_string = ''
