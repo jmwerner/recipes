@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Toronto"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "Adancito Austin"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Add all ingredients to a pitcher and stir with ice until chilled\"],[\"Strain into a chilled glass and garnish with an orange twist\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20210508-031910"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        "coupe"
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Canadian rye whiskey\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Fernet branca\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Simple syrup\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Dash(es)\"],\"name\":[\"Angostura bitters\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
