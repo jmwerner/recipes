@@ -130,7 +130,8 @@ unitsOptions = list(" " = "",
                     "Clove(s)" = "Clove(s)",
                     "Pinch(es)" = "Pinch(es)",
                     "Dash(es)" = "Dash(es)",
-                    "Bottle(s)" = "Bottle(s)")
+                    "Bottle(s)" = "Bottle(s)",
+                    "Gram(s)" = "Gram(s)")
 
 glassesOptions = list(" " = "",
                       "coffee-cup" = "coffee-cup",
