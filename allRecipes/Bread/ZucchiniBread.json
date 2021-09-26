@@ -6,22 +6,28 @@
         "Bread"
     ],
     "recipeSource": [
-        "Lori Giedt"
+        ""
     ],
     "recipeLink": [
-        "NA"
+        "https://www.seriouseats.com/zucchini-bread-recipe-2"
     ],
     "directions": [
-        "[[\"Cream eggs, oil, and sugar. \"],[\"Sift flour, salt, soda, cinnamon, and baking powder and add to creamed mixture. \"],[\"Peel and grate zucchini. Add zucchini, vanilla, and nuts to creamed mixture.   \"],[\"Grease loaf pans. Bake 1 hour at 325.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+        "[[\"Grease a 8.5x4.5 loaf pan and line with a 7x13 sheet of parchment paper so that parchment hangs over the long sides of the pan forming a sling.\"],[\"Adjust oven rack to lower-middle position and preheat to 350 degrees\"],[\"Place grated zucchini in a colander and press against the sides to extract liquid, or wrap in a clean kitchen towel or cheesecloth and squeeze to remove excess liquid. You should end up with about 6.5 ounces (1.5 cups; 185g) drained zucchini. Set aside.\"],[\"In a medium bowl, whisk together dry ingredients.\"],[\"In a large bowl, whisk together wet ingredients until thoroughly combined and sugars are dissolved.\"],[\"Add dry mixture to wet mixture. Using a flexible spatula, mix just until just incorporated, and no dry flour remains. Fold in zucchini and walnuts (or pecans, dried fruit, or chocolate chips), if using.\"],[\"Scrape batter into prepared pan. Bake until loaf is domed and golden brown and a cake tester inserted in the center comes out with few moist crumbs attached, or to an internal temperature of around 200°F (93°C), about 1 hour.\"],[\"Transfer pan to a wire rack to cool for 30 minutes. Run a butter knife along edges to loosen, then lift loaf using overhanging parchment and transfer to a cutting board. Slice with a serrated knife and serve.\"],[\"\"],[\"\"]]"
     ],
     "timestamp": [
-        "20161225-110110"
+        "20210926-132948"
     ],
     "notes": [
-        "Makes 2 loaves.  "
+        "Add 60g toasted chopped walnuts if desired. \n\nIf using table salt, use half as much by volume."
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
     ],
     "ingredients": [
-        "[{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"oil\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"sugar\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"flour\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"soda\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cinnamon\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"baking powder\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"zucchini\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"vanilla\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"nuts\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+        "[{\"number\":[\"225\"],\"units\":[\"Gram(s)\"],\"name\":[\"Grated zucchini\"],\"category\":[\"Zucchini\"]},{\"number\":[\"140\"],\"units\":[\"Gram(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"Dry\"]},{\"number\":[\"85\"],\"units\":[\"Gram(s)\"],\"name\":[\"Whole wheat flour\"],\"category\":[\"Dry\"]},{\"number\":[\"4\"],\"units\":[\"Gram(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"Dry\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking soda\"],\"category\":[\"Dry\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cinnamon\"],\"category\":[\"Dry\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"],\"category\":[\"Dry\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground coriander\"],\"category\":[\"Dry\"]},{\"number\":[\"1/8\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground nutmeg\"],\"category\":[\"Dry\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"Wet\"]},{\"number\":[\"115\"],\"units\":[\"Gram(s)\"],\"name\":[\"Granulated sugar\"],\"category\":[\"Wet\"]},{\"number\":[\"115\"],\"units\":[\"Gram(s)\"],\"name\":[\"Light brown sugar\"],\"category\":[\"Wet\"]},{\"number\":[\"85\"],\"units\":[\"Gram(s)\"],\"name\":[\"Vegetable oil\"],\"category\":[\"Wet\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Unsalted butter, melted\"],\"category\":[\"Wet\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vanilla extract\"],\"category\":[\"Wet\"]}]"
     ]
 }
 
