@@ -291,14 +291,6 @@ def create_recipe_origin_html(recipe_source):
         recipe_origin_string = ''
     return recipe_origin_string
 
-
-p = re.compile(r'((?<=[\.\?!]\s)(\w+)|(^\w+))')
-
-def cap(match):
-    return(match.group().capitalize())
-
-
-
 def capitalize_sentences(input):
     '''Capitalize the first word in every sentence of a string.
     Args:
@@ -524,7 +516,7 @@ def find_all_recipe_categories():
     '''
     categories = subprocess.check_output(['ls', '../allRecipes'])
     categories = categories.decode("utf-8").split('\n')
-    categories = [x for x in categories if x]
+    categories = [x.strip() for x in categories if x]
     return categories
 
 ################################################################################
