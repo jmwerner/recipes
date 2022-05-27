@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Pepe Salad"
+    ],
+    "recipeCategory": [
+        "Side Dish"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.allrecipes.com/recipe/14439/frog-eye-salad/"
+    ],
+    "directions": [
+        "[[\"In a sauce pan, combine sugar, flour, 1/2 teaspoon salt (per recipe), pineapple juice, and eggs. Stir and cook over medium heat until thickened. Remove from heat; add lemon juice and cool to room temperature.\"],[\"Bring water to a boil; add oil and remaining salt. Cook pasta until al dente. Drain and rinse under cold water.\"],[\"In a large bowl, combine the pasta, egg mixture, mandarin oranges, pineapple, and whipped topping. Mix well and refrigerate overnight or until chilled. Before serving add marshmallows. Toss and serve.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20220527-025557"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"white sugar\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"all-purpose flour\"],\"category\":[\"\"]},{\"number\":[\"2.5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt, divided\"],\"category\":[\"\"]},{\"number\":[\"7/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Unsweetened pineapple juice\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggs, beaten\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Cup(s)\"],\"name\":[\"water\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Vegetable oil\"],\"category\":[\"\"]},{\"number\":[\"16\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Acini di pepe pasta\"],\"category\":[\"\"]},{\"number\":[\"33\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Canned mandarin oranges, drained\"],\"category\":[\"\"]},{\"number\":[\"40\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Canned pineapple tidbits, drained\"],\"category\":[\"\"]},{\"number\":[\"20\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Canned crushed pineapple, drained\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Frozen whipped topping\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Miniature marshmallows\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
