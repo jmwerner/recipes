@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Gooey Apple Pie"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Toss apple slices with sugar, cornstarch, cinnamon, and lemon juice and zest until well coated. Let rest for 10 minutes.\"],[\"Set sous vide machine to 160 degrees. Transfer apples and their juices to a vacuum bag and seal. Cook in water bath for 1 hour. Transfer contents to a large Dutch oven and heat over medium-high heat, stirring frequently, until juices thicken enough that a spatula dragged through the bottom of the pot leaves a trail that very slowly closes back up, about 10 minutes. Transfer apples to a rimmed baking sheet, spread out into a single layer, and allow to cool completely, about 1 hour.\"],[\"Preheat oven to 425 degrees. Roll 1 disk of pie dough into a circle roughly 12 inches in diameter. Transfer to a 9-inch pie plate. Add filling, piling it into the pie shell until it all fits. Roll remaining disk of pie dough into a circle roughly 12 inches in diameter. Transfer to top of pie.\"],[\"Using a pair of kitchen shears, trim edges of both pie crusts until they overhang the edge of the pie plate by 1/2 inch all the way around. Fold edges of both pie crusts down together, tucking them in between the bottom crust and the pie plate and working your way all the way around the pie plate until everything is well tucked. Use the forefinger on your left hand and the thumb and forefinger on your right hand to crimp the edges. Cut 5 slits in the top with a sharp knife for ventilation.\"],[\"Use a pastry brush to brush an even coat of lightly beaten egg white all over the top surface of the pie. Sprinkle evenly with 1 tablespoon (15g) of sugar. Transfer pie to baking sheet in oven and bake until light golden brown, about 20 minutes. Reduce heat to 375°F (190°C) and continue baking until deep golden brown, about 25 minutes longer. Remove from oven and allow to cool at room temperature for at least 4 hours before serving.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20221111-024944"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Apples, peeled, cored, and sliced 1/2 inch thick\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Sugar\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Cornstarch\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cinnamon\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Lemon zest, grated\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Easy pie dough\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg white\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
