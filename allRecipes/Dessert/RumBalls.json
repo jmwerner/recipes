@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Rum Balls"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        "https://www.allrecipes.com/recipe/17238/cocoa-rum-balls/"
+    ],
+    "directions": [
+        "[[\"Combine dry ingredients in large bowl.\"],[\"Mix in wet ingredients until well combined.\"],[\"Shape dough into 1-inch balls and roll in powdered sugar or cocoa powder to coat.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20221128-231125"
+    ],
+    "notes": [
+        "Allow 2-3 days of flavor development before eating, if possible."
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Vanilla wafers, crushed\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chopped nuts\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"3/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Powdered sugar\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cocoa powder\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Dark rum\"],\"category\":[\"Wet Ingredients\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Light corn syrup\"],\"category\":[\"Wet Ingredients\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
