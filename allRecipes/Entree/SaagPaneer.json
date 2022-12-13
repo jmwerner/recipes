@@ -9,19 +9,19 @@
         ""
     ],
     "recipeLink": [
-        "http://www.slenderkitchen.com/recipe/sunday-slow-cooker-saag-paneer"
+        ""
     ],
     "directions": [
-        "[[\"Add everything to slow cooker except for the paneer and cook on low for 3 hours.\"],[\"Blend everything with an immersion blender if desired.\"],[\"Add paneer and cook for 1 more hour. \"],[\"Serve over quinoa, rice, or with naan.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+        "[[\"In a large bowl, whisk together the turmeric, cayenne, salt, and oil. Add paneer cubes and gently toss.\"],[\"Thaw the spinach in the microwave then puree in a food processor until smooth.\"],[\"Fry paneer in a nonstick skillet over medium heat until slightly brown. Remove paneer from pan onto a plate.\"],[\"Add onions, ginger, garlic, and chile to pan. Add extra oil if needed and saute the mixture until it's evenly toffee-colored, which should take about 15 minutes. If mixture is drying out and burning, add water.\"],[\"Add the garam masala, coriander, and cumin. Sprinkle a little water to keep the spices from burning. Cook, stirring often, until the raw scent of spices cooks out, 3-5 minutes.\"],[\"Add the spinach and stir well, incorporating the spiced onion mixture into the spinach. Add salt as desired and up to 1/2 cup of water. Stir and cook about 5 minutes with the lid off.\"],[\"Turn the heat off. Add the yogurt a little at a time to keep it from curdling. Once the yogurt is well mixed into the spinach, add the paneer.\"],[\"Turn the heat back on, cover and cook until everything is warmed through, about 5 minutes.\"]]"
     ],
     "timestamp": [
-        "20170416-215616"
+        "20221212-215616"
     ],
     "notes": [
         ""
     ],
     "ingredients": [
-        "[{\"number\":[\"4\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground ginger\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Garam masala\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ground coriander\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ground cumin\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cayenne pepper\"],\"category\":[\"\"]},{\"number\":[\"14\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Coconut milk\"],\"category\":[\"\"]},{\"number\":[\"6\"],\"units\":[\"Cup(s)\"],\"name\":[\"Spinach\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, diced\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Paneer, cubed\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+        "[{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"turmeric\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"cayenne\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"kosher salt\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"oil\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"paneer, cut into 1-inch cubes\"],\"category\":[\"\"]},{\"number\":[\"16\"],\"units\":[\"Ounce(s)\"],\"name\":[\"frozen chopped spinach\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, finely chopped\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Ginger, peeled and minced\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Serrano chile, finely chopped\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garam masala\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground coriander\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cumin\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Plain yogurt\"],\"category\":[\"\"]}]"
     ]
 }
 
