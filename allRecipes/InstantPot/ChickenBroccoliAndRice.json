@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Chicken Broccoli and Rice"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Turn Instant Pot onto saute. Add saute ingredients and cook until onion begins to soften, 3-4 minutes.\"],[\"Spread the chicken across the bottom of the instant pot. Add Rice ingredients and do not stir.\"],[\"Cook on manual high pressure for 8 minutes, let naturally release for 5-10 minutes\"],[\"Release any remaining pressure, open the lid and quickly stir in the broccoli and warmed milk. Close the lid and let rest an additional 5-10 minutes.\"],[\"Stir in the cheese until well combined, adding more warmed milk if needed. Serve immediately.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20230309-024708"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Oil\"],\"category\":[\"Saute\"]},{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken breasts, cubed\"],\"category\":[\"Saute\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, diced\"],\"category\":[\"Saute\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Long grain rice\"],\"category\":[\"Rice\"]},{\"number\":[\"5/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Chicken broth\"],\"category\":[\"Rice\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garlic powder\"],\"category\":[\"Rice\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Rice\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Rice\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Milk, warmed\"],\"category\":[\"Finish\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Fresh broccoli, chopped\"],\"category\":[\"Finish\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Shredded cheddar cheese\"],\"category\":[\"Finish\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
