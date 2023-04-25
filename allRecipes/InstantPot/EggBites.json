@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Egg Bites"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a blender, place the eggs, cottage cheese, salt, pepper, and shredded cheese, if using. Blend until well combined. \"],[\"Divide filling of your choice, if using, evenly between the egg bite molds. Pour the egg batter into the egg molds, dividing the mixture evenly. Each egg mold should be about 3/4ths of the way full. Cover the egg bite mold tightly with foil or silicon cover\"],[\"Add cold water and egg bite molds to instant pot\"],[\"Pressure cook for 9 minutes\"],[\"Let the pressure naturally release for 10 minutes\"],[\"Remove the egg bite mold from the inner pot and rest 2-5 minutes before inverting onto plate\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20230425-023121"
+    ],
+    "notes": [
+        "Possible filling combinations include bacon & grueyere, mushroom & swiss, ham & chedder, and roasted red pepper."
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"Eggs\"],\"category\":[\"Base\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cottage cheese\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt\"],\"category\":[\"Base\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Base\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
