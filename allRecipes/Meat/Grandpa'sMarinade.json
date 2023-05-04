@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Grandpa's Marinade"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine ingredients and whisk well\"],[\"Marinate with the meat of your choice for at least 1 hour, up to 3 days\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20230504-021125"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Soy sauce\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Honey\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Dijon mustard\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Brown sugar\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Worcestershire sauce\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Parsley, chopped\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garlic powder\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Black pepper\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Rosemary sprig\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
