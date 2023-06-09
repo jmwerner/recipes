@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Espresso Martini"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        "Josh Knicker"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine ingredients and shake with ice\"],[\"Strain into chilled martini glass\"],[\"Float 3 espresso beans on top and serve immediately\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20230609-025231"
+    ],
+    "notes": [
+        "Chocolate bitters can be added if desired"
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        "martini"
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Vodka\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Mr black coffee liqueur\"],\"category\":[\"\"]},{\"number\":[\".5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Licor 43\"],\"category\":[\"\"]},{\"number\":[\".25\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Demerara simple syrup\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Fresh espresso\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
