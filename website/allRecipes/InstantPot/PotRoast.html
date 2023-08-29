@@ -1,0 +1,412 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>
+   Werner Family Recipes
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link href="../../assets/css/main.css" rel="stylesheet"/>
+  <!--[if lte IE 9]><link rel="stylesheet" href="../../assets/css/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="../../assets/css/ie8.css" /><![endif]-->
+  <link href="../../../generator/templates/images/touch/chrome-touch-icon-192x192.png" rel="icon" sizes="192x192"/>
+  <link href="../../../generator/templates/images/touch/apple-touch-icon.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+   <!-- Header -->
+   <header id="header">
+    <div class="inner">
+     <!-- Nav -->
+     <nav>
+      <ul>
+       <li>
+        <a href="#menu" id="menuButton">
+         Menu
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </header>
+   <!-- Menu -->
+   <nav id="menu">
+    <h2>
+     Menu
+    </h2>
+    <button id="searchButton" onclick="enterKeyRedirect()" style="float:right">
+     Search
+    </button>
+    <div style="overflow:hidden; padding-right: .5em;">
+     <input class="searchField" id="searchTxt" maxlength="512" name="searchTxt" placeholder="Search Here..." style="width: 100%" type="text"/>
+    </div>
+    <br/>
+    <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
+    <ul>
+     <li>
+      <a href="../../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="../Appetizer.html">
+       Appetizer
+      </a>
+     </li>
+     <li>
+      <a href="../Bread.html">
+       Bread
+      </a>
+     </li>
+     <li>
+      <a href="../Breakfast.html">
+       Breakfast
+      </a>
+     </li>
+     <li>
+      <a href="../Cocktail.html">
+       Cocktail
+      </a>
+     </li>
+     <li>
+      <a href="../Dessert.html">
+       Dessert
+      </a>
+     </li>
+     <li>
+      <a href="../Entree.html">
+       Entree
+      </a>
+     </li>
+     <li>
+      <a href="../Hotdish.html">
+       Hotdish
+      </a>
+     </li>
+     <li>
+      <a href="../InstantPot.html">
+       Instant Pot
+      </a>
+     </li>
+     <li>
+      <a href="../Meat.html">
+       Meat
+      </a>
+     </li>
+     <li>
+      <a href="../Pasta.html">
+       Pasta
+      </a>
+     </li>
+     <li>
+      <a href="../SideDish.html">
+       Side Dish
+      </a>
+     </li>
+     <li>
+      <a href="../Soup.html">
+       Soup
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <!-- Main -->
+   <div id="main">
+    <div class="inner">
+     <h2>
+      Pot Roast
+     </h2>
+     <div class="row">
+      <div class="6u 12u$(medium)">
+       <h4>
+        Ingredients
+       </h4>
+       <h6>
+        roast
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-roast-0" value="3">
+          3
+         </span>
+         <span id="recipeUnit-roast-0">
+          Pounds
+         </span>
+         <span id="recipeIngredient-roast-0">
+          Chuck Roast
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-roast-1" value="3">
+          3
+         </span>
+         <span id="recipeUnit-roast-1">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-roast-1">
+          Salt
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-roast-2" value="1 1/2">
+          1 1/2
+         </span>
+         <span id="recipeUnit-roast-2">
+          Tablespoons
+         </span>
+         <span id="recipeIngredient-roast-2">
+          High Heat Cooking Oil
+         </span>
+        </li>
+       </ul>
+       <h6>
+        spices
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-spices-0" value="1 1/2">
+          1 1/2
+         </span>
+         <span id="recipeUnit-spices-0">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-spices-0">
+          Onion Powder
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-spices-1" value="1">
+          1
+         </span>
+         <span id="recipeUnit-spices-1">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-spices-1">
+          Garlic Powder
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-spices-2" value="1">
+          1
+         </span>
+         <span id="recipeUnit-spices-2">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-spices-2">
+          Ground Black Pepper
+         </span>
+        </li>
+       </ul>
+       <h6>
+        vegetables
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-vegetables-0" value="1">
+          1
+         </span>
+         <span id="recipeUnit-vegetables-0">
+          Whole
+         </span>
+         <span id="recipeIngredient-vegetables-0">
+          Onion
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-vegetables-1" value="5">
+          5
+         </span>
+         <span id="recipeUnit-vegetables-1">
+          Whole
+         </span>
+         <span id="recipeIngredient-vegetables-1">
+          Carrots
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-vegetables-2" value="4">
+          4
+         </span>
+         <span id="recipeUnit-vegetables-2">
+          Whole
+         </span>
+         <span id="recipeIngredient-vegetables-2">
+          Celery Stalks
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-vegetables-3" value="6">
+          6
+         </span>
+         <span id="recipeUnit-vegetables-3">
+          Cloves
+         </span>
+         <span id="recipeIngredient-vegetables-3">
+          Garlic
+         </span>
+        </li>
+       </ul>
+       <h6>
+        broth
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-broth-0" value="3">
+          3
+         </span>
+         <span id="recipeUnit-broth-0">
+          Cups
+         </span>
+         <span id="recipeIngredient-broth-0">
+          Beef Broth
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-broth-1" value="2">
+          2
+         </span>
+         <span id="recipeUnit-broth-1">
+          Whole
+         </span>
+         <span id="recipeIngredient-broth-1">
+          Bouillion Cubes, Optional
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-broth-2" value="3">
+          3
+         </span>
+         <span id="recipeUnit-broth-2">
+          Tablespoons
+         </span>
+         <span id="recipeIngredient-broth-2">
+          Apple Cider Vinegar
+         </span>
+        </li>
+       </ul>
+       <h6>
+        finishing
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-finishing-0" value="4">
+          4
+         </span>
+         <span id="recipeUnit-finishing-0">
+          Whole
+         </span>
+         <span id="recipeIngredient-finishing-0">
+          Rosemary Sprigs
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-finishing-1" value="4">
+          4
+         </span>
+         <span id="recipeUnit-finishing-1">
+          Whole
+         </span>
+         <span id="recipeIngredient-finishing-1">
+          Thyme Sprigs
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-finishing-2" value="1">
+          1
+         </span>
+         <span id="recipeUnit-finishing-2">
+          Whole
+         </span>
+         <span id="recipeIngredient-finishing-2">
+          Bay Leaf
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-finishing-3" value="12">
+          12
+         </span>
+         <span id="recipeUnit-finishing-3">
+          Ounces
+         </span>
+         <span id="recipeIngredient-finishing-3">
+          Baby Potatoes, Optional
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="6u 12u$(medium)">
+       <h4>
+        Directions
+       </h4>
+       <ol>
+        <li>
+         Season all sides of the beef with a generous amount of salt and then set aside, at room temperature, for one hour.
+        </li>
+        <li>
+         Meanwhile, combine spices.
+        </li>
+        <li>
+         Prepare the vegetables. Peel and cut the onion into large chunks. Peel the carrots and remove the ends. Slice the carrots and celery into thick long sticks. Smash garlic cloves with the flat side of a knife and peel away the skins.
+        </li>
+        <li>
+         After an hour, use paper towels to pat the beef dry on all sides (this helps the meat brown), and then rub the beef on all sides with the spice mixture. The beef should be well seasoned on all sides with the spices.
+        </li>
+        <li>
+         Add oil to the bottom of the instant pot. Select the sautee setting and choose high heat. When the oil is hot and shimmering, add the beef. Cook until well-browned on all sides, about four minutes per side. Transfer the browned beef to a plate.
+        </li>
+        <li>
+         Add broth ingredients to instant pot, scrape brown bits from sides and bottom of pot and turn off sautee.
+        </li>
+        <li>
+         Add roast back to pot and scatter vegetables and finishing ingredients around.
+        </li>
+        <li>
+         Pressure cook for 60 minutes.
+        </li>
+        <li>
+         Allow pressure to come down naturally for at least 10 minutes before releasing.
+        </li>
+       </ol>
+      </div>
+     </div>
+    </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
+   </div>
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="inner">
+     <ul class="copyright">
+      <li>
+       All recipes subject to cooking skill
+      </li>
+      <li>
+       <a href="mailto:jeremy@jerwerner.com?subject=Recipes Inquiry">
+        Contact the Administrator
+       </a>
+      </li>
+     </ul>
+    </div>
+   </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="../../assets/js/jquery.min.js">
+  </script>
+  <script src="../../assets/js/skel.min.js">
+  </script>
+  <script src="../../assets/js/util.js">
+  </script>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="../../assets/js/main.js">
+  </script>
+  <script src="../../assets/js/recipeScaling.js">
+  </script>
+ </body>
+</html>

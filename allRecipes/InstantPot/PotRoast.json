@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Pot Roast"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Season all sides of the beef with a generous amount of salt and then set aside, at room temperature, for one hour\"],[\"meanwhile, combine spices\"],[\"Prepare the vegetables. Peel and cut the onion into large chunks. Peel the carrots and remove the ends. Slice the carrots and celery into thick long sticks. Smash garlic cloves with the flat side of a knife and peel away the skins.\"],[\"After an hour, use paper towels to pat the beef dry on all sides (this helps the meat brown), and then rub the beef on all sides with the spice mixture. The beef should be well seasoned on all sides with the spices. \"],[\"Add oil to the bottom of the instant pot. Select the sautee setting and choose high heat. When the oil is hot and shimmering, add the beef. Cook until well-browned on all sides, about four minutes per side. Transfer the browned beef to a plate.\"],[\"Add broth ingredients to instant pot, scrape brown bits from sides and bottom of pot and turn off sautee\"],[\"Add roast back to pot and scatter vegetables and finishing ingredients around\"],[\"Pressure cook for 60 minutes. \"],[\"Allow pressure to come down naturally for at least 10 minutes before releasing\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20230829-023257"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chuck roast\"],\"category\":[\"roast\"]},{\"number\":[\"3\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"roast\"]},{\"number\":[\"3/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"onion powder\"],\"category\":[\"spices\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"garlic powder\"],\"category\":[\"spices\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground black pepper\"],\"category\":[\"spices\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"onion\"],\"category\":[\"vegetables\"]},{\"number\":[\"5\"],\"units\":[\"Whole\"],\"name\":[\"carrots\"],\"category\":[\"vegetables\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"celery stalks\"],\"category\":[\"vegetables\"]},{\"number\":[\"6\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic\"],\"category\":[\"vegetables\"]},{\"number\":[\"3/2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"high heat cooking oil\"],\"category\":[\"roast\"]},{\"number\":[\"3\"],\"units\":[\"Cup(s)\"],\"name\":[\"beef broth\"],\"category\":[\"broth\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Bouillion cubes, optional\"],\"category\":[\"broth\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"apple cider vinegar\"],\"category\":[\"broth\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"rosemary sprigs\"],\"category\":[\"finishing\"]},{\"number\":[\"4\"],\"units\":[\"Whole\"],\"name\":[\"thyme sprigs\"],\"category\":[\"finishing\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"bay leaf\"],\"category\":[\"finishing\"]},{\"number\":[\"12\"],\"units\":[\"Ounce(s)\"],\"name\":[\"baby potatoes, optional\"],\"category\":[\"finishing\"]}]"
+    ]
+}
+
