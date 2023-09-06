@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Rock and Rye"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Stir ingredients together in a 4 qt glass jar with a lid\"],[\"Let steep at room temperature for 2 days or up to a month\"],[\"strain and serve over ice\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20230906-152217"
+    ],
+    "notes": [
+        "Dried apricots and pitted cherries can be added as well if desired"
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"liter rye whiskey\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Rock candy or similar sugar\"],\"category\":[\"\"]},{\"number\":[\"12\"],\"units\":[\"Whole\"],\"name\":[\"Cloves\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"Star anise\"],\"category\":[\"\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"cinnamon sticks\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Orange, thinly sliced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"lemon, thinly sliced\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
