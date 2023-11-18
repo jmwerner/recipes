@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "French Apple Cake"
+    ],
+    "recipeCategory": [
+        "Dessert"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Preheat the oven to 350°F and set an oven rack in the middle position. Grease a 9-inch springform or regular cake pan with butter or nonstick cooking spray. If using a regular cake pan, line the bottom of the pan with parchment paper and grease again.\"],[\"In a small bowl, whisk together dry ingredients\"],[\"Using a handheld mixer with beaters or a stand mixer with the paddle attachment, cream the butter and granulated sugar until light and fluffy, about 3 minutes. Add the eggs, one at a time, beating well and scraping down the sides of the bowl after each addition. \"],[\"Beat in the wet ingredients. Don't worry if the batter looks grainy at this point; that's okay. Add the flour mixture and mix on low speed until just combined. \"],[\"Using a rubber spatula, fold in the chopped apples.\"],[\"Scrape the batter into the prepared pan and even the top. Bake for about 40 minutes, or until the cake is golden and a toothpick inserted into the center comes out clean. \"],[\"Cool cake and remove from pan.\"],[\"Using a fine sieve, dust with powdered sugar and enjoy\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20231118-204523"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"All-purpose flour\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Baking powder\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Dry Ingredients\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"unsalted butter, room temperature\"],\"category\":[\"Creaming Ingredients\"]},{\"number\":[\"2/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Granulated sugar\"],\"category\":[\"Creaming Ingredients\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"eggs\"],\"category\":[\"Creaming Ingredients\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Vanilla extract\"],\"category\":[\"Wet Ingredients\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Dark rum\"],\"category\":[\"Wet Ingredients\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Apples, peeled and diced\"],\"category\":[\"Apples\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Powdered sugar for dusting\"],\"category\":[\"Finishing Sugar\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
