@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Braised Pork Pasta"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Heat oven to 350 degrees\"],[\"Season pork with salt and black pepper\"],[\"In a large dutch oven, heat the olive oil over medium-high heat. Add the pork shoulder and sear until well browned on all sides, 8-10 minutes\"],[\"Reduce heat to medium-low. Add the aromatics ingredients to the oil and stir to combine. \"],[\"Add the finishing ingredients plus salt and pepper to taste, stir to combine and bring to a boil over medium-high heat\"],[\"Cover, then transfer to the oven and cook until the pork falls apart, 2.5-3 hours\"],[\"Shred the meat while in the pot using forks and stir into tomato sauce until it's evenly distributed \"],[\"Enjoy!\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20240129-210347"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2.5\"],\"units\":[\"Pound(s)\"],\"name\":[\"Boneless pork shoulder, trimmed\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Black pepper\"],\"category\":[\"Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Base\"]},{\"number\":[\"10\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, peeled and smashed\"],\"category\":[\"Aromatics\"]},{\"number\":[\"3/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Red pepper flakes\"],\"category\":[\"Aromatics\"]},{\"number\":[\"42\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Canned fire-roasted tomatoes\"],\"category\":[\"Finishing\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red wine\"],\"category\":[\"Finishing\"]},{\"number\":[\"5\"],\"units\":[\"Whole\"],\"name\":[\"Basil sprigs\"],\"category\":[\"Finishing\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"Base\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
