@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Sangria"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine all Sangria Base ingredients into sealable container, squeezing the fruit wedges as they are added\"],[\"Mix well and chill overnight\"],[\"Add ginger ale and ice right before serving, straining out fruit if desired\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20240129-205535"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Lemon, cut into wedges and seeded\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Orange, cut into wedges and seeded\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Lime, cut into wedges and seeded\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"8\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Can diced pineapple, with juice\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Sugar\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Orange juice or lemonade (optional)\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Gin\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Raspberries or strawberries, fresh or frozen\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Ginger ale\"],\"category\":[\"Topper\"]},{\"number\":[\"1\"],\"units\":[\"Bottle(s)\"],\"name\":[\"Red wine\"],\"category\":[\"Sangria Base\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
