@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Beef Stew"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        "Paul Wallien"
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Add the olive oil to the instant pot and turn on the saute function. When the oil starts to sizzle, add the meat ingredients and cook until browned on all sides. \"],[\"Add the beef broth to deglaze and use a spoon to scrape the brown bits from the bottom of the instant pot.\"],[\"Add stew ingredients and cook on high pressure for 35 minutes\"],[\"Allow pressure to release naturally for 10 minutes before quick release\"],[\"Mix together thickening ingredients in a small bowl and stir into stew until thickened\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20240405-230143"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3/2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Beef stew meat\"],\"category\":[\"Meat\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Meat\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Meat\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Pepper\"],\"category\":[\"Meat\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Italian seasoning\"],\"category\":[\"Meat\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Worcestershire sauce\"],\"category\":[\"Stew\"]},{\"number\":[\"3\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Stew\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion, chopped\"],\"category\":[\"Stew\"]},{\"number\":[\"16\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Baby carrots, cut into slices\"],\"category\":[\"Stew\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Potatoes, cubed\"],\"category\":[\"Stew\"]},{\"number\":[\"2.5\"],\"units\":[\"Cup(s)\"],\"name\":[\"Beef broth\"],\"category\":[\"Stew\"]},{\"number\":[\"10\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"Stew\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Cornstarch\"],\"category\":[\"Thickening\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Water\"],\"category\":[\"Thickening\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
