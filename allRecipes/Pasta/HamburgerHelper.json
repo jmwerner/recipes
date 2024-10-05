@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Hamburger Helper"
+    ],
+    "recipeCategory": [
+        "Pasta"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Add base ingredients to dutch oven. Cook over medium-high heat until the beef has browned (about 7-10 minutes), breaking the meat up with your spoon as you go along. If there's a lot of excess fat, spoon most of it out.\"],[\"Stir in the flavoring ingredients\"],[\"Add in the beef broth and increase the heat to high. Once it starts boiling, add in the macaroni.\"],[\"Reduce the heat so it's not furiously boiling (a rapid simmer is good). Let it cook uncovered until the pasta is tender and most of the liquid has been absorbed (about 13-15 minutes). Stir every few minutes.\"],[\"Take the pot off the heat and stir in the finishing ingredients. Let rest for 5-10 minutes and serve.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20241005-023512"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground beef\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Onion\"],\"category\":[\"Base\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Tomato paste\"],\"category\":[\"Flavoring\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garlic powder\"],\"category\":[\"Flavoring\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Chili powder\"],\"category\":[\"Flavoring\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Uncooked elbow macaroni\"],\"category\":[\"Pasta\"]},{\"number\":[\"6\"],\"units\":[\"Cup(s)\"],\"name\":[\"Beef broth\"],\"category\":[\"Pasta\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cheddar cheese, shredded\"],\"category\":[\"Finishing\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt and pepper to taste\"],\"category\":[\"Finishing\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
