@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Chicken Nuggets"
+    ],
+    "recipeCategory": [
+        "Meat"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a large bowl, combine half of the panko, milk, egg, garlic powder and salt. Stir together and let sit for 5 minutes.\"],[\"Add the chicken and 3/4 of the parmesan. Stir with your hands until combined, avoiding overmixing. \"],[\"Roll into 24 balls about the size of a golf ball (about 2 tablespoons each) and place on a sheet pan or plate. In a medium bowl, stir together the remaining panko and Parmesan. Toss each meatball in the panko-cheese mixture, pressing gently to adhere. Refrigerate for 5 minutes.\"],[\"Bake at 375 for approximately 15 minutes, until cooked through\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20241123-043012"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.75\"],\"units\":[\"Cup(s)\"],\"name\":[\"Panko bread crumbs\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Whole milk\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Egg\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garlic powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Ground chicken or turkey\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Cup(s)\"],\"name\":[\"Finely grated parmesan\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Unsalted butter\"],\"category\":[\"\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
