@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Holiday Spiced Old Fashioned"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine all ingredients in a jar or pitcher and shake to mix\"],[\"Serve over an ice cube and garnish with an orange twist\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20241217-030905"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        "rocks"
+    ],
+    "ingredients": [
+        "[{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Barrel proof rye whiskey\"],\"category\":[\"\"]},{\"number\":[\"4\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Demerara rum\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Allspice dram\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Pure maple syrup or chai tea syrup\"],\"category\":[\"\"]},{\"number\":[\"8\"],\"units\":[\"Dash(es)\"],\"name\":[\"Angostura bitters\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt (very small pinch) \"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
