@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Mexican Rice"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Turn instant pot to saute mode, once hot add oil and rice. Saute, stirring often, until lightly golden, about 5 minutes.\"],[\"Add desired seasonings and stir into rice, allowing seasonings to bloom. Turn off saute mode\"],[\"Add base ingredients and stir well. Add water and stir well.\"],[\"Cook at high pressure for 3-4 minutes, allow pressure to naturally release for 10 minutes.\"],[\"Fluff with a fork and enjoy\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20250421-202527"
+    ],
+    "notes": [
+        "Diced carrot, frozen peas, or other ingredients can be added as desired"
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Long grain white rice\"],\"category\":[\"Rice\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Vegetable or canola oil\"],\"category\":[\"Rice\"]},{\"number\":[\"15\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Tomato sauce\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Base\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Onion, diced\"],\"category\":[\"Base\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt and pepper\"],\"category\":[\"Seasonings\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Cumin\"],\"category\":[\"Seasonings\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Chili powder\"],\"category\":[\"Seasonings\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Water\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
