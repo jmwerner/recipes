@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Curry Chicken Fried Rice"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a nonstick pan on medium-high, heat oil then add red onion and cook, stirring occasionally, until translucent, 2 to 3 minutes\"],[\"Add the curry powder, chicken, and salt to taste. Cook, stirring occasionally, until chicken is cooked through\"],[\"Add the frozen vegetables and pepper to taste. Cook and stir for 1 minute.\"],[\"Stir in the rice and cook until rice is warm, about 4 minutes.\"],[\"Serve hot, topping each bowl with scallions and a fried egg if desired\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20250802-205537"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Neutral-tasting oil\"],\"category\":[\"\"]},{\"number\":[\"1/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red onion, diced\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Curry powder\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Salt and pepper\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Pound(s)\"],\"name\":[\"Chicken, cubed\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Frozen mixed vegetables\"],\"category\":[\"\"]},{\"number\":[\"5/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cooked rice\"],\"category\":[\"\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cilantro, chopped\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Scallion, sliced\"],\"category\":[\"\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Fried egg (optional)\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+

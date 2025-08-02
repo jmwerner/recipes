@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>
+   Werner Family Recipes
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link href="../../assets/css/main.css" rel="stylesheet"/>
+  <!--[if lte IE 9]><link rel="stylesheet" href="../../assets/css/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="../../assets/css/ie8.css" /><![endif]-->
+  <link href="../../../generator/templates/images/touch/chrome-touch-icon-192x192.png" rel="icon" sizes="192x192"/>
+  <link href="../../../generator/templates/images/touch/apple-touch-icon.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+   <!-- Header -->
+   <header id="header">
+    <div class="inner">
+     <!-- Nav -->
+     <nav>
+      <ul>
+       <li>
+        <a href="#menu" id="menuButton">
+         Menu
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </header>
+   <!-- Menu -->
+   <nav id="menu">
+    <h2>
+     Menu
+    </h2>
+    <button id="searchButton" onclick="enterKeyRedirect()" style="float:right">
+     Search
+    </button>
+    <div style="overflow:hidden; padding-right: .5em;">
+     <input class="searchField" id="searchTxt" maxlength="512" name="searchTxt" placeholder="Search Here..." style="width: 100%" type="text"/>
+    </div>
+    <br/>
+    <br/>
+    <button id="scalingButton" onclick="rescaleRecipe()">
+     1X
+    </button>
+    <br/>
+    <br/>
+    <ul>
+     <li>
+      <a href="../../index.html">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="../Appetizer.html">
+       Appetizer
+      </a>
+     </li>
+     <li>
+      <a href="../Bread.html">
+       Bread
+      </a>
+     </li>
+     <li>
+      <a href="../Breakfast.html">
+       Breakfast
+      </a>
+     </li>
+     <li>
+      <a href="../Cocktail.html">
+       Cocktail
+      </a>
+     </li>
+     <li>
+      <a href="../Dessert.html">
+       Dessert
+      </a>
+     </li>
+     <li>
+      <a href="../Entree.html">
+       Entree
+      </a>
+     </li>
+     <li>
+      <a href="../Hotdish.html">
+       Hotdish
+      </a>
+     </li>
+     <li>
+      <a href="../InstantPot.html">
+       Instant Pot
+      </a>
+     </li>
+     <li>
+      <a href="../Meat.html">
+       Meat
+      </a>
+     </li>
+     <li>
+      <a href="../Pasta.html">
+       Pasta
+      </a>
+     </li>
+     <li>
+      <a href="../SideDish.html">
+       Side Dish
+      </a>
+     </li>
+     <li>
+      <a href="../Soup.html">
+       Soup
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <!-- Main -->
+   <div id="main">
+    <div class="inner">
+     <h2>
+      Zaalouk
+     </h2>
+     <div class="row">
+      <div class="6u 12u$(medium)">
+       <h4>
+        Ingredients
+       </h4>
+       <h6>
+        Roasting
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Roasting-0" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Roasting-0">
+          Whole
+         </span>
+         <span id="recipeIngredient-Roasting-0">
+          Red Bell Peppers, Halved
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Roasting-1" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Roasting-1">
+          Whole
+         </span>
+         <span id="recipeIngredient-Roasting-1">
+          Eggplants
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Blooming
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Blooming-0" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Blooming-0">
+          Cup
+         </span>
+         <span id="recipeIngredient-Blooming-0">
+          Olive Oil
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Blooming-1" value="4">
+          4
+         </span>
+         <span id="recipeUnit-Blooming-1">
+          Cloves
+         </span>
+         <span id="recipeIngredient-Blooming-1">
+          Garlic, Minced
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Blooming-2" value="5">
+          5
+         </span>
+         <span id="recipeUnit-Blooming-2">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-Blooming-2">
+          Tomato Paste
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Blooming-3" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Blooming-3">
+          Teaspoons
+         </span>
+         <span id="recipeIngredient-Blooming-3">
+          Cumin
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Blooming-4" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Blooming-4">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Blooming-4">
+          Paprika
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Blooming-5" value="1/2">
+          1/2
+         </span>
+         <span id="recipeUnit-Blooming-5">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Blooming-5">
+          Red Pepper Flakes
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Finishing
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Finishing-0" value="1">
+          1
+         </span>
+         <span id="recipeUnit-Finishing-0">
+          Whole
+         </span>
+         <span id="recipeIngredient-Finishing-0">
+          Pita (Optional)
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Finishing-1" value="2">
+          2
+         </span>
+         <span id="recipeUnit-Finishing-1">
+          Tablespoons
+         </span>
+         <span id="recipeIngredient-Finishing-1">
+          Fresh Lemon Juice
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Finishing-2" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Finishing-2">
+          Cup
+         </span>
+         <span id="recipeIngredient-Finishing-2">
+          Tahini
+         </span>
+        </li>
+       </ul>
+       <h6>
+        Sauce
+       </h6>
+       <ul>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-0" value="9">
+          9
+         </span>
+         <span id="recipeUnit-Sauce-0">
+          Ounces
+         </span>
+         <span id="recipeIngredient-Sauce-0">
+          Plum Tomatoes, Chopped and Pureed
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-1" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Sauce-1">
+          Cup
+         </span>
+         <span id="recipeIngredient-Sauce-1">
+          Parsley, Chopped
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-2" value="1/4">
+          1/4
+         </span>
+         <span id="recipeUnit-Sauce-2">
+          Cup
+         </span>
+         <span id="recipeIngredient-Sauce-2">
+          Cilantro, Chopped
+         </span>
+        </li>
+        <li>
+         <span class="recipeNumber" id="recipeNumber-Sauce-3" value="1/2">
+          1/2
+         </span>
+         <span id="recipeUnit-Sauce-3">
+          Teaspoon
+         </span>
+         <span id="recipeIngredient-Sauce-3">
+          Granulated Sugar
+         </span>
+        </li>
+       </ul>
+      </div>
+      <div class="6u 12u$(medium)">
+       <h4>
+        Directions
+       </h4>
+       <ol>
+        <li>
+         Heat oven to 450°.
+        </li>
+        <li>
+         Place the halved bell peppers on a parchment-lined baking sheet, skin up, and drizzle lightly with oil. Place the eggplants on a separate lined baking sheet.
+        </li>
+        <li>
+         Transfer both baking sheets to the oven with the peppers on the top shelf. Roast the peppers for 25 to 30 minutes until charred and softened. Roast the eggplants for about 50 minutes, until completely collapsed and softened through the middle.
+        </li>
+        <li>
+         Once cool enough to handle, peel and discard the skin of the peppers and finely chop the flesh. Set aside.
+        </li>
+        <li>
+         Peel the eggplants, discarding the skins and stems, and place the flesh into a sieve set over a bowl. Leave to drain for at least 20 minutes, pushing down to squeeze out and discard any extra liquid. Roughly chop the eggplants.
+        </li>
+        <li>
+         Meanwhile, heat the oil in a medium skillet over medium-high heat. Once hot, add blooming ingredients. Cook for about 1 minute, stirring occasionally, until fragrant.
+        </li>
+        <li>
+         Add the sauce ingredients. Bring to a simmer then turn the heat down to medium and cook for about 6 minutes, until slightly thickened and the oil has separated.
+        </li>
+        <li>
+         Add the chopped peppers and eggplants and cook, stirring, for 3 minutes. Remove from heat and stir in half of lemon juice. Set aside to cool.
+        </li>
+        <li>
+         Meanwhile, whisk together tahini, remaining lemon juice, a pinch of salt, and add water until easily pourable.
+        </li>
+        <li>
+         Transfer zaalouk to a wide, shallow bowl and drizzle with tahini sauce. Serve with pita as desired.
+        </li>
+       </ol>
+      </div>
+     </div>
+    </div>
+    <scaling_button_goes_here>
+    </scaling_button_goes_here>
+   </div>
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="inner">
+     <ul class="copyright">
+      <li>
+       All recipes subject to cooking skill
+      </li>
+      <li>
+       <a href="mailto:jeremy@jerwerner.com?subject=Recipes Inquiry">
+        Contact the Administrator
+       </a>
+      </li>
+     </ul>
+    </div>
+   </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="../../assets/js/jquery.min.js">
+  </script>
+  <script src="../../assets/js/skel.min.js">
+  </script>
+  <script src="../../assets/js/util.js">
+  </script>
+  <!--[if lte IE 8]><script src="../../assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="../../assets/js/main.js">
+  </script>
+  <script src="../../assets/js/recipeScaling.js">
+  </script>
+ </body>
+</html>

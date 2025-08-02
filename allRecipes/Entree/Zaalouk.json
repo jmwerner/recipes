@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Zaalouk"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Heat oven to 450 degrees\"],[\"Place the halved bell peppers on a parchment-lined baking sheet, skin up, and drizzle lightly with oil. Place the eggplants on a separate lined baking sheet\"],[\"Transfer both baking sheets to the oven with the peppers on the top shelf. Roast the peppers for 25 to 30 minutes until charred and softened. Roast the eggplants for about 50 minutes, until completely collapsed and softened through the middle.\"],[\"Once cool enough to handle, peel and discard the skin of the peppers and finely chop the flesh. Set aside.\"],[\"Peel the eggplants, discarding the skins and stems, and place the flesh into a sieve set over a bowl. Leave to drain for at least 20 minutes, pushing down to squeeze out and discard any extra liquid. Roughly chop the eggplants.\"],[\"Meanwhile, heat the oil in a medium skillet over medium-high heat. Once hot, add blooming ingredients. Cook for about 1 minute, stirring occasionally, until fragrant.\"],[\"Add the sauce ingredients. Bring to a simmer then turn the heat down to medium and cook for about 6 minutes, until slightly thickened and the oil has separated.\"],[\"Add the chopped peppers and eggplants and cook, stirring, for 3 minutes. Remove from heat and stir in half of lemon juice. Set aside to cool.\"],[\"Meanwhile, whisk together tahini, remaining lemon juice, a pinch of salt, and add water until easily pourable.\"],[\"Transfer zaalouk to a wide, shallow bowl and drizzle with tahini sauce. Serve with pita as desired.\"]]"
+    ],
+    "timestamp": [
+        "20250802-211144"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Red bell peppers, halved\"],\"category\":[\"Roasting\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Blooming\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Eggplants\"],\"category\":[\"Roasting\"]},{\"number\":[\"4\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Blooming\"]},{\"number\":[\"5\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Tomato paste\"],\"category\":[\"Blooming\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Pita (optional)\"],\"category\":[\"Finishing\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cumin\"],\"category\":[\"Blooming\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Paprika\"],\"category\":[\"Blooming\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Red pepper flakes\"],\"category\":[\"Blooming\"]},{\"number\":[\"9\"],\"units\":[\"Ounce(s)\"],\"name\":[\"Plum tomatoes, chopped and pureed\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Parsley, chopped\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Cilantro, chopped\"],\"category\":[\"Sauce\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Granulated sugar\"],\"category\":[\"Sauce\"]},{\"number\":[\"2\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Fresh lemon juice\"],\"category\":[\"Finishing\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Tahini\"],\"category\":[\"Finishing\"]}]"
+    ]
+}
+
