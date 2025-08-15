@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Cauliflower Shawarma"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Preheat oven to 425 degrees\"],[\"Combine Roasting Spices ingredients in a bowl and whisk. Add Roasting Vegetables and toss until well coated. Spread mixture on a rimmed baking sheet and roast on the top oven rack until golden brown, 30 to 40 minutes, stirring once or twice\"],[\"In a bowl, whisk together all Tahini Sauce ingredients except tahini, let sit for a minute or two to mellow the garlic\"],[\"Whisk in tahini. Whisk in some ice water 1 tablespoon at a time until the sauce is smooth and thin enough to drizzle\"],[\"When vegetables are cooked, serve on warmed pita or flatbread and drizzle with tahini sauce. Other suggested toppings are chopped fresh parsley, tomato, cucumber, and olives.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20250815-203405"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"5/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground cumin\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"5/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Sweet paprika\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"3/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Fine sea salt\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground coriander\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Ground turmeric\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Black pepper\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"1\"],\"units\":[\"Pinch(es)\"],\"name\":[\"Cayenne pepper\"],\"category\":[\"Roasting Spices\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Head of cauliflower, cunt into florets\"],\"category\":[\"Roasting Vegetables\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Red onion, cut into wedges\"],\"category\":[\"Roasting Vegetables\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Lemon juice\"],\"category\":[\"Tahini Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Harissa paste\"],\"category\":[\"Tahini Sauce\"]},{\"number\":[\"1\"],\"units\":[\"Clove(s)\"],\"name\":[\"Garlic, minced\"],\"category\":[\"Tahini Sauce\"]},{\"number\":[\"1/4\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Fine sea salt\"],\"category\":[\"Tahini Sauce\"]},{\"number\":[\"1/3\"],\"units\":[\"Cup(s)\"],\"name\":[\"Tahini\"],\"category\":[\"Tahini Sauce\"]}]"
+    ]
+}
+
