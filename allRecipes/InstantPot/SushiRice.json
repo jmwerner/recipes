@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Sushi Rice"
+    ],
+    "recipeCategory": [
+        "Instant Pot"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a fine mesh strainer, rinse rice under running water for about 2 minutes\"],[\"Add rice and water to instant pot, cook on the rice setting and allow to naturally release for 10 minutes following\"],[\"Meanwhile, combine flavoring ingredients in a small bowl and mix until sugar and salt are dissolved\"],[\"When rice is finished, add flavoring mixture and gently mix well to combine\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20250829-200857"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Short-grain Japanese rice\"],\"category\":[\"Rice\"]},{\"number\":[\"2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Water\"],\"category\":[\"Rice\"]},{\"number\":[\"1/8\"],\"units\":[\"Cup(s)\"],\"name\":[\"White wine vinegar\"],\"category\":[\"Flavoring\"]},{\"number\":[\"1/8\"],\"units\":[\"Cup(s)\"],\"name\":[\"Rice vinegar\"],\"category\":[\"Flavoring\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Flavoring\"]},{\"number\":[\"1\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Sugar\"],\"category\":[\"Flavoring\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
