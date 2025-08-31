@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Frozen Red Sangria"
+    ],
+    "recipeCategory": [
+        "Cocktail"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Whisk all ingredients together in large bowl or pitcher until sugar is dissolved\"],[\"Add to slush machine on spiked slush setting\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20250831-175812"
+    ],
+    "notes": [
+        "Grenache wine works well. Listed recipe is for 2-3 servings "
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"1.25\"],\"units\":[\"Cup(s)\"],\"name\":[\"Red wine\"],\"category\":[\"\"]},{\"number\":[\"2.5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Orange liqueur or brandy\"],\"category\":[\"\"]},{\"number\":[\"3/2\"],\"units\":[\"Cup(s)\"],\"name\":[\"Orange juice\"],\"category\":[\"\"]},{\"number\":[\"1.5\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"light brown sugar\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
