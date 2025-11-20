@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Pizza Dough"
+    ],
+    "recipeCategory": [
+        "Bread"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"Combine flour, sugar, salt, and yeast in bowl of food processor. Pulse 3 to 4 times until incorporated. Add olive oil and water. Run food processor until mixture forms ball that rides around the bowl above the blade, about 15 seconds. Continue processing 15 seconds longer.\"],[\"Transfer dough ball to lightly floured surface and knead once or twice by hand until smooth ball is formed. It should pass the windowpane test. Divide dough into three even parts and place each in a covered quart-sized deli container or in a zipper-lock freezer bag. Place in refrigerator and allow to rise at least 1 day, and up to 5. Remove from refrigerator, shape into balls, and allow to rest at room temperature for at least 2 hours before baking.\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20251120-034410"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"630\"],\"units\":[\"Gram(s)\"],\"name\":[\"Bread flour\"],\"category\":[\"\"]},{\"number\":[\"15\"],\"units\":[\"Gram(s)\"],\"name\":[\"Sugar\"],\"category\":[\"\"]},{\"number\":[\"10\"],\"units\":[\"Gram(s)\"],\"name\":[\"Kosher salt\"],\"category\":[\"\"]},{\"number\":[\"10\"],\"units\":[\"Gram(s)\"],\"name\":[\"Instant yeast\"],\"category\":[\"\"]},{\"number\":[\"32\"],\"units\":[\"Gram(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"\"]},{\"number\":[\"420\"],\"units\":[\"Gram(s)\"],\"name\":[\"Lukewarm water\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
