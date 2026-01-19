@@ -21,7 +21,8 @@ plural_mappings = {"Cups": "Cups",
                    "Clove": "Cloves",
                    "Pinch": "Pinches",
                    "Dash": "Dashes",
-                   "Bottle": "Bottles"}
+                   "Bottle": "Bottles",
+                   "Grams": "Grams"}
 
 // Both plural to non-plural and non-plural to non-plural
 non_plural_mappings = {"Cups": "Cup", 
@@ -43,7 +44,8 @@ non_plural_mappings = {"Cups": "Cup",
                        "Clove": "Clove",
                        "Pinch": "Pinch",
                        "Dash": "Dash",
-                       "Bottle": "Bottle"}
+                       "Bottle": "Bottle",
+                       "Gram": "Gram"}
 
 recipeIterator = 0
 
