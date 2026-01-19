@@ -1,0 +1,33 @@
+{
+    "recipeName": [
+        "Sheet Pan Chicken Shawarma"
+    ],
+    "recipeCategory": [
+        "Entree"
+    ],
+    "recipeSource": [
+        ""
+    ],
+    "recipeLink": [
+        ""
+    ],
+    "directions": [
+        "[[\"In a large bowl or container, combine your chicken with the shawarma marinade ingredients. Mix well to coat each piece evenly. Cover and refrigerate for at least 1 hour, but overnight is best for maximum flavor.\"],[\"When ready to cook, preheat oven to 400 degrees\"],[\"Prepare the vegetables and spread evenly on a baking sheet lined with parchment paper and/or oil\"],[\"Place marinated chicken directly on top of the vegetables\"],[\"Bake in preheated oven for 25-30 minutes, or until chicken is fully cooked\"],[\"Serve with tahini sauce, warm pita, rice, or a fresh salad\"],[\"\"],[\"\"],[\"\"],[\"\"]]"
+    ],
+    "timestamp": [
+        "20260119-190654"
+    ],
+    "notes": [
+        ""
+    ],
+    "winePairing": [
+        ""
+    ],
+    "glassType": [
+        ""
+    ],
+    "ingredients": [
+        "[{\"number\":[\"2\"],\"units\":[\"Pound(s)\"],\"name\":[\"Sliced chicken breast\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"3\"],\"units\":[\"Tablespoon(s)\"],\"name\":[\"Greek yogurt\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"1/4\"],\"units\":[\"Cup(s)\"],\"name\":[\"Olive oil\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cumin\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Turmeric\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"1\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Smoked paprika\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Cinnamon\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"3\"],\"units\":[\"Whole\"],\"name\":[\"Garlic cloves, minced\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"1/2\"],\"units\":[\"Teaspoon(s)\"],\"name\":[\"Salt\"],\"category\":[\"Chicken Marinade\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Zucchini, sliced\"],\"category\":[\"Vegetables\"]},{\"number\":[\"2\"],\"units\":[\"Whole\"],\"name\":[\"Red bell peppers, sliced\"],\"category\":[\"Vegetables\"]},{\"number\":[\"1\"],\"units\":[\"Whole\"],\"name\":[\"Red onion, sliced\"],\"category\":[\"Vegetables\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]},{\"number\":[\"\"],\"units\":[\"\"],\"name\":[\"\"],\"category\":[\"\"]}]"
+    ]
+}
+
