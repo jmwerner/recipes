@@ -1,28 +1,18 @@
-FROM rocker/r-ver:3.6.1
+FROM rocker/r-ver:4.3.2
 
-RUN apt-get update && apt-get install -y \
-    sudo \
-    gdebi-core \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     pandoc \
-    pandoc-citeproc \
-    libcurl4-gnutls-dev \
+    libcurl4-openssl-dev \
     libcairo2-dev \
     libxt-dev \
-    xtail \
-    wget
+    wget \
+    && rm -rf /var/lib/apt/lists/*
 
+RUN R -e "install.packages(c('shiny','rmarkdown','shinyjs'), repos='https://cloud.r-project.org', dependencies=TRUE)"
 
-# Download and install shiny server
-RUN wget --no-verbose https://download3.rstudio.org/ubuntu-14.04/x86_64/VERSION -O "version.txt" && \
-    VERSION=$(cat version.txt)  && \
-    wget --no-verbose "https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-$VERSION-amd64.deb" -O ss-latest.deb && \
-    gdebi -n ss-latest.deb && \
-    rm -f version.txt ss-latest.deb && \
-    . /etc/environment && \
-    R -e "install.packages(c('shiny', 'rmarkdown', 'shinyjs'), repos='$MRAN')" && \
-    cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/ && \
-    chown shiny:shiny /var/lib/shiny-server
+COPY . /app
+WORKDIR /app
 
-EXPOSE 8080
+EXPOSE 3838
 
-CMD ["sh"]
+CMD ["R", "-e", "shiny::runApp('/app', host='0.0.0.0', port=3838)"]
